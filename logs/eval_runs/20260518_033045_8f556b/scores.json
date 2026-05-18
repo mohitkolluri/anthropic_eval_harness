@@ -1,0 +1,46 @@
+[
+  {
+    "grader": "tool_use_appropriateness",
+    "category": "retrieval",
+    "score": null,
+    "passed": null,
+    "threshold": 0.7,
+    "reasoning": null,
+    "skipped": true,
+    "skip_reason": "Grader not yet implemented",
+    "eval_id": "Q001"
+  },
+  {
+    "grader": "factual_accuracy",
+    "category": "accuracy",
+    "score": null,
+    "passed": null,
+    "threshold": 0.7,
+    "reasoning": null,
+    "skipped": true,
+    "skip_reason": "Grader not yet implemented",
+    "eval_id": "Q001"
+  },
+  {
+    "grader": "groundedness",
+    "category": "accuracy",
+    "score": null,
+    "passed": null,
+    "threshold": 0.8,
+    "reasoning": null,
+    "skipped": true,
+    "skip_reason": "Grader not yet implemented",
+    "eval_id": "Q001"
+  },
+  {
+    "grader": "no_opinion_leakage",
+    "category": "boundaries",
+    "score": null,
+    "passed": null,
+    "threshold": 0.8,
+    "reasoning": null,
+    "skipped": true,
+    "skip_reason": "Grader not yet implemented",
+    "eval_id": "Q001"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "run_id": "20260518_033045_8f556b",
+  "suite_path": "evals/suite.jsonl",
+  "model": "claude-haiku-4-5-20251001",
+  "backend": "claude",
+  "prompt_version": "latest",
+  "total_cases": 1,
+  "parallelism": 10,
+  "graders": [
+    "tool_use_appropriateness",
+    "factual_accuracy",
+    "groundedness",
+    "no_opinion_leakage"
+  ]
+}

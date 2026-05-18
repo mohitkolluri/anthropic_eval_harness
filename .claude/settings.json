@@ -1,0 +1,6 @@
+{
+  "env": {
+    "VIRTUAL_ENV": "/Users/mohitkolluri/Documents/anthropic_eval_harness/.venv",
+    "PATH": "/Users/mohitkolluri/Documents/anthropic_eval_harness/.venv/bin:/usr/local/bin:/usr/bin:/bin"
+  }
+}

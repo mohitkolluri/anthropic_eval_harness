@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Source: reference/Wikipedia API/MediaWikiSearch.html
+          reference/Wikipedia API/MediaWikiPages.html
+  API version: MediaWiki >= 1.35
+  Interactive sandbox: https://en.wikipedia.org/wiki/Special:RestSandbox
+-->
+<wikipedia_api>
+
+  <base_url>https://en.wikipedia.org/w/rest.php/v1</base_url>
+  <auth>None required for read-only calls</auth>
+  <user_agent>Always set a User-Agent header, e.g. "WikipediaQA/1.0 (contact@example.com)"</user_agent>
+
+  <!-- ===== SEARCH ===== -->
+  <endpoints group="search">
+
+    <endpoint id="search_pages">
+      <name>Search Pages (full-text)</name>
+      <method>GET</method>
+      <path>/search/page</path>
+      <example>https://en.wikipedia.org/w/rest.php/v1/search/page?q=jupiter&amp;limit=20</example>
+      <description>
+        Searches page titles AND content. Primary endpoint for the search_wikipedia tool.
+        Returns a "pages" array of search_result objects.
+      </description>
+      <parameters>
+        <param name="q"     required="true"  type="string">Search terms</param>
+        <param name="limit" required="false" type="integer">1–100, default 50</param>
+      </parameters>
+      <responses>
+        <response code="200">pages array (may be empty if no results)</response>
+        <response code="400">Missing q, or limit out of range</response>
+        <response code="500">Search engine error</response>
+      </responses>
+      <python_snippet><![CDATA[
+import requests
+r = requests.get(
+    "https://en.wikipedia.org/w/rest.php/v1/search/page",
+    headers={"User-Agent": "WikipediaQA/1.0"},
+    params={"q": "jupiter", "limit": 5},
+)
+pages = r.json()["pages"]   # list of search_result objects
+      ]]></python_snippet>
+    </endpoint>
+
+    <endpoint id="search_title">
+      <name>Autocomplete Page Title</name>
+      <method>GET</method>
+      <path>/search/title</path>
+      <example>https://en.wikipedia.org/w/rest.php/v1/search/title?q=solar&amp;limit=5</example>
+      <description>
+        Matches the START of page titles only. Useful for disambiguation / typeahead
+        before fetching full content.
+      </description>
+      <parameters>
+        <param name="q"     required="true"  type="string">Search terms</param>
+        <param name="limit" required="false" type="integer">1–100, default 50</param>
+      </parameters>
+    </endpoint>
+
+  </endpoints>
+
+  <!-- ===== PAGES ===== -->
+  <endpoints group="pages">
+
+    <endpoint id="page_bare">
+      <name>Get Page (metadata only)</name>
+      <method>GET</method>
+      <path>/page/{title}/bare</path>
+      <example>https://en.wikipedia.org/w/rest.php/v1/page/Jupiter/bare</example>
+      <description>
+        Returns page metadata + html_url (link to fetch HTML). No body content.
+        Use for quick existence checks or to get the canonical title.
+      </description>
+      <responses>
+        <response code="200">page object with html_url</response>
+        <response code="301">Title normalisation redirect</response>
+        <response code="404">Not found</response>
+      </responses>
+    </endpoint>
+
+    <endpoint id="page_with_html">
+      <name>Get Page with HTML</name>
+      <method>GET</method>
+      <path>/page/{title}/with_html</path>
+      <example>https://en.wikipedia.org/w/rest.php/v1/page/Jupiter/with_html</example>
+      <description>
+        Returns page object with full HTML in the "html" field. Best for extracting
+        readable content to pass as context to Claude.
+      </description>
+    </endpoint>
+
+    <endpoint id="page_source">
+      <name>Get Page Source (wikitext)</name>
+      <method>GET</method>
+      <path>/page/{title}/source</path>
+      <example>https://en.wikipedia.org/w/rest.php/v1/page/Jupiter/source</example>
+      <description>
+        Returns page object with wikitext in the "source" field.
+      </description>
+    </endpoint>
+
+    <endpoint id="page_html">
+      <name>Get Page HTML (raw)</name>
+      <method>GET</method>
+      <path>/page/{title}/html</path>
+      <example>https://en.wikipedia.org/w/rest.php/v1/page/Jupiter/html</example>
+      <description>Returns HTML only (text/html, no JSON wrapper).</description>
+    </endpoint>
+
+    <endpoint id="page_languages">
+      <name>Get Language Links</name>
+      <method>GET</method>
+      <path>/page/{title}/links/language</path>
+      <description>Array of page_language objects for the same topic in other languages.</description>
+    </endpoint>
+
+  </endpoints>
+
+  <!-- ===== SCHEMAS ===== -->
+  <schemas>
+
+    <schema id="search_result">
+      <description>One item in the "pages" array returned by search endpoints.</description>
+      <example_json><![CDATA[
+{
+  "id": 38930,
+  "key": "Jupiter",
+  "title": "Jupiter",
+  "excerpt": "<span class=\"searchmatch\">Jupiter</span> is the fifth planet...",
+  "matched_title": null,
+  "description": "fifth planet from the Sun and largest planet in the Solar System",
+  "thumbnail": { "mimetype": "image/jpeg", "width": 200, "height": 200, "url": "//upload..." }
+}
+      ]]></example_json>
+      <fields>
+        <field name="id"            type="integer" required="true">Page ID</field>
+        <field name="key"           type="string"  required="true">URL-safe title — use this in /page/{key}/* calls</field>
+        <field name="title"         type="string"  required="true">Display title</field>
+        <field name="excerpt"       type="string"  required="true">
+          /search/page: snippet with searchmatch spans, may end mid-sentence.
+          /search/title: page title.
+        </field>
+        <field name="matched_title" type="string"  required="false">Redirect source title, or null</field>
+        <field name="description"   type="string"  required="true">One-line Wikidata summary, or null</field>
+        <field name="thumbnail"     type="object"  required="true">Lead image or null</field>
+      </fields>
+    </schema>
+
+    <schema id="page_object">
+      <description>Returned by /page/{title}/* endpoints. Content field varies by variant.</description>
+      <fields>
+        <field name="id"            type="integer">Page ID</field>
+        <field name="key"           type="string">URL-safe title</field>
+        <field name="title"         type="string">Display title</field>
+        <field name="content_model" type="string">e.g. "wikitext"</field>
+        <field name="license"       type="object">License info</field>
+        <field name="latest"        type="object">Latest revision: id, timestamp, user</field>
+        <field name="html_url"      type="string">Present in /bare — URL to fetch HTML</field>
+        <field name="html"          type="string">Present in /with_html — full HTML body</field>
+        <field name="source"        type="string">Present in /source — wikitext body</field>
+      </fields>
+    </schema>
+
+  </schemas>
+
+  <!-- ===== RECOMMENDED PATTERN ===== -->
+  <recommended_pattern name="search_then_fetch">
+    <step order="1">GET /search/page?q={query}&amp;limit=5 → pick best match by key + description</step>
+    <step order="2">GET /page/{key}/with_html → strip HTML tags → pass plain text to Claude</step>
+    <note>Strip searchmatch spans and HTML before passing content to the model.</note>
+    <note>Use "description" field for quick disambiguation without a full fetch.</note>
+    <note>If no good match, reformulate the query and retry.</note>
+    <note>Subpage titles: encode "/" as "%2F" in the path.</note>
+  </recommended_pattern>
+
+</wikipedia_api>
