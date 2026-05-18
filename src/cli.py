@@ -186,7 +186,7 @@ def _print_trace(result) -> None:
 @click.option("--model", default=_DEFAULT_MODEL, show_default=True)
 @click.option("--suite", "suite_path", default=_DEFAULT_SUITE, show_default=True)
 @click.option("--limit", default=None, type=int, help="Cap number of eval cases to run.")
-@click.option("--parallelism", default=10, show_default=True)
+@click.option("--parallelism", default=3, show_default=True, help="Concurrent cases. Keep low (2–3) to avoid API rate limits.")
 def eval(
     prompt_version: str | None,
     model: str,

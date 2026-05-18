@@ -1,0 +1,200 @@
+{
+  "eval_id": "Q004",
+  "run_id": "20260518_092041_8f556b",
+  "prompt_version": "v1",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What were the first two countries to grant women the right to vote, and in what years did they do so?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What were the first two countries to grant women the right to vote, and in what years did they do so?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01KvaLTmy3jas7s9qm5FyLAk",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "women's suffrage history first countries"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01KvaLTmy3jas7s9qm5FyLAk",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01WmMK5h4NCKHWtiChMEo8r4",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Women's suffrage"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01WmMK5h4NCKHWtiChMEo8r4",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01EqPBhpWy5nMuU23eX9uaLp",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "voting rights women history"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01EqPBhpWy5nMuU23eX9uaLp",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find relevant information on Wikipedia for this question."
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "women's suffrage history first countries",
+      "api_response": {
+        "pages": [
+          {
+            "id": 1839920,
+            "key": "Timeline_of_women's_suffrage",
+            "title": "Timeline of women's suffrage",
+            "excerpt": "<span class=\"searchmatch\">Women&#039;s</span> <span class=\"searchmatch\">suffrage</span> \u2013 the right of <span class=\"searchmatch\">women</span> to vote \u2013 has been achieved at various times in <span class=\"searchmatch\">countries</span> throughout the world. In many nations, <span class=\"searchmatch\">women&#039;s</span> suffrage",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 35,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Women%27s_Suffrage_1908.jpg/60px-Women%27s_Suffrage_1908.jpg"
+            }
+          },
+          {
+            "id": 11626517,
+            "key": "Timeline_of_first_women's_suffrage_in_majority-Muslim_countries",
+            "title": "Timeline of first women's suffrage in majority-Muslim countries",
+            "excerpt": "timeline lists the dates of the <span class=\"searchmatch\">first</span> <span class=\"searchmatch\">women&#039;s</span> <span class=\"searchmatch\">suffrage</span> in Muslim majority <span class=\"searchmatch\">countries</span>. Dates for the right to vote, <span class=\"searchmatch\">suffrage</span>, as distinct from the right to",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/US_Navy_050130-M-7981G-020_Iraqi_citizens_come_out_in_masses_to_vote_for_the_first_ever_Free_Elections_in_Iraq.jpg/60px-US_Navy_050130-M-7981G-020_Iraqi_citizens_come_out_in_masses_to_vote_for_the_first_ever_Free_Elections_in_Iraq.jpg"
+            }
+          },
+          {
+            "id": 60959180,
+            "key": "Women's_suffrage_in_Wyoming",
+            "title": "Women's suffrage in Wyoming",
+            "excerpt": "Wyoming was the <span class=\"searchmatch\">first</span> State to incorporate <span class=\"searchmatch\">women&#039;s</span> <span class=\"searchmatch\">suffrage</span>, although <span class=\"searchmatch\">women</span> in the Territory of Utah voted <span class=\"searchmatch\">first</span>. Other jurisdictions had already given",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Women's suffrage in a U.S. state",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 45,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Wyoming_women_voting.jpg/60px-Wyoming_women_voting.jpg"
+            }
+          },
+          {
+            "id": 175581,
+            "key": "Women's_suffrage",
+            "title": "Women's suffrage",
+            "excerpt": "constitutional amendments for <span class=\"searchmatch\">women&#039;s</span> <span class=\"searchmatch\">suffrage</span>. The <span class=\"searchmatch\">first</span> wave of <span class=\"searchmatch\">women&#039;s</span> <span class=\"searchmatch\">suffrage</span> took place 1893\u20131930, covering English-speaking <span class=\"searchmatch\">countries</span>, Scandinavian states",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Legal right of women to vote",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Universal_suffrage_women_lexical%2C_World%2C_2024_%28cropped%29.svg/60px-Universal_suffrage_women_lexical%2C_World%2C_2024_%28cropped%29.svg.png"
+            }
+          },
+          {
+            "id": 3289982,
+            "key": "Women's_suffrage_in_the_United_States",
+            "title": "Women's suffrage in the United States",
+            "excerpt": "<span class=\"searchmatch\">Women&#039;s</span> <span class=\"searchmatch\">suffrage</span>, or the right of <span class=\"searchmatch\">women</span> to vote, was established in the United States over the course of the late 19th and early 20th centuries, first",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 37,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Suffragists_Parade_Down_Fifth_Avenue%2C_1917.JPG/60px-Suffragists_Parade_Down_Fifth_Avenue%2C_1917.JPG"
+            }
+          }
+        ]
+      },
+      "fetched_content": "",
+      "content_source": "page/Timeline_of_women's_suffrage/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Women's suffrage",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "voting rights women history",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "I could not find relevant information on Wikipedia for this question.",
+  "total_tool_calls": 3,
+  "latency_ms": 4994,
+  "error": null
+}

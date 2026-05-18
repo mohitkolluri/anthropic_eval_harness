@@ -1,0 +1,200 @@
+{
+  "eval_id": "Q007",
+  "run_id": "20260518_092041_8f556b",
+  "prompt_version": "v1",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What is the name of the 1987 arms control agreement between the US and the Soviet Union that eliminated an entire category of nuclear missiles, and what type of missiles were banned?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What is the name of the 1987 arms control agreement between the US and the Soviet Union that eliminated an entire category of nuclear missiles, and what type of missiles were banned?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_0135qwjv3zMY65nHgzmvp73K",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "1987 arms control agreement US Soviet Union nuclear missiles"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_0135qwjv3zMY65nHgzmvp73K",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_014P6cvVgzbjcuWJ6J63aCzm",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "INF Treaty"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_014P6cvVgzbjcuWJ6J63aCzm",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01XGLFnviyjYjeyjgc8v1SCT",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Intermediate-Range Nuclear Forces Treaty"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01XGLFnviyjYjeyjgc8v1SCT",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find relevant information on Wikipedia for this question.\n\nSource: N/A"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "1987 arms control agreement US Soviet Union nuclear missiles",
+      "api_response": {
+        "pages": [
+          {
+            "id": 154849,
+            "key": "Strategic_Arms_Limitation_Talks",
+            "title": "Strategic Arms Limitation Talks",
+            "excerpt": "the United States and the <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">Union</span>. The Cold War superpowers dealt with <span class=\"searchmatch\">arms</span> <span class=\"searchmatch\">control</span> in two rounds of talks and <span class=\"searchmatch\">agreements</span>: SALT I and SALT II. Negotiations",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Two conferences between the United States and Soviet Union involving arms control",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Richard_Nixon_and_Leonid_Brezhnev_sign_ABM_treaty_and_SALT_agreement_in_Moscow.jpg/60px-Richard_Nixon_and_Leonid_Brezhnev_sign_ABM_treaty_and_SALT_agreement_in_Moscow.jpg"
+            }
+          },
+          {
+            "id": 60465272,
+            "key": "Nuclear_weapons_of_China",
+            "title": "Nuclear weapons of China",
+            "excerpt": "confronted <span class=\"searchmatch\">US</span> <span class=\"searchmatch\">nuclear</span> threats, which were partially deterred by the <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">nuclear</span> arsenal. The <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">Union</span> transferred <span class=\"searchmatch\">nuclear</span> and <span class=\"searchmatch\">missile</span> technology",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 31,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/DF-61.png/60px-DF-61.png"
+            }
+          },
+          {
+            "id": 49750,
+            "key": "Arms_control",
+            "title": "Arms control",
+            "excerpt": "stringent international <span class=\"searchmatch\">control</span> over the <span class=\"searchmatch\">nuclear</span> fuel cycle and thereby avert a global <span class=\"searchmatch\">nuclear</span> <span class=\"searchmatch\">arms</span> race, but the <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">Union</span> rejected the proposal and",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Term for international restriction of weapons",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 50,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Dove_peace.svg/60px-Dove_peace.svg.png"
+            }
+          },
+          {
+            "id": 2032576,
+            "key": "Nuclear_weapons_of_the_United_States",
+            "title": "Nuclear weapons of the United States",
+            "excerpt": "Obama To Cancel <span class=\"searchmatch\">Nuclear</span> Cruise <span class=\"searchmatch\">Missile</span>&quot;. Defense News. Retrieved 21 December 2022. &quot;<span class=\"searchmatch\">U.S</span>. <span class=\"searchmatch\">Nuclear</span> Modernization Programs&quot;. <span class=\"searchmatch\">Arms</span> <span class=\"searchmatch\">Control</span> Association. 2022",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 45,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/UGM-133A_Trident_II_launch_in_June_2014.JPG/60px-UGM-133A_Trident_II_launch_in_June_2014.JPG"
+            }
+          },
+          {
+            "id": 14318910,
+            "key": "1983_Soviet_nuclear_false_alarm_incident",
+            "title": "1983 Soviet nuclear false alarm incident",
+            "excerpt": "Cold War, the <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">nuclear</span> early warning system Oko reported the launch of one intercontinental ballistic <span class=\"searchmatch\">missile</span> with four more <span class=\"searchmatch\">missiles</span> behind it, from",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Incident which nearly precipitated nuclear warfare",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 31,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/NASA_FIRMS_2025-07-20_Serpukhov-15.png/60px-NASA_FIRMS_2025-07-20_Serpukhov-15.png"
+            }
+          }
+        ]
+      },
+      "fetched_content": "",
+      "content_source": "page/Strategic_Arms_Limitation_Talks/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "INF Treaty",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "Intermediate-Range Nuclear Forces Treaty",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "I could not find relevant information on Wikipedia for this question.\n\nSource: N/A",
+  "total_tool_calls": 3,
+  "latency_ms": 4837,
+  "error": null
+}

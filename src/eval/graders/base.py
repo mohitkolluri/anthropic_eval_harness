@@ -39,12 +39,14 @@ class EvalCase:
 class GraderResult:
     grader: str
     category: str
-    score: float | None       # None if skipped
-    passed: bool | None       # None if skipped
+    score: float | None       # None if skipped or errored
+    passed: bool | None       # None if skipped or errored
     threshold: float
     reasoning: str | None
     skipped: bool = False
     skip_reason: str | None = None
+    error: bool = False
+    error_reason: str | None = None
 
 
 class Grader(ABC):
@@ -67,6 +69,19 @@ class Grader(ABC):
             reasoning=None,
             skipped=True,
             skip_reason=reason,
+        )
+
+    def _error(self, reason: str) -> GraderResult:
+        return GraderResult(
+            grader=self.rubric_id,
+            category=self.category,
+            score=None,
+            passed=None,
+            threshold=self.threshold,
+            reasoning=None,
+            skipped=False,
+            error=True,
+            error_reason=reason,
         )
 
     def _result(self, score: float, reasoning: str) -> GraderResult:

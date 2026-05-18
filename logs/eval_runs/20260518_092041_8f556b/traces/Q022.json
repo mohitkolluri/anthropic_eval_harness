@@ -1,0 +1,18 @@
+{
+  "eval_id": "Q022",
+  "run_id": "20260518_092041_8f556b",
+  "prompt_version": "v1",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What can you tell me about Ajax?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What can you tell me about Ajax?"
+    }
+  ],
+  "tool_calls": [],
+  "output": "",
+  "total_tool_calls": 0,
+  "latency_ms": 5696,
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: a52bfb75-667d-4688-8dc4-96c4761aa93b, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb9new9tbBcVM6Mg6LLCq'}"
+}

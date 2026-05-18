@@ -1,0 +1,127 @@
+{
+  "eval_id": "Q001",
+  "run_id": "20260518_092041_8f556b",
+  "prompt_version": "v1",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What notable coincidence connects the birth dates of Charles Darwin and Abraham Lincoln?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What notable coincidence connects the birth dates of Charles Darwin and Abraham Lincoln?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_019uq6Cv1soCGKAr5zwToqCY",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Charles Darwin"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01Jsam62qiCh5XEoSuos4NPY",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Abraham Lincoln"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_019uq6Cv1soCGKAr5zwToqCY",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Jsam62qiCh5XEoSuos4NPY",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01APNh5LYpCcve1M1jq3GUcS",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Charles Robert Darwin naturalist"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01VzNsQrVAZHTFrGfF7MuZw8",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Abraham Lincoln 16th president"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01APNh5LYpCcve1M1jq3GUcS",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01VzNsQrVAZHTFrGfF7MuZw8",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Charles Darwin",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "Abraham Lincoln",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "Charles Robert Darwin naturalist",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 3,
+      "query": "Abraham Lincoln 16th president",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "",
+  "total_tool_calls": 4,
+  "latency_ms": 14455,
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50 requests per minute (org: a52bfb75-667d-4688-8dc4-96c4761aa93b, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb9neWEh2iQAqVgyEDckg'}"
+}

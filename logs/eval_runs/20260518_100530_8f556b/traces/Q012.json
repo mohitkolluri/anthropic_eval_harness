@@ -1,0 +1,159 @@
+{
+  "eval_id": "Q012",
+  "run_id": "20260518_100530_8f556b",
+  "prompt_version": "v1",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_011QQxDepZFjzgei21MJpxoH",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Great Pyramid of Giza"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01ALoyS1EyE1Mdrzb8ecM91y",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Homer Iliad"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_011QQxDepZFjzgei21MJpxoH",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01ALoyS1EyE1Mdrzb8ecM91y",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01GwrjdueeEWji7LcgppKmov",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Khufu's pyramid"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01XQzRN8shNZGKBjozfpxpEU",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Iliad Homer ancient Greece"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01GwrjdueeEWji7LcgppKmov",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01XQzRN8shNZGKBjozfpxpEU",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_011SrUuCqx45e5jELizGTXog",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Pyramid of Khufu"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_011SrUuCqx45e5jELizGTXog",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Great Pyramid of Giza",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "Homer Iliad",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "Khufu's pyramid",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 3,
+      "query": "Iliad Homer ancient Greece",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 4,
+      "query": "Pyramid of Khufu",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "",
+  "total_tool_calls": 5,
+  "latency_ms": 29323,
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: a52bfb75-667d-4688-8dc4-96c4761aa93b, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011Cb9r8tcj5CKEM3mxHDq4e'}"
+}

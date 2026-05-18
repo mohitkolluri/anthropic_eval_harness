@@ -1,4 +1,28 @@
+from __future__ import annotations
+
+import json
+import re
+
 from src.eval.graders.base import EvalCase, Grader, GraderResult, Trace
+
+_JUDGE_SYSTEM = "You are a strict evaluator of Wikipedia search queries. Return only valid JSON."
+
+_JUDGE_PROMPT = """\
+Classify this Wikipedia search query as either "entity" or "fragment".
+
+ENTITY (pass) — a noun phrase that maps directly to a Wikipedia article or category:
+  "Mount Everest", "French Revolution", "Boiling point",
+  "List of deserts by area", "Alexander Graham Bell", "Ikigai"
+
+FRAGMENT (fail) — a rephrased question, keyword soup, or descriptive phrase:
+  "boiling point of water at high altitude",
+  "largest desert world", "how long did the war last",
+  "highest women's ODI score cricket", "records broken by Michael"
+
+Query to evaluate: "{query}"
+
+Return JSON only — no other text:
+{{"verdict": "entity" | "fragment", "reason": "<one sentence explaining why>"}}"""
 
 
 class QueryEntityAdherenceGrader(Grader):
@@ -7,25 +31,39 @@ class QueryEntityAdherenceGrader(Grader):
     version = "V0"
     threshold = 0.7
 
+    def __init__(self, judge_client=None):
+        self._judge_client = judge_client
+
+    def _judge_query(self, query: str) -> tuple[float, str]:
+        """Return (score, reason) for a single query. 1.0 = entity, 0.0 = fragment."""
+        response = self._judge_client.complete(
+            system=_JUDGE_SYSTEM,
+            messages=[{"role": "user", "content": _JUDGE_PROMPT.format(query=query)}],
+            tools=None,
+        )
+        raw = (response.get("content") or "").strip()
+        raw = re.sub(r"^```(?:json)?\s*", "", raw)
+        raw = re.sub(r"\s*```$", "", raw.strip())
+        try:
+            data = json.loads(raw)
+            verdict = data.get("verdict", "").lower()
+            reason = data.get("reason", "no reason given")
+            return (1.0 if verdict == "entity" else 0.0), reason
+        except (json.JSONDecodeError, AttributeError):
+            return 0.0, f"judge returned unparseable response: {raw[:100]}"
+
     def eval(self, case: EvalCase, trace: Trace) -> GraderResult:
-        """
-        LLM-judge: for each search query made, was it an entity name or Wikipedia
-        article title rather than a question fragment or keyword soup?
+        if trace.total_tool_calls == 0:
+            return self._skip("no tool calls made — nothing to evaluate")
 
-        GOOD queries (entity-based):
-          "Mount Everest", "Boiling point", "Hundred Years War",
-          "List of deserts by area", "Women's One Day International cricket"
+        scores: list[float] = []
+        notes: list[str] = []
 
-        BAD queries (question fragments / keyword soup):
-          "boiling point water Everest", "largest desert world",
-          "highest women's ODI score cricket", "how long did the war last"
+        for tc in trace.tool_calls:
+            score, reason = self._judge_query(tc.query)
+            verdict = "entity" if score == 1.0 else "fragment"
+            scores.append(score)
+            notes.append(f'"{tc.query}" → {verdict}: {reason}')
 
-        Scoring:
-          - Score each query independently: 1.0 if entity-based, 0.0 if fragment.
-          - Final score = mean across all queries made.
-          - Skip (return _skip) if trace.total_tool_calls == 0 — nothing to evaluate.
-
-        Judge prompt must ask: "Is this query a named entity, Wikipedia article title,
-        or category/list article? Or is it a rephrased question or keyword combination?"
-        """
-        raise NotImplementedError
+        final_score = sum(scores) / len(scores)
+        return self._result(score=final_score, reasoning=" | ".join(notes))

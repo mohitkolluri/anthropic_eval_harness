@@ -1,0 +1,119 @@
+{
+  "eval_id": "Q004",
+  "run_id": "20260518_101439_8f556b",
+  "prompt_version": "v1",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What were the first two countries to grant women the right to vote, and in what years did they do so?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What were the first two countries to grant women the right to vote, and in what years did they do so?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01XpQeLZkgLgmPd1FY6SpVrx",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "women's suffrage history"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01XpQeLZkgLgmPd1FY6SpVrx",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01BNe7awUSXZVXkEFToFoBop",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "right to vote women first countries"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01BNe7awUSXZVXkEFToFoBop",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01DS944aMdAfZq6qc9KNqeju",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "women's suffrage"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DS944aMdAfZq6qc9KNqeju",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find relevant information on Wikipedia for this question."
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "women's suffrage history",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "right to vote women first countries",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "women's suffrage",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "I could not find relevant information on Wikipedia for this question.",
+  "total_tool_calls": 3,
+  "latency_ms": 5006,
+  "error": null
+}
