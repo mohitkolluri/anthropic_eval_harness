@@ -11,6 +11,7 @@ from src.agent.agent import AgentResult, run as agent_run
 from src.agent.client import ClaudeClient
 from src.eval.graders.base import EvalCase, Grader, GraderResult, Trace, ToolCallRecord
 from src.eval.graders.retrieval.tool_use import ToolUseAppropriatenessGrader
+from src.eval.graders.retrieval.query_entity import QueryEntityAdherenceGrader
 from src.eval.graders.accuracy.factual import FactualAccuracyGrader
 from src.eval.graders.accuracy.groundedness import GroundednessGrader
 from src.eval.graders.boundaries.no_opinion import NoOpinionLeakageGrader
@@ -21,6 +22,7 @@ _DEFAULT_PARALLELISM = 10
 
 ALL_GRADERS: list[Grader] = [
     ToolUseAppropriatenessGrader(),
+    QueryEntityAdherenceGrader(),
     FactualAccuracyGrader(),
     GroundednessGrader(),
     NoOpinionLeakageGrader(),
