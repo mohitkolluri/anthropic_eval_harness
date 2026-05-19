@@ -180,7 +180,7 @@ def _print_trace(result) -> None:
 
 _DEMO_QUESTIONS = [
     "What are LLMs?",
-    "Why is Silicon Valley and what is India's Silicon Valley?",
+    "Why is Silicon Valley called Silicon valley, and what is India's Silicon Valley?",
     "When was the Golden Gate bridge built and what are some view points near it?",
 ]
 
