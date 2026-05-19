@@ -24,10 +24,13 @@ python -m src.cli run  # interactive Q&A
 ### Steps
 
 ```bash
-# 1. Run the setup script — it will prompt for your API key if not already set
-bash setup.sh
+# Recommended — installs everything AND activates the venv in one step
+source setup.sh
+```
 
-# 2. Activate the virtual env
+Or run it as a subprocess (installs everything, then tells you to activate manually):
+```bash
+bash setup.sh
 source .venv/bin/activate
 ```
 

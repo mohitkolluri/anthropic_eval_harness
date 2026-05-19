@@ -1,6 +1,19 @@
 #!/usr/bin/env bash
 # setup.sh — one-shot setup for the Wikipedia QA Eval Harness
+#
+# Usage:
+#   source setup.sh   ← recommended: installs everything AND activates the venv
+#   bash setup.sh     ← installs everything, then tells you to activate manually
+#
+# Why: child processes (bash setup.sh) cannot modify the parent shell's environment.
+# Sourcing the script runs it in the current shell, so activation persists.
 set -e
+
+# Detect whether we are being sourced or run as a subprocess
+_SOURCED=0
+if [ "${BASH_SOURCE[0]}" != "${0}" ] 2>/dev/null; then
+  _SOURCED=1
+fi
 
 echo "=== Wikipedia QA Eval Harness — Setup ==="
 echo ""
@@ -84,9 +97,20 @@ print(f'  prompt: {ver}  |  suite: {len(cases)} training cases')
 echo ""
 echo "=== Setup complete ==="
 echo ""
-echo "Quick start:"
-echo "  source .venv/bin/activate"
-echo ""
+
+# Auto-activate if sourced; otherwise print the one-liner
+if [ "$_SOURCED" -eq 1 ]; then
+  source .venv/bin/activate
+  echo "Virtual environment activated. You are ready to go."
+  echo ""
+else
+  echo "One more step — activate the virtual environment:"
+  echo ""
+  echo "  source .venv/bin/activate"
+  echo ""
+  echo "Tip: run 'source setup.sh' next time to skip this step."
+  echo ""
+fi
 echo "  # Interactive Q&A"
 echo "  python -m src.cli run"
 echo "  python -m src.cli run --trace          # with full debug trace"
