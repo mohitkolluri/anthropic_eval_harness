@@ -171,6 +171,58 @@ def _print_trace(result) -> None:
     console.print(Rule(style="yellow"))
 
 
+# ── demo ──────────────────────────────────────────────────────────────────────
+#
+# Usage:
+#   python -m src.cli demo                  # 3 preset questions, auto-run
+#   python -m src.cli demo --trace          # with full debug trace per answer
+#   python -m src.cli demo --model claude-sonnet-4-6
+
+_DEMO_QUESTIONS = [
+    "What are LLMs?",
+    "Why is Silicon Valley and what is India's Silicon Valley?",
+    "When was the Golden Gate bridge built and what are some view points near it?",
+]
+
+@cli.command()
+@click.option("--prompt", "prompt_version", default=None, help="Prompt version. Defaults to latest.")
+@click.option("--model", default=_DEFAULT_MODEL, show_default=True)
+@click.option("--trace", is_flag=True, default=False, help="Show full debug trace per answer.")
+def demo(prompt_version: str | None, model: str, trace: bool):
+    """Auto-run 3 preset questions to showcase the system."""
+    from src.agent.agent import run as agent_run
+    from src.agent.client import ClaudeClient
+    from rich.rule import Rule
+
+    client = ClaudeClient(model=model)
+    console.print(f"[bold green]Wikipedia QA — Demo Mode[/]")
+    console.print(f"[dim]model={client.model}  prompt={prompt_version or 'latest'}  questions={len(_DEMO_QUESTIONS)}[/]")
+    console.print()
+
+    for i, question in enumerate(_DEMO_QUESTIONS, 1):
+        console.print(Rule(f"[bold]Question {i} of {len(_DEMO_QUESTIONS)}[/]"))
+        console.print(f"[bold blue]Q:[/] {question}\n")
+
+        with console.status("Searching Wikipedia…"):
+            result = agent_run(question, client, prompt_version)
+
+        if result.error:
+            console.print(f"[red]Error:[/] {result.error}")
+        elif trace:
+            _print_trace(result)
+        else:
+            console.print(f"[bold green]A:[/] {result.output}\n")
+            if result.tool_calls:
+                searches = [tc.query for tc in result.tool_calls]
+                console.print(f"[dim]Searches: {searches}[/]")
+            else:
+                console.print("[dim]No Wikipedia search used.[/]")
+
+        console.print()
+
+    console.print(Rule("[bold green]Demo complete[/]", style="green"))
+
+
 # ── eval ──────────────────────────────────────────────────────────────────────
 #
 # Usage:

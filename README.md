@@ -7,9 +7,10 @@ A prompt engineering take-home project: a Claude-powered Q&A system grounded in 
 ## Quick Start
 
 ```bash
-source setup.sh        # installs deps, prompts for API key, activates venv
+source setup.sh         # installs deps, prompts for API key, activates venv
 
-python -m src.cli run  # interactive Q&A
+python -m src.cli demo  # auto-runs 3 preset questions to see the system in action
+python -m src.cli run   # interactive Q&A
 ```
 
 ---
@@ -38,6 +39,14 @@ The script auto-detects `$ANTHROPIC_API_KEY` from your environment. If not set, 
 ---
 
 ## Commands
+
+### Demo
+
+```bash
+python -m src.cli demo                         # auto-runs 3 preset questions
+python -m src.cli demo --trace                 # with full debug trace per answer
+python -m src.cli demo --model claude-sonnet-4-6
+```
 
 ### Interactive Q&A
 

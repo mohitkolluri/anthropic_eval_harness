@@ -93,7 +93,7 @@ cases = load_suite('evals/suite.jsonl')
 print(f'  prompt: {ver}  |  suite: {len(cases)} training cases')
 " && echo "  imports OK"
 
-# ── 7. Summary ────────────────────────────────────────────────────────────────
+# ── 7. Summary + launch prompt ────────────────────────────────────────────────
 echo ""
 echo "=== Setup complete ==="
 echo ""
@@ -102,27 +102,51 @@ echo ""
 if [ "$_SOURCED" -eq 1 ]; then
   source .venv/bin/activate
   echo "Virtual environment activated. You are ready to go."
-  echo ""
 else
   echo "One more step — activate the virtual environment:"
   echo ""
   echo "  source .venv/bin/activate"
   echo ""
   echo "Tip: run 'source setup.sh' next time to skip this step."
-  echo ""
 fi
-echo "  # Interactive Q&A"
-echo "  python -m src.cli run"
-echo "  python -m src.cli run --trace          # with full debug trace"
+
 echo ""
-echo "  # Run eval suite (training)"
-echo "  python -m src.cli eval"
-echo "  python -m src.cli eval --suite evals/holdout.jsonl   # holdout validation"
+echo "How would you like to start?"
+echo "  [1] Demo     — auto-run 3 preset questions (recommended for first run)"
+echo "  [2] Chat     — interactive Q&A"
+echo "  [3] Skip     — just show available commands"
 echo ""
-echo "  # Hill climb"
-echo "  python -m src.cli hillclimb --category accuracy"
-echo "  python -m src.cli hillclimb --rubric groundedness"
-echo ""
-echo "  # Override model"
-echo "  python -m src.cli eval --model claude-sonnet-4-6"
-echo "  python -m src.cli hillclimb --category retrieval --judge-model claude-sonnet-4-6"
+printf "Enter choice [1/2/3]: "
+read -r LAUNCH_CHOICE
+
+case "$LAUNCH_CHOICE" in
+  1)
+    echo ""
+    python -m src.cli demo
+    echo ""
+    echo "─────────────────────────────────────────────────────"
+    echo "Demo complete. To start interactive mode, run:"
+    echo ""
+    echo "  python -m src.cli run"
+    echo "  python -m src.cli run --trace    # with full debug trace"
+    echo "─────────────────────────────────────────────────────"
+    ;;
+  2)
+    echo ""
+    python -m src.cli run
+    ;;
+  *)
+    echo ""
+    echo "Available commands:"
+    echo ""
+    echo "  python -m src.cli demo                              # auto-run 3 preset questions"
+    echo "  python -m src.cli run                               # interactive Q&A"
+    echo "  python -m src.cli run --trace                       # with full debug trace"
+    echo ""
+    echo "  python -m src.cli eval                              # run eval suite"
+    echo "  python -m src.cli eval --suite evals/holdout.jsonl  # holdout validation"
+    echo ""
+    echo "  python -m src.cli hillclimb --category accuracy     # hill climb"
+    echo "  python -m src.cli hillclimb --rubric groundedness   # single rubric"
+    ;;
+esac
