@@ -7,8 +7,7 @@ A prompt engineering take-home project: a Claude-powered Q&A system grounded in 
 ## Quick Start
 
 ```bash
-bash setup.sh          # creates .venv, installs deps, writes .env
-source .venv/bin/activate
+source setup.sh        # installs deps, prompts for API key, activates venv
 
 python -m src.cli run  # interactive Q&A
 ```
