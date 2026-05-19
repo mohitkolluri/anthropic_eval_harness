@@ -1,0 +1,240 @@
+{
+  "eval_id": "Q012",
+  "run_id": "20260518_235010_8f556b",
+  "prompt_version": "v3",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01Wz1Kks5ijRJVcig1d3yo8d",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Great Pyramid of Giza"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01HVJRs1Ga67sDhPci1VnwMo",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Iliad Homer"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Wz1Kks5ijRJVcig1d3yo8d",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01HVJRs1Ga67sDhPci1VnwMo",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01DLodBMrv2MQ1vTjgXt9pH7",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Great Pyramid Giza construction date"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01Q2QMLPuYjMJacgtpNtFqmp",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Homer Iliad composition date"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DLodBMrv2MQ1vTjgXt9pH7",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Q2QMLPuYjMJacgtpNtFqmp",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01EQmNKvW712XAzLcrhXMbMX",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Pyramid Khufu"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01EQmNKvW712XAzLcrhXMbMX",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Great Pyramid of Giza",
+      "api_response": {
+        "pages": [
+          {
+            "id": 12224,
+            "key": "Great_Pyramid_of_Giza",
+            "title": "Great Pyramid of Giza",
+            "excerpt": "The <span class=\"searchmatch\">Great</span> <span class=\"searchmatch\">Pyramid</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Giza</span> is the largest <span class=\"searchmatch\">of</span> the Egyptian <span class=\"searchmatch\">pyramids</span> and the most famous landmark <span class=\"searchmatch\">of</span> the <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramid</span> complex in <span class=\"searchmatch\">Giza</span>, Egypt. It is the oldest",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Largest pyramid in the Giza Necropolis, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 34,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/60px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
+            }
+          },
+          {
+            "id": 1979299,
+            "key": "Giza_pyramid_complex",
+            "title": "Giza pyramid complex",
+            "excerpt": "The <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramid</span> complex (also called the <span class=\"searchmatch\">Giza</span> necropolis) in Egypt is home to the <span class=\"searchmatch\">Great</span> <span class=\"searchmatch\">Pyramid</span>, the <span class=\"searchmatch\">pyramid</span> <span class=\"searchmatch\">of</span> Khafre, and the <span class=\"searchmatch\">pyramid</span> <span class=\"searchmatch\">of</span> Menkaure,",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Archaeological site near Cairo, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 25,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/60px-Pyramids_of_the_Giza_Necropolis.jpg"
+            }
+          },
+          {
+            "id": 864667,
+            "key": "Egyptian_pyramids",
+            "title": "Egyptian pyramids",
+            "excerpt": "masonry. The most famous Egyptian <span class=\"searchmatch\">pyramids</span> are those found at <span class=\"searchmatch\">Giza</span>, on the outskirts <span class=\"searchmatch\">of</span> Cairo. Several <span class=\"searchmatch\">of</span> the <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramids</span> are counted among the largest",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Ancient masonry structures in Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/60px-All_Gizah_Pyramids.jpg"
+            }
+          },
+          {
+            "id": 144514,
+            "key": "Giza",
+            "title": "Giza",
+            "excerpt": "complex <span class=\"searchmatch\">of</span> ancient Egyptian royal mortuary and sacred structures, among which are the <span class=\"searchmatch\">Great</span> Sphinx, the <span class=\"searchmatch\">Great</span> <span class=\"searchmatch\">Pyramid</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Giza</span>, and a number <span class=\"searchmatch\">of</span> other large",
+            "matched_title": null,
+            "anchor": null,
+            "description": "City in Greater Cairo, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/60px-All_Gizah_Pyramids.jpg"
+            }
+          },
+          {
+            "id": 2092712,
+            "key": "Giza_Plateau",
+            "title": "Giza Plateau",
+            "excerpt": "The <span class=\"searchmatch\">Giza</span> Plateau (Arabic: \u0647\u0636\u0628\u0629 \u0627\u0644\u062c\u064a\u0632\u0629) is a limestone plateau in <span class=\"searchmatch\">Giza</span>, Egypt, the site <span class=\"searchmatch\">of</span> the Fourth Dynasty <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramid</span> complex, which includes the",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Site of the largest known collection of pyramids, in Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Giza-pyramids.JPG/60px-Giza-pyramids.JPG"
+            }
+          }
+        ]
+      },
+      "fetched_content": "",
+      "content_source": "page/Great_Pyramid_of_Giza/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Iliad Homer",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "Great Pyramid Giza construction date",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 3,
+      "query": "Homer Iliad composition date",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 4,
+      "query": "Pyramid Khufu",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "",
+  "total_tool_calls": 5,
+  "latency_ms": 25726,
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: a52bfb75-667d-4688-8dc4-96c4761aa93b, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011CbAw8rVKTxnSVwYL45Jid'}"
+}

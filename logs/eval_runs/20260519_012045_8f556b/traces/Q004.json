@@ -1,0 +1,168 @@
+{
+  "eval_id": "Q004",
+  "run_id": "20260519_012045_8f556b",
+  "prompt_version": "v4",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What were the first two countries to grant women the right to vote, and in what years did they do so?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What were the first two countries to grant women the right to vote, and in what years did they do so?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01WsYWPaD3jyjLjoKTyBNXaT",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "women's suffrage history first countries"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01WsYWPaD3jyjLjoKTyBNXaT",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01EsM8jea3w1QNAqmPzo3vSg",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Suffrage"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01EsM8jea3w1QNAqmPzo3vSg",
+          "content": "Suffrage Right to vote in public and political elections Not to be confused with Universal suffrage . \"Right to vote\", \"Suffragist\", and \"The Franchise\" redirect here. For the group, see Right to Vote . For the organisation, see National Union of Women's Suffrage Societies . For other uses, see The Franchise (disambiguation) . Suffrage People queuing and showing their identity documents for voting in the 2014 Indian general election Suffrage , political franchise , or simply franchise is the right to vote in public, political elections and referendums (although the term is sometimes used for any right to vote ). [ 1 ] [ 2 ] [ 3 ] In some languages, and occasionally in English, the right to vote is called active suffrage , as distinct from passive suffrage , which is the right to stand for election. [ 4 ] The combination of active and passive suffrage is sometimes called full suffrage . [ 5 ] In most democracies, eligible voters can vote in elections for representatives. Voting on issues by referendum ( direct democracy ) may also be available. For example, in Switzerland , this is permitted at all levels of government. In the United States , some states allow citizens the opportunity to write, propose, and vote on referendums ( popular initiatives ); other states and the federal government do not. Referendums in the United Kingdom are rare. Suffrage continues to be especially restricted on the basis of age , residency and citizenship status in many places. In some countries additional restrictions exist. In Great Britain and the United States a felon might lose the right to vote. In some countries being under guardianship may restrict the right to vote. Non-resident citizen voting allows emigrants and expats of some countries to vote in their home country. [ 6 ] Resident non-citizens can vote in some countries, which may be restricted to citizens of closely linked countries (e.g., Commonwealth citizens and European Union citizens ) or to certain offices or questions. [ 7 ] [ 8 ] [ 9 ] Multiple citizenship typically allows to vote in multiple countries. [ 6 ] Historically the right to vote was more restricted, for example by gender, race, or wealth. Etymology The word suffrage comes from Latin suffragium , which initially meant \"a voting-tablet\", \"a ballot\", \"a vote\", or \"the right to vote\". Suffragium in the second century and later came to mean \"political patronage, influence, interest, or support\", and sometimes \"popular acclaim\" or \"applause\". By the fourth century the word was used for \"an intercession\", asking a patron for their influence with the Almighty. Suffragium was used in the fifth and sixth centuries with connection to buying influence or profiteering from appointing to office, and eventually the word referred to the bribe itself. [ 10 ] William Smith rejects the connection of suffragium to sub \"under\" + fragor \"crash, din, shouts (as of approval)\", related to frangere \"to break\"; Eduard Wunder writes that the word may be related to suffrago , signifying an ankle bone or knuckle bone. [ 11 ] In the 17th century the English suffrage regained the earlier meaning of the Latin suffragium , \"a vote\" or \"the right to vote\". [ 12 ] Types Universal suffrage Main article: Universal suffrage The Peterloo Massacre of 1819 Universal suffrage would be achieved when all have the right to vote without restriction. It could, for example, look like a system where everyone was presumed to have the right to vote unless a government can prove beyond a reasonable doubt the need to revoke voting rights. [ 13 ] The trend towards universal suffrage has progressed in some democracies by eliminating some or all of the voting restrictions due to gender, race, religion, social status, education level, wealth, citizenship , ability and age . However, throughout history the term 'universal suffrage' has meant different things, with the different assumptions about the groups that were or were not deemed desirable voters. Early history The short-lived Corsican Republic (1755\u20131769) was the first country to grant limited universal suffrage to all citizens over the age of 25. In 1819, 60\u201380,000 women and men from 30 miles around Manchester assembled in the city's St. Peter's Square to protest their lack of any representation in the Houses of Parliament. Historian Robert Poole has called the Peterloo Massacre one of the defining moments of its age. [ 14 ] (The eponymous Peterloo film featured a scene of women suffragists planning their contribution to the protest.) At that time Manchester had a population of around 140,000 and the population totals of Greater Manchester were around 490,000. [ 15 ] This was followed by other experiments in the Paris Commune of 1871 and the island republic of Franceville (1889). From 1840 to 1852, the Kingdom of Hawai'i granted universal suffrage without mention of sex. In 1893, when the Kingdom of Hawai'i was overthrown in a coup , New Zealand was the only independent country to practice universal (active) suffrage, and the Freedom in the World index lists New Zealand as the only free country in the world in 1893. [ 16 ] [ 17 ] Women's suffrage Main article: Women's suffrage German election poster from 1919: Equal rights \u2013 equal duties! Women's suffrage is the right of women to vote. [ 18 ] This was the goal of the suffragists, who believed in using legal means, as well as the suffragettes , who used extremist measures. Short-lived suffrage equity was drafted into provisions of the State of New Jersey's first, 1776 Constitution, which extended the Right to Vote to unwed female landholders and black land owners. IV. That all inhabitants of this Colony, of full age, who are worth fifty pounds proclamation money, clear estate in the same, and have resided within the county in which they claim a vote for twelve months immediately preceding the election, shall be entitled to vote for Representatives in Council and Assembly; and also for all other public officers, that shall be elected by the people of the county at large. New Jersey 1776 However, the document did not specify an Amendment procedure, and the provision was subsequently replaced in 1844 by the adoption of the succeeding constitution , which reverted to \"all white male\" suffrage restrictions. [ 19 ] Although the Kingdom of Hawai'i granted female suffrage in 1840, the right was rescinded in 1852. Limited voting rights were gained by some women in Sweden, Britain, and some western U.S. states in the 1860s. In 1893, the British colony of New Zealand became the first self-governing nation to extend the right to vote to all adult women. [ 20 ] In 1894, the women of South Australia achieved the right to both vote and stand for Parliament . The autonomous Grand Duchy of Finland in the Russian Empire was the first nation to allow all women to both vote and run for parliament. Anti-women's suffrage propaganda A British postcard against women's suffrage postcard from c. 1908 . It shows unflattering caricatures of suffragettes in front of parliament and the caption: \"This is the house that man built\" with a poem. From the People's History Museum , Manchester . Britain's WSPU poster by Hilda Dallas , 1909 Those against the women's suffrage movement made public organizations to put down the political movement, with the main argument being that a woman's place was in the home, not polls. Political cartoons and public outrage over women's rights increased as the opposition to suffrage worked to organize legitimate groups campaigning against women's voting rights. The Massachusetts Association Opposed to the Further Extension of Suffrage to Women was one organization that came out of the 1880s to put down the voting efforts. [ 21 ] Much anti-suffrage propaganda poked fun at the idea of women in politics. Political cartoons displayed the most sentiment by portraying the issue of women's suffrage to be swapped with men's lives. Some mocked the popular suffrage hairstyle of full-upward combed hair. "
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the Wikipedia article on suffrage, the first two countries to grant women the right to vote were:\n\n1. **New Zealand** - In **1893**, New Zealand became the first self-governing nation to extend the right to vote to all adult women.\n\n2. **South Australia** - In **1894**, the women of South Australia achieved the right to both vote and stand for Parliament.\n\nSource: Suffrage"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "women's suffrage history first countries",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "Suffrage",
+      "api_response": {
+        "pages": [
+          {
+            "id": 70322,
+            "key": "Suffrage",
+            "title": "Suffrage",
+            "excerpt": "active <span class=\"searchmatch\">suffrage</span>, as distinct from passive <span class=\"searchmatch\">suffrage</span>, which is the right to stand for election. The combination of active and passive <span class=\"searchmatch\">suffrage</span> is sometimes",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Right to vote in public and political elections",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Suffrage%2C_World%2C_2024_%28cropped%29.svg/60px-Suffrage%2C_World%2C_2024_%28cropped%29.svg.png"
+            }
+          },
+          {
+            "id": 175581,
+            "key": "Women's_suffrage",
+            "title": "Women's suffrage",
+            "excerpt": "Women&#039;s <span class=\"searchmatch\">suffrage</span> is the right of women to vote in elections. Historically, women rarely had the right to vote, even in ostensibly democratic systems of",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Legal right of women to vote",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Universal_suffrage_women_lexical%2C_World%2C_2024_%28cropped%29.svg/60px-Universal_suffrage_women_lexical%2C_World%2C_2024_%28cropped%29.svg.png"
+            }
+          },
+          {
+            "id": 3289982,
+            "key": "Women's_suffrage_in_the_United_States",
+            "title": "Women's suffrage in the United States",
+            "excerpt": "Women&#039;s <span class=\"searchmatch\">suffrage</span>, or the right of women to vote, was established in the United States over the course of the late 19th and early 20th centuries, first",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 37,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Suffragists_Parade_Down_Fifth_Avenue%2C_1917.JPG/60px-Suffragists_Parade_Down_Fifth_Avenue%2C_1917.JPG"
+            }
+          },
+          {
+            "id": 220636,
+            "key": "Universal_suffrage",
+            "title": "Universal suffrage",
+            "excerpt": "Universal <span class=\"searchmatch\">suffrage</span> or universal franchise refers to the right to vote being available for all adults within a jurisdiction. The idea is often endorsed",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Right of every person to an equal say in politics",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Universal_suffrage_lexical%2C_World%2C_2024_%28cropped%29.svg/60px-Universal_suffrage_lexical%2C_World%2C_2024_%28cropped%29.svg.png"
+            }
+          },
+          {
+            "id": 9333239,
+            "key": "Women's_suffrage_in_the_United_Kingdom",
+            "title": "Women's suffrage in the United Kingdom",
+            "excerpt": "1872, the fight for women&#039;s <span class=\"searchmatch\">suffrage</span> became a national movement with the formation of the National Society for Women&#039;s <span class=\"searchmatch\">Suffrage</span> and later the more influential",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 89,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Votes_For_Women.jpg/60px-Votes_For_Women.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Suffrage Right to vote in public and political elections Not to be confused with Universal suffrage . \"Right to vote\", \"Suffragist\", and \"The Franchise\" redirect here. For the group, see Right to Vote . For the organisation, see National Union of Women's Suffrage Societies . For other uses, see The Franchise (disambiguation) . Suffrage People queuing and showing their identity documents for voting in the 2014 Indian general election Suffrage , political franchise , or simply franchise is the right to vote in public, political elections and referendums (although the term is sometimes used for any right to vote ). [ 1 ] [ 2 ] [ 3 ] In some languages, and occasionally in English, the right to vote is called active suffrage , as distinct from passive suffrage , which is the right to stand for election. [ 4 ] The combination of active and passive suffrage is sometimes called full suffrage . [ 5 ] In most democracies, eligible voters can vote in elections for representatives. Voting on issues by referendum ( direct democracy ) may also be available. For example, in Switzerland , this is permitted at all levels of government. In the United States , some states allow citizens the opportunity to write, propose, and vote on referendums ( popular initiatives ); other states and the federal government do not. Referendums in the United Kingdom are rare. Suffrage continues to be especially restricted on the basis of age , residency and citizenship status in many places. In some countries additional restrictions exist. In Great Britain and the United States a felon might lose the right to vote. In some countries being under guardianship may restrict the right to vote. Non-resident citizen voting allows emigrants and expats of some countries to vote in their home country. [ 6 ] Resident non-citizens can vote in some countries, which may be restricted to citizens of closely linked countries (e.g., Commonwealth citizens and European Union citizens ) or to certain offices or questions. [ 7 ] [ 8 ] [ 9 ] Multiple citizenship typically allows to vote in multiple countries. [ 6 ] Historically the right to vote was more restricted, for example by gender, race, or wealth. Etymology The word suffrage comes from Latin suffragium , which initially meant \"a voting-tablet\", \"a ballot\", \"a vote\", or \"the right to vote\". Suffragium in the second century and later came to mean \"political patronage, influence, interest, or support\", and sometimes \"popular acclaim\" or \"applause\". By the fourth century the word was used for \"an intercession\", asking a patron for their influence with the Almighty. Suffragium was used in the fifth and sixth centuries with connection to buying influence or profiteering from appointing to office, and eventually the word referred to the bribe itself. [ 10 ] William Smith rejects the connection of suffragium to sub \"under\" + fragor \"crash, din, shouts (as of approval)\", related to frangere \"to break\"; Eduard Wunder writes that the word may be related to suffrago , signifying an ankle bone or knuckle bone. [ 11 ] In the 17th century the English suffrage regained the earlier meaning of the Latin suffragium , \"a vote\" or \"the right to vote\". [ 12 ] Types Universal suffrage Main article: Universal suffrage The Peterloo Massacre of 1819 Universal suffrage would be achieved when all have the right to vote without restriction. It could, for example, look like a system where everyone was presumed to have the right to vote unless a government can prove beyond a reasonable doubt the need to revoke voting rights. [ 13 ] The trend towards universal suffrage has progressed in some democracies by eliminating some or all of the voting restrictions due to gender, race, religion, social status, education level, wealth, citizenship , ability and age . However, throughout history the term 'universal suffrage' has meant different things, with the different assumptions about the groups that were or were not deemed desirable voters. Early history The short-lived Corsican Republic (1755\u20131769) was the first country to grant limited universal suffrage to all citizens over the age of 25. In 1819, 60\u201380,000 women and men from 30 miles around Manchester assembled in the city's St. Peter's Square to protest their lack of any representation in the Houses of Parliament. Historian Robert Poole has called the Peterloo Massacre one of the defining moments of its age. [ 14 ] (The eponymous Peterloo film featured a scene of women suffragists planning their contribution to the protest.) At that time Manchester had a population of around 140,000 and the population totals of Greater Manchester were around 490,000. [ 15 ] This was followed by other experiments in the Paris Commune of 1871 and the island republic of Franceville (1889). From 1840 to 1852, the Kingdom of Hawai'i granted universal suffrage without mention of sex. In 1893, when the Kingdom of Hawai'i was overthrown in a coup , New Zealand was the only independent country to practice universal (active) suffrage, and the Freedom in the World index lists New Zealand as the only free country in the world in 1893. [ 16 ] [ 17 ] Women's suffrage Main article: Women's suffrage German election poster from 1919: Equal rights \u2013 equal duties! Women's suffrage is the right of women to vote. [ 18 ] This was the goal of the suffragists, who believed in using legal means, as well as the suffragettes , who used extremist measures. Short-lived suffrage equity was drafted into provisions of the State of New Jersey's first, 1776 Constitution, which extended the Right to Vote to unwed female landholders and black land owners. IV. That all inhabitants of this Colony, of full age, who are worth fifty pounds proclamation money, clear estate in the same, and have resided within the county in which they claim a vote for twelve months immediately preceding the election, shall be entitled to vote for Representatives in Council and Assembly; and also for all other public officers, that shall be elected by the people of the county at large. New Jersey 1776 However, the document did not specify an Amendment procedure, and the provision was subsequently replaced in 1844 by the adoption of the succeeding constitution , which reverted to \"all white male\" suffrage restrictions. [ 19 ] Although the Kingdom of Hawai'i granted female suffrage in 1840, the right was rescinded in 1852. Limited voting rights were gained by some women in Sweden, Britain, and some western U.S. states in the 1860s. In 1893, the British colony of New Zealand became the first self-governing nation to extend the right to vote to all adult women. [ 20 ] In 1894, the women of South Australia achieved the right to both vote and stand for Parliament . The autonomous Grand Duchy of Finland in the Russian Empire was the first nation to allow all women to both vote and run for parliament. Anti-women's suffrage propaganda A British postcard against women's suffrage postcard from c. 1908 . It shows unflattering caricatures of suffragettes in front of parliament and the caption: \"This is the house that man built\" with a poem. From the People's History Museum , Manchester . Britain's WSPU poster by Hilda Dallas , 1909 Those against the women's suffrage movement made public organizations to put down the political movement, with the main argument being that a woman's place was in the home, not polls. Political cartoons and public outrage over women's rights increased as the opposition to suffrage worked to organize legitimate groups campaigning against women's voting rights. The Massachusetts Association Opposed to the Further Extension of Suffrage to Women was one organization that came out of the 1880s to put down the voting efforts. [ 21 ] Much anti-suffrage propaganda poked fun at the idea of women in politics. Political cartoons displayed the most sentiment by portraying the issue of women's suffrage to be swapped with men's lives. Some mocked the popular suffrage hairstyle of full-upward combed hair. ",
+      "content_source": "page/Suffrage/with_html (stripped)"
+    }
+  ],
+  "output": "Based on the Wikipedia article on suffrage, the first two countries to grant women the right to vote were:\n\n1. **New Zealand** - In **1893**, New Zealand became the first self-governing nation to extend the right to vote to all adult women.\n\n2. **South Australia** - In **1894**, the women of South Australia achieved the right to both vote and stand for Parliament.\n\nSource: Suffrage",
+  "total_tool_calls": 2,
+  "latency_ms": 11364,
+  "error": null
+}

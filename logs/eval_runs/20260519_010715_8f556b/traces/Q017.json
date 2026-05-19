@@ -1,0 +1,22 @@
+{
+  "eval_id": "Q017",
+  "run_id": "20260519_010715_8f556b",
+  "prompt_version": "v4",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "Is democracy the best form of government?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Is democracy the best form of government?"
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: This is a matter of opinion and I cannot answer it.\nSource: N/A"
+    }
+  ],
+  "tool_calls": [],
+  "output": "Answer: This is a matter of opinion and I cannot answer it.\nSource: N/A",
+  "total_tool_calls": 0,
+  "latency_ms": 5483,
+  "error": null
+}

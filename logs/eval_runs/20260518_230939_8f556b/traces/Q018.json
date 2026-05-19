@@ -1,0 +1,22 @@
+{
+  "eval_id": "Q018",
+  "run_id": "20260518_230939_8f556b",
+  "prompt_version": "v2",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "Who will win the next FIFA World Cup?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Who will win the next FIFA World Cup?"
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: This question cannot be answered from Wikipedia.\nSource: N/A"
+    }
+  ],
+  "tool_calls": [],
+  "output": "Answer: This question cannot be answered from Wikipedia.\nSource: N/A",
+  "total_tool_calls": 0,
+  "latency_ms": 3150,
+  "error": null
+}

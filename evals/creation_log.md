@@ -3,6 +3,56 @@
 Tracks the rationale, axis scores, and decisions for each eval case.
 Reference skill: `.claude/skills/eval_case_complexity.md`
 
+Files:
+- `evals/suite.jsonl` — 24 training cases (Q001–Q024)
+- `evals/holdout.jsonl` — 10 holdout cases (H001–H010) for validating hill climb generalisation
+
+---
+
+## Holdout Set — Purpose and Rules
+
+**Purpose:** Validate that hill climb prompt improvements generalise beyond the training set and are not overfitting to the specific cases in `suite.jsonl`.
+
+**Rules:**
+- Holdout cases are NEVER used as input to the hill climb (no failed holdout cases in improvement prompts)
+- Run holdout eval AFTER each hill climb cycle to check generalisation
+- A successful hill climb: training pass rate improves AND holdout pass rate does not drop
+- Zero entity overlap with training set
+
+**Entity exclusion list (training set):** Darwin, Lincoln, Eiffel Tower, Statue of Liberty, 1896 Olympics, Women's suffrage, Peace of Westphalia, Democritus, INF Treaty, Ikigai, Pacific Ocean, Shakespeare, Elizabeth I/II, Roman Empire, Han Dynasty, Great Pyramid, Iliad, Constantinople, Columbus, Gutenberg, Luther, Cotton gin, Challenger, Ajax, Mercury, Jaguar, Michael Jordan/Jackson
+
+---
+
+## Holdout Cases (H001–H010)
+
+| ID | Category | Question summary | Key markers |
+|---|---|---|---|
+| H001 | factual_recall | Moon landing date + lunar module name | July 20, 1969, Eagle |
+| H002 | factual_recall | NATO founding: members + year + acronym | 12, 1949, North Atlantic |
+| H003 | entity_lookup | Economic theory: exports > imports, dominant period | Mercantilism, 16th–18th century |
+| H004 | entity_lookup | Cognitive bias: others' faults = character, own = circumstance | attribution |
+| H005 | comparative | Colosseum vs fall of Western Rome — which came first? | before, 80, 476 |
+| H006 | comparative | Ming Dynasty and Renaissance — temporal overlap? | yes, 1368, overlap period |
+| H007 | causal (A→B→C) | Steam engine → factories → urbanisation in Britain | factory, urban, worker |
+| H008 | causal (A→B) | What destroyed the Library of Alexandria? | fire, Caesar, Alexandria |
+| H009 | unanswerable | Who will win most gold medals at next Olympics? | cannot, Wikipedia |
+| H010 | ambiguous | "Tell me about the Pioneer." | spacecraft, Pioneer 10, specific |
+
+### Axis scores — Holdout Cases
+
+| ID | A1 | A2 | A3 | A4 | L3+ axes | Decision |
+|---|---|---|---|---|---|---|
+| H001 | L3 | L3 | L4 | L4 | 4 | ACCEPT |
+| H002 | L2 | L3 | L4 | L4 | 3 | ACCEPT |
+| H003 | L3 | L3 | L3 | L3 | 4 | ACCEPT |
+| H004 | L3 | L2 | L2 | L2 | 2 | ACCEPT |
+| H005 | L3 | L2 | L3 | L4 | 3 | ACCEPT |
+| H006 | L3 | L3 | L3 | L3 | 4 | ACCEPT |
+| H007 | L3 | L3 | L4 | L3 | 4 | ACCEPT |
+| H008 | L2 | L3 | L3 | L2 | 2 | ACCEPT |
+| H009 | L1 | L1 | L1 | L1 | 0 | ACCEPT (unanswerable) |
+| H010 | L3 | L2 | L3 | L2 | 2 | ACCEPT |
+
 ---
 
 ## Category: factual_recall

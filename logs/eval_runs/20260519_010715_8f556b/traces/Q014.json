@@ -1,0 +1,233 @@
+{
+  "eval_id": "Q014",
+  "run_id": "20260519_010715_8f556b",
+  "prompt_version": "v4",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "How did Gutenberg's invention of the printing press in the 1440s contribute to the Protestant Reformation?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "How did Gutenberg's invention of the printing press in the 1440s contribute to the Protestant Reformation?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01MfodafHjZp5PMESFKvqcr7",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Johannes Gutenberg printing press"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_016o3fZn3BX2LXU2gg7DsMRC",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Protestant Reformation"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01MfodafHjZp5PMESFKvqcr7",
+          "content": "Johannes Gutenberg German inventor and craftsman (died 1468) \"Gutenberg\" redirects here. For the Bible, see Gutenberg Bible . For other uses, see Gutenberg (disambiguation) . Johannes Gutenberg Gutenberg Monument by Bertel Thorvaldsen , erected 1837. [ a ] Born Johannes Gensfleisch zur Laden zum Gutenberg c. 1393\u20131406 Mainz Died 3 February 1468 (aged 61\u201375) Mainz Occupations Inventor craftsman Known for Inventing the printing press Introducing movable type to Europe Johannes Gensfleisch zur Laden zum Gutenberg [ b ] ( c. 1393\u20131406 \u2013 3 February 1468) was a German inventor and craftsman who invented the movable-type printing press . Though movable type was already in use in East Asia, Gutenberg's invention of the printing press [ 2 ] enabled a much faster rate of printing . The printing press later spread across the world , [ 3 ] and led to an information revolution and the unprecedented mass-spread of literature throughout Europe. It had a profound impact on the development of the Renaissance , Reformation , and humanist movements. Gutenberg's many contributions to printing include the invention of a process for mass-producing movable type; the use of oil-based ink for printing books; [ 4 ] adjustable molds; [ 5 ] mechanical movable type; and the invention of a wooden printing press similar to the agricultural screw presses of the period. [ 6 ] Gutenberg's method for making type is traditionally considered to have included a type metal alloy and a hand mould for casting type. The alloy was a mixture of lead, tin , and antimony that melted at a relatively low temperature for faster and more economical casting, cast well, and created a durable type. [ 7 ] His major work, the Gutenberg Bible , was the first printed version of the Bible and has been acclaimed for its high aesthetic and technical quality. Gutenberg is often cited as among the most influential figures in human history and has been commemorated around the world. To celebrate the 500th anniversary of his birth, the Gutenberg Museum was founded in his hometown of Mainz in 1900. In 1997, Time Life picked Gutenberg's invention as the most important of the second millennium. [ 8 ] Life and career Early life Coat of arms of the Gensfleisch family, from the Register of Fiefs of Frederick I (1461) [ 9 ] Johannes Gutenberg was born in Mainz (in modern-day Germany), a wealthy city along the Rhine , between the 14th and 15th centuries. [ 1 ] [ 10 ] His exact year of birth is unknown; on the basis of a later document indicating that he came of age by 1420, scholarly estimates have ranged from 1393 to 1406. [ 11 ] [ c ] The year 1400 is commonly assigned to Gutenberg, \"for the sake of convenience\". [ 13 ] Tradition also holds his birthdate to be on the feast day of Saint John the Baptist , 24 June, since children of the time were often named after their birthday's patron saint . [ 15 ] There is no verification for this assumption, since the name \"Johannes\"\u2014and variants such as \"Johann\", \"Henne\", \"Hengin\" and \"Henchen\"\u2014was widely popular at the time. [ 11 ] In full, Gutenberg's name was \"Johannes Gensfleisch zur Laden zum Gutenberg\", with \"Laden\" and \"Gutenberg\" being adopted from the family's residences in Mainz. [ 13 ] The latter refers to the Hof zum Gutenberg , a large and now destroyed Gothic -style residence inherited by Gutenberg's father. [ 16 ] Gutenberg probably spent his earliest years at the manor, which existed beside St. Christoph's . [ 1 ] [ d ] His father Friele Gensfleisch zur Laden was a patrician and merchant, likely in the cloth trade . [ 15 ] Friele later served among the \"master of the accounts\" for the city and was a M\u00fcnzerhausgenossenschaft ( lit. ' minting house cooperative ' ), a part of the mint 's companionship. [ 18 ] [ e ] In 1386 Friele married his second wife, Else Wyrich, the daughter of a shopkeeper; Johannes was probably the youngest of the couple's three children, after his brother Friele ( b. c. 1387 ) and sister Else ( b. c. 1390\u20131397 ). [ 19 ] [ f ] Scholars commonly assume that the marriage of Friele to Else, who was not of patrician lineage, complicated Gutenberg's future. [ 20 ] Because of his mother's commoner status, Gutenberg would never be able to succeed his father at the mint; [ 21 ] according to the historian Ferdinand Geldner [ de ] this disconnect may have disillusioned him from high society and encouraged his unusual career as an inventor. [ 22 ] [ g ] The patrician ( Patrizier ) class of Mainz\u2014the Gutenbergs included\u2014held a privileged socioeconomic status, and their efforts to preserve this put them into frequent conflict with the younger generations of guild ( Z\u00fcnfte ) craftsmen. [ 24 ] [ 25 ] A particularly violent conflict arose in February 1411 amid an election dispute, and at least 117 patricians fled the conflict in August. [ 15 ] [ 26 ] Friele left, presumably with the Gutenberg family, and probably stayed in the nearby Eltville since Else had inherited a house on the town walls there. [ 27 ] [ 26 ] The archbishop mediated a peace between the rival parties, allowing the family to return to Mainz later that Autumn. [ 28 ] The situation remained unstable and the rise of hunger riots forced the Gutenberg family to leave in January 1413 for Eltville. [ 28 ] Education No documents survive concerning Gutenberg's childhood or youth. [ 20 ] The biographer Albert Kapr [ de ] remarked that \"most books on Gutenberg pass over this period with the remark that not a single fact is known\". [ 29 ] As the son of a patrician, education in reading and arithmetic would have been expected. [ 30 ] A knowledge of Latin \u2014a prerequisite for universities\u2014is also probable, though it is unknown whether he attended a Mainz parish school, was educated in Eltville or had a private tutor. [ 31 ] Gutenberg may have initially pursued a religious career, as was common with the youngest sons of patricians, since the proximity of many churches and monasteries made it a safe prospect. [ 30 ] It has been speculated that he attended the St. Victor's [ de ] south of Mainz (near Weisenau [ de ] ), as he would later join their brotherhood. [ 15 ] It was the site of a well-regarded school and his family had connections there, though his actual attendance remains speculative. [ 32 ] Gutenberg is assumed to have studied at the University of Erfurt , where there is a record of the enrollment of a student called Johannes de Altavilla in 1418\u2014Altavilla is the Latin form of Eltville am Rhein. [ 33 ] Nothing is known of Gutenberg's life for the next fifteen years; however, in March 1434, a letter by him indicates that he was living in Strasbourg , where he had some relatives on his mother's side. He also appears to have been a goldsmith member enrolled in the Strasbourg militia . In 1437, there is evidence that he was instructing a wealthy tradesman on polishing gems, but where he had acquired this knowledge is unknown. In 1436/37 his name also comes up in court in connection with a broken promise of marriage to a woman from Strasbourg, Ennelin. [ 34 ] Whether the marriage actually took place is not recorded. Following his father's death in 1419, he is mentioned in the inheritance proceedings. Printing press Further information: Global spread of the printing press What was written to me about that marvelous man [Gutenberg] seen at Frankfurt [ sic ] entirely true. I have not seen complete bibles but only a number of quires of various books [of the Bible]. The script is extremely neat and legible, not at all difficult to follow [You] would be able to read it without effort, and indeed without glasses \u2014 Future pope Pius II in a letter to Cardinal Carvajal , March 1455 [ 35 ] Around 1439, Gutenberg was involved in a financial misadventure making polished metal mirrors (which were believed to capture holy light from religious relics) for sale to pilgrims to Aachen : in 1439 the city was planning to exhibit its collection of relics from Emperor Charlemagne but the event was delayed by one year due to"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_016o3fZn3BX2LXU2gg7DsMRC",
+          "content": "Reformation 16th-century movement in Western Christianity For other uses, see Reformation (disambiguation) . Part of a series on the Reformation Ninety-five Theses , written by Martin Luther in 1517 Precursors Peter Waldo and Waldensians John Wycliffe and Lollardy Jan Hus and Hussites Girolamo Savonarola and Piagnoni Arnold of Brescia and Arnoldists Peter of Bruys and Petrobrusians Henry of Lausanne and Henricians Berengar of Tours and Berengarians Friends of God Pataria Gottschalk of Orbais Ratramnus Claudius of Turin Wessel Gansfort Johann Ruchrat von Wesel Johannes von Goch Gundolfo Beginning Ninety-five Theses Diet of Worms Luther Bible Magisterials Radicals Contributing factors Western Schism Avignon Papacy Bohemian Reformation Northern Renaissance Christian humanism German mysticism Johannes Gutenberg and his printing press Erasmus Johann Reuchlin Theologies of seminal figures Theology of Martin Luther Theology of Huldrych Zwingli Theology of John Calvin Protestant Reformers Martin Luther Philip Melanchthon Huldrych Zwingli John Calvin Martin Bucer William Tyndale Andreas Karlstadt Theodore Beza George Buchanan Heinrich Bullinger Peter Martyr Vermigli William Farel Fran\u00e7ois Hotman John Knox Hubert Languet Thomas M\u00fcntzer Balthasar Hubmaier Menno Simons Thomas Cranmer Richard Hooker Jacobus Arminius Thomas Helwys Roger Williams Henry Denne Many others By location Germany Switzerland ( Geneva / Z\u00fcrich ) England Scotland Netherlands Czech Lands Hungary Romania Slovenia Denmark\u2013Norway and Holstein Sweden and Finland Iceland Estonia and Latvia Austria France Italy Poland-Lithuania Ireland Major political leaders Henry VIII Elizabeth I Oliver Cromwell James VI and I William the Silent Gaspard II de Coligny Henry IV of France Jeanne d'Albret Stephen Bocskai Gabriel Bethlen Gustav II Adolf Frederick V, Elector Palatine Philip I of Hesse Electors of Saxony Frederick III John Frederick I Counter-Reformation Catholic Church Council of Trent Counter-Reformation \u00a7 Politics Censorship of the Bible \u00a7 16th century Anti-Protestantism Criticism Holy Roman Emperors Charles V Ferdinand II Political and religious conflicts Thirty Years' War French Wars of Religion Eighty Years' War War of the Three Kingdoms German Peasants' War Wars of Kappel Schmalkaldic War Art and literature Painting and sculpture Northern Mannerism Lutheran art German Renaissance Art Swedish art English art Woodcuts Art conflicts Beeldenstorm Building Influence on church architecture Literature Elizabethan Metaphysical poets Propaganda Welsh Scottish Anglo-Irish German Czech Swiss Slovak Sorbian Romanian Danish Bohori\u010d alphabet Faroese Norwegian Swedish Finnish Icelandic Dutch Renaissance and Golden Age Folklore of the Low Countries 16th century Renaissance humanism 16th century in poetry 16th century in literature Theater English Renaissance theatre Pastoral Morality History Tragedy Revenge Music Forms Hymnody of continental Europe Music of the British Isles Hymn tune Lutheran chorale Lutheran hymn Anglican church music Exclusive psalmody Scottish church music Normative principle Anglican chant Homophony vs. Polyphony Falsobordone Verse anthem Liturgies Reformed worship Calvin's liturgy Formula missae Deutsche Messe Liturgical Struggle Ecclesiastical Latin Lutheran and Anglican Mass in music Cyclic mass vs. Paraphrase mass Roman vs. Sarum Rites Sequence (retained by Lutherans, mostly banned by Trent) Hymnals First and Second Lutheran hymnals First Wittenberg hymnal Ausbund Swenske songer Thomiss\u00f8n's hymnal Book of Common Prayer Metrical psalters Book of Common Order Souterliedekens Genevan Psalter Scottish Psalter Whole Book of Psalms Conclusion and commemorations Conclusion Confessionalization with subsequent Protestant orthodoxy Peace of Westphalia Simultaneous rise of Pietism and Rationalism Monuments Reformation Wall Luther Monuments Calendrical commemoration Reformation Day Lutheran Anglican Protestantism v t e Part of a series on Protestantism Outline Concepts Anti-Protestantism Bible Criticism Culture Demographics Ecclesiology Liturgy Relations with Catholics Theologies Five Solas History Proto-Protestantism Bohemian Reformation Reformation Magisterial Radical Counter Martin Luther Ninety-five Theses Augsburg Confession Huldrych Zwingli John Calvin Arminianism Crypto-Protestantism Nonconformists Dissenters Puritans John Wesley Pietism Great Awakenings in America Revival meetings Branches Proto-Protestants Hussites Waldensians Lutherans Reformed Continental Presbyterians Congregational Anglicans Continuing Anabaptists Amish Hutterites Mennonites Quakers Baptists Black church Methodists Radical Pietism Shakers Stone-Campbell Plymouth Brethren Pentecostals Adventist Irvings Holiness Keswickians Eastern Protestant United and uniting churches Nondenominational Movements Augsburg Catholics Charismatics Neo-Charismatics Confessionalism Confessing Movement Convergence Church Growth Ecumenism Emerging church Evangelicalism Fundamentalism High church Liberalism Mainlines Neo-charismatics Neo-orthodoxy New Calvinism Paleo-orthodoxy Progressivism Spiritual Christianity Christianity portal v t e Part of a series on Christianity Jesus Christ Nativity Baptism Ministry Crucifixion Resurrection Ascension Bible Foundations Old Testament New Testament Gospel Canon Church Prophets Creed New Covenant Theology God Trinity Father Son Holy Spirit Apologetics Baptism Christology History of theology Salvation Universalism History Tradition Apostles Peter Paul Mary Early Christianity Church Fathers Constantine Councils Augustine Three Holy Hierarchs East\u2013West Schism Crusades Aquinas Reformation Luther Denominations (list) Western Latin-rite Catholic Independent Catholic Protestant Anabaptist Anglican Baptist Evangelical Holiness Lutheran Methodist Moravian Pentecostal Quaker Reformed Western Orthodox Eastern Eastern Orthodox Oriental Orthodox East Syriac Eastern Catholic Eastern Protestant Restorationist Adventist Jehovah's Witness Latter Day Saint Swedenborgian Unitarian Related topics Anti-Christian sentiment Adherents Criticism Culture Ecumenism Liturgy Mission Other religions Prayer Sermon Symbolism Western society Worship Glossary Index Outline Christianity portal v t e The Reformation , also known as the Protestant Reformation or the European Reformation , [ 1 ] was a major theological movement in Western Christianity in 16th-century Europe that posed a religious and political challenge to the papacy and the authority of the Catholic Church hierarchy. Towards the end of the Renaissance , the Reformation marked the beginning of Protestantism . It is considered one of the events that signified the end of the Middle Ages and the beginning of the early modern period in Europe. [ 2 ] The Reformation is usually dated from Martin Luther 's publication of the Ninety-five Theses in 1517, which gave birth to Lutheranism . Prior to Martin Luther and other Protestant Reformers , there were earlier reform movements within Western Christianity. The end of the Reformation era is disputed among modern scholars. In general, the Reformers argued that justification was based on faith in Jesus Christ alone and not both faith and arising charitable acts , as in the Catholic view. [ 3 ] : 23 In the Lutheran, Anglican and Reformed view, good works were seen as fruits of living faith and part of the process of sanctification which was distinct from justification. [ 4 ] [ 5 ] Protestantism also introduced new ecclesiology . The general points of theological agreement by the different Protestant groups have been more recently summarized as the three solae , though various Protestant denominations disagree on doctrines such as the nature of the real presence of Christ in the Eucharist , with Lutherans accepting a corporeal presence and the Reformed accepting a spiritual presence. [ 6 ] [ 7 ] The spread of Gutenberg's printing press provided the means for the rapid dissemination of religious materials in the vernacular. The initial m"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: Gutenberg's printing press enabled the rapid, mass-scale dissemination of religious materials throughout Europe. According to Wikipedia, the printing press \"led to an information revolution and the unprecedented mass-spread of literature throughout Europe\" and had \"a profound impact on the development of the Renaissance, Reformation, and humanist movements.\" Specifically, \"the spread of Gutenberg's printing press provided the means for the rapid dissemination of religious materials in the vernacular,\" which allowed Protestant ideas\u2014including Martin Luther's Ninety-five Theses (1517) and other reform writings\u2014to reach a much wider audience than would have been possible with hand-copied manuscripts, thereby accelerating the growth and spread of the Protestant Reformation.\n\nSource: Johannes Gutenberg printing press, Protestant Reformation"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Johannes Gutenberg printing press",
+      "api_response": {
+        "pages": [
+          {
+            "id": 15745,
+            "key": "Johannes_Gutenberg",
+            "title": "Johannes Gutenberg",
+            "excerpt": "invented the movable-type <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span>. Though movable type was already in use in East Asia, <span class=\"searchmatch\">Gutenberg&#039;s</span> invention of the <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span> enabled a much faster",
+            "matched_title": null,
+            "anchor": null,
+            "description": "German inventor and craftsman (died 1468)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mainz_Gutenbergdenkmal_2016_%28cropped%29.jpg/60px-Mainz_Gutenbergdenkmal_2016_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 23295,
+            "key": "Printing_press",
+            "title": "Printing press",
+            "excerpt": "of the <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span> was one of the most influential events in the second millennium. In Germany, around 1440, the goldsmith <span class=\"searchmatch\">Johannes</span> <span class=\"searchmatch\">Gutenberg</span> invented",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Mechanism that applies ink to a medium",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/60px-PrintMus_038.jpg"
+            }
+          },
+          {
+            "id": 44723,
+            "key": "Printing",
+            "title": "Printing",
+            "excerpt": "Bi Sheng around 1040 and the <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span> invented by <span class=\"searchmatch\">Johannes</span> <span class=\"searchmatch\">Gutenberg</span> in the 15th century. The technology of <span class=\"searchmatch\">printing</span> played a key role in the development",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Process for reproducing text and images",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Collage_of_printing.png/60px-Collage_of_printing.png"
+            }
+          },
+          {
+            "id": 255041,
+            "key": "Gutenberg_Museum",
+            "title": "Gutenberg Museum",
+            "excerpt": "is named after <span class=\"searchmatch\">Johannes</span> <span class=\"searchmatch\">Gutenberg</span>, the inventor of <span class=\"searchmatch\">printing</span> from movable metal type in Western Europe. The collections include <span class=\"searchmatch\">printing</span> equipment and examples",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Museum in Mainz, Germany",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 45,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Gutenberg-Museum_Mainz_585-vh.jpg/60px-Gutenberg-Museum_Mainz_585-vh.jpg"
+            }
+          },
+          {
+            "id": 7695885,
+            "key": "Global_spread_of_the_printing_press",
+            "title": "Global spread of the printing press",
+            "excerpt": "Following the invention of the <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span> in the German city of Mainz by <span class=\"searchmatch\">Johannes</span> <span class=\"searchmatch\">Gutenberg</span> c.\u20091439, Western <span class=\"searchmatch\">printing</span> technology spread across the world",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 65,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Printing_towns_incunabula.svg/60px-Printing_towns_incunabula.svg.png"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Johannes Gutenberg German inventor and craftsman (died 1468) \"Gutenberg\" redirects here. For the Bible, see Gutenberg Bible . For other uses, see Gutenberg (disambiguation) . Johannes Gutenberg Gutenberg Monument by Bertel Thorvaldsen , erected 1837. [ a ] Born Johannes Gensfleisch zur Laden zum Gutenberg c. 1393\u20131406 Mainz Died 3 February 1468 (aged 61\u201375) Mainz Occupations Inventor craftsman Known for Inventing the printing press Introducing movable type to Europe Johannes Gensfleisch zur Laden zum Gutenberg [ b ] ( c. 1393\u20131406 \u2013 3 February 1468) was a German inventor and craftsman who invented the movable-type printing press . Though movable type was already in use in East Asia, Gutenberg's invention of the printing press [ 2 ] enabled a much faster rate of printing . The printing press later spread across the world , [ 3 ] and led to an information revolution and the unprecedented mass-spread of literature throughout Europe. It had a profound impact on the development of the Renaissance , Reformation , and humanist movements. Gutenberg's many contributions to printing include the invention of a process for mass-producing movable type; the use of oil-based ink for printing books; [ 4 ] adjustable molds; [ 5 ] mechanical movable type; and the invention of a wooden printing press similar to the agricultural screw presses of the period. [ 6 ] Gutenberg's method for making type is traditionally considered to have included a type metal alloy and a hand mould for casting type. The alloy was a mixture of lead, tin , and antimony that melted at a relatively low temperature for faster and more economical casting, cast well, and created a durable type. [ 7 ] His major work, the Gutenberg Bible , was the first printed version of the Bible and has been acclaimed for its high aesthetic and technical quality. Gutenberg is often cited as among the most influential figures in human history and has been commemorated around the world. To celebrate the 500th anniversary of his birth, the Gutenberg Museum was founded in his hometown of Mainz in 1900. In 1997, Time Life picked Gutenberg's invention as the most important of the second millennium. [ 8 ] Life and career Early life Coat of arms of the Gensfleisch family, from the Register of Fiefs of Frederick I (1461) [ 9 ] Johannes Gutenberg was born in Mainz (in modern-day Germany), a wealthy city along the Rhine , between the 14th and 15th centuries. [ 1 ] [ 10 ] His exact year of birth is unknown; on the basis of a later document indicating that he came of age by 1420, scholarly estimates have ranged from 1393 to 1406. [ 11 ] [ c ] The year 1400 is commonly assigned to Gutenberg, \"for the sake of convenience\". [ 13 ] Tradition also holds his birthdate to be on the feast day of Saint John the Baptist , 24 June, since children of the time were often named after their birthday's patron saint . [ 15 ] There is no verification for this assumption, since the name \"Johannes\"\u2014and variants such as \"Johann\", \"Henne\", \"Hengin\" and \"Henchen\"\u2014was widely popular at the time. [ 11 ] In full, Gutenberg's name was \"Johannes Gensfleisch zur Laden zum Gutenberg\", with \"Laden\" and \"Gutenberg\" being adopted from the family's residences in Mainz. [ 13 ] The latter refers to the Hof zum Gutenberg , a large and now destroyed Gothic -style residence inherited by Gutenberg's father. [ 16 ] Gutenberg probably spent his earliest years at the manor, which existed beside St. Christoph's . [ 1 ] [ d ] His father Friele Gensfleisch zur Laden was a patrician and merchant, likely in the cloth trade . [ 15 ] Friele later served among the \"master of the accounts\" for the city and was a M\u00fcnzerhausgenossenschaft ( lit. ' minting house cooperative ' ), a part of the mint 's companionship. [ 18 ] [ e ] In 1386 Friele married his second wife, Else Wyrich, the daughter of a shopkeeper; Johannes was probably the youngest of the couple's three children, after his brother Friele ( b. c. 1387 ) and sister Else ( b. c. 1390\u20131397 ). [ 19 ] [ f ] Scholars commonly assume that the marriage of Friele to Else, who was not of patrician lineage, complicated Gutenberg's future. [ 20 ] Because of his mother's commoner status, Gutenberg would never be able to succeed his father at the mint; [ 21 ] according to the historian Ferdinand Geldner [ de ] this disconnect may have disillusioned him from high society and encouraged his unusual career as an inventor. [ 22 ] [ g ] The patrician ( Patrizier ) class of Mainz\u2014the Gutenbergs included\u2014held a privileged socioeconomic status, and their efforts to preserve this put them into frequent conflict with the younger generations of guild ( Z\u00fcnfte ) craftsmen. [ 24 ] [ 25 ] A particularly violent conflict arose in February 1411 amid an election dispute, and at least 117 patricians fled the conflict in August. [ 15 ] [ 26 ] Friele left, presumably with the Gutenberg family, and probably stayed in the nearby Eltville since Else had inherited a house on the town walls there. [ 27 ] [ 26 ] The archbishop mediated a peace between the rival parties, allowing the family to return to Mainz later that Autumn. [ 28 ] The situation remained unstable and the rise of hunger riots forced the Gutenberg family to leave in January 1413 for Eltville. [ 28 ] Education No documents survive concerning Gutenberg's childhood or youth. [ 20 ] The biographer Albert Kapr [ de ] remarked that \"most books on Gutenberg pass over this period with the remark that not a single fact is known\". [ 29 ] As the son of a patrician, education in reading and arithmetic would have been expected. [ 30 ] A knowledge of Latin \u2014a prerequisite for universities\u2014is also probable, though it is unknown whether he attended a Mainz parish school, was educated in Eltville or had a private tutor. [ 31 ] Gutenberg may have initially pursued a religious career, as was common with the youngest sons of patricians, since the proximity of many churches and monasteries made it a safe prospect. [ 30 ] It has been speculated that he attended the St. Victor's [ de ] south of Mainz (near Weisenau [ de ] ), as he would later join their brotherhood. [ 15 ] It was the site of a well-regarded school and his family had connections there, though his actual attendance remains speculative. [ 32 ] Gutenberg is assumed to have studied at the University of Erfurt , where there is a record of the enrollment of a student called Johannes de Altavilla in 1418\u2014Altavilla is the Latin form of Eltville am Rhein. [ 33 ] Nothing is known of Gutenberg's life for the next fifteen years; however, in March 1434, a letter by him indicates that he was living in Strasbourg , where he had some relatives on his mother's side. He also appears to have been a goldsmith member enrolled in the Strasbourg militia . In 1437, there is evidence that he was instructing a wealthy tradesman on polishing gems, but where he had acquired this knowledge is unknown. In 1436/37 his name also comes up in court in connection with a broken promise of marriage to a woman from Strasbourg, Ennelin. [ 34 ] Whether the marriage actually took place is not recorded. Following his father's death in 1419, he is mentioned in the inheritance proceedings. Printing press Further information: Global spread of the printing press What was written to me about that marvelous man [Gutenberg] seen at Frankfurt [ sic ] entirely true. I have not seen complete bibles but only a number of quires of various books [of the Bible]. The script is extremely neat and legible, not at all difficult to follow [You] would be able to read it without effort, and indeed without glasses \u2014 Future pope Pius II in a letter to Cardinal Carvajal , March 1455 [ 35 ] Around 1439, Gutenberg was involved in a financial misadventure making polished metal mirrors (which were believed to capture holy light from religious relics) for sale to pilgrims to Aachen : in 1439 the city was planning to exhibit its collection of relics from Emperor Charlemagne but the event was delayed by one year due to",
+      "content_source": "page/Johannes_Gutenberg/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Protestant Reformation",
+      "api_response": {
+        "pages": [
+          {
+            "id": 37857,
+            "key": "Reformation",
+            "title": "Reformation",
+            "excerpt": "The <span class=\"searchmatch\">Reformation</span>, also known as the <span class=\"searchmatch\">Protestant</span> <span class=\"searchmatch\">Reformation</span> or the European <span class=\"searchmatch\">Reformation</span>, was a major theological movement in Western Christianity in 16th-century",
+            "matched_title": null,
+            "anchor": null,
+            "description": "16th-century movement in Western Christianity",
+            "thumbnail": null
+          },
+          {
+            "id": 18974659,
+            "key": "English_Reformation",
+            "title": "English Reformation",
+            "excerpt": "Henry relied on <span class=\"searchmatch\">Protestants</span> to support and implement his religious agenda. Ideologically, the groundwork for the subsequent <span class=\"searchmatch\">Reformation</span> was laid by Renaissance",
+            "matched_title": null,
+            "anchor": null,
+            "description": "16th-century Christian movement",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 81,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Henry_VIII_%281%29_by_Hans_Holbein_the_Younger.jpg/60px-Henry_VIII_%281%29_by_Hans_Holbein_the_Younger.jpg"
+            }
+          },
+          {
+            "id": 6987580,
+            "key": "Scottish_Reformation",
+            "title": "Scottish Reformation",
+            "excerpt": "The Scottish <span class=\"searchmatch\">Reformation</span> was the process whereby Scotland broke away from the Catholic Church, and established the <span class=\"searchmatch\">Protestant</span> Church of Scotland. It forms",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Movement that established the Church of Scotland",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Statue_of_John_Knox_in_New_College_quadrangle%2C_Edinburgh.jpg/60px-Statue_of_John_Knox_in_New_College_quadrangle%2C_Edinburgh.jpg"
+            }
+          },
+          {
+            "id": 9410290,
+            "key": "Art_in_the_Protestant_Reformation_and_Counter-Reformation",
+            "title": "Art in the Protestant Reformation and Counter-Reformation",
+            "excerpt": "The <span class=\"searchmatch\">Protestant</span> <span class=\"searchmatch\">Reformation</span> during the 16th century in Europe almost entirely rejected the existing tradition of Catholic art, and very often destroyed",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 51,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Noli_me_tangere_by_Hans_Holbein_d._J._-_Hampton_Court_Palace.jpg/60px-Noli_me_tangere_by_Hans_Holbein_d._J._-_Hampton_Court_Palace.jpg"
+            }
+          },
+          {
+            "id": 58263681,
+            "key": "Proto-Protestantism",
+            "title": "Proto-Protestantism",
+            "excerpt": "usually regard as the starting year for the <span class=\"searchmatch\">Reformation</span> era. The relationship between medieval sects and <span class=\"searchmatch\">Protestantism</span> is an issue that has been debated by historians",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Precursors to the Protestant Reformation",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 84,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Portrait_of_John_Wycliffe.jpg/60px-Portrait_of_John_Wycliffe.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Reformation 16th-century movement in Western Christianity For other uses, see Reformation (disambiguation) . Part of a series on the Reformation Ninety-five Theses , written by Martin Luther in 1517 Precursors Peter Waldo and Waldensians John Wycliffe and Lollardy Jan Hus and Hussites Girolamo Savonarola and Piagnoni Arnold of Brescia and Arnoldists Peter of Bruys and Petrobrusians Henry of Lausanne and Henricians Berengar of Tours and Berengarians Friends of God Pataria Gottschalk of Orbais Ratramnus Claudius of Turin Wessel Gansfort Johann Ruchrat von Wesel Johannes von Goch Gundolfo Beginning Ninety-five Theses Diet of Worms Luther Bible Magisterials Radicals Contributing factors Western Schism Avignon Papacy Bohemian Reformation Northern Renaissance Christian humanism German mysticism Johannes Gutenberg and his printing press Erasmus Johann Reuchlin Theologies of seminal figures Theology of Martin Luther Theology of Huldrych Zwingli Theology of John Calvin Protestant Reformers Martin Luther Philip Melanchthon Huldrych Zwingli John Calvin Martin Bucer William Tyndale Andreas Karlstadt Theodore Beza George Buchanan Heinrich Bullinger Peter Martyr Vermigli William Farel Fran\u00e7ois Hotman John Knox Hubert Languet Thomas M\u00fcntzer Balthasar Hubmaier Menno Simons Thomas Cranmer Richard Hooker Jacobus Arminius Thomas Helwys Roger Williams Henry Denne Many others By location Germany Switzerland ( Geneva / Z\u00fcrich ) England Scotland Netherlands Czech Lands Hungary Romania Slovenia Denmark\u2013Norway and Holstein Sweden and Finland Iceland Estonia and Latvia Austria France Italy Poland-Lithuania Ireland Major political leaders Henry VIII Elizabeth I Oliver Cromwell James VI and I William the Silent Gaspard II de Coligny Henry IV of France Jeanne d'Albret Stephen Bocskai Gabriel Bethlen Gustav II Adolf Frederick V, Elector Palatine Philip I of Hesse Electors of Saxony Frederick III John Frederick I Counter-Reformation Catholic Church Council of Trent Counter-Reformation \u00a7 Politics Censorship of the Bible \u00a7 16th century Anti-Protestantism Criticism Holy Roman Emperors Charles V Ferdinand II Political and religious conflicts Thirty Years' War French Wars of Religion Eighty Years' War War of the Three Kingdoms German Peasants' War Wars of Kappel Schmalkaldic War Art and literature Painting and sculpture Northern Mannerism Lutheran art German Renaissance Art Swedish art English art Woodcuts Art conflicts Beeldenstorm Building Influence on church architecture Literature Elizabethan Metaphysical poets Propaganda Welsh Scottish Anglo-Irish German Czech Swiss Slovak Sorbian Romanian Danish Bohori\u010d alphabet Faroese Norwegian Swedish Finnish Icelandic Dutch Renaissance and Golden Age Folklore of the Low Countries 16th century Renaissance humanism 16th century in poetry 16th century in literature Theater English Renaissance theatre Pastoral Morality History Tragedy Revenge Music Forms Hymnody of continental Europe Music of the British Isles Hymn tune Lutheran chorale Lutheran hymn Anglican church music Exclusive psalmody Scottish church music Normative principle Anglican chant Homophony vs. Polyphony Falsobordone Verse anthem Liturgies Reformed worship Calvin's liturgy Formula missae Deutsche Messe Liturgical Struggle Ecclesiastical Latin Lutheran and Anglican Mass in music Cyclic mass vs. Paraphrase mass Roman vs. Sarum Rites Sequence (retained by Lutherans, mostly banned by Trent) Hymnals First and Second Lutheran hymnals First Wittenberg hymnal Ausbund Swenske songer Thomiss\u00f8n's hymnal Book of Common Prayer Metrical psalters Book of Common Order Souterliedekens Genevan Psalter Scottish Psalter Whole Book of Psalms Conclusion and commemorations Conclusion Confessionalization with subsequent Protestant orthodoxy Peace of Westphalia Simultaneous rise of Pietism and Rationalism Monuments Reformation Wall Luther Monuments Calendrical commemoration Reformation Day Lutheran Anglican Protestantism v t e Part of a series on Protestantism Outline Concepts Anti-Protestantism Bible Criticism Culture Demographics Ecclesiology Liturgy Relations with Catholics Theologies Five Solas History Proto-Protestantism Bohemian Reformation Reformation Magisterial Radical Counter Martin Luther Ninety-five Theses Augsburg Confession Huldrych Zwingli John Calvin Arminianism Crypto-Protestantism Nonconformists Dissenters Puritans John Wesley Pietism Great Awakenings in America Revival meetings Branches Proto-Protestants Hussites Waldensians Lutherans Reformed Continental Presbyterians Congregational Anglicans Continuing Anabaptists Amish Hutterites Mennonites Quakers Baptists Black church Methodists Radical Pietism Shakers Stone-Campbell Plymouth Brethren Pentecostals Adventist Irvings Holiness Keswickians Eastern Protestant United and uniting churches Nondenominational Movements Augsburg Catholics Charismatics Neo-Charismatics Confessionalism Confessing Movement Convergence Church Growth Ecumenism Emerging church Evangelicalism Fundamentalism High church Liberalism Mainlines Neo-charismatics Neo-orthodoxy New Calvinism Paleo-orthodoxy Progressivism Spiritual Christianity Christianity portal v t e Part of a series on Christianity Jesus Christ Nativity Baptism Ministry Crucifixion Resurrection Ascension Bible Foundations Old Testament New Testament Gospel Canon Church Prophets Creed New Covenant Theology God Trinity Father Son Holy Spirit Apologetics Baptism Christology History of theology Salvation Universalism History Tradition Apostles Peter Paul Mary Early Christianity Church Fathers Constantine Councils Augustine Three Holy Hierarchs East\u2013West Schism Crusades Aquinas Reformation Luther Denominations (list) Western Latin-rite Catholic Independent Catholic Protestant Anabaptist Anglican Baptist Evangelical Holiness Lutheran Methodist Moravian Pentecostal Quaker Reformed Western Orthodox Eastern Eastern Orthodox Oriental Orthodox East Syriac Eastern Catholic Eastern Protestant Restorationist Adventist Jehovah's Witness Latter Day Saint Swedenborgian Unitarian Related topics Anti-Christian sentiment Adherents Criticism Culture Ecumenism Liturgy Mission Other religions Prayer Sermon Symbolism Western society Worship Glossary Index Outline Christianity portal v t e The Reformation , also known as the Protestant Reformation or the European Reformation , [ 1 ] was a major theological movement in Western Christianity in 16th-century Europe that posed a religious and political challenge to the papacy and the authority of the Catholic Church hierarchy. Towards the end of the Renaissance , the Reformation marked the beginning of Protestantism . It is considered one of the events that signified the end of the Middle Ages and the beginning of the early modern period in Europe. [ 2 ] The Reformation is usually dated from Martin Luther 's publication of the Ninety-five Theses in 1517, which gave birth to Lutheranism . Prior to Martin Luther and other Protestant Reformers , there were earlier reform movements within Western Christianity. The end of the Reformation era is disputed among modern scholars. In general, the Reformers argued that justification was based on faith in Jesus Christ alone and not both faith and arising charitable acts , as in the Catholic view. [ 3 ] : 23 In the Lutheran, Anglican and Reformed view, good works were seen as fruits of living faith and part of the process of sanctification which was distinct from justification. [ 4 ] [ 5 ] Protestantism also introduced new ecclesiology . The general points of theological agreement by the different Protestant groups have been more recently summarized as the three solae , though various Protestant denominations disagree on doctrines such as the nature of the real presence of Christ in the Eucharist , with Lutherans accepting a corporeal presence and the Reformed accepting a spiritual presence. [ 6 ] [ 7 ] The spread of Gutenberg's printing press provided the means for the rapid dissemination of religious materials in the vernacular. The initial m",
+      "content_source": "page/Reformation/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: Gutenberg's printing press enabled the rapid, mass-scale dissemination of religious materials throughout Europe. According to Wikipedia, the printing press \"led to an information revolution and the unprecedented mass-spread of literature throughout Europe\" and had \"a profound impact on the development of the Renaissance, Reformation, and humanist movements.\" Specifically, \"the spread of Gutenberg's printing press provided the means for the rapid dissemination of religious materials in the vernacular,\" which allowed Protestant ideas\u2014including Martin Luther's Ninety-five Theses (1517) and other reform writings\u2014to reach a much wider audience than would have been possible with hand-copied manuscripts, thereby accelerating the growth and spread of the Protestant Reformation.\n\nSource: Johannes Gutenberg printing press, Protestant Reformation",
+  "total_tool_calls": 2,
+  "latency_ms": 11366,
+  "error": null
+}

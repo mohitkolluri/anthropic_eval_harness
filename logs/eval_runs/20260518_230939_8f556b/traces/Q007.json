@@ -1,0 +1,119 @@
+{
+  "eval_id": "Q007",
+  "run_id": "20260518_230939_8f556b",
+  "prompt_version": "v2",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What is the name of the 1987 arms control agreement between the US and the Soviet Union that eliminated an entire category of nuclear missiles, and what type of missiles were banned?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What is the name of the 1987 arms control agreement between the US and the Soviet Union that eliminated an entire category of nuclear missiles, and what type of missiles were banned?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01DfaJNATM2beGunkVMuYj59",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "1987 arms control agreement US Soviet Union nuclear missiles"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DfaJNATM2beGunkVMuYj59",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01XJmXisArG9CyAaarEwKEKi",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "INF Treaty"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01XJmXisArG9CyAaarEwKEKi",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01WcybDPYcM91Jxc9oUcGx8X",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Intermediate-Range Nuclear Forces Treaty"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01WcybDPYcM91Jxc9oUcGx8X",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find relevant information on Wikipedia for this question. My searches for the 1987 arms control agreement and related terms did not return results with the specific details you're asking about.\n\nAnswer: I could not find relevant information on Wikipedia for this question.\nSource: N/A"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "1987 arms control agreement US Soviet Union nuclear missiles",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "INF Treaty",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "Intermediate-Range Nuclear Forces Treaty",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "I could not find relevant information on Wikipedia for this question. My searches for the 1987 arms control agreement and related terms did not return results with the specific details you're asking about.\n\nAnswer: I could not find relevant information on Wikipedia for this question.\nSource: N/A",
+  "total_tool_calls": 3,
+  "latency_ms": 13462,
+  "error": null
+}

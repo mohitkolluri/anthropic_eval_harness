@@ -1,0 +1,233 @@
+{
+  "eval_id": "Q015",
+  "run_id": "20260518_232324_8f556b",
+  "prompt_version": "v2",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "How did the invention of the cotton gin in 1793 lead to the expansion of slavery in the American South?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "How did the invention of the cotton gin in 1793 lead to the expansion of slavery in the American South?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01MbfqF88zaNmd8WaHxBzeV5",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "cotton gin"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01THYh4NbyaEsPuy9TtQ4Rbo",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "slavery American South expansion"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01MbfqF88zaNmd8WaHxBzeV5",
+          "content": "Cotton gin Machine that separates cotton from seeds Model of a 19th-century cotton gin on display at the Eli Whitney Museum in Hamden, Connecticut A cotton gin \u2014meaning \"cotton engine \" [ 1 ] [ 2 ] \u2014is a machine that quickly and easily separates cotton fibers from their seeds, enabling much greater productivity than manual cotton separation. [ 3 ] The separated seeds may be used to grow more cotton or to produce cottonseed oil . Handheld roller gins had been used in the Indian subcontinent since at earliest 500 and later in other regions. [ 4 ] The Indian worm-gear roller gin was invented sometime around the 16th century [ 5 ] and has, according to Lakwete, remained virtually unchanged up to the present time. A modern mechanical cotton gin was created by American inventor Eli Whitney in 1793 and patented in 1794. Whitney's gin used a combination of a wire screen and small wire hooks to pull the cotton through, while brushes continuously removed the loose cotton lint to prevent jams. It made cotton farming more profitable, leading to a boom in cotton production in the United States. [ 6 ] This inadvertently led to an increase in the use of slaves. Whitney had hoped his invention would do the opposite by reducing the amount of labor needed to process cotton, but he never invented a machine to harvest cotton. That job still had to be done by hand. Cotton harvesting machines did not show up until the 1930s. So as cotton farmers expanded their plantations, they bought more slaves to pick the cotton. Modern automated cotton gins use multiple powered cleaning cylinders and saws, and offer far higher productivity than their hand-powered precursors. [ 7 ] Purpose A cotton boll. Each boll contains several dozen seeds. [ 8 ] Cotton fibers are produced in the seed pods (\"bolls\") of the cotton plant where the fibers (\"lint\") in the bolls are tightly interwoven with seeds. To make the fibers usable, the seeds and fibers must first be separated, a task which had been previously performed manually, with production of cotton requiring hours of labor for the separation. Many simple seed-removing devices had been invented, but until the innovation of the cotton gin, most required significant operator attention and worked only on a small scale. [ 9 ] Mechanism This section needs expansion with: details about other kinds of gins; Whitney's is not the only kind. You can help by adding missing information . ( February 2023 ) Whitney's gin is made with two rotating cylinders. The first cylinder has lines of teeth around the circumference, and angled against this cylinder is a metal plate with small holes, \"ginning ribs\", through which the teeth can fit with minimal gaps. The teeth grip the cotton fibers as the mechanism rotates, dragging them through these small holes. The seeds are too big to fit through the holes, and are thus removed from the rotating cotton by the metal plate, before they fall into a collecting pot. On the other side of the first cylinder, there is a second cylinder, also rotating, with brushes attached. This second cylinder wipes the cotton from the first, and deposits it into the collecting bucket. The seed is reused for planting or is sent to an oil mill to be further processed into cottonseed oil and cottonseed meal . The lint cleaners again use saws and grid bars, this time to separate immature seeds and any remaining foreign matter from the fibers. The bale press then compresses the cotton into bales for storage and shipping. Modern gins can process up to 15 tonnes (33,000 lb) of cotton per hour. History An Indian woman ginning cotton c. 1815\u201320 A single-roller cotton gin came into use in India by the 5th century. An improvement invented in India was the two-roller gin, known as the \"churka\", \"charki\", or \"wooden-worm-worked roller\". [ 10 ] Early cotton gins The earliest versions of the cotton gin consisted of a single roller made of iron or wood and a flat piece of stone or wood. The earliest evidence of the cotton gin is found in the fifth century, in the form of Buddhist paintings depicting a single-roller gin in the Ajanta Caves in western India . [ 4 ] These early gins were difficult to use and required a great deal of skill. A narrow single roller was necessary to expel the seeds from the cotton without crushing the seeds. The design was similar to that of a mealing stone , which was used to grind grain. The early history of the cotton gin is ambiguous, because archeologists likely mistook the cotton gin's parts for other tools. [ 4 ] Medieval and Early Modern India A Neuthoni, a type of worm gear cotton gin from Assam Between the 12th and 14th centuries, dual-roller gins appeared in India and China. The Indian version of the dual-roller gin was prevalent throughout the Mediterranean cotton trade by the 16th century. This mechanical device was, in some areas, driven by waterpower. [ 11 ] The worm gear roller gin, which was invented in the Indian subcontinent during the early Delhi Sultanate era of the 13th to 14th centuries, came into use in the Mughal Empire sometime around the 16th century, [ 12 ] and is still used in the Indian subcontinent through to the present day. [ 4 ] Another innovation, the incorporation of the crank handle in the cotton gin, first appeared sometime during the late Delhi Sultanate or the early Mughal Empire. [ 13 ] The incorporation of the worm gear and crank handle into the roller cotton gin led to greatly expanded Indian cotton textile production during the Mughal era. [ 14 ] It was reported that, with an Indian cotton gin, which is half machine and half tool, one man and one woman could clean 28 pounds of cotton per day. With a modified Forbes version, one man and a boy could produce 250 pounds per day. If oxen were used to power 16 of these machines, and a few people's labor was used to feed them, they could produce as much work as 750 people did formerly. [ 15 ] United States \"The First Cotton Gin\", an engraving from Harper's Magazine , 1869. This carving depicts a roller gin being used by African slaves, which preceded Eli Whitney's invention. [ 16 ] The Indian roller cotton gin, known as the churka or charkha , was introduced to the United States in the mid-18th century, when it was adopted in the southern United States . The device was adopted for cleaning long-staple cotton but was not suitable for the short-staple cotton that was more common in certain states such as Georgia . Several modifications were made to the Indian roller gin by Hugo Krebs in 1772 and Joseph Eve in 1788, but their uses remained limited to the long-staple variety, up until Eli Whitney's development of a short-staple cotton gin in 1793. [ 17 ] Eli Whitney's patent Eli Whitney's original cotton gin patent, dated March 14, 1794 Eli Whitney (1765\u20131825) applied for a patent of his cotton gin on October 28, 1793; the patent was granted on March 14, 1794, but was not validated until 1807. Whitney's patent was assigned patent number 72X. [ 18 ] There is slight controversy over whether the idea of the modern cotton gin and its constituent elements are correctly attributed to Eli Whitney. The pamphlet \"Woman as Inventor,\" published in 1883, claimed Catharine Littlefield Greene suggested to Whitney the use of a brush-like component instrumental in separating out the seeds and cotton. [ 19 ] [ 20 ] Whitney's cotton gin model was capable of cleaning 50 pounds (23 kg) of lint per day. The model consisted of a wooden cylinder covered by rows of slender wires which caught the fibers of the cotton bolls. Each row of wires then passed through the bars of a comb-like grid, pulling the cotton fibers through the grid as they did. [ 21 ] The comb-like teeth of the grids were closely spaced, preventing the seeds, fragments of the hard dried calyx of the original cotton flower, or sticks and other debris attached to the fibers from passing through. A series of brushes on a second rotating cylinder then brushed the now-cleaned fibers loose from the wires,"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01THYh4NbyaEsPuy9TtQ4Rbo",
+          "content": "Slavery in the United States This article is about slavery from the founding of the United States in 1776. For the colonial period, see Slavery in the colonial history of the United States . For modern illegal slavery, see Human trafficking in the United States . For modern legal forced labor, see Penal labor in the United States . \"Peculiar institution\" redirects here. For the book, see The Peculiar Institution . See also: Abolitionism in the United States This article may be too long to read and navigate comfortably . When this tag was added, its readable prose size was 19,683 words. Consider splitting content into sub-articles, condensing it, or adding subheadings . Please discuss this issue on the article's talk page . ( May 2025 ) Whipping a slave , wood-engraving made 1834; Wilson Chinn , showing a slave collar and facial branding of the initials of his enslaver, Valsin B. Marmillion; slavery survivor Adam Crosswhite photographed 1878; Franklin & Armfield 's slave jail in Alexandria , D.C. , 1836; freedmen leaving South Carolina on the USS Vermont in 1862; Delia Garlic at age 100; 1818 Kentucky slave trader 's ad; daguerreotype made at the 1850 Fugitive Slave Convention ; White Gold in the Delta , painted 1939 by Beulah Bettersworth for the Indianola, Mississippi post office, mural destroyed 1960s Part of a series on Forced labor and slavery Contemporary Child labor Child soldiers Conscription CSEC Debt bondage India Forced marriage Bride buying Child marriage Wife selling Forced prostitution Human trafficking Child China Cybersex Europe Fraud factory India United States Involuntary servitude ... in 21st-century jihadism ... in Africa Peonage Penal labor United States Sex trafficking China Europe United States Sexual slavery Wage slavery Historical Antiquity Babylonia Egypt Greece Rome Medieval Europe Ancillae Black Sea slave trade Byzantine Empire Genoese slave trade Kholop Prague slave trade Serfs History In Russia Emancipation Thrall Venetian slave trade Balkan slave trade Muslim world Baqt Barbary Coast slave trade pirates Sack of Baltimore Slave raid of Su\u00f0uroy Turkish Abductions Bukhara slave trade Concubinage history Ma malakat aymanukum Avret Pazarlar\u0131 Harem Abbasid harem Ottoman Imperial Harem Safavid imperial harem Qajar harem Jarya / Cariye Odalisque Qiyan Umm al-walad Circassian slave trade Contract of manumission Crimean slave trade Kafala system Kazakh raids into Russia Khazar slave trade Khivan slave trade Ottoman Empire Avret Pazarlar\u0131 Saqaliba Slavery in the Abbasid Caliphate Slavery in al-Andalus Slavery in the Rashidun Caliphate Slavery in the Umayyad Caliphate Slavery in the Abbasid Caliphate Volga Bulgarian slave trade 21st century Atlantic slave trade Brazil Bristol Database Dutch Middle Passage Nantes New France Panyarring Spanish Empire Slave Coast Thirteen colonies Topics and practice Blackbirding Child soldiers Conscription Devshirme Ghilman Mamluk Coolie Corv\u00e9e labor Drapetomania Dysaesthesia aethiopica Field slaves in the United States Treatment Gladiator Gladiatrix House slaves Planter class Proslavery thought Saqaliba Seasoning Slave market Slave Power Slave raiding Slavocracy Voluntary slavery White slavery Naval Galley slave Impressment Pirates Shanghaiing Slave ship By country or region Sub-Saharan Africa Contemporary Africa Trans-Saharan slave trade Red Sea slave trade Indian Ocean slave trade Zanzibar slave trade Angola Chad Comoros Ethiopia Mali Mauritania Niger Nigeria Seychelles Somalia Somali slave trade South Africa Sudan Zanzibar North and South America Pre-Columbian America Aztec Americas Indigenous U.S. Natives United States field slaves female contemporary maps partus prison labor slave codes treatment interregional proslavery sexual slavery The Bahamas Canada Caribbean Barbados British Virgin Islands Trinidad Code Noir Latin America Brazil Lei \u00c1urea Colombia Cuba Haiti revolt Restavek ( Encomienda ) Puerto Rico East, Southeast, and South Asia Haruwa-charuwa Human trafficking in Southeast Asia Bhutan Brunei China Booi Aha Eunuchs Laogai penal system India Debt bondage Chukri System Bawi system Indonesia Japan comfort women Karayuki-san Korea Kwalliso Nobi Malaysia Maldives Slavery in the Mongol Empire Thailand Yankee princess Vietnam Australia and Oceania Australia Human trafficking Blackbirding Slave raiding in Easter Island Human trafficking in Papua New Guinea Blackbirding in Polynesia Europe and North Asia Sex trafficking in Europe United Kingdom Penal Labor Slavery Albania Bulgaria Denmark Dutch Republic Finland France Georgia Germany in World War II Hungary Malta Norway Poland Portugal Romania Russia Serbia Spain Sweden Switzerland North Africa and West Asia Afghanistan Bacha bazi Algeria Bahrain Egypt Human trafficking in the Middle East Iran Iraq Jordan Kuwait Lebanon Libya Morocco Oman Palestine Saudi Arabia Syria Tunisia Qatar Yemen United Arab Emirates Religion Bible Christianity Catholicism Mormonism Islam Judaism Zoroastrianism Bah\u00e1\u02bc\u00ed Faith Opposition and resistance Abolitionism U.K. U.S. Brussels Anti-Slavery Conference 1889\u201390 Temporary Slavery Commission 1926 Slavery Convention Committee of Experts on Slavery Advisory Committee of Experts on Slavery Ad Hoc Committee on Slavery Supplementary Convention on the Abolition of Slavery Abolitionists Anglo-Egyptian Slave Trade Convention Anti-Slavery International Blockade of Africa U.K. U.S. Colonization Liberia Sierra Leone Compensated emancipation Freedman Manumission Freedom suit Slave Power Underground Railroad songs Slave rebellion Slave Trade Acts International law Third Servile War 13th Amendment to the United States Constitution Timeline of abolition of slavery and serfdom Abolition of slave trade in Persian gulf [ fa ] Related Black triangle (badge) Common law Critique of political economy Critique of work Extermination through labour Forced labor Forced Labour Convention Fugitive slaves laws convention Great Dismal Swamp maroons Indentured servitude Infinite workday List of slaves owners last survivors of American slavery List of slavery-related memorials and museums Refusal of work Right to rest and leisure Slave catcher Slave marriages in the United States Slave narrative films songs Slave name Slave patrol Slave Route Project breeding court cases Washington Jefferson J.Q. Adams Lincoln Emancipation Proclamation 40 acres Freedmen's Bureau Iron bit Emancipation Day v t e Part of a series on ethnic African Americans History Periods Timeline Atlantic slave trade Abolitionism in the United States Slavery in the colonial history of the US Revolutionary War Antebellum period Slavery and military history during the Civil War Reconstruction era Politicians Juneteenth Civil rights movement (1865\u20131896) Jim Crow era (1896\u20131954) Civil rights movement (1954\u20131968) Black power movement Post\u2013civil rights era Aspects Agriculture history Black Belt in the American South Business history Military history Treatment of the enslaved Migrations Great Migration Second Great Migration New Great Migration Culture Lifeways Dance Family structure Film Folktales Music Musical theater Names Neighborhoods Newspapers Soul food Schools Education during the slave period in the US Education of freed people during the Civil War History of African-American education , after the Civil War Historically black colleges and universities Fraternities Academic study Studies Art Literature Celebrations Martin Luther King Jr. Day Black History Month Juneteenth Kwanzaa Economic class African-American businesses Middle class Upper class Billionaires Symbols and ideas African-American beauty Black is beautiful Black pride African-American hair Good hair Stepping \" Lift Every Voice and Sing \" Self-determination Religion Institutions Black church Black Catholicism Black Catholic Movement Theologies Black theology Womanist theology Non-Christian groups Hoodoo Black Hebrew Israelites African-American Jews African-American Muslims Nation of Islam Louisiana Voodoo African Diaspora R"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "The search results provide clear information about the cotton gin's impact on slavery. Let me provide the answer based on what I found.\n\nAnswer: Eli Whitney's cotton gin, patented in 1794, dramatically increased the profitability and productivity of cotton processing by separating cotton fibers from seeds much faster than manual labor. However, because the machine only processed the cotton after harvest and did not automate cotton picking itself (harvesting machines did not appear until the 1930s), cotton farmers responded to the boom in demand by expanding their plantations and purchasing more enslaved people to pick the cotton by hand. This unintended consequence greatly increased the use of slaves in the American South, despite Whitney's hope that his invention would reduce labor needs.\n\nSource: Cotton gin"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "cotton gin",
+      "api_response": {
+        "pages": [
+          {
+            "id": 47710,
+            "key": "Cotton_gin",
+            "title": "Cotton gin",
+            "excerpt": "A <span class=\"searchmatch\">cotton</span> <span class=\"searchmatch\">gin</span>\u2014meaning &quot;<span class=\"searchmatch\">cotton</span> engine&quot;\u2014is a machine that quickly and easily separates <span class=\"searchmatch\">cotton</span> fibers from their seeds, enabling much greater productivity",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Machine that separates cotton from seeds",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Cotton_gin_EWM_2007.jpg/60px-Cotton_gin_EWM_2007.jpg"
+            }
+          },
+          {
+            "id": 36806,
+            "key": "Cotton",
+            "title": "Cotton",
+            "excerpt": "<span class=\"searchmatch\">cotton</span>, but much work remains. As of 2014, at least one assembled <span class=\"searchmatch\">cotton</span> genome had been reported. <span class=\"searchmatch\">Cotton</span> Belt <span class=\"searchmatch\">Cotton</span> candy <span class=\"searchmatch\">Cotton</span> carding <span class=\"searchmatch\">Cotton</span> <span class=\"searchmatch\">gin</span>",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Plant fiber from the genus Gossypium",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 43,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/68/CottonPlant.JPG/60px-CottonPlant.JPG"
+            }
+          },
+          {
+            "id": 136768,
+            "key": "Burton,_Texas",
+            "title": "Burton, Texas",
+            "excerpt": "Texas <span class=\"searchmatch\">Cotton</span> <span class=\"searchmatch\">Gin</span> Museum, which is located at the Burton Farmers <span class=\"searchmatch\">Gin</span>. The <span class=\"searchmatch\">gin</span> was built in 1914 and is considered to be the oldest working <span class=\"searchmatch\">cotton</span> <span class=\"searchmatch\">gin</span> in the",
+            "matched_title": null,
+            "anchor": null,
+            "description": "City in Texas, United States",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 35,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/BurtonHistoricDistrict1_%281_of_1%29.jpg/60px-BurtonHistoricDistrict1_%281_of_1%29.jpg"
+            }
+          },
+          {
+            "id": 9732,
+            "key": "Eli_Whitney",
+            "title": "Eli Whitney",
+            "excerpt": "January 8, 1825) was an American inventor, widely known for inventing the <span class=\"searchmatch\">cotton</span> <span class=\"searchmatch\">gin</span> in 1793, one of the key inventions of the Industrial Revolution that shaped",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American inventor (1765\u20131825)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 77,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Eli_Whitney_by_Samuel_Finley_Breese_Morse_1822.jpeg/60px-Eli_Whitney_by_Samuel_Finley_Breese_Morse_1822.jpeg"
+            }
+          },
+          {
+            "id": 61082891,
+            "key": "Prattville_Gin_Factory",
+            "title": "Prattville Gin Factory",
+            "excerpt": "32.459; -86.477 The Daniel Pratt <span class=\"searchmatch\">Cotton</span> <span class=\"searchmatch\">Gin</span> Manufactory (Continental Eagle Corporation 1986\u20132012) was a <span class=\"searchmatch\">cotton</span> <span class=\"searchmatch\">gin</span> factory created by Daniel Pratt in",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Factory in Prattville, Alabama",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 35,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/95/1860_Pratt_Gin_Manufactory_by_Capewell_%26_Kimmel_of_New_York.jpg/60px-1860_Pratt_Gin_Manufactory_by_Capewell_%26_Kimmel_of_New_York.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Cotton gin Machine that separates cotton from seeds Model of a 19th-century cotton gin on display at the Eli Whitney Museum in Hamden, Connecticut A cotton gin \u2014meaning \"cotton engine \" [ 1 ] [ 2 ] \u2014is a machine that quickly and easily separates cotton fibers from their seeds, enabling much greater productivity than manual cotton separation. [ 3 ] The separated seeds may be used to grow more cotton or to produce cottonseed oil . Handheld roller gins had been used in the Indian subcontinent since at earliest 500 and later in other regions. [ 4 ] The Indian worm-gear roller gin was invented sometime around the 16th century [ 5 ] and has, according to Lakwete, remained virtually unchanged up to the present time. A modern mechanical cotton gin was created by American inventor Eli Whitney in 1793 and patented in 1794. Whitney's gin used a combination of a wire screen and small wire hooks to pull the cotton through, while brushes continuously removed the loose cotton lint to prevent jams. It made cotton farming more profitable, leading to a boom in cotton production in the United States. [ 6 ] This inadvertently led to an increase in the use of slaves. Whitney had hoped his invention would do the opposite by reducing the amount of labor needed to process cotton, but he never invented a machine to harvest cotton. That job still had to be done by hand. Cotton harvesting machines did not show up until the 1930s. So as cotton farmers expanded their plantations, they bought more slaves to pick the cotton. Modern automated cotton gins use multiple powered cleaning cylinders and saws, and offer far higher productivity than their hand-powered precursors. [ 7 ] Purpose A cotton boll. Each boll contains several dozen seeds. [ 8 ] Cotton fibers are produced in the seed pods (\"bolls\") of the cotton plant where the fibers (\"lint\") in the bolls are tightly interwoven with seeds. To make the fibers usable, the seeds and fibers must first be separated, a task which had been previously performed manually, with production of cotton requiring hours of labor for the separation. Many simple seed-removing devices had been invented, but until the innovation of the cotton gin, most required significant operator attention and worked only on a small scale. [ 9 ] Mechanism This section needs expansion with: details about other kinds of gins; Whitney's is not the only kind. You can help by adding missing information . ( February 2023 ) Whitney's gin is made with two rotating cylinders. The first cylinder has lines of teeth around the circumference, and angled against this cylinder is a metal plate with small holes, \"ginning ribs\", through which the teeth can fit with minimal gaps. The teeth grip the cotton fibers as the mechanism rotates, dragging them through these small holes. The seeds are too big to fit through the holes, and are thus removed from the rotating cotton by the metal plate, before they fall into a collecting pot. On the other side of the first cylinder, there is a second cylinder, also rotating, with brushes attached. This second cylinder wipes the cotton from the first, and deposits it into the collecting bucket. The seed is reused for planting or is sent to an oil mill to be further processed into cottonseed oil and cottonseed meal . The lint cleaners again use saws and grid bars, this time to separate immature seeds and any remaining foreign matter from the fibers. The bale press then compresses the cotton into bales for storage and shipping. Modern gins can process up to 15 tonnes (33,000 lb) of cotton per hour. History An Indian woman ginning cotton c. 1815\u201320 A single-roller cotton gin came into use in India by the 5th century. An improvement invented in India was the two-roller gin, known as the \"churka\", \"charki\", or \"wooden-worm-worked roller\". [ 10 ] Early cotton gins The earliest versions of the cotton gin consisted of a single roller made of iron or wood and a flat piece of stone or wood. The earliest evidence of the cotton gin is found in the fifth century, in the form of Buddhist paintings depicting a single-roller gin in the Ajanta Caves in western India . [ 4 ] These early gins were difficult to use and required a great deal of skill. A narrow single roller was necessary to expel the seeds from the cotton without crushing the seeds. The design was similar to that of a mealing stone , which was used to grind grain. The early history of the cotton gin is ambiguous, because archeologists likely mistook the cotton gin's parts for other tools. [ 4 ] Medieval and Early Modern India A Neuthoni, a type of worm gear cotton gin from Assam Between the 12th and 14th centuries, dual-roller gins appeared in India and China. The Indian version of the dual-roller gin was prevalent throughout the Mediterranean cotton trade by the 16th century. This mechanical device was, in some areas, driven by waterpower. [ 11 ] The worm gear roller gin, which was invented in the Indian subcontinent during the early Delhi Sultanate era of the 13th to 14th centuries, came into use in the Mughal Empire sometime around the 16th century, [ 12 ] and is still used in the Indian subcontinent through to the present day. [ 4 ] Another innovation, the incorporation of the crank handle in the cotton gin, first appeared sometime during the late Delhi Sultanate or the early Mughal Empire. [ 13 ] The incorporation of the worm gear and crank handle into the roller cotton gin led to greatly expanded Indian cotton textile production during the Mughal era. [ 14 ] It was reported that, with an Indian cotton gin, which is half machine and half tool, one man and one woman could clean 28 pounds of cotton per day. With a modified Forbes version, one man and a boy could produce 250 pounds per day. If oxen were used to power 16 of these machines, and a few people's labor was used to feed them, they could produce as much work as 750 people did formerly. [ 15 ] United States \"The First Cotton Gin\", an engraving from Harper's Magazine , 1869. This carving depicts a roller gin being used by African slaves, which preceded Eli Whitney's invention. [ 16 ] The Indian roller cotton gin, known as the churka or charkha , was introduced to the United States in the mid-18th century, when it was adopted in the southern United States . The device was adopted for cleaning long-staple cotton but was not suitable for the short-staple cotton that was more common in certain states such as Georgia . Several modifications were made to the Indian roller gin by Hugo Krebs in 1772 and Joseph Eve in 1788, but their uses remained limited to the long-staple variety, up until Eli Whitney's development of a short-staple cotton gin in 1793. [ 17 ] Eli Whitney's patent Eli Whitney's original cotton gin patent, dated March 14, 1794 Eli Whitney (1765\u20131825) applied for a patent of his cotton gin on October 28, 1793; the patent was granted on March 14, 1794, but was not validated until 1807. Whitney's patent was assigned patent number 72X. [ 18 ] There is slight controversy over whether the idea of the modern cotton gin and its constituent elements are correctly attributed to Eli Whitney. The pamphlet \"Woman as Inventor,\" published in 1883, claimed Catharine Littlefield Greene suggested to Whitney the use of a brush-like component instrumental in separating out the seeds and cotton. [ 19 ] [ 20 ] Whitney's cotton gin model was capable of cleaning 50 pounds (23 kg) of lint per day. The model consisted of a wooden cylinder covered by rows of slender wires which caught the fibers of the cotton bolls. Each row of wires then passed through the bars of a comb-like grid, pulling the cotton fibers through the grid as they did. [ 21 ] The comb-like teeth of the grids were closely spaced, preventing the seeds, fragments of the hard dried calyx of the original cotton flower, or sticks and other debris attached to the fibers from passing through. A series of brushes on a second rotating cylinder then brushed the now-cleaned fibers loose from the wires,",
+      "content_source": "page/Cotton_gin/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "slavery American South expansion",
+      "api_response": {
+        "pages": [
+          {
+            "id": 253264,
+            "key": "Slavery_in_the_United_States",
+            "title": "Slavery in the United States",
+            "excerpt": "1776 until 1865, predominantly in the <span class=\"searchmatch\">South</span>. <span class=\"searchmatch\">Slavery</span> was found throughout European colonization in the <span class=\"searchmatch\">Americas</span>. From 1526, during the early colonial",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Detail_of_Wilson_Chinn_photograph_%22VBM%22.jpg/60px-Detail_of_Wilson_Chinn_photograph_%22VBM%22.jpg"
+            }
+          },
+          {
+            "id": 6585135,
+            "key": "History_of_slavery",
+            "title": "History of slavery",
+            "excerpt": "the labor-intensive harvesting of rubber drove frontier <span class=\"searchmatch\">expansion</span> and <span class=\"searchmatch\">slavery</span> in Latin <span class=\"searchmatch\">America</span> and elsewhere. Indigenous peoples were enslaved as part",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": null
+          },
+          {
+            "id": 49005,
+            "key": "Atlantic_slave_trade",
+            "title": "Atlantic slave trade",
+            "excerpt": "Britain <span class=\"searchmatch\">Slavery</span> in Canada <span class=\"searchmatch\">Slavery</span> in contemporary Africa <span class=\"searchmatch\">Slavery</span> in pre-Columbian <span class=\"searchmatch\">America</span> <span class=\"searchmatch\">Slavery</span> in the British and French Caribbean <span class=\"searchmatch\">Slavery</span> in the colonial",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Slave trade between Africa and the West",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 97,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Slave_Auction_Ad.jpg/60px-Slave_Auction_Ad.jpg"
+            }
+          },
+          {
+            "id": 249471,
+            "key": "Slavery_in_the_colonial_history_of_the_United_States",
+            "title": "Slavery in the colonial history of the United States",
+            "excerpt": "European <span class=\"searchmatch\">slavery</span> and racist ideologies were handed down to the British <span class=\"searchmatch\">American</span> colonies shortly after agriculture became industrialized in the <span class=\"searchmatch\">South</span>. Most",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 67,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Slavery_in_the_13_colonies.jpg/60px-Slavery_in_the_13_colonies.jpg"
+            }
+          },
+          {
+            "id": 26769,
+            "key": "South_America",
+            "title": "South America",
+            "excerpt": "independence, all South <span class=\"searchmatch\">American</span> countries maintained <span class=\"searchmatch\">slavery</span> for some time. The first <span class=\"searchmatch\">South</span> <span class=\"searchmatch\">American</span> country to abolish <span class=\"searchmatch\">slavery</span> was Chile in 1823, Uruguay",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Continent",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/South_America_%28orthographic_projection%29.svg/60px-South_America_%28orthographic_projection%29.svg.png"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Slavery in the United States This article is about slavery from the founding of the United States in 1776. For the colonial period, see Slavery in the colonial history of the United States . For modern illegal slavery, see Human trafficking in the United States . For modern legal forced labor, see Penal labor in the United States . \"Peculiar institution\" redirects here. For the book, see The Peculiar Institution . See also: Abolitionism in the United States This article may be too long to read and navigate comfortably . When this tag was added, its readable prose size was 19,683 words. Consider splitting content into sub-articles, condensing it, or adding subheadings . Please discuss this issue on the article's talk page . ( May 2025 ) Whipping a slave , wood-engraving made 1834; Wilson Chinn , showing a slave collar and facial branding of the initials of his enslaver, Valsin B. Marmillion; slavery survivor Adam Crosswhite photographed 1878; Franklin & Armfield 's slave jail in Alexandria , D.C. , 1836; freedmen leaving South Carolina on the USS Vermont in 1862; Delia Garlic at age 100; 1818 Kentucky slave trader 's ad; daguerreotype made at the 1850 Fugitive Slave Convention ; White Gold in the Delta , painted 1939 by Beulah Bettersworth for the Indianola, Mississippi post office, mural destroyed 1960s Part of a series on Forced labor and slavery Contemporary Child labor Child soldiers Conscription CSEC Debt bondage India Forced marriage Bride buying Child marriage Wife selling Forced prostitution Human trafficking Child China Cybersex Europe Fraud factory India United States Involuntary servitude ... in 21st-century jihadism ... in Africa Peonage Penal labor United States Sex trafficking China Europe United States Sexual slavery Wage slavery Historical Antiquity Babylonia Egypt Greece Rome Medieval Europe Ancillae Black Sea slave trade Byzantine Empire Genoese slave trade Kholop Prague slave trade Serfs History In Russia Emancipation Thrall Venetian slave trade Balkan slave trade Muslim world Baqt Barbary Coast slave trade pirates Sack of Baltimore Slave raid of Su\u00f0uroy Turkish Abductions Bukhara slave trade Concubinage history Ma malakat aymanukum Avret Pazarlar\u0131 Harem Abbasid harem Ottoman Imperial Harem Safavid imperial harem Qajar harem Jarya / Cariye Odalisque Qiyan Umm al-walad Circassian slave trade Contract of manumission Crimean slave trade Kafala system Kazakh raids into Russia Khazar slave trade Khivan slave trade Ottoman Empire Avret Pazarlar\u0131 Saqaliba Slavery in the Abbasid Caliphate Slavery in al-Andalus Slavery in the Rashidun Caliphate Slavery in the Umayyad Caliphate Slavery in the Abbasid Caliphate Volga Bulgarian slave trade 21st century Atlantic slave trade Brazil Bristol Database Dutch Middle Passage Nantes New France Panyarring Spanish Empire Slave Coast Thirteen colonies Topics and practice Blackbirding Child soldiers Conscription Devshirme Ghilman Mamluk Coolie Corv\u00e9e labor Drapetomania Dysaesthesia aethiopica Field slaves in the United States Treatment Gladiator Gladiatrix House slaves Planter class Proslavery thought Saqaliba Seasoning Slave market Slave Power Slave raiding Slavocracy Voluntary slavery White slavery Naval Galley slave Impressment Pirates Shanghaiing Slave ship By country or region Sub-Saharan Africa Contemporary Africa Trans-Saharan slave trade Red Sea slave trade Indian Ocean slave trade Zanzibar slave trade Angola Chad Comoros Ethiopia Mali Mauritania Niger Nigeria Seychelles Somalia Somali slave trade South Africa Sudan Zanzibar North and South America Pre-Columbian America Aztec Americas Indigenous U.S. Natives United States field slaves female contemporary maps partus prison labor slave codes treatment interregional proslavery sexual slavery The Bahamas Canada Caribbean Barbados British Virgin Islands Trinidad Code Noir Latin America Brazil Lei \u00c1urea Colombia Cuba Haiti revolt Restavek ( Encomienda ) Puerto Rico East, Southeast, and South Asia Haruwa-charuwa Human trafficking in Southeast Asia Bhutan Brunei China Booi Aha Eunuchs Laogai penal system India Debt bondage Chukri System Bawi system Indonesia Japan comfort women Karayuki-san Korea Kwalliso Nobi Malaysia Maldives Slavery in the Mongol Empire Thailand Yankee princess Vietnam Australia and Oceania Australia Human trafficking Blackbirding Slave raiding in Easter Island Human trafficking in Papua New Guinea Blackbirding in Polynesia Europe and North Asia Sex trafficking in Europe United Kingdom Penal Labor Slavery Albania Bulgaria Denmark Dutch Republic Finland France Georgia Germany in World War II Hungary Malta Norway Poland Portugal Romania Russia Serbia Spain Sweden Switzerland North Africa and West Asia Afghanistan Bacha bazi Algeria Bahrain Egypt Human trafficking in the Middle East Iran Iraq Jordan Kuwait Lebanon Libya Morocco Oman Palestine Saudi Arabia Syria Tunisia Qatar Yemen United Arab Emirates Religion Bible Christianity Catholicism Mormonism Islam Judaism Zoroastrianism Bah\u00e1\u02bc\u00ed Faith Opposition and resistance Abolitionism U.K. U.S. Brussels Anti-Slavery Conference 1889\u201390 Temporary Slavery Commission 1926 Slavery Convention Committee of Experts on Slavery Advisory Committee of Experts on Slavery Ad Hoc Committee on Slavery Supplementary Convention on the Abolition of Slavery Abolitionists Anglo-Egyptian Slave Trade Convention Anti-Slavery International Blockade of Africa U.K. U.S. Colonization Liberia Sierra Leone Compensated emancipation Freedman Manumission Freedom suit Slave Power Underground Railroad songs Slave rebellion Slave Trade Acts International law Third Servile War 13th Amendment to the United States Constitution Timeline of abolition of slavery and serfdom Abolition of slave trade in Persian gulf [ fa ] Related Black triangle (badge) Common law Critique of political economy Critique of work Extermination through labour Forced labor Forced Labour Convention Fugitive slaves laws convention Great Dismal Swamp maroons Indentured servitude Infinite workday List of slaves owners last survivors of American slavery List of slavery-related memorials and museums Refusal of work Right to rest and leisure Slave catcher Slave marriages in the United States Slave narrative films songs Slave name Slave patrol Slave Route Project breeding court cases Washington Jefferson J.Q. Adams Lincoln Emancipation Proclamation 40 acres Freedmen's Bureau Iron bit Emancipation Day v t e Part of a series on ethnic African Americans History Periods Timeline Atlantic slave trade Abolitionism in the United States Slavery in the colonial history of the US Revolutionary War Antebellum period Slavery and military history during the Civil War Reconstruction era Politicians Juneteenth Civil rights movement (1865\u20131896) Jim Crow era (1896\u20131954) Civil rights movement (1954\u20131968) Black power movement Post\u2013civil rights era Aspects Agriculture history Black Belt in the American South Business history Military history Treatment of the enslaved Migrations Great Migration Second Great Migration New Great Migration Culture Lifeways Dance Family structure Film Folktales Music Musical theater Names Neighborhoods Newspapers Soul food Schools Education during the slave period in the US Education of freed people during the Civil War History of African-American education , after the Civil War Historically black colleges and universities Fraternities Academic study Studies Art Literature Celebrations Martin Luther King Jr. Day Black History Month Juneteenth Kwanzaa Economic class African-American businesses Middle class Upper class Billionaires Symbols and ideas African-American beauty Black is beautiful Black pride African-American hair Good hair Stepping \" Lift Every Voice and Sing \" Self-determination Religion Institutions Black church Black Catholicism Black Catholic Movement Theologies Black theology Womanist theology Non-Christian groups Hoodoo Black Hebrew Israelites African-American Jews African-American Muslims Nation of Islam Louisiana Voodoo African Diaspora R",
+      "content_source": "page/Slavery_in_the_United_States/with_html (stripped)"
+    }
+  ],
+  "output": "The search results provide clear information about the cotton gin's impact on slavery. Let me provide the answer based on what I found.\n\nAnswer: Eli Whitney's cotton gin, patented in 1794, dramatically increased the profitability and productivity of cotton processing by separating cotton fibers from seeds much faster than manual labor. However, because the machine only processed the cotton after harvest and did not automate cotton picking itself (harvesting machines did not appear until the 1930s), cotton farmers responded to the boom in demand by expanding their plantations and purchasing more enslaved people to pick the cotton by hand. This unintended consequence greatly increased the use of slaves in the American South, despite Whitney's hope that his invention would reduce labor needs.\n\nSource: Cotton gin",
+  "total_tool_calls": 2,
+  "latency_ms": 10388,
+  "error": null
+}

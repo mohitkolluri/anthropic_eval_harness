@@ -1,0 +1,243 @@
+{
+  "eval_id": "H002",
+  "run_id": "20260519_044747_7be58a",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "How many countries were original founding members of NATO, in what year was it established, and what does the acronym stand for?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "How many countries were original founding members of NATO, in what year was it established, and what does the acronym stand for?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01PaQGZbNuL3mzCUh2cXj16G",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "NATO"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01PaQGZbNuL3mzCUh2cXj16G",
+          "content": "NATO Intergovernmental military alliance \"OTAN\" redirects here. For other uses, see NATO (disambiguation) and OTAN (disambiguation) . North Atlantic Treaty Organization Organisation du trait\u00e9 de l'Atlantique Nord Logo Flag Show globe Show Europe Member states shown in dark green Abbreviation NATO OTAN Formation 4 April 1949 (77 years ago) ( 1949-04-04 ) Type Military alliance Headquarters Brussels , Belgium Members 32 states Albania Belgium Bulgaria Canada Croatia Czech Republic Denmark Estonia Finland France Germany Greece Hungary Iceland Italy Latvia Lithuania Luxembourg Montenegro Netherlands North Macedonia Norway Poland Portugal Romania Slovakia Slovenia Spain Sweden Turkey United Kingdom United States Official languages English French [ 1 ] [ 2 ] Secretary General Mark Rutte [ 3 ] Chair of the NATO Military Committee Giuseppe Cavo Dragone Supreme Allied Commander Europe Alexus Grynkewich Supreme Allied Commander Transformation Pierre Vandier Expenses Total : US$ 1.588 trillion Excluding the US : US$ 608 billion [ 4 ] (2025 estimate) Website nato.int Anthem: \" The NATO Hymn \" Motto: \" Animus in consulendo liber \" The North Atlantic Treaty Organization ( NATO ) [ a ] is an intergovernmental military alliance between 32 member states \u201430 in Europe and two in North America . Founded in the aftermath of World War II , NATO was established with the signing of the North Atlantic Treaty in 1949. The organization serves as a system of collective security and deterrence , whereby its independent members agree to defend each-other from attack by any outside party. This is enshrined in Article 5 of the treaty, which states that an armed attack against the territory of one member shall be considered an attack against them all. Throughout the Cold War , NATO's primary purpose was to deter and counter the threat posed by the Soviet Union and its satellite states , which formed the rival Warsaw Pact . Following the dissolution of the Soviet Union in 1991, the alliance adapted. NATO undertook its first military intervention in the Bosnian War (1992\u20131995); with a United Nations mandate , it enforced a no-fly zone and defended UN safe zones. NATO also intervened in the Kosovo War (1999), bombing Yugoslav forces to prevent ethnic cleansing . Article 5 was invoked for the only time, by the US, after the September 11 attacks , leading to NATO involvement in Afghanistan (2001\u20132014) as part of the International Security Assistance Force (ISAF). In 2011, NATO intervened in the Libyan civil war , with a UN mandate to enforce a no-fly zone and protect civilians. The alliance has since been involved in training Iraq's military and countering piracy . Since the end of the Cold War, the alliance has accepted sixteen new members in Europe. NATO recognizes Bosnia and Herzegovina , Ukraine and Georgia as aspiring members. Russia\u2013NATO relations had been co-operative, but became adversarial during Vladimir Putin 's second presidency. Putin called NATO's eastward enlargement a threat, and opposes Ukraine joining the alliance. Following the Russian annexation of Crimea in 2014, NATO suspended co-operation and deployed a tripwire force in the east. The 2022 Russian invasion of Ukraine prompted NATO to reinforce its eastern flank and send military aid to Ukraine . The invasion caused Finland and Sweden to join the alliance. Since the invasion, Russia has been accused of waging a hybrid conflict against NATO. Since 2025, there has been internal crisis in NATO due to threats made by the United States, a major contributing member, against the sovereignty of fellow members Canada and Denmark . NATO members contribute to collective defense in two ways: by funding their own defense, and by helping to fund a shared budget for running the organization as a whole and maintaining joint facilities. Each member has committed to a target of spending at least 5% of their gross domestic product (GDP) on their own defense, [ 5 ] while in 2026 the shared budget was around \u20ac5 billion split between all 32 members. [ 6 ] As of 2026, the United States spends the most overall on its defense, Norway spends the most per capita , while Poland and the Baltic states spend the most as a share of GDP. [ 7 ] The combined military spending of NATO members makes up over half of the world total . The combined militaries of all NATO members include about 3.5 million soldiers and personnel. NATO's main headquarters are in Brussels , Belgium, while its military headquarters are near Mons , Belgium. History Main article: History of NATO 20th century NATO has its roots in the Atlantic Charter , a 1941 agreement between the United States and United Kingdom. The Charter laid out a framework for international cooperation without territorial expansion after World War II . [ 8 ] On 4 March 1947, the Treaty of Dunkirk was signed by France and the United Kingdom during the aftermath of World War II and the start of the Cold War as a Treaty of Alliance and Mutual Assistance in the event of possible attacks by Germany. In March 1948, this alliance was expanded in the Treaty of Brussels to include the Benelux countries, forming the Brussels Treaty Organization, commonly known as the Western Union . [ 9 ] Talks for a wider military alliance, which could include North America, also began that month in the United States, where their foreign policy under the Truman Doctrine set out in 1947 promoted international solidarity against actions they saw as communist aggression, such as the February 1948 coup d'\u00e9tat in Czechoslovakia . These talks resulted in the signature of the North Atlantic Treaty on 4 April 1949 by the member states of the Western Union plus the United States, Canada, Portugal, Italy, Norway, Denmark, and Iceland. [ 10 ] Canadian diplomat Lester B. Pearson was a key author and drafter of the treaty. [ 11 ] [ 12 ] [ 13 ] West Germany joined NATO in 1955, which led to the formation of the rival Warsaw Pact during the Cold War . The North Atlantic Treaty was largely dormant until the Korean War initiated the establishment of NATO to implement it with an integrated military structure. This included the formation of Supreme Headquarters Allied Powers Europe (SHAPE) in 1951, which adopted many of the Western Union's military structures and plans, [ 14 ] including their agreements on standardizing equipment and agreements on stationing foreign military forces in European countries. In 1952, the post of Secretary General of NATO was established as the organization's chief civilian. That year also saw the first major NATO maritime exercises , Exercise Mainbrace and the accession of Greece and Turkey to the organization. [ 15 ] [ 16 ] Following the London and Paris Conferences , West Germany was permitted to rearm militarily, as they joined NATO in May 1955, which was, in turn, a major factor in the creation of the Soviet-dominated Warsaw Pact , delineating the two opposing sides of the Cold War . [ 17 ] The building of the Berlin Wall in 1961 marked a height in Cold War tensions, when 400,000 US troops were stationed in Europe. [ 18 ] Doubts over the strength of the relationship between the European states and the United States ebbed and flowed, along with doubts over the credibility of the NATO defence against a prospective Soviet invasion \u2013 doubts that led to the development of the independent French nuclear deterrent and the withdrawal of France from NATO's military structure in 1966. [ 19 ] [ 20 ] In 1982, the newly democratic Spain joined the alliance. [ 21 ] The Fall of the Berlin Wall in 1989 marked a turning point in NATO's role in Europe, and a section of that wall is displayed outside NATO headquarters . The Revolutions of 1989 in Europe led to a strategic re-evaluation of NATO's purpose, nature, tasks, and focus on the continent. In October 1990, East Germany became part of the Federal Republic of Germany and the alliance, and in November 1990, the alliance signed the Treaty on Conventional Armed Forces in Europe ("
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01JXeifcUUMLBB1Lj9gg3ULS",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "North Atlantic Treaty 1949 founding members"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01JXeifcUUMLBB1Lj9gg3ULS",
+          "content": "North Atlantic Treaty 1949 treaty forming the basis of NATO Washington Treaty North Atlantic Treaty North Atlantic Treaty authentication page Type Military alliance Location Washington, D.C. Effective 24 August 1949 ; 76 years ago ( 1949-08-24 ) Condition Ratification by the majority of the signatories including Belgium, Canada, France, Luxembourg, the Netherlands, the United Kingdom, and the United States Parties 32 Albania Belgium Bulgaria Canada Croatia Czechia Denmark Estonia Finland France Germany Greece Hungary Iceland Italy Latvia Lithuania Luxembourg Montenegro Netherlands North Macedonia Norway Poland Portugal Romania Slovakia Slovenia Spain Sweden Turkey United Kingdom United States Depositary Government of the United States of America Languages English , French Full text North Atlantic Treaty at Wikisource The North Atlantic Treaty , also known as the Washington Treaty , [ 1 ] forms the legal basis of, and is implemented by, the North Atlantic Treaty Organization (NATO). The treaty was signed in Washington, D.C. , on 4 April 1949. Background The treaty was signed in Washington, D.C., on 4 April 1949 by a committee which was chaired by US diplomat Theodore Achilles . Earlier secret talks had been held at the Pentagon between 22 March and 1 April 1948, of which Achilles said: The talks lasted about two weeks and by the time they finished, it had been secretly agreed that there would be a treaty, and I had a draft of one in the bottom drawer of my safe. It was never shown to anyone except Jack [ Hickerson ]. I wish I had kept it, but when I left the Department in 1950, I dutifully left it in the safe and I have never been able to trace it in the archives. It drew heavily on the Rio Treaty , and a bit of the Brussels Treaty , which had not yet been signed, but of which we were being kept heavily supplied with drafts. The eventual North Atlantic Treaty had the general form, and a good bit of the language of my first draft, but with a number of important differences. [ 2 ] According to Achilles, another important author of the treaty was John D. Hickerson : More than any human being Jack was responsible for the nature, content, and form of the Treaty...It was a one-man Hickerson treaty. [ 2 ] As a fundamental component of NATO, the North Atlantic Treaty is a product of the US' desire to avoid overextension at the end of World War II, and consequently pursue multilateralism in Europe. [ 3 ] It is part of the US' collective defense arrangement with Western European powers, following a long and deliberative process. [ 4 ] The treaty was created with an armed attack by the Soviet Union against Western Europe in mind, [ 5 ] although the mutual self-defense clause was never invoked during the Cold War . By signing the North Atlantic Treaty, parties are \"determined to safeguard the freedom, common heritage and civilization of the peoples, founded on the principles of democracy, individual liberty and the rule of law.\" [ 6 ] Members Founding members The following twelve states signed the treaty and thus became the founding members of NATO. The following leaders signed the agreement as plenipotentiaries of their countries in Washington, D.C. , on 4 April 1949: [ 7 ] [ 8 ] Belgium \u2013 Prime Minister and Foreign Minister Paul-Henri Spaak and Ambassador Baron Robert Silvercruys [ de ] Canada \u2013 Secretary of State for External Affairs Lester B. Pearson and Ambassador H. H. Wrong Denmark \u2013 Foreign Minister Gustav Rasmussen and Ambassador Henrik Kauffmann France \u2013 Foreign Minister Robert Schuman and Ambassador Henri Bonnet Iceland \u2013 Foreign Minister Bjarni Benediktsson and Ambassador Thor Thors Italy \u2013 Foreign Minister Carlo Sforza and Ambassador Alberto Tarchiani Luxembourg \u2013 Foreign Minister Joseph Bech and Ambassador Hugues Le Gallais Netherlands \u2013 Foreign Minister Dirk Stikker and Ambassador Eelco van Kleffens Norway \u2013 Foreign Minister Halvard M. Lange and Ambassador Wilhelm von Munthe af Morgenstierne Portugal \u2013 Foreign Minister Jos\u00e9 Caeiro da Mata and Ambassador Pedro Teot\u00f3nio Pereira United Kingdom \u2013 Foreign Secretary Ernest Bevin and Ambassador Oliver Franks United States \u2013 Secretary of State Dean Acheson Non-founding members who joined before the dissolution of the Soviet Union Animated map of NATO membership over time The following four states joined the treaty after the 12 founding states, but before the dissolution of the Soviet Union: Greece (joined in 1952) [ N 1 ] Turkey (joined in 1952) West Germany (joined in 1955) [ N 2 ] Spain (joined in 1982) Members who joined after the dissolution of the Soviet Union The following 16 states joined the treaty after the dissolution of the Soviet Union: Czech Republic (joined in 1999) Hungary (joined in 1999) Poland (joined in 1999) Bulgaria (joined in 2004) Estonia (joined in 2004) Latvia (joined in 2004) Lithuania (joined in 2004) Romania (joined in 2004) Slovakia (joined in 2004) Slovenia (joined in 2004) Albania (joined in 2009) Croatia (joined in 2009) Montenegro (joined in 2017) North Macedonia (joined in 2020) Finland (joined in 2023) Sweden (joined in 2024) Withdrawal No state has rescinded its membership , but some dependencies and jurisdictions of member states that had prior NATO mutual defense protection under Article 6 [ citation needed ] have not requested membership after becoming independent or handed over to non-NATO states, e.g.: Cyprus (independence from the United Kingdom in 1960) Algeria (independence from France in 1962) Malta (independence from the United Kingdom in 1964) The Bahamas north of the Tropic of Cancer (independence from the United Kingdom in 1973) Belize (independence from the United Kingdom in 1981) Provisions Article 1 Article 1 of the treaty states that member parties \"settle any international disputes in which they may be involved by peaceful means in such a manner that international peace and security, and justice, are not endangered, and to refrain in their international relations from the threat or use of force in any manner inconsistent with the purposes of the United Nations.\" [ 6 ] Members seek to promote stability and well-being in the North Atlantic area through preservation of peace and security in accordance with the Charter of the United Nations . [ 6 ] Article 2 Article 2 of the treaty stipulates that \"The Parties will contribute toward the further development of peaceful and friendly international relations by strengthening their free institutions, by bringing about a better understanding of the principles upon which these institutions are founded, and by promoting conditions of stability and well-being. They will seek to eliminate conflict in their international economic policies and will encourage economic collaboration between any or all of them.\" [ 9 ] This is sometimes referred to as the Canada Clause after Pearson pushed for its inclusion in the treaty. [ 10 ] This included proposals for a trade council, cultural program, technological sharing, and an information program. Of those, only the latter two were passed. [ 11 ] [ 12 ] Nonetheless, it has been brought up by observers commenting on trade disputes between members. [ 13 ] Article 3 This section needs to be updated . Please help update this article to reflect recent events or newly available information. ( January 2026 ) Article 3 of the treaty states that \"In order more effectively to achieve the objectives of this Treaty, the Parties, separately and jointly, by means of continuous and effective self-help and mutual aid, will maintain and develop their individual and collective capacity to resist armed attack.\" [ 6 ] This was interpreted in 2022 as the basis for the target for a 2% GDP expenditure rule, [ 14 ] which was established as a loose guideline in 2006. [ 15 ] This metric was confirmed again during the 2014 Wales summit . It has also been used as a core concept for a mandate to strengthen member resilience: the ability to resist and recover from major disasters, failures in infrastructure"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: NATO stands for North Atlantic Treaty Organization. It was established on 4 April 1949. There were 12 original founding members: Belgium, Canada, Denmark, France, Iceland, Italy, Luxembourg, Netherlands, Norway, Portugal, United Kingdom, and United States.\n\nSource: NATO, North Atlantic Treaty"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "NATO",
+      "api_response": {
+        "pages": [
+          {
+            "id": 21133,
+            "key": "NATO",
+            "title": "NATO",
+            "excerpt": "The North Atlantic Treaty Organization (<span class=\"searchmatch\">NATO</span>) is an intergovernmental military alliance between 32 member states\u201430 in Europe and two in North America",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Intergovernmental military alliance",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 30,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/55/NATO_OTAN_landscape_logo.svg/60px-NATO_OTAN_landscape_logo.svg.png"
+            }
+          },
+          {
+            "id": 59045,
+            "key": "NATO_phonetic_alphabet",
+            "title": "NATO phonetic alphabet",
+            "excerpt": "The <span class=\"searchmatch\">NATO</span> phonetic alphabet, officially the International Radiotelephony Spelling Alphabet, is an internationally recognized set of names for the letters",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Letter names for unambiguous communication",
+            "thumbnail": null
+          },
+          {
+            "id": 17046267,
+            "key": "Enlargement_of_NATO",
+            "title": "Enlargement of NATO",
+            "excerpt": "<span class=\"searchmatch\">NATO</span> is a military alliance of thirty-two European and North American countries that constitutes a system of collective defense. The process of joining",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/gif",
+              "width": 60,
+              "height": 46,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/History_of_NATO_enlargement_animation.gif/60px-History_of_NATO_enlargement_animation.gif"
+            }
+          },
+          {
+            "id": 17971449,
+            "key": "Member_states_of_NATO",
+            "title": "Member states of NATO",
+            "excerpt": "The North Atlantic Treaty Organization (<span class=\"searchmatch\">NATO</span>) is an international military alliance consisting of 32 member states from Europe and North America. It was",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 50,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NATO_32_Members.png/60px-NATO_32_Members.png"
+            }
+          },
+          {
+            "id": 322473,
+            "key": "NATO_bombing_of_Yugoslavia",
+            "title": "NATO bombing of Yugoslavia",
+            "excerpt": "The North Atlantic Treaty Organization (<span class=\"searchmatch\">NATO</span>) carried out an aerial bombing campaign against the Federal Republic of Yugoslavia during the Kosovo War.",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1999 military operation",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 35,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/%D0%9D%D0%B0%D1%82%D0%BE_%D0%B1%D0%BE%D0%BC%D0%B1%D0%B5_%D0%B8%D0%B7%D0%B0%D0%B7%D0%B8%D0%B2%D0%B0%D0%BB%D0%B5_%D0%B5%D0%BA%D0%BE%D0%BB%D0%BE%D1%88%D0%BA%D1%83_%D0%BA%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D1%83_%D1%83_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%A1%D0%B0%D0%B4%D1%83.jpeg/60px-%D0%9D%D0%B0%D1%82%D0%BE_%D0%B1%D0%BE%D0%BC%D0%B1%D0%B5_%D0%B8%D0%B7%D0%B0%D0%B7%D0%B8%D0%B2%D0%B0%D0%BB%D0%B5_%D0%B5%D0%BA%D0%BE%D0%BB%D0%BE%D1%88%D0%BA%D1%83_%D0%BA%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D1%83_%D1%83_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%A1%D0%B0%D0%B4%D1%83.jpeg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "NATO Intergovernmental military alliance \"OTAN\" redirects here. For other uses, see NATO (disambiguation) and OTAN (disambiguation) . North Atlantic Treaty Organization Organisation du trait\u00e9 de l'Atlantique Nord Logo Flag Show globe Show Europe Member states shown in dark green Abbreviation NATO OTAN Formation 4 April 1949 (77 years ago) ( 1949-04-04 ) Type Military alliance Headquarters Brussels , Belgium Members 32 states Albania Belgium Bulgaria Canada Croatia Czech Republic Denmark Estonia Finland France Germany Greece Hungary Iceland Italy Latvia Lithuania Luxembourg Montenegro Netherlands North Macedonia Norway Poland Portugal Romania Slovakia Slovenia Spain Sweden Turkey United Kingdom United States Official languages English French [ 1 ] [ 2 ] Secretary General Mark Rutte [ 3 ] Chair of the NATO Military Committee Giuseppe Cavo Dragone Supreme Allied Commander Europe Alexus Grynkewich Supreme Allied Commander Transformation Pierre Vandier Expenses Total : US$ 1.588 trillion Excluding the US : US$ 608 billion [ 4 ] (2025 estimate) Website nato.int Anthem: \" The NATO Hymn \" Motto: \" Animus in consulendo liber \" The North Atlantic Treaty Organization ( NATO ) [ a ] is an intergovernmental military alliance between 32 member states \u201430 in Europe and two in North America . Founded in the aftermath of World War II , NATO was established with the signing of the North Atlantic Treaty in 1949. The organization serves as a system of collective security and deterrence , whereby its independent members agree to defend each-other from attack by any outside party. This is enshrined in Article 5 of the treaty, which states that an armed attack against the territory of one member shall be considered an attack against them all. Throughout the Cold War , NATO's primary purpose was to deter and counter the threat posed by the Soviet Union and its satellite states , which formed the rival Warsaw Pact . Following the dissolution of the Soviet Union in 1991, the alliance adapted. NATO undertook its first military intervention in the Bosnian War (1992\u20131995); with a United Nations mandate , it enforced a no-fly zone and defended UN safe zones. NATO also intervened in the Kosovo War (1999), bombing Yugoslav forces to prevent ethnic cleansing . Article 5 was invoked for the only time, by the US, after the September 11 attacks , leading to NATO involvement in Afghanistan (2001\u20132014) as part of the International Security Assistance Force (ISAF). In 2011, NATO intervened in the Libyan civil war , with a UN mandate to enforce a no-fly zone and protect civilians. The alliance has since been involved in training Iraq's military and countering piracy . Since the end of the Cold War, the alliance has accepted sixteen new members in Europe. NATO recognizes Bosnia and Herzegovina , Ukraine and Georgia as aspiring members. Russia\u2013NATO relations had been co-operative, but became adversarial during Vladimir Putin 's second presidency. Putin called NATO's eastward enlargement a threat, and opposes Ukraine joining the alliance. Following the Russian annexation of Crimea in 2014, NATO suspended co-operation and deployed a tripwire force in the east. The 2022 Russian invasion of Ukraine prompted NATO to reinforce its eastern flank and send military aid to Ukraine . The invasion caused Finland and Sweden to join the alliance. Since the invasion, Russia has been accused of waging a hybrid conflict against NATO. Since 2025, there has been internal crisis in NATO due to threats made by the United States, a major contributing member, against the sovereignty of fellow members Canada and Denmark . NATO members contribute to collective defense in two ways: by funding their own defense, and by helping to fund a shared budget for running the organization as a whole and maintaining joint facilities. Each member has committed to a target of spending at least 5% of their gross domestic product (GDP) on their own defense, [ 5 ] while in 2026 the shared budget was around \u20ac5 billion split between all 32 members. [ 6 ] As of 2026, the United States spends the most overall on its defense, Norway spends the most per capita , while Poland and the Baltic states spend the most as a share of GDP. [ 7 ] The combined military spending of NATO members makes up over half of the world total . The combined militaries of all NATO members include about 3.5 million soldiers and personnel. NATO's main headquarters are in Brussels , Belgium, while its military headquarters are near Mons , Belgium. History Main article: History of NATO 20th century NATO has its roots in the Atlantic Charter , a 1941 agreement between the United States and United Kingdom. The Charter laid out a framework for international cooperation without territorial expansion after World War II . [ 8 ] On 4 March 1947, the Treaty of Dunkirk was signed by France and the United Kingdom during the aftermath of World War II and the start of the Cold War as a Treaty of Alliance and Mutual Assistance in the event of possible attacks by Germany. In March 1948, this alliance was expanded in the Treaty of Brussels to include the Benelux countries, forming the Brussels Treaty Organization, commonly known as the Western Union . [ 9 ] Talks for a wider military alliance, which could include North America, also began that month in the United States, where their foreign policy under the Truman Doctrine set out in 1947 promoted international solidarity against actions they saw as communist aggression, such as the February 1948 coup d'\u00e9tat in Czechoslovakia . These talks resulted in the signature of the North Atlantic Treaty on 4 April 1949 by the member states of the Western Union plus the United States, Canada, Portugal, Italy, Norway, Denmark, and Iceland. [ 10 ] Canadian diplomat Lester B. Pearson was a key author and drafter of the treaty. [ 11 ] [ 12 ] [ 13 ] West Germany joined NATO in 1955, which led to the formation of the rival Warsaw Pact during the Cold War . The North Atlantic Treaty was largely dormant until the Korean War initiated the establishment of NATO to implement it with an integrated military structure. This included the formation of Supreme Headquarters Allied Powers Europe (SHAPE) in 1951, which adopted many of the Western Union's military structures and plans, [ 14 ] including their agreements on standardizing equipment and agreements on stationing foreign military forces in European countries. In 1952, the post of Secretary General of NATO was established as the organization's chief civilian. That year also saw the first major NATO maritime exercises , Exercise Mainbrace and the accession of Greece and Turkey to the organization. [ 15 ] [ 16 ] Following the London and Paris Conferences , West Germany was permitted to rearm militarily, as they joined NATO in May 1955, which was, in turn, a major factor in the creation of the Soviet-dominated Warsaw Pact , delineating the two opposing sides of the Cold War . [ 17 ] The building of the Berlin Wall in 1961 marked a height in Cold War tensions, when 400,000 US troops were stationed in Europe. [ 18 ] Doubts over the strength of the relationship between the European states and the United States ebbed and flowed, along with doubts over the credibility of the NATO defence against a prospective Soviet invasion \u2013 doubts that led to the development of the independent French nuclear deterrent and the withdrawal of France from NATO's military structure in 1966. [ 19 ] [ 20 ] In 1982, the newly democratic Spain joined the alliance. [ 21 ] The Fall of the Berlin Wall in 1989 marked a turning point in NATO's role in Europe, and a section of that wall is displayed outside NATO headquarters . The Revolutions of 1989 in Europe led to a strategic re-evaluation of NATO's purpose, nature, tasks, and focus on the continent. In October 1990, East Germany became part of the Federal Republic of Germany and the alliance, and in November 1990, the alliance signed the Treaty on Conventional Armed Forces in Europe (",
+      "content_source": "page/NATO/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "North Atlantic Treaty 1949 founding members",
+      "api_response": {
+        "pages": [
+          {
+            "id": 22007,
+            "key": "North_Atlantic_Treaty",
+            "title": "North Atlantic Treaty",
+            "excerpt": "The <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">Treaty</span>, also known as the Washington <span class=\"searchmatch\">Treaty</span>, forms the legal basis of, and is implemented by, the <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">Treaty</span> Organization",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1949 treaty forming the basis of NATO",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/NATOTreatyCopyAuthenticationPage.jpg/60px-NATOTreatyCopyAuthenticationPage.jpg"
+            }
+          },
+          {
+            "id": 17971449,
+            "key": "Member_states_of_NATO",
+            "title": "Member states of NATO",
+            "excerpt": "established at the signing of the <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">Treaty</span> on 4 April <span class=\"searchmatch\">1949</span>. Of the 32 <span class=\"searchmatch\">member</span> countries, 30 are in Europe and 2 are in <span class=\"searchmatch\">North</span> America. Between 1994 and",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 50,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NATO_32_Members.png/60px-NATO_32_Members.png"
+            }
+          },
+          {
+            "id": 1702304,
+            "key": "North_Atlantic_Council",
+            "title": "North Atlantic Council",
+            "excerpt": "permanent representatives of its <span class=\"searchmatch\">member</span> countries. Its existence is mandated by Article 9 of the <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">Treaty</span> and it was established as a result",
+            "matched_title": null,
+            "anchor": null,
+            "description": "NATO's political body",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 30,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/55/NATO_OTAN_landscape_logo.svg/60px-NATO_OTAN_landscape_logo.svg.png"
+            }
+          },
+          {
+            "id": 3728496,
+            "key": "Treaty_of_Brussels",
+            "title": "Treaty of Brussels",
+            "excerpt": "commitments of the <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">Treaty</span> with appropriate political and military structures led to the creation of the <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">Treaty</span> Organization (NATO)",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1948 Western European defence treaty",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 57,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pact_van_Brussel%2C_Bevin_tekent.jpg/60px-Pact_van_Brussel%2C_Bevin_tekent.jpg"
+            }
+          },
+          {
+            "id": 21133,
+            "key": "NATO",
+            "title": "NATO",
+            "excerpt": "in North America. <span class=\"searchmatch\">Founded</span> in the aftermath of World War II, NATO was established with the signing of the <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">Treaty</span> in <span class=\"searchmatch\">1949</span>. The organization",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Intergovernmental military alliance",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 30,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/55/NATO_OTAN_landscape_logo.svg/60px-NATO_OTAN_landscape_logo.svg.png"
+            }
+          }
+        ]
+      },
+      "fetched_content": "North Atlantic Treaty 1949 treaty forming the basis of NATO Washington Treaty North Atlantic Treaty North Atlantic Treaty authentication page Type Military alliance Location Washington, D.C. Effective 24 August 1949 ; 76 years ago ( 1949-08-24 ) Condition Ratification by the majority of the signatories including Belgium, Canada, France, Luxembourg, the Netherlands, the United Kingdom, and the United States Parties 32 Albania Belgium Bulgaria Canada Croatia Czechia Denmark Estonia Finland France Germany Greece Hungary Iceland Italy Latvia Lithuania Luxembourg Montenegro Netherlands North Macedonia Norway Poland Portugal Romania Slovakia Slovenia Spain Sweden Turkey United Kingdom United States Depositary Government of the United States of America Languages English , French Full text North Atlantic Treaty at Wikisource The North Atlantic Treaty , also known as the Washington Treaty , [ 1 ] forms the legal basis of, and is implemented by, the North Atlantic Treaty Organization (NATO). The treaty was signed in Washington, D.C. , on 4 April 1949. Background The treaty was signed in Washington, D.C., on 4 April 1949 by a committee which was chaired by US diplomat Theodore Achilles . Earlier secret talks had been held at the Pentagon between 22 March and 1 April 1948, of which Achilles said: The talks lasted about two weeks and by the time they finished, it had been secretly agreed that there would be a treaty, and I had a draft of one in the bottom drawer of my safe. It was never shown to anyone except Jack [ Hickerson ]. I wish I had kept it, but when I left the Department in 1950, I dutifully left it in the safe and I have never been able to trace it in the archives. It drew heavily on the Rio Treaty , and a bit of the Brussels Treaty , which had not yet been signed, but of which we were being kept heavily supplied with drafts. The eventual North Atlantic Treaty had the general form, and a good bit of the language of my first draft, but with a number of important differences. [ 2 ] According to Achilles, another important author of the treaty was John D. Hickerson : More than any human being Jack was responsible for the nature, content, and form of the Treaty...It was a one-man Hickerson treaty. [ 2 ] As a fundamental component of NATO, the North Atlantic Treaty is a product of the US' desire to avoid overextension at the end of World War II, and consequently pursue multilateralism in Europe. [ 3 ] It is part of the US' collective defense arrangement with Western European powers, following a long and deliberative process. [ 4 ] The treaty was created with an armed attack by the Soviet Union against Western Europe in mind, [ 5 ] although the mutual self-defense clause was never invoked during the Cold War . By signing the North Atlantic Treaty, parties are \"determined to safeguard the freedom, common heritage and civilization of the peoples, founded on the principles of democracy, individual liberty and the rule of law.\" [ 6 ] Members Founding members The following twelve states signed the treaty and thus became the founding members of NATO. The following leaders signed the agreement as plenipotentiaries of their countries in Washington, D.C. , on 4 April 1949: [ 7 ] [ 8 ] Belgium \u2013 Prime Minister and Foreign Minister Paul-Henri Spaak and Ambassador Baron Robert Silvercruys [ de ] Canada \u2013 Secretary of State for External Affairs Lester B. Pearson and Ambassador H. H. Wrong Denmark \u2013 Foreign Minister Gustav Rasmussen and Ambassador Henrik Kauffmann France \u2013 Foreign Minister Robert Schuman and Ambassador Henri Bonnet Iceland \u2013 Foreign Minister Bjarni Benediktsson and Ambassador Thor Thors Italy \u2013 Foreign Minister Carlo Sforza and Ambassador Alberto Tarchiani Luxembourg \u2013 Foreign Minister Joseph Bech and Ambassador Hugues Le Gallais Netherlands \u2013 Foreign Minister Dirk Stikker and Ambassador Eelco van Kleffens Norway \u2013 Foreign Minister Halvard M. Lange and Ambassador Wilhelm von Munthe af Morgenstierne Portugal \u2013 Foreign Minister Jos\u00e9 Caeiro da Mata and Ambassador Pedro Teot\u00f3nio Pereira United Kingdom \u2013 Foreign Secretary Ernest Bevin and Ambassador Oliver Franks United States \u2013 Secretary of State Dean Acheson Non-founding members who joined before the dissolution of the Soviet Union Animated map of NATO membership over time The following four states joined the treaty after the 12 founding states, but before the dissolution of the Soviet Union: Greece (joined in 1952) [ N 1 ] Turkey (joined in 1952) West Germany (joined in 1955) [ N 2 ] Spain (joined in 1982) Members who joined after the dissolution of the Soviet Union The following 16 states joined the treaty after the dissolution of the Soviet Union: Czech Republic (joined in 1999) Hungary (joined in 1999) Poland (joined in 1999) Bulgaria (joined in 2004) Estonia (joined in 2004) Latvia (joined in 2004) Lithuania (joined in 2004) Romania (joined in 2004) Slovakia (joined in 2004) Slovenia (joined in 2004) Albania (joined in 2009) Croatia (joined in 2009) Montenegro (joined in 2017) North Macedonia (joined in 2020) Finland (joined in 2023) Sweden (joined in 2024) Withdrawal No state has rescinded its membership , but some dependencies and jurisdictions of member states that had prior NATO mutual defense protection under Article 6 [ citation needed ] have not requested membership after becoming independent or handed over to non-NATO states, e.g.: Cyprus (independence from the United Kingdom in 1960) Algeria (independence from France in 1962) Malta (independence from the United Kingdom in 1964) The Bahamas north of the Tropic of Cancer (independence from the United Kingdom in 1973) Belize (independence from the United Kingdom in 1981) Provisions Article 1 Article 1 of the treaty states that member parties \"settle any international disputes in which they may be involved by peaceful means in such a manner that international peace and security, and justice, are not endangered, and to refrain in their international relations from the threat or use of force in any manner inconsistent with the purposes of the United Nations.\" [ 6 ] Members seek to promote stability and well-being in the North Atlantic area through preservation of peace and security in accordance with the Charter of the United Nations . [ 6 ] Article 2 Article 2 of the treaty stipulates that \"The Parties will contribute toward the further development of peaceful and friendly international relations by strengthening their free institutions, by bringing about a better understanding of the principles upon which these institutions are founded, and by promoting conditions of stability and well-being. They will seek to eliminate conflict in their international economic policies and will encourage economic collaboration between any or all of them.\" [ 9 ] This is sometimes referred to as the Canada Clause after Pearson pushed for its inclusion in the treaty. [ 10 ] This included proposals for a trade council, cultural program, technological sharing, and an information program. Of those, only the latter two were passed. [ 11 ] [ 12 ] Nonetheless, it has been brought up by observers commenting on trade disputes between members. [ 13 ] Article 3 This section needs to be updated . Please help update this article to reflect recent events or newly available information. ( January 2026 ) Article 3 of the treaty states that \"In order more effectively to achieve the objectives of this Treaty, the Parties, separately and jointly, by means of continuous and effective self-help and mutual aid, will maintain and develop their individual and collective capacity to resist armed attack.\" [ 6 ] This was interpreted in 2022 as the basis for the target for a 2% GDP expenditure rule, [ 14 ] which was established as a loose guideline in 2006. [ 15 ] This metric was confirmed again during the 2014 Wales summit . It has also been used as a core concept for a mandate to strengthen member resilience: the ability to resist and recover from major disasters, failures in infrastructure",
+      "content_source": "page/North_Atlantic_Treaty/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: NATO stands for North Atlantic Treaty Organization. It was established on 4 April 1949. There were 12 original founding members: Belgium, Canada, Denmark, France, Iceland, Italy, Luxembourg, Netherlands, Norway, Portugal, United Kingdom, and United States.\n\nSource: NATO, North Atlantic Treaty",
+  "total_tool_calls": 2,
+  "latency_ms": 5764,
+  "error": null
+}

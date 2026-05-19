@@ -1,0 +1,112 @@
+{
+  "eval_id": "Q008",
+  "run_id": "20260519_002212_9c8c3d",
+  "prompt_version": "v4",
+  "model": "claude-sonnet-4-6",
+  "input": "What is the Japanese term for the concept that describes a person's reason for being, defined as the overlap between what you love, what you are good at, what the world needs, and what you can be paid for?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What is the Japanese term for the concept that describes a person's reason for being, defined as the overlap between what you love, what you are good at, what the world needs, and what you can be paid for?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01XjqBsasvk3HXsPFbvCqpCf",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ikigai"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01XjqBsasvk3HXsPFbvCqpCf",
+          "content": "Ikigai Giving a sense of purpose (Japanese) Ikigai ( \u751f\u304d\u7532\u6590 , lit. ' a reason for being ' ) is a Japanese concept of an individual's definition of the meaning of their life . [ 1 ] Ikigai can be having a sense of purpose in life, [ 2 ] [ 3 ] as well as being a source of motivation. [ 4 ] According to a study by Michiko Kumano, feeling ikigai as described in Japanese is usually the sense of accomplishment and fulfillment that follows when people pursue their passions. [ 5 ] Activities that generate the feeling of ikigai are not imposed on an individual; they are perceived as spontaneous and undertaken willingly, making them personal and dependent on a person's inner self. [ 6 ] [ 7 ] [ 8 ] [ 9 ] According to Japanese psychologist Katsuya Inoue, ikigai is a concept that consists of two aspects: \"sources or objects that bring value or meaning to life\" and \"a feeling that one's life has value or meaning because of the existence of its source or object\". Inoue classifies ikigai into three categories \u2013 social ikigai , non-social ikigai , and anti-social ikigai \u2013 from a social perspective. Social ikigai are forms accepted by society, such as volunteer activities and community activities. A non-social ikigai is not directly related to society, such as faith or self-discipline . Anti-social ikigai is the basic motivation for living through dark emotions, such as the desire to hate someone or something or to continue having a desire for revenge. [ 10 ] Meaning and etymology The Oxford English Dictionary defines ikigai ( / \u02c8 i k i \u02cc \u0261 a\u026a / ) as \"a motivating force; something or someone that gives a person a sense of purpose or a reason for living\". More generally, it may refer to something that brings pleasure or fulfillment. [ 11 ] The term compounds two Japanese words: iki ( \u751f\u304d , meaning 'life; alive') and kai ( \u7532\u6590 , meaning 'effect') , which, when combined and sequentially voiced as gai , result in the meaning 'a reason for living [being alive]; a meaning for [to] life; what [something that] makes life worth living; a 'raison d'\u00eatre'. In their book, Ikigai: The Japanese Secret to a Long and Happy Life , H\u00e9ctor Garc\u00eda and Francesc Miralles explain, \"This Japanese concept, which translates roughly as 'the happiness of always being busy,' is like logotherapy , but it goes a step beyond.\" [ 12 ] In 2022, the Japanese government posted an article on their official website stating, \"A broad concept, it [ikigai] refers to that which brings value and joy to life: from people, such as one's children or friends, to activities including work and hobbies.\" [ 13 ] Diagram An example of a Ikigai diagram In their book, H\u00e9ctor Garc\u00eda and Francesc Miralles include a Venn diagram created by Marc Winn, which in turn was likely inspired by the \"purpose\" diagram created in 2011 by Andr\u00e9s Zuzunaga, replacing \"purpose\" with \"ikigai.\" This diagram includes four elements: what a person likes, what a person is good at, what the world needs, and what can be rewarded. When these four elements overlap, that person has found their ikigai. [ 14 ] The diagram does not originate in Japan, [ 15 ] and has been described as an \"unrealistic ideal\" that is \"catchy but misleading\". [ 16 ] Early popularization Ikigai was first popularized by the Japanese psychiatrist and academic Mieko Kamiya in her 1966 book, On the Meaning of Life ( \u751f\u304d\u304c\u3044\u306b\u3064\u3044\u3066 , ikigai ni tsuite ) . [ 17 ] Importance In the 1960s, 1970s, and 1980s, ikigai was thought to have two primary forms of manifestation: either in terms of the betterment of society (\"subordinating one's own desires to others\") or the improvement of oneself (\"following one's own path\"). [ 18 ] According to anthropologist Chikako Ozawa-de Silva , for an older generation in Japan, their ikigai was to \"fit this standard mold of company and family\", whereas the younger generation reported their ikigai to be about \"dreams of what they might become in the future\". [ 19 ] Relation to health This section needs expansion with: Add details about the scale. You can help by adding missing information . ( October 2024 ) Studies have shown no evidence of any correlation with development of malignant tumors and that people who do not experience ikigai are more likely to suffer from cardiovascular diseases . [ 20 ] [ 21 ] National Geographic reporter Dan Buettner suggested that ikigai may be one of the reasons for the longevity of the people of Okinawa . [ 22 ] [ 13 ] According to Buettner, Okinawans have less desire to retire and they continue doing their favorite job as long as they remain healthy. Moai , a close-knit group of friends, is also considered an important factor behind Okinawans' longevity. [ 12 ] An Ikigai scale has been constructed to measure the effects on mental and physical health effects on those people who practice it. [ 23 ] See also Eudaimonia \u2013 related concept in ancient Greek philosophy Joie de vivre Logotherapy Meaning-making Motivation \u00a7 Types Raison d'\u00eatre References \u2191 Y., Kotera; G., Kaluzeviciute; Gulcan, Garip; Kirsten, McEwan; Katy, Chamberlain (2021). \"Health Benefits of Ikigai: A Review of Literature\" . Concurrent Disorders Society Publishing . \u2191 Schippers, Micha\u00e9la (2017-06-16). IKIGAI: Reflection on Life Goals Optimizes Performance and Happiness . Erasmus Research Institute of Management, Erasmus University Rotterdam. ISBN 978-90-5892-484-1 . Archived from the original on 2021-02-04 . Retrieved 2020-03-05 . \u2191 Mathews, Gordon (1996). \"The Stuff of Dreams, Fading: Ikigai and \"The Japanese Self\" \". Ethos . 24 (4): 718\u2013 747. doi : 10.1525/eth.1996.24.4.02a00060 . ISSN 0091-2131 . JSTOR 640520 . \u2191 Schippers, Micha\u00e9la C.; Ziegler, Niklas (2019-12-13). \"Life Crafting as a Way to Find Purpose and Meaning in Life\" . Frontiers in Psychology . 10 : 2778. doi : 10.3389/fpsyg.2019.02778 . ISSN 1664-1078 . PMC 6923189 . PMID 31920827 . \u2191 Kumano, Michiko (2018-06-01). \"On the Concept of Well-Being in Japan: Feeling Shiawase as Hedonic Well-Being and Feeling Ikigai as Eudaimonic Well-Being\". Applied Research in Quality of Life . 13 (2): 419\u2013 433. doi : 10.1007/s11482-017-9532-9 . ISSN 1871-2576 . S2CID 149162906 . \u2191 Nakanishi, N (1999-05-01). \" 'Ikigai' in older Japanese people\" . Age and Ageing . 28 (3): 323\u2013 324. doi : 10.1093/ageing/28.3.323 . ISSN 1468-2834 . PMID 10475874 . \u2191 Okuzono, Sakurako S.; Shiba, Koichiro; Kim, Eric S.; Shirai, Kokoro; Kondo, Naoki; Fujiwara, Takeo; Kondo, Katunori; Lomas, Tim; Trudel-Fitzgerald, Claudia; Kawachi, Ichiro; VanderWeele, Tyler J. (2022). \"Ikigai and subsequent health and wellbeing among Japanese older adults: Longitudinal outcome-wide analysis\" . The Lancet Regional Health - Western Pacific . 21 100391. doi : 10.1016/j.lanwpc.2022.100391 . PMC 8814687 . PMID 35141667 . \u2191 Miyazaki, Junji; Shirai, Kokoro; Kimura, Takashi; Ikehara, Satoyo; Tamakoshi, Akiko; Iso, Hiroyasu (2022). \"Purpose in life (Ikigai) and employment status in relation to cardiovascular mortality: the Japan Collaborative Cohort Study\" . BMJ Open . 12 (10) e059725. doi : 10.1136/bmjopen-2021-059725 . PMC 9557793 . PMID 36216422 . \u2191 Wilkes, Juliet; Garip, Gulcan; Kotera, Yasuhiro; Fido, Dean (2023). \"Can Ikigai Predict Anxiety, Depression, and Well-being?\" . International Journal of Mental Health and Addiction . 21 (5): 2941\u2013 2953. doi : 10.1007/s11469-022-00764-7 . PMC 8887802 . PMID 35250405 . \u2191 Inoue, Katsuya (2000). Psychology of Aging . Chuo Hoki Shuppan. pp. 80\u2013 99, 144\u2013 145. ISBN 978-4-8058-1895-4 . \u2191 \"ikigai\" . Oxford English Dictionary (Online ed.). Oxford University Press . Retrieved 24 July 2021 . (Subscription or participating institution membership required.) 1 2 Garc\u00eda, H\u00e9ctor; Miralles, Francesc (2017). Ikigai: The Japanese Secret to a Long and Happy Life . Penguin Books. ISBN 978-0-14-313072-7 . 1 2 \"Ikigai: The Japanese Secret to a Joyful Life\" . The Government of Japan - JapanGov - . 2024-02-29 . Retrieved 2024-04-13 . \u2191 \"COSMOGRAMA \u00bb Tu prop\u00f3sito vital, \u00fanico e irrepetible\" . www.cosmograma.com . Retrieved 2026-01-08 . \u2191 \"What Ja"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: The Japanese term is **ikigai** (\u751f\u304d\u7532\u6590), which literally means \"a reason for being.\" It is described through a popular Venn diagram featuring four overlapping elements: what a person loves, what they are good at, what the world needs, and what they can be paid for \u2014 and the point where all four overlap represents one's ikigai. (Note: Wikipedia points out that this specific four-element diagram did not actually originate in Japan, but was created by Marc Winn, inspired by a \"purpose\" diagram by Andr\u00e9s Zuzunaga in 2011.)\nSource: Ikigai"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Ikigai",
+      "api_response": {
+        "pages": [
+          {
+            "id": 20625416,
+            "key": "Ikigai",
+            "title": "Ikigai",
+            "excerpt": "classifies <span class=\"searchmatch\">ikigai</span> into three categories \u2013 social <span class=\"searchmatch\">ikigai</span>, non-social <span class=\"searchmatch\">ikigai</span>, and anti-social <span class=\"searchmatch\">ikigai</span> \u2013 from a social perspective. Social <span class=\"searchmatch\">ikigai</span> are forms",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Giving a sense of purpose (Japanese)",
+            "thumbnail": null
+          },
+          {
+            "id": 25837764,
+            "key": "Mieko_Kamiya",
+            "title": "Mieko Kamiya",
+            "excerpt": "multi-lingual person; one of her books, titled On the Meaning of Life (<span class=\"searchmatch\">ikigai</span> ni tsuite in Japanese), based on her experiences with leprosy patients,",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Japanese physician and psychiatrist (1914\u20131979)",
+            "thumbnail": null
+          },
+          {
+            "id": 39973510,
+            "key": "Olamide",
+            "title": "Olamide",
+            "excerpt": "completed work on a seven-track project titled <span class=\"searchmatch\">Ikigai</span>. The following day, he released &quot;Project <span class=\"searchmatch\">Ikigai</span>&quot; (\u751f\u304d\u7532\u6590) featuring collaborations with past and present",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Nigerian singer and producer (born 1989)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Olamide_Live_In_Concert_%28cropped%29.jpg/60px-Olamide_Live_In_Concert_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 77246654,
+            "key": "Ikigai_(EP)",
+            "title": "Ikigai (EP)",
+            "excerpt": "<span class=\"searchmatch\">Ikigai</span> / \u751f\u304d\u7532\u6590 (Vol. 1) (Japanese: Reason for living; romanized: \u751f\u304d\u7532\u6590) is the second EP by Nigerian rapper Olamide, released on 26 June 2024 by YBNL Nation",
+            "matched_title": null,
+            "anchor": null,
+            "description": "2024 EP by Olamide",
+            "thumbnail": null
+          },
+          {
+            "id": 81305114,
+            "key": "Mia_Li",
+            "title": "Mia Li",
+            "excerpt": "Li began her career in the adult film industry in 2011. She signed with <span class=\"searchmatch\">Ikigai</span> Marketing &amp; PR in November 2017. In 2025, she was nominated in the 7th annual",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American pornographic actress (born 1990)",
+            "thumbnail": null
+          }
+        ]
+      },
+      "fetched_content": "Ikigai Giving a sense of purpose (Japanese) Ikigai ( \u751f\u304d\u7532\u6590 , lit. ' a reason for being ' ) is a Japanese concept of an individual's definition of the meaning of their life . [ 1 ] Ikigai can be having a sense of purpose in life, [ 2 ] [ 3 ] as well as being a source of motivation. [ 4 ] According to a study by Michiko Kumano, feeling ikigai as described in Japanese is usually the sense of accomplishment and fulfillment that follows when people pursue their passions. [ 5 ] Activities that generate the feeling of ikigai are not imposed on an individual; they are perceived as spontaneous and undertaken willingly, making them personal and dependent on a person's inner self. [ 6 ] [ 7 ] [ 8 ] [ 9 ] According to Japanese psychologist Katsuya Inoue, ikigai is a concept that consists of two aspects: \"sources or objects that bring value or meaning to life\" and \"a feeling that one's life has value or meaning because of the existence of its source or object\". Inoue classifies ikigai into three categories \u2013 social ikigai , non-social ikigai , and anti-social ikigai \u2013 from a social perspective. Social ikigai are forms accepted by society, such as volunteer activities and community activities. A non-social ikigai is not directly related to society, such as faith or self-discipline . Anti-social ikigai is the basic motivation for living through dark emotions, such as the desire to hate someone or something or to continue having a desire for revenge. [ 10 ] Meaning and etymology The Oxford English Dictionary defines ikigai ( / \u02c8 i k i \u02cc \u0261 a\u026a / ) as \"a motivating force; something or someone that gives a person a sense of purpose or a reason for living\". More generally, it may refer to something that brings pleasure or fulfillment. [ 11 ] The term compounds two Japanese words: iki ( \u751f\u304d , meaning 'life; alive') and kai ( \u7532\u6590 , meaning 'effect') , which, when combined and sequentially voiced as gai , result in the meaning 'a reason for living [being alive]; a meaning for [to] life; what [something that] makes life worth living; a 'raison d'\u00eatre'. In their book, Ikigai: The Japanese Secret to a Long and Happy Life , H\u00e9ctor Garc\u00eda and Francesc Miralles explain, \"This Japanese concept, which translates roughly as 'the happiness of always being busy,' is like logotherapy , but it goes a step beyond.\" [ 12 ] In 2022, the Japanese government posted an article on their official website stating, \"A broad concept, it [ikigai] refers to that which brings value and joy to life: from people, such as one's children or friends, to activities including work and hobbies.\" [ 13 ] Diagram An example of a Ikigai diagram In their book, H\u00e9ctor Garc\u00eda and Francesc Miralles include a Venn diagram created by Marc Winn, which in turn was likely inspired by the \"purpose\" diagram created in 2011 by Andr\u00e9s Zuzunaga, replacing \"purpose\" with \"ikigai.\" This diagram includes four elements: what a person likes, what a person is good at, what the world needs, and what can be rewarded. When these four elements overlap, that person has found their ikigai. [ 14 ] The diagram does not originate in Japan, [ 15 ] and has been described as an \"unrealistic ideal\" that is \"catchy but misleading\". [ 16 ] Early popularization Ikigai was first popularized by the Japanese psychiatrist and academic Mieko Kamiya in her 1966 book, On the Meaning of Life ( \u751f\u304d\u304c\u3044\u306b\u3064\u3044\u3066 , ikigai ni tsuite ) . [ 17 ] Importance In the 1960s, 1970s, and 1980s, ikigai was thought to have two primary forms of manifestation: either in terms of the betterment of society (\"subordinating one's own desires to others\") or the improvement of oneself (\"following one's own path\"). [ 18 ] According to anthropologist Chikako Ozawa-de Silva , for an older generation in Japan, their ikigai was to \"fit this standard mold of company and family\", whereas the younger generation reported their ikigai to be about \"dreams of what they might become in the future\". [ 19 ] Relation to health This section needs expansion with: Add details about the scale. You can help by adding missing information . ( October 2024 ) Studies have shown no evidence of any correlation with development of malignant tumors and that people who do not experience ikigai are more likely to suffer from cardiovascular diseases . [ 20 ] [ 21 ] National Geographic reporter Dan Buettner suggested that ikigai may be one of the reasons for the longevity of the people of Okinawa . [ 22 ] [ 13 ] According to Buettner, Okinawans have less desire to retire and they continue doing their favorite job as long as they remain healthy. Moai , a close-knit group of friends, is also considered an important factor behind Okinawans' longevity. [ 12 ] An Ikigai scale has been constructed to measure the effects on mental and physical health effects on those people who practice it. [ 23 ] See also Eudaimonia \u2013 related concept in ancient Greek philosophy Joie de vivre Logotherapy Meaning-making Motivation \u00a7 Types Raison d'\u00eatre References \u2191 Y., Kotera; G., Kaluzeviciute; Gulcan, Garip; Kirsten, McEwan; Katy, Chamberlain (2021). \"Health Benefits of Ikigai: A Review of Literature\" . Concurrent Disorders Society Publishing . \u2191 Schippers, Micha\u00e9la (2017-06-16). IKIGAI: Reflection on Life Goals Optimizes Performance and Happiness . Erasmus Research Institute of Management, Erasmus University Rotterdam. ISBN 978-90-5892-484-1 . Archived from the original on 2021-02-04 . Retrieved 2020-03-05 . \u2191 Mathews, Gordon (1996). \"The Stuff of Dreams, Fading: Ikigai and \"The Japanese Self\" \". Ethos . 24 (4): 718\u2013 747. doi : 10.1525/eth.1996.24.4.02a00060 . ISSN 0091-2131 . JSTOR 640520 . \u2191 Schippers, Micha\u00e9la C.; Ziegler, Niklas (2019-12-13). \"Life Crafting as a Way to Find Purpose and Meaning in Life\" . Frontiers in Psychology . 10 : 2778. doi : 10.3389/fpsyg.2019.02778 . ISSN 1664-1078 . PMC 6923189 . PMID 31920827 . \u2191 Kumano, Michiko (2018-06-01). \"On the Concept of Well-Being in Japan: Feeling Shiawase as Hedonic Well-Being and Feeling Ikigai as Eudaimonic Well-Being\". Applied Research in Quality of Life . 13 (2): 419\u2013 433. doi : 10.1007/s11482-017-9532-9 . ISSN 1871-2576 . S2CID 149162906 . \u2191 Nakanishi, N (1999-05-01). \" 'Ikigai' in older Japanese people\" . Age and Ageing . 28 (3): 323\u2013 324. doi : 10.1093/ageing/28.3.323 . ISSN 1468-2834 . PMID 10475874 . \u2191 Okuzono, Sakurako S.; Shiba, Koichiro; Kim, Eric S.; Shirai, Kokoro; Kondo, Naoki; Fujiwara, Takeo; Kondo, Katunori; Lomas, Tim; Trudel-Fitzgerald, Claudia; Kawachi, Ichiro; VanderWeele, Tyler J. (2022). \"Ikigai and subsequent health and wellbeing among Japanese older adults: Longitudinal outcome-wide analysis\" . The Lancet Regional Health - Western Pacific . 21 100391. doi : 10.1016/j.lanwpc.2022.100391 . PMC 8814687 . PMID 35141667 . \u2191 Miyazaki, Junji; Shirai, Kokoro; Kimura, Takashi; Ikehara, Satoyo; Tamakoshi, Akiko; Iso, Hiroyasu (2022). \"Purpose in life (Ikigai) and employment status in relation to cardiovascular mortality: the Japan Collaborative Cohort Study\" . BMJ Open . 12 (10) e059725. doi : 10.1136/bmjopen-2021-059725 . PMC 9557793 . PMID 36216422 . \u2191 Wilkes, Juliet; Garip, Gulcan; Kotera, Yasuhiro; Fido, Dean (2023). \"Can Ikigai Predict Anxiety, Depression, and Well-being?\" . International Journal of Mental Health and Addiction . 21 (5): 2941\u2013 2953. doi : 10.1007/s11469-022-00764-7 . PMC 8887802 . PMID 35250405 . \u2191 Inoue, Katsuya (2000). Psychology of Aging . Chuo Hoki Shuppan. pp. 80\u2013 99, 144\u2013 145. ISBN 978-4-8058-1895-4 . \u2191 \"ikigai\" . Oxford English Dictionary (Online ed.). Oxford University Press . Retrieved 24 July 2021 . (Subscription or participating institution membership required.) 1 2 Garc\u00eda, H\u00e9ctor; Miralles, Francesc (2017). Ikigai: The Japanese Secret to a Long and Happy Life . Penguin Books. ISBN 978-0-14-313072-7 . 1 2 \"Ikigai: The Japanese Secret to a Joyful Life\" . The Government of Japan - JapanGov - . 2024-02-29 . Retrieved 2024-04-13 . \u2191 \"COSMOGRAMA \u00bb Tu prop\u00f3sito vital, \u00fanico e irrepetible\" . www.cosmograma.com . Retrieved 2026-01-08 . \u2191 \"What Ja",
+      "content_source": "page/Ikigai/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: The Japanese term is **ikigai** (\u751f\u304d\u7532\u6590), which literally means \"a reason for being.\" It is described through a popular Venn diagram featuring four overlapping elements: what a person loves, what they are good at, what the world needs, and what they can be paid for \u2014 and the point where all four overlap represents one's ikigai. (Note: Wikipedia points out that this specific four-element diagram did not actually originate in Japan, but was created by Marc Winn, inspired by a \"purpose\" diagram by Andr\u00e9s Zuzunaga in 2011.)\nSource: Ikigai",
+  "total_tool_calls": 1,
+  "latency_ms": 6244,
+  "error": null
+}

@@ -220,10 +220,17 @@ def eval(
 
 # ── hillclimb ────────────────────────────────────────────────────────────────
 #
-# Usage:
-#   python -m src.cli hillclimb --category accuracy     # improve accuracy rubrics
-#   python -m src.cli hillclimb --category retrieval    # improve retrieval rubrics
-#   python -m src.cli hillclimb --category boundaries   # improve refusal rubrics
+# Usage (by category — targets all rubrics in that category):
+#   python -m src.cli hillclimb --category accuracy
+#   python -m src.cli hillclimb --category retrieval
+#   python -m src.cli hillclimb --category boundaries
+#
+# Usage (by rubric — single-rubric precision targeting):
+#   python -m src.cli hillclimb --rubric factual_accuracy
+#   python -m src.cli hillclimb --rubric query_entity_adherence
+#   python -m src.cli hillclimb --rubric groundedness
+#   python -m src.cli hillclimb --rubric no_opinion_leakage
+#   python -m src.cli hillclimb --rubric tool_use_appropriateness
 #
 # Options:
 #   --run-id <id>       baseline run to draw failures from (default: latest)
@@ -232,27 +239,44 @@ def eval(
 #
 # Writes: src/agent/prompts/vN+1.md  +  logs/hillclimb/history.jsonl
 
+_VALID_RUBRICS = [
+    "tool_use_appropriateness", "query_entity_adherence",
+    "factual_accuracy", "groundedness",
+    "no_opinion_leakage", "ambiguity_acknowledgment",
+]
+
 @cli.command()
-@click.option("--category", required=True, type=click.Choice(["retrieval", "accuracy", "boundaries"]))
+@click.option("--category", default=None, type=click.Choice(["retrieval", "accuracy", "boundaries"]),
+              help="Target all rubrics in this category.")
+@click.option("--rubric", default=None, type=click.Choice(_VALID_RUBRICS),
+              help="Target a single rubric (category derived automatically).")
 @click.option("--run-id", default=None, help="Eval run to use as baseline. Defaults to latest.")
 @click.option("--suite", "suite_path", default=_DEFAULT_SUITE, show_default=True)
 @click.option("--max-cases", default=10, show_default=True, help="Max failed cases to include in improvement prompt.")
 @click.option("--judge-model", default="claude-sonnet-4-6", show_default=True, help="Claude model used as the prompt engineer.")
 def hillclimb(
-    category: str,
+    category: str | None,
+    rubric: str | None,
     run_id: str | None,
     suite_path: str,
     max_cases: int,
     judge_model: str,
 ):
-    """Run one hill climb cycle targeting a rubric category."""
+    """Run one hill climb cycle. Use --category or --rubric (not both)."""
     from src.hillclimb.runner import run_hillclimb
 
-    console.print(f"[bold green]Hill Climb[/] — category={category}, judge={judge_model}")
+    if not category and not rubric:
+        raise click.UsageError("Specify either --category or --rubric.")
+    if category and rubric:
+        raise click.UsageError("Use --category OR --rubric, not both.")
 
-    with console.status(f"Improving [{category}] section…"):
+    target = rubric or category
+    console.print(f"[bold green]Hill Climb[/] — target={target}, judge={judge_model}")
+
+    with console.status(f"Improving [{target}]…"):
         result = run_hillclimb(
             category=category,
+            rubric=rubric,
             suite_path=suite_path,
             run_id=run_id,
             max_cases=max_cases,
@@ -260,10 +284,10 @@ def hillclimb(
         )
 
     if result.get("status") == "no_failures":
-        console.print(f"[green]No failures in [{category}] — nothing to improve.[/]")
+        console.print(f"[green]No failures found for [{target}] — nothing to improve.[/]")
         return
 
-    console.print(f"\n[bold]{result['from_version']} → {result['to_version']}[/]  (category: {category})\n")
+    console.print(f"\n[bold]{result['from_version']} → {result['to_version']}[/]  (target: {target})\n")
 
     table = Table(show_header=True, header_style="bold")
     table.add_column("Rubric")

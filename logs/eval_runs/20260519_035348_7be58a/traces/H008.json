@@ -1,0 +1,87 @@
+{
+  "eval_id": "H008",
+  "run_id": "20260519_035348_7be58a",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What caused the destruction of the Library of Alexandria?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What caused the destruction of the Library of Alexandria?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01CztyQt9VrRoSYkj4opSgki",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Library of Alexandria"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01CztyQt9VrRoSYkj4opSgki",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01MXq4wec2ZFQ3c3zL2KvTLa",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Alexandria Library"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01MXq4wec2ZFQ3c3zL2KvTLa",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find relevant information on Wikipedia for this question.\n\nSource: N/A"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Library of Alexandria",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "Alexandria Library",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "I could not find relevant information on Wikipedia for this question.\n\nSource: N/A",
+  "total_tool_calls": 2,
+  "latency_ms": 20101,
+  "error": null
+}

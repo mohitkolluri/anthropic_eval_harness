@@ -12,12 +12,16 @@ from src.wikipedia.retriever import fetch_page_content, search_pages
 _PROMPTS_DIR = Path(__file__).parent / "prompts"
 _MAX_TOOL_ROUNDS = 6  # safety cap on agentic back-and-forth turns
 
+# Sentinel content_source values — used by graders to distinguish call types
+_SOURCE_SEARCH = "search_candidates"       # search_wikipedia → candidate list
+_SOURCE_FETCH  = "page/{key}/with_html"    # fetch_wikipedia  → full content
+
 
 def _latest_prompt_version() -> str:
     versions = sorted(_PROMPTS_DIR.glob("v*.md"), key=lambda p: int(p.stem[1:]))
     if not versions:
         raise FileNotFoundError(f"No prompt files found in {_PROMPTS_DIR}")
-    return versions[-1].stem  # e.g. "v1"
+    return versions[-1].stem
 
 
 def load_prompt(version: str | None = None) -> tuple[str, str]:
@@ -27,6 +31,25 @@ def load_prompt(version: str | None = None) -> tuple[str, str]:
     if not path.exists():
         raise FileNotFoundError(f"Prompt not found: {path}")
     return ver, path.read_text()
+
+
+def _format_candidates(pages: list[dict]) -> str:
+    """Format search results as a numbered candidate list for the agent."""
+    if not pages:
+        return "No results found."
+    lines = []
+    for p in pages:
+        desc = p.get("description") or ""
+        excerpt = p.get("excerpt") or ""
+        # Strip HTML tags from excerpt
+        import re
+        excerpt = re.sub(r"<[^>]+>", "", excerpt)[:120]
+        lines.append(
+            f"  key={p['key']!r}  title={p['title']!r}\n"
+            f"    description: {desc}\n"
+            f"    excerpt: {excerpt}"
+        )
+    return "\n".join(lines)
 
 
 @dataclass
@@ -85,35 +108,47 @@ def run(
 
             tool_results = []
             for tc in response["tool_calls"]:
-                query = tc["input"].get("query", "")
-                api_response = search_pages(query, limit=5)
+                action = tc["input"].get("action", "search")
+                query  = tc["input"].get("query", "")
 
-                fetched_content = ""
-                content_source = "none"
-                if api_response:
-                    top_key = api_response[0].get("key", "")
-                    if top_key:
-                        fetched_content = fetch_page_content(top_key)
-                        content_source = f"page/{top_key}/with_html (stripped)"
+                if action == "search":
+                    pages = search_pages(query, limit=5)
+                    result_text = f"Candidates for '{query}':\n{_format_candidates(pages)}"
+                    tool_call_records.append(ToolCallRecord(
+                        call_index=call_index,
+                        query=query,
+                        api_response={"pages": pages},
+                        fetched_content="",
+                        content_source=_SOURCE_SEARCH,
+                    ))
+                    tool_results.append({
+                        "type": "tool_result",
+                        "tool_use_id": tc["id"],
+                        "content": result_text,
+                    })
 
-                tool_call_records.append(ToolCallRecord(
-                    call_index=call_index,
-                    query=query,
-                    api_response={"pages": api_response},
-                    fetched_content=fetched_content,
-                    content_source=content_source,
-                ))
-                tool_results.append({
-                    "type": "tool_result",
-                    "tool_use_id": tc["id"],
-                    "content": fetched_content or "No relevant Wikipedia content found.",
-                })
+                else:  # action == "fetch"
+                    page_key = query  # query field carries the page key for fetch
+                    content  = fetch_page_content(page_key)
+                    source   = f"page/{page_key}/with_html (stripped)" if content else "none"
+                    tool_call_records.append(ToolCallRecord(
+                        call_index=call_index,
+                        query=page_key,
+                        api_response={},
+                        fetched_content=content,
+                        content_source=source,
+                    ))
+                    tool_results.append({
+                        "type": "tool_result",
+                        "tool_use_id": tc["id"],
+                        "content": content or f"No content found for page key '{page_key}'.",
+                    })
+
                 call_index += 1
 
             messages.append({"role": "user", "content": tool_results})
 
         latency_ms = int((time.monotonic() - t0) * 1000)
-
         return AgentResult(
             output=response.get("content") or "",
             conversation=messages,

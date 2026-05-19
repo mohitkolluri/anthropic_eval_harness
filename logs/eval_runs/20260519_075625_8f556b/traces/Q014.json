@@ -1,0 +1,287 @@
+{
+  "eval_id": "Q014",
+  "run_id": "20260519_075625_8f556b",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "How did Gutenberg's invention of the printing press in the 1440s contribute to the Protestant Reformation?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "How did Gutenberg's invention of the printing press in the 1440s contribute to the Protestant Reformation?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_014azAxgdqEtgWxjE4S127to",
+          "name": "search_wikipedia",
+          "input": {
+            "action": "search",
+            "query": "Gutenberg printing press"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01PUnCc8bbC7NK1fH5Z9pAzS",
+          "name": "search_wikipedia",
+          "input": {
+            "action": "search",
+            "query": "Protestant Reformation"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_014azAxgdqEtgWxjE4S127to",
+          "content": "Candidates for 'Gutenberg printing press':\n  key='Printing_press'  title='Printing press'\n    description: Mechanism that applies ink to a medium\n    excerpt: of the printing press was one of the most influential events in the second millennium. In Germany, around 1440, the gold\n  key='Johannes_Gutenberg'  title='Johannes Gutenberg'\n    description: German inventor and craftsman (died 1468)\n    excerpt: already in use in East Asia, Gutenberg&#039;s invention of the printing press enabled a much faster rate of printing. Th\n  key='Global_spread_of_the_printing_press'  title='Global spread of the printing press'\n    description: \n    excerpt: Following the invention of the printing press in the German city of Mainz by Johannes Gutenberg c.\u20091439, Western printin\n  key='Printing'  title='Printing'\n    description: Process for reproducing text and images\n    excerpt: Bi Sheng around 1040 and the printing press invented by Johannes Gutenberg in the 15th century. The technology of printi\n  key='Gutenberg_Museum'  title='Gutenberg Museum'\n    description: Museum in Mainz, Germany\n    excerpt: 360m 392yds Gutenberg Museum \u00a0\u00a0\u00a0 The Gutenberg Museum is one of the oldest museums of printing in the world, located opp"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01PUnCc8bbC7NK1fH5Z9pAzS",
+          "content": "Candidates for 'Protestant Reformation':\n  key='Reformation'  title='Reformation'\n    description: 16th-century movement in Western Christianity\n    excerpt: The Reformation, also known as the Protestant Reformation or the European Reformation, was a major theological movement \n  key='Scottish_Reformation'  title='Scottish Reformation'\n    description: Movement that established the Church of Scotland\n    excerpt: The Scottish Reformation was the process whereby Scotland broke away from the Catholic Church, and established the Prote\n  key='English_Reformation'  title='English Reformation'\n    description: 16th-century Christian movement\n    excerpt: Henry relied on Protestants to support and implement his religious agenda. Ideologically, the groundwork for the subsequ\n  key='Art_in_the_Protestant_Reformation_and_Counter-Reformation'  title='Art in the Protestant Reformation and Counter-Reformation'\n    description: \n    excerpt: The Protestant Reformation during the 16th century in Europe almost entirely rejected the existing tradition of Catholic\n  key='Proto-Protestantism'  title='Proto-Protestantism'\n    description: Precursors to the Protestant Reformation\n    excerpt: usually regard as the starting year for the Reformation era. The relationship between medieval sects and Protestantism i"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01Y8pTCYGrrDsgX2Qx4VJoZn",
+          "name": "search_wikipedia",
+          "input": {
+            "action": "fetch",
+            "query": "Printing_press"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01NqkUfxrVmWHkbRgQRbMPNv",
+          "name": "search_wikipedia",
+          "input": {
+            "action": "fetch",
+            "query": "Reformation"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Y8pTCYGrrDsgX2Qx4VJoZn",
+          "content": "Printing press Mechanism that applies ink to a medium This article is about the historical device created by Johannes Gutenberg. For the modern technology of printing, see Printing . Printing press A recreated Gutenberg press at the International Printing Museum in Carson, California Classification Machine Application Printing Inventor Johannes Gutenberg Invented 1440 (586 years ago) ( 1440 ) Part of a series on the History of printing Techniques Pintadera 10,000 BC Woodblock printing 200 Movable type 1040 Intaglio (printmaking) 1430 Printing press c. 1440 Etching c. 1515 Mezzotint 1642 Relief printing 1690 Aquatint 1772 Lithography 1796 Chromolithography 1837 Rotary press 1843 Hectograph 1860 Offset printing 1875 Hot metal typesetting 1884 Mimeograph 1885 Daisy wheel printing 1889 Photostat and rectigraph 1907 Screen printing 1911 Spirit duplicator 1923 Dot matrix printing 1925 Xerography 1938 Spark printing 1940 Phototypesetting 1949 Inkjet printing 1950 Dye-sublimation 1957 Laser printing 1969 Thermal printing c. 1972 Solid ink printing 1972 Thermal-transfer printing 1981 3D printing 1986 Digital printing 1991 v t e A printing press is a mechanical device for applying pressure to an inked surface resting upon a print medium (such as paper or cloth), thereby transferring the ink. It marked a dramatic improvement on earlier printing methods, in which the medium was brushed or rubbed repeatedly to achieve the transfer of ink. The invention and global spread of the printing press was one of the most influential events in the second millennium. In Germany, around 1440, the goldsmith Johannes Gutenberg invented the movable-type printing press, which started the Printing Revolution . Modeled on the design of existing screw presses , a single Renaissance printing press could produce up to 3,600 pages per workday, compared to forty by hand-printing and a few by hand-copying . Gutenberg's newly devised hand mould made possible the rapid creation of metal movable type in large quantities. From Mainz , the press spread within several decades to over 200 cities in a dozen European countries. By 1500, presses in operation throughout Western Europe had produced more than 20 million volumes. The operation of a press became synonymous with the enterprise of printing and lent its name to a new medium of expression and communication, \" the press \". The spread of the printing press introduced the era of mass communication , which altered the structure of European society. The relatively unrestricted circulation of information and ideas transcended borders, spread rapidly during the Reformation , and supported the collaborative networks of the Scientific Revolution . A sharp increase in literacy broke the monopoly of the literate elite on education and learning and strengthened the emerging middle class . As works were increasingly published in vernacular languages rather than Latin , printed texts helped to standardize the spelling and syntax of national languages. Although the basic design of the wooden handpress remained largely unchanged for more than three centuries, the Industrial Revolution brought fundamental change. By 1800, Lord Stanhope had built the first press entirely from cast iron , doubling the printed area and output. In the 1810s, Friedrich Koenig introduced steam power and the rotary motion of cylinders, and his presses were adopted by The Times in 1814. The steam-powered rotary printing press , invented by Richard M. Hoe in 1843, allowed millions of copies of a page to be produced in a single day. During the twentieth century, offset printing , phototypesetting , and digital printing successively replaced the letterpress method for most commercial applications. History Main article: History of printing Economic conditions and intellectual climate See also: History of capitalism and Medieval university A medieval university class, 1350s The economic and cultural changes of late medieval Europe helped to create conditions in which Gutenberg's printing press could succeed commercially. The growth of trade and commerce had expanded the urban middle class , while the multiplication of universities from the twelfth century onward had increased demand for books. Hand-copying was slow and expensive, and by the fifteenth century the supply of manuscripts fell far short of this growing demand. [ 1 ] Technological factors See also: History of Western typography and Medieval technology Gutenberg's press combined four pre-existing technologies that had each reached a level of development sufficient for printing by the mid-fifteenth century: the screw press, movable type , the codex book format, and mechanized paper production. Gutenberg integrated these into a single working system and added a number of innovations of his own, including a hand mould for casting type and an oil-based ink suited to metal type. [ 2 ] Early modern wine press . Such screw presses, used in Europe for a wide range of uses, provided Gutenberg with the model for his printing press. The first of these was the screw press, which allowed direct pressure to be applied on a flat plane. It was already of great antiquity in Gutenberg's time and was used for a wide range of tasks. [ 3 ] Introduced in the 1st century AD by the Romans , it was commonly employed in agricultural production for pressing grapes for wine and olives for oil. [ 4 ] The device was also used from very early on in urban contexts as a cloth press for printing patterns. [ 5 ] Gutenberg may have also been inspired by the paper presses which had spread through the German lands since the late 14th century and which worked on the same mechanical principles. [ 6 ] Gutenberg adopted the basic design, thereby mechanizing the printing process. [ 7 ] Printing, however, put a demand on the machine quite different from pressing. Gutenberg adapted the construction so that the pressing power exerted by the platen on the paper was now applied both evenly and with the required sudden elasticity. To speed up the printing process, he introduced a movable undertable with a plane surface on which the sheets could be swiftly changed. [ 8 ] Movable type sorted in a letter case and loaded in a composing stick on top The second element, movable type, existed in some form prior to 15th century Europe; sporadic evidence that the typographical principle , the idea of creating a text by reusing individual characters, was known and had been cropping up since the 12th century and possibly before (the oldest known application dating back as far as the Phaistos disc ). The first movable type was invented by Chinese engineer Bi Sheng in the 11th century during the Song dynasty , and a book dating to 1193 recorded the first copper movable type. [ 9 ] Woodblock printing remained the dominant technique in East Asia. The oldest printed book using metal movable type was the Jikji , printed in Korea in 1377 during the Goryeo era. Other notable examples include the Pr\u00fcfening inscription from Germany, letter tiles from England and Altarpiece of Pellegrino II in Italy. [ 10 ] However, the various techniques employed (imprinting, punching and assembling individual letters) did not have the refinement and efficiency needed to become widely accepted. Tsuen-Hsuin and Needham, and Briggs and Burke suggest that the movable-type printing in China and Korea was rarely employed, in part because the large number of characters in logographic writing systems made movable type less practical than in alphabetic systems. [ 11 ] [ 12 ] Gutenberg's use of the Latin alphabet was a practical advantage in this respect because it allowed the type-setter to represent any text with a relatively small set of characters. [ 13 ] The third element was the codex book format, which had originated in the Roman period . [ 14 ] Considered the most important advance in the history of the book prior to printing itself, the codex had completely replaced the ancient scroll at the onset of the Midd"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01NqkUfxrVmWHkbRgQRbMPNv",
+          "content": "Reformation 16th-century movement in Western Christianity For other uses, see Reformation (disambiguation) . Part of a series on the Reformation Ninety-five Theses , written by Martin Luther in 1517 Precursors Peter Waldo and Waldensians John Wycliffe and Lollardy Jan Hus and Hussites Girolamo Savonarola and Piagnoni Arnold of Brescia and Arnoldists Peter of Bruys and Petrobrusians Henry of Lausanne and Henricians Berengar of Tours and Berengarians Friends of God Pataria Gottschalk of Orbais Ratramnus Claudius of Turin Wessel Gansfort Johann Ruchrat von Wesel Johannes von Goch Gundolfo Beginning Ninety-five Theses Diet of Worms Luther Bible Magisterials Radicals Contributing factors Western Schism Avignon Papacy Bohemian Reformation Northern Renaissance Christian humanism German mysticism Johannes Gutenberg and his printing press Erasmus Johann Reuchlin Theologies of seminal figures Theology of Martin Luther Theology of Huldrych Zwingli Theology of John Calvin Protestant Reformers Martin Luther Philip Melanchthon Huldrych Zwingli John Calvin Martin Bucer William Tyndale Andreas Karlstadt Theodore Beza George Buchanan Heinrich Bullinger Peter Martyr Vermigli William Farel Fran\u00e7ois Hotman John Knox Hubert Languet Thomas M\u00fcntzer Balthasar Hubmaier Menno Simons Thomas Cranmer Richard Hooker Jacobus Arminius Thomas Helwys Roger Williams Henry Denne Many others By location Germany Switzerland ( Geneva / Z\u00fcrich ) England Scotland Netherlands Czech Lands Hungary Romania Slovenia Denmark\u2013Norway and Holstein Sweden and Finland Iceland Estonia and Latvia Austria France Italy Poland-Lithuania Ireland Major political leaders Henry VIII Elizabeth I Oliver Cromwell James VI and I William the Silent Gaspard II de Coligny Henry IV of France Jeanne d'Albret Stephen Bocskai Gabriel Bethlen Gustav II Adolf Frederick V, Elector Palatine Philip I of Hesse Electors of Saxony Frederick III John Frederick I Counter-Reformation Catholic Church Council of Trent Counter-Reformation \u00a7 Politics Censorship of the Bible \u00a7 16th century Anti-Protestantism Criticism Holy Roman Emperors Charles V Ferdinand II Political and religious conflicts Thirty Years' War French Wars of Religion Eighty Years' War War of the Three Kingdoms German Peasants' War Wars of Kappel Schmalkaldic War Art and literature Painting and sculpture Northern Mannerism Lutheran art German Renaissance Art Swedish art English art Woodcuts Art conflicts Beeldenstorm Building Influence on church architecture Literature Elizabethan Metaphysical poets Propaganda Welsh Scottish Anglo-Irish German Czech Swiss Slovak Sorbian Romanian Danish Bohori\u010d alphabet Faroese Norwegian Swedish Finnish Icelandic Dutch Renaissance and Golden Age Folklore of the Low Countries 16th century Renaissance humanism 16th century in poetry 16th century in literature Theater English Renaissance theatre Pastoral Morality History Tragedy Revenge Music Forms Hymnody of continental Europe Music of the British Isles Hymn tune Lutheran chorale Lutheran hymn Anglican church music Exclusive psalmody Scottish church music Normative principle Anglican chant Homophony vs. Polyphony Falsobordone Verse anthem Liturgies Reformed worship Calvin's liturgy Formula missae Deutsche Messe Liturgical Struggle Ecclesiastical Latin Lutheran and Anglican Mass in music Cyclic mass vs. Paraphrase mass Roman vs. Sarum Rites Sequence (retained by Lutherans, mostly banned by Trent) Hymnals First and Second Lutheran hymnals First Wittenberg hymnal Ausbund Swenske songer Thomiss\u00f8n's hymnal Book of Common Prayer Metrical psalters Book of Common Order Souterliedekens Genevan Psalter Scottish Psalter Whole Book of Psalms Conclusion and commemorations Conclusion Confessionalization with subsequent Protestant orthodoxy Peace of Westphalia Simultaneous rise of Pietism and Rationalism Monuments Reformation Wall Luther Monuments Calendrical commemoration Reformation Day Lutheran Anglican Protestantism v t e Part of a series on Protestantism Outline Concepts Anti-Protestantism Bible Criticism Culture Demographics Ecclesiology Liturgy Relations with Catholics Theologies Five Solas History Proto-Protestantism Bohemian Reformation Reformation Magisterial Radical Counter Martin Luther Ninety-five Theses Augsburg Confession Huldrych Zwingli John Calvin Arminianism Crypto-Protestantism Nonconformists Dissenters Puritans John Wesley Pietism Great Awakenings in America Revival meetings Branches Proto-Protestants Hussites Waldensians Lutherans Reformed Continental Presbyterians Congregational Anglicans Continuing Anabaptists Amish Hutterites Mennonites Quakers Baptists Black church Methodists Radical Pietism Shakers Stone-Campbell Plymouth Brethren Pentecostals Adventist Irvings Holiness Keswickians Eastern Protestant United and uniting churches Nondenominational Movements Augsburg Catholics Charismatics Neo-Charismatics Confessionalism Confessing Movement Convergence Church Growth Ecumenism Emerging church Evangelicalism Fundamentalism High church Liberalism Mainlines Neo-charismatics Neo-orthodoxy New Calvinism Paleo-orthodoxy Progressivism Spiritual Christianity Christianity portal v t e Part of a series on Christianity Jesus Christ Nativity Baptism Ministry Crucifixion Resurrection Ascension Bible Foundations Old Testament New Testament Gospel Canon Church Prophets Creed New Covenant Theology God Trinity Father Son Holy Spirit Apologetics Baptism Christology History of theology Salvation Universalism History Tradition Apostles Peter Paul Mary Early Christianity Church Fathers Constantine Councils Augustine Three Holy Hierarchs East\u2013West Schism Crusades Aquinas Reformation Luther Denominations (list) Western Latin-rite Catholic Independent Catholic Protestant Anabaptist Anglican Baptist Evangelical Holiness Lutheran Methodist Moravian Pentecostal Quaker Reformed Western Orthodox Eastern Eastern Orthodox Oriental Orthodox East Syriac Eastern Catholic Eastern Protestant Restorationist Adventist Jehovah's Witness Latter Day Saint Swedenborgian Unitarian Related topics Anti-Christian sentiment Adherents Criticism Culture Ecumenism Liturgy Mission Other religions Prayer Sermon Symbolism Western society Worship Glossary Index Outline Christianity portal v t e The Reformation , also known as the Protestant Reformation or the European Reformation , [ 1 ] was a major theological movement in Western Christianity in 16th-century Europe that posed a religious and political challenge to the papacy and the authority of the Catholic Church hierarchy. Towards the end of the Renaissance , the Reformation marked the beginning of Protestantism . It is considered one of the events that signified the end of the Middle Ages and the beginning of the early modern period in Europe. [ 2 ] The Reformation is usually dated from Martin Luther 's publication of the Ninety-five Theses in 1517, which gave birth to Lutheranism . Prior to Martin Luther and other Protestant Reformers , there were earlier reform movements within Western Christianity. The end of the Reformation era is disputed among modern scholars. In general, the Reformers argued that justification was based on faith in Jesus Christ alone and not both faith and arising charitable acts , as in the Catholic view. [ 3 ] : 23 In the Lutheran, Anglican and Reformed view, good works were seen as fruits of living faith and part of the process of sanctification which was distinct from justification. [ 4 ] [ 5 ] Protestantism also introduced new ecclesiology . The general points of theological agreement by the different Protestant groups have been more recently summarized as the three solae , though various Protestant denominations disagree on doctrines such as the nature of the real presence of Christ in the Eucharist , with Lutherans accepting a corporeal presence and the Reformed accepting a spiritual presence. [ 6 ] [ 7 ] The spread of Gutenberg's printing press provided the means for the rapid dissemination of religious materials in the vernacular. The initial m"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: The printing press enabled the rapid dissemination of religious materials in the vernacular, which was crucial to the Protestant Reformation. According to Wikipedia's Reformation article, \"The spread of Gutenberg's printing press provided the means for the rapid dissemination of religious materials in the vernacular.\" The printing press technology allowed for the mass production and wide circulation of Protestant texts and ideas across Europe, transcending borders and spreading rapidly during the Reformation period. Where hand-copying had been slow and expensive, a single Renaissance printing press could produce up to 3,600 pages per workday, making it possible to distribute works like Martin Luther's Ninety-five Theses (1517) on a scale that would have been impossible before Gutenberg's invention.\n\nSource: Printing press, Reformation"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Gutenberg printing press",
+      "api_response": {
+        "pages": [
+          {
+            "id": 23295,
+            "key": "Printing_press",
+            "title": "Printing press",
+            "excerpt": "of the <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span> was one of the most influential events in the second millennium. In Germany, around 1440, the goldsmith Johannes <span class=\"searchmatch\">Gutenberg</span> invented",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Mechanism that applies ink to a medium",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/60px-PrintMus_038.jpg"
+            }
+          },
+          {
+            "id": 15745,
+            "key": "Johannes_Gutenberg",
+            "title": "Johannes Gutenberg",
+            "excerpt": "already in use in East Asia, <span class=\"searchmatch\">Gutenberg&#039;s</span> invention of the <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span> enabled a much faster rate of <span class=\"searchmatch\">printing</span>. The <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span> later spread across the",
+            "matched_title": null,
+            "anchor": null,
+            "description": "German inventor and craftsman (died 1468)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mainz_Gutenbergdenkmal_2016_%28cropped%29.jpg/60px-Mainz_Gutenbergdenkmal_2016_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 7695885,
+            "key": "Global_spread_of_the_printing_press",
+            "title": "Global spread of the printing press",
+            "excerpt": "Following the invention of the <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span> in the German city of Mainz by Johannes <span class=\"searchmatch\">Gutenberg</span> c.\u20091439, Western <span class=\"searchmatch\">printing</span> technology spread across the world",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 65,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Printing_towns_incunabula.svg/60px-Printing_towns_incunabula.svg.png"
+            }
+          },
+          {
+            "id": 44723,
+            "key": "Printing",
+            "title": "Printing",
+            "excerpt": "Bi Sheng around 1040 and the <span class=\"searchmatch\">printing</span> <span class=\"searchmatch\">press</span> invented by Johannes <span class=\"searchmatch\">Gutenberg</span> in the 15th century. The technology of <span class=\"searchmatch\">printing</span> played a key role in the development",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Process for reproducing text and images",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Collage_of_printing.png/60px-Collage_of_printing.png"
+            }
+          },
+          {
+            "id": 255041,
+            "key": "Gutenberg_Museum",
+            "title": "Gutenberg Museum",
+            "excerpt": "360m 392yds <span class=\"searchmatch\">Gutenberg</span> Museum \u00a0\u00a0\u00a0 The <span class=\"searchmatch\">Gutenberg</span> Museum is one of the oldest museums of <span class=\"searchmatch\">printing</span> in the world, located opposite the cathedral in the old",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Museum in Mainz, Germany",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 45,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Gutenberg-Museum_Mainz_585-vh.jpg/60px-Gutenberg-Museum_Mainz_585-vh.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "",
+      "content_source": "search_candidates"
+    },
+    {
+      "call_index": 1,
+      "query": "Protestant Reformation",
+      "api_response": {
+        "pages": [
+          {
+            "id": 37857,
+            "key": "Reformation",
+            "title": "Reformation",
+            "excerpt": "The <span class=\"searchmatch\">Reformation</span>, also known as the <span class=\"searchmatch\">Protestant</span> <span class=\"searchmatch\">Reformation</span> or the European <span class=\"searchmatch\">Reformation</span>, was a major theological movement in Western Christianity in 16th-century",
+            "matched_title": null,
+            "anchor": null,
+            "description": "16th-century movement in Western Christianity",
+            "thumbnail": null
+          },
+          {
+            "id": 6987580,
+            "key": "Scottish_Reformation",
+            "title": "Scottish Reformation",
+            "excerpt": "The Scottish <span class=\"searchmatch\">Reformation</span> was the process whereby Scotland broke away from the Catholic Church, and established the <span class=\"searchmatch\">Protestant</span> Church of Scotland. It forms",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Movement that established the Church of Scotland",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Statue_of_John_Knox_in_New_College_quadrangle%2C_Edinburgh.jpg/60px-Statue_of_John_Knox_in_New_College_quadrangle%2C_Edinburgh.jpg"
+            }
+          },
+          {
+            "id": 18974659,
+            "key": "English_Reformation",
+            "title": "English Reformation",
+            "excerpt": "Henry relied on <span class=\"searchmatch\">Protestants</span> to support and implement his religious agenda. Ideologically, the groundwork for the subsequent <span class=\"searchmatch\">Reformation</span> was laid by Renaissance",
+            "matched_title": null,
+            "anchor": null,
+            "description": "16th-century Christian movement",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 81,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Henry_VIII_%281%29_by_Hans_Holbein_the_Younger.jpg/60px-Henry_VIII_%281%29_by_Hans_Holbein_the_Younger.jpg"
+            }
+          },
+          {
+            "id": 9410290,
+            "key": "Art_in_the_Protestant_Reformation_and_Counter-Reformation",
+            "title": "Art in the Protestant Reformation and Counter-Reformation",
+            "excerpt": "The <span class=\"searchmatch\">Protestant</span> <span class=\"searchmatch\">Reformation</span> during the 16th century in Europe almost entirely rejected the existing tradition of Catholic art, and very often destroyed",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 51,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Noli_me_tangere_by_Hans_Holbein_d._J._-_Hampton_Court_Palace.jpg/60px-Noli_me_tangere_by_Hans_Holbein_d._J._-_Hampton_Court_Palace.jpg"
+            }
+          },
+          {
+            "id": 58263681,
+            "key": "Proto-Protestantism",
+            "title": "Proto-Protestantism",
+            "excerpt": "usually regard as the starting year for the <span class=\"searchmatch\">Reformation</span> era. The relationship between medieval sects and <span class=\"searchmatch\">Protestantism</span> is an issue that has been debated by historians",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Precursors to the Protestant Reformation",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 84,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Portrait_of_John_Wycliffe.jpg/60px-Portrait_of_John_Wycliffe.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "",
+      "content_source": "search_candidates"
+    },
+    {
+      "call_index": 2,
+      "query": "Printing_press",
+      "api_response": {},
+      "fetched_content": "Printing press Mechanism that applies ink to a medium This article is about the historical device created by Johannes Gutenberg. For the modern technology of printing, see Printing . Printing press A recreated Gutenberg press at the International Printing Museum in Carson, California Classification Machine Application Printing Inventor Johannes Gutenberg Invented 1440 (586 years ago) ( 1440 ) Part of a series on the History of printing Techniques Pintadera 10,000 BC Woodblock printing 200 Movable type 1040 Intaglio (printmaking) 1430 Printing press c. 1440 Etching c. 1515 Mezzotint 1642 Relief printing 1690 Aquatint 1772 Lithography 1796 Chromolithography 1837 Rotary press 1843 Hectograph 1860 Offset printing 1875 Hot metal typesetting 1884 Mimeograph 1885 Daisy wheel printing 1889 Photostat and rectigraph 1907 Screen printing 1911 Spirit duplicator 1923 Dot matrix printing 1925 Xerography 1938 Spark printing 1940 Phototypesetting 1949 Inkjet printing 1950 Dye-sublimation 1957 Laser printing 1969 Thermal printing c. 1972 Solid ink printing 1972 Thermal-transfer printing 1981 3D printing 1986 Digital printing 1991 v t e A printing press is a mechanical device for applying pressure to an inked surface resting upon a print medium (such as paper or cloth), thereby transferring the ink. It marked a dramatic improvement on earlier printing methods, in which the medium was brushed or rubbed repeatedly to achieve the transfer of ink. The invention and global spread of the printing press was one of the most influential events in the second millennium. In Germany, around 1440, the goldsmith Johannes Gutenberg invented the movable-type printing press, which started the Printing Revolution . Modeled on the design of existing screw presses , a single Renaissance printing press could produce up to 3,600 pages per workday, compared to forty by hand-printing and a few by hand-copying . Gutenberg's newly devised hand mould made possible the rapid creation of metal movable type in large quantities. From Mainz , the press spread within several decades to over 200 cities in a dozen European countries. By 1500, presses in operation throughout Western Europe had produced more than 20 million volumes. The operation of a press became synonymous with the enterprise of printing and lent its name to a new medium of expression and communication, \" the press \". The spread of the printing press introduced the era of mass communication , which altered the structure of European society. The relatively unrestricted circulation of information and ideas transcended borders, spread rapidly during the Reformation , and supported the collaborative networks of the Scientific Revolution . A sharp increase in literacy broke the monopoly of the literate elite on education and learning and strengthened the emerging middle class . As works were increasingly published in vernacular languages rather than Latin , printed texts helped to standardize the spelling and syntax of national languages. Although the basic design of the wooden handpress remained largely unchanged for more than three centuries, the Industrial Revolution brought fundamental change. By 1800, Lord Stanhope had built the first press entirely from cast iron , doubling the printed area and output. In the 1810s, Friedrich Koenig introduced steam power and the rotary motion of cylinders, and his presses were adopted by The Times in 1814. The steam-powered rotary printing press , invented by Richard M. Hoe in 1843, allowed millions of copies of a page to be produced in a single day. During the twentieth century, offset printing , phototypesetting , and digital printing successively replaced the letterpress method for most commercial applications. History Main article: History of printing Economic conditions and intellectual climate See also: History of capitalism and Medieval university A medieval university class, 1350s The economic and cultural changes of late medieval Europe helped to create conditions in which Gutenberg's printing press could succeed commercially. The growth of trade and commerce had expanded the urban middle class , while the multiplication of universities from the twelfth century onward had increased demand for books. Hand-copying was slow and expensive, and by the fifteenth century the supply of manuscripts fell far short of this growing demand. [ 1 ] Technological factors See also: History of Western typography and Medieval technology Gutenberg's press combined four pre-existing technologies that had each reached a level of development sufficient for printing by the mid-fifteenth century: the screw press, movable type , the codex book format, and mechanized paper production. Gutenberg integrated these into a single working system and added a number of innovations of his own, including a hand mould for casting type and an oil-based ink suited to metal type. [ 2 ] Early modern wine press . Such screw presses, used in Europe for a wide range of uses, provided Gutenberg with the model for his printing press. The first of these was the screw press, which allowed direct pressure to be applied on a flat plane. It was already of great antiquity in Gutenberg's time and was used for a wide range of tasks. [ 3 ] Introduced in the 1st century AD by the Romans , it was commonly employed in agricultural production for pressing grapes for wine and olives for oil. [ 4 ] The device was also used from very early on in urban contexts as a cloth press for printing patterns. [ 5 ] Gutenberg may have also been inspired by the paper presses which had spread through the German lands since the late 14th century and which worked on the same mechanical principles. [ 6 ] Gutenberg adopted the basic design, thereby mechanizing the printing process. [ 7 ] Printing, however, put a demand on the machine quite different from pressing. Gutenberg adapted the construction so that the pressing power exerted by the platen on the paper was now applied both evenly and with the required sudden elasticity. To speed up the printing process, he introduced a movable undertable with a plane surface on which the sheets could be swiftly changed. [ 8 ] Movable type sorted in a letter case and loaded in a composing stick on top The second element, movable type, existed in some form prior to 15th century Europe; sporadic evidence that the typographical principle , the idea of creating a text by reusing individual characters, was known and had been cropping up since the 12th century and possibly before (the oldest known application dating back as far as the Phaistos disc ). The first movable type was invented by Chinese engineer Bi Sheng in the 11th century during the Song dynasty , and a book dating to 1193 recorded the first copper movable type. [ 9 ] Woodblock printing remained the dominant technique in East Asia. The oldest printed book using metal movable type was the Jikji , printed in Korea in 1377 during the Goryeo era. Other notable examples include the Pr\u00fcfening inscription from Germany, letter tiles from England and Altarpiece of Pellegrino II in Italy. [ 10 ] However, the various techniques employed (imprinting, punching and assembling individual letters) did not have the refinement and efficiency needed to become widely accepted. Tsuen-Hsuin and Needham, and Briggs and Burke suggest that the movable-type printing in China and Korea was rarely employed, in part because the large number of characters in logographic writing systems made movable type less practical than in alphabetic systems. [ 11 ] [ 12 ] Gutenberg's use of the Latin alphabet was a practical advantage in this respect because it allowed the type-setter to represent any text with a relatively small set of characters. [ 13 ] The third element was the codex book format, which had originated in the Roman period . [ 14 ] Considered the most important advance in the history of the book prior to printing itself, the codex had completely replaced the ancient scroll at the onset of the Midd",
+      "content_source": "page/Printing_press/with_html (stripped)"
+    },
+    {
+      "call_index": 3,
+      "query": "Reformation",
+      "api_response": {},
+      "fetched_content": "Reformation 16th-century movement in Western Christianity For other uses, see Reformation (disambiguation) . Part of a series on the Reformation Ninety-five Theses , written by Martin Luther in 1517 Precursors Peter Waldo and Waldensians John Wycliffe and Lollardy Jan Hus and Hussites Girolamo Savonarola and Piagnoni Arnold of Brescia and Arnoldists Peter of Bruys and Petrobrusians Henry of Lausanne and Henricians Berengar of Tours and Berengarians Friends of God Pataria Gottschalk of Orbais Ratramnus Claudius of Turin Wessel Gansfort Johann Ruchrat von Wesel Johannes von Goch Gundolfo Beginning Ninety-five Theses Diet of Worms Luther Bible Magisterials Radicals Contributing factors Western Schism Avignon Papacy Bohemian Reformation Northern Renaissance Christian humanism German mysticism Johannes Gutenberg and his printing press Erasmus Johann Reuchlin Theologies of seminal figures Theology of Martin Luther Theology of Huldrych Zwingli Theology of John Calvin Protestant Reformers Martin Luther Philip Melanchthon Huldrych Zwingli John Calvin Martin Bucer William Tyndale Andreas Karlstadt Theodore Beza George Buchanan Heinrich Bullinger Peter Martyr Vermigli William Farel Fran\u00e7ois Hotman John Knox Hubert Languet Thomas M\u00fcntzer Balthasar Hubmaier Menno Simons Thomas Cranmer Richard Hooker Jacobus Arminius Thomas Helwys Roger Williams Henry Denne Many others By location Germany Switzerland ( Geneva / Z\u00fcrich ) England Scotland Netherlands Czech Lands Hungary Romania Slovenia Denmark\u2013Norway and Holstein Sweden and Finland Iceland Estonia and Latvia Austria France Italy Poland-Lithuania Ireland Major political leaders Henry VIII Elizabeth I Oliver Cromwell James VI and I William the Silent Gaspard II de Coligny Henry IV of France Jeanne d'Albret Stephen Bocskai Gabriel Bethlen Gustav II Adolf Frederick V, Elector Palatine Philip I of Hesse Electors of Saxony Frederick III John Frederick I Counter-Reformation Catholic Church Council of Trent Counter-Reformation \u00a7 Politics Censorship of the Bible \u00a7 16th century Anti-Protestantism Criticism Holy Roman Emperors Charles V Ferdinand II Political and religious conflicts Thirty Years' War French Wars of Religion Eighty Years' War War of the Three Kingdoms German Peasants' War Wars of Kappel Schmalkaldic War Art and literature Painting and sculpture Northern Mannerism Lutheran art German Renaissance Art Swedish art English art Woodcuts Art conflicts Beeldenstorm Building Influence on church architecture Literature Elizabethan Metaphysical poets Propaganda Welsh Scottish Anglo-Irish German Czech Swiss Slovak Sorbian Romanian Danish Bohori\u010d alphabet Faroese Norwegian Swedish Finnish Icelandic Dutch Renaissance and Golden Age Folklore of the Low Countries 16th century Renaissance humanism 16th century in poetry 16th century in literature Theater English Renaissance theatre Pastoral Morality History Tragedy Revenge Music Forms Hymnody of continental Europe Music of the British Isles Hymn tune Lutheran chorale Lutheran hymn Anglican church music Exclusive psalmody Scottish church music Normative principle Anglican chant Homophony vs. Polyphony Falsobordone Verse anthem Liturgies Reformed worship Calvin's liturgy Formula missae Deutsche Messe Liturgical Struggle Ecclesiastical Latin Lutheran and Anglican Mass in music Cyclic mass vs. Paraphrase mass Roman vs. Sarum Rites Sequence (retained by Lutherans, mostly banned by Trent) Hymnals First and Second Lutheran hymnals First Wittenberg hymnal Ausbund Swenske songer Thomiss\u00f8n's hymnal Book of Common Prayer Metrical psalters Book of Common Order Souterliedekens Genevan Psalter Scottish Psalter Whole Book of Psalms Conclusion and commemorations Conclusion Confessionalization with subsequent Protestant orthodoxy Peace of Westphalia Simultaneous rise of Pietism and Rationalism Monuments Reformation Wall Luther Monuments Calendrical commemoration Reformation Day Lutheran Anglican Protestantism v t e Part of a series on Protestantism Outline Concepts Anti-Protestantism Bible Criticism Culture Demographics Ecclesiology Liturgy Relations with Catholics Theologies Five Solas History Proto-Protestantism Bohemian Reformation Reformation Magisterial Radical Counter Martin Luther Ninety-five Theses Augsburg Confession Huldrych Zwingli John Calvin Arminianism Crypto-Protestantism Nonconformists Dissenters Puritans John Wesley Pietism Great Awakenings in America Revival meetings Branches Proto-Protestants Hussites Waldensians Lutherans Reformed Continental Presbyterians Congregational Anglicans Continuing Anabaptists Amish Hutterites Mennonites Quakers Baptists Black church Methodists Radical Pietism Shakers Stone-Campbell Plymouth Brethren Pentecostals Adventist Irvings Holiness Keswickians Eastern Protestant United and uniting churches Nondenominational Movements Augsburg Catholics Charismatics Neo-Charismatics Confessionalism Confessing Movement Convergence Church Growth Ecumenism Emerging church Evangelicalism Fundamentalism High church Liberalism Mainlines Neo-charismatics Neo-orthodoxy New Calvinism Paleo-orthodoxy Progressivism Spiritual Christianity Christianity portal v t e Part of a series on Christianity Jesus Christ Nativity Baptism Ministry Crucifixion Resurrection Ascension Bible Foundations Old Testament New Testament Gospel Canon Church Prophets Creed New Covenant Theology God Trinity Father Son Holy Spirit Apologetics Baptism Christology History of theology Salvation Universalism History Tradition Apostles Peter Paul Mary Early Christianity Church Fathers Constantine Councils Augustine Three Holy Hierarchs East\u2013West Schism Crusades Aquinas Reformation Luther Denominations (list) Western Latin-rite Catholic Independent Catholic Protestant Anabaptist Anglican Baptist Evangelical Holiness Lutheran Methodist Moravian Pentecostal Quaker Reformed Western Orthodox Eastern Eastern Orthodox Oriental Orthodox East Syriac Eastern Catholic Eastern Protestant Restorationist Adventist Jehovah's Witness Latter Day Saint Swedenborgian Unitarian Related topics Anti-Christian sentiment Adherents Criticism Culture Ecumenism Liturgy Mission Other religions Prayer Sermon Symbolism Western society Worship Glossary Index Outline Christianity portal v t e The Reformation , also known as the Protestant Reformation or the European Reformation , [ 1 ] was a major theological movement in Western Christianity in 16th-century Europe that posed a religious and political challenge to the papacy and the authority of the Catholic Church hierarchy. Towards the end of the Renaissance , the Reformation marked the beginning of Protestantism . It is considered one of the events that signified the end of the Middle Ages and the beginning of the early modern period in Europe. [ 2 ] The Reformation is usually dated from Martin Luther 's publication of the Ninety-five Theses in 1517, which gave birth to Lutheranism . Prior to Martin Luther and other Protestant Reformers , there were earlier reform movements within Western Christianity. The end of the Reformation era is disputed among modern scholars. In general, the Reformers argued that justification was based on faith in Jesus Christ alone and not both faith and arising charitable acts , as in the Catholic view. [ 3 ] : 23 In the Lutheran, Anglican and Reformed view, good works were seen as fruits of living faith and part of the process of sanctification which was distinct from justification. [ 4 ] [ 5 ] Protestantism also introduced new ecclesiology . The general points of theological agreement by the different Protestant groups have been more recently summarized as the three solae , though various Protestant denominations disagree on doctrines such as the nature of the real presence of Christ in the Eucharist , with Lutherans accepting a corporeal presence and the Reformed accepting a spiritual presence. [ 6 ] [ 7 ] The spread of Gutenberg's printing press provided the means for the rapid dissemination of religious materials in the vernacular. The initial m",
+      "content_source": "page/Reformation/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: The printing press enabled the rapid dissemination of religious materials in the vernacular, which was crucial to the Protestant Reformation. According to Wikipedia's Reformation article, \"The spread of Gutenberg's printing press provided the means for the rapid dissemination of religious materials in the vernacular.\" The printing press technology allowed for the mass production and wide circulation of Protestant texts and ideas across Europe, transcending borders and spreading rapidly during the Reformation period. Where hand-copying had been slow and expensive, a single Renaissance printing press could produce up to 3,600 pages per workday, making it possible to distribute works like Martin Luther's Ninety-five Theses (1517) on a scale that would have been impossible before Gutenberg's invention.\n\nSource: Printing press, Reformation",
+  "total_tool_calls": 4,
+  "latency_ms": 18664,
+  "error": null
+}

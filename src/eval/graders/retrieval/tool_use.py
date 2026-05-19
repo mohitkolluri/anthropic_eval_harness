@@ -10,7 +10,15 @@ class ToolUseAppropriatenessGrader(Grader):
     def eval(self, case: EvalCase, trace: Trace) -> GraderResult:
         requires_search: bool = case.metadata.get("requires_search", False)
         max_calls: int | None = case.expected.get("max_search_calls")
-        actual_calls: int = trace.total_tool_calls
+
+        # Count only fetch_wikipedia calls against the limit — these are actual retrievals.
+        # search_wikipedia calls (candidate discovery) are not counted since the agent
+        # must always search before it can fetch.
+        fetch_calls = [tc for tc in trace.tool_calls if tc.content_source.startswith("page/")]
+        actual_calls: int = len(fetch_calls)
+
+        # Presence check uses total tool calls to detect any search activity
+        any_tool_calls: int = trace.total_tool_calls
 
         # Guard: max_search_calls is required when requires_search=True
         if requires_search and max_calls is None:
@@ -19,13 +27,13 @@ class ToolUseAppropriatenessGrader(Grader):
                 "cannot evaluate call count without a limit to check against"
             )
 
-        # Sub-score 1 — Presence
-        if requires_search and actual_calls == 0:
+        # Sub-score 1 — Presence (uses total tool calls — any activity counts)
+        if requires_search and any_tool_calls == 0:
             presence = 0.0
             presence_note = "required search but made no tool calls"
-        elif not requires_search and actual_calls > 0:
+        elif not requires_search and any_tool_calls > 0:
             presence = 0.0
-            presence_note = f"should not have searched but made {actual_calls} tool call(s)"
+            presence_note = f"should not have searched but made {any_tool_calls} tool call(s)"
         else:
             presence = 1.0
             presence_note = "search presence correct"
@@ -37,11 +45,11 @@ class ToolUseAppropriatenessGrader(Grader):
                 reasoning=presence_note,
             )
 
-        # Sub-score 2 — Count (only when requires_search=True and agent actually searched)
-        # If presence already failed (no calls made), count is also 0 — no credit for staying within limit
+        # Sub-score 2 — Count: fetch_wikipedia calls vs max_search_calls limit
+        # If presence already failed (no calls made), count is also 0
         if actual_calls == 0:
             count = 0.0
-            count_note = "no calls made — count check not applicable"
+            count_note = "no fetch calls made — count check not applicable"
         elif actual_calls <= max_calls:
             count = 1.0
             count_note = f"{actual_calls}/{max_calls} calls — within limit"

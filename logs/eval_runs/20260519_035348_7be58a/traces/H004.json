@@ -1,0 +1,118 @@
+{
+  "eval_id": "H004",
+  "run_id": "20260519_035348_7be58a",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What is the term for the cognitive bias where people tend to attribute others' failures to their character but their own failures to external circumstances?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What is the term for the cognitive bias where people tend to attribute others' failures to their character but their own failures to external circumstances?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01X5RXPG7QE5LGa2dsK6R3NH",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "fundamental attribution error"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01X5RXPG7QE5LGa2dsK6R3NH",
+          "content": "Fundamental attribution error Psychological phenomenon This article is about the social psychology term. For the legal term, see Fundamental error . Chart describing the fundamental attribution error, with an example In social psychology , the fundamental attribution error [ a ] is a cognitive attribution bias in which observers underemphasize situational and environmental factors for the behavior of an actor while overemphasizing dispositional or personality factors. [ 1 ] In other words, observers tend to overattribute the behaviors of others to their personality (e.g., he is late because he's selfish ) and underattribute them to the situation or context (e.g., he is late because he got stuck in traffic ). Although personality traits and predispositions are considered to be observable facts in psychology, the fundamental attribution error is an error because it misinterprets their effects. The group attribution error is identical to the fundamental attribution error, where the bias is shown between members of different groups rather than different individuals. [ 2 ] The ultimate attribution error is a derivative of the fundamental attribution error and group attribution error relating to the actions of groups, with an additional layer of self-justification relating to whether the action of an individual is representative of the wider group. [ 3 ] Origin Etymology The phrase was coined by Lee Ross [ 4 ] 10 years after an experiment by Edward E. Jones and Victor Harris in 1967. [ 5 ] Ross argued in a popular paper that the fundamental attribution error forms the conceptual bedrock for the field of social psychology . Jones wrote that he found Ross's phrase \"overly provocative and somewhat misleading\", and also joked: \"Furthermore, I'm angry that I didn't think of it first.\" [ 6 ] Some psychologists, including Daniel Gilbert , have used the phrase \"correspondence bias\" for the fundamental attribution error. [ 6 ] Other psychologists have argued that the fundamental attribution error and correspondence bias are related but independent phenomena, with the former being a common explanation for the latter. [ 7 ] 1967 demonstration study Jones and Harris hypothesized, based on the correspondent inference theory , that people would attribute apparently freely chosen behaviors to disposition and apparently chance-directed behaviors to situation. The hypothesis was confounded by the fundamental attribution error. [ 5 ] Subjects in an experiment read essays for and against Fidel Castro . Then they were asked to rate the pro-Castro attitudes of the writers. When the subjects believed that the writers freely chose positions for or against Castro, they would normally rate the people who praised Castro as having a more positive attitude towards Castro. However, contradicting Jones and Harris' initial hypothesis, when the subjects were told that the writers' positions were determined by a coin toss, they still rated writers who spoke in favor of Castro as having, on average, a more positive attitude towards Castro than those who spoke against him. In other words, the subjects were unable to properly see the influence of the situational constraints placed upon the writers; they could not refrain from attributing sincere belief to the writers. The experimental group provided more internal attributions towards the writer. Criticism The hypothesis that people systematically overattribute behavior to traits (at least for other people's behavior) is contested. A 1986 study tested whether subjects over-, under-, or correctly estimated the empirical correlation among behaviors (i.e., traits, see trait theory ). [ 8 ] They found that estimates of correlations among behaviors correlated strongly with empirically-observed correlations among these behaviors. Subjects were sensitive to even very small correlations, and their confidence in the association tracked how far they were discrepant (i.e., if they knew when they did not know), and was higher for the strongest relations. Subjects also showed awareness of the effect of aggregation over occasions and used reasonable strategies to arrive at decisions. Epstein concluded that \"Far from being inveterate trait believers, as has been previously suggested, [subjects'] intuitions paralleled psychometric principles in several important respects when assessing relations between real-life behaviors.\" [ 8 ] A 2006 meta-analysis found little support for a related bias, the actor\u2013observer asymmetry , in which people attribute their own behavior more to the environment, but others' behavior to individual attributes. [ 9 ] The implications for the fundamental attribution error, the author explained, were mixed. He explained that the fundamental attribution error has two versions: Observers tend to explain an actor's behavior with dispositional rather than environmental explanations; Observers tend to draw conclusions about an actor's stable disposition based on the actor's behavior in a given situation. The author of the meta-analysis concluded that the existing weight of evidence does not support the first form of the fundamental attribution error, but does not contradict the second. In 2015, the fundamental attribution error was contested once again in an argument against the measures originally used from the 1967 demonstration study done by Jones and Harris, and the 1982 study done by Quattrone. In this argument, the authors posed that the degree to which behaviour is constrained by a situation is a vital determinant of whether or not a dispositional attribution will be made. [ 10 ] Since situations are undeniably complex and are of different \"strengths\", this will interact with an individual's disposition and determine what kind of attribution is made; although some amount of attribution can consistently be allocated to disposition, the way in which this is balanced with situational attribution will be dependent on the kind of situation one is in and the information available in said situation. [ 10 ] The authors analyzing the 2015 study claimed that the results found in the traditional fundamental attribution error studies were \"interpreted as biased only because they have been compared to an inappropriate benchmark of rationality predicated on the assumption of deterministic dispositions and situations.\" [ 10 ] Explanations Several theories predict the fundamental attribution error, and thus both compete to explain it, and can be falsified if it does not occur. Some examples include: Just-world fallacy . The belief that people get what they deserve and deserve what they get, the concept of which was first theorized by Melvin J. Lerner in 1977. [ 11 ] Attributing failures to dispositional causes rather than situational causes\u2014which are unchangeable and uncontrollable\u2014satisfies our need to believe that the world is fair and that we have control over our lives. We are motivated to see a just world because this reduces our perceived threats, [ 12 ] [ 13 ] gives us a sense of security, helps us find meaning in difficult and unsettling circumstances, and benefits us psychologically. [ 14 ] However, the just-world fallacy also results in a tendency for people to blame and disparage victims of an accident or a tragedy, such as rape [ 15 ] [ 16 ] and domestic abuse , [ 17 ] to reassure themselves of their insusceptibility to such events. People may even blame the victim 's faults in a \"past life\" to pursue justification for their bad outcome. [ 18 ] [ page needed ] Salience of the actor. We tend to attribute an observed effect to potential causes that capture our attention. When we observe other people, the person is the primary reference point while the situation is overlooked as if it is nothing but mere background. As such, attributions for others' behavior are more likely to focus on the person we see, not the situational forces acting upon that person that we may not be aware of. [ 19 ] [ 20 ] [ 21 ] (When we observe ourselves, we are"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "The term you're looking for is the **fundamental attribution error** (also called **correspondence bias** by some psychologists). \n\nAccording to Wikipedia, the fundamental attribution error is \"a cognitive attribution bias in which observers underemphasize situational and environmental factors for the behavior of an actor while overemphasizing dispositional or personality factors.\" In other words, people tend to attribute others' negative behaviors to their character while attributing their own failures to external circumstances. The article also mentions a related concept called the **actor-observer asymmetry**, which describes exactly this pattern where people attribute their own behavior more to the environment but others' behavior to individual attributes.\n\nSource: Fundamental attribution error"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "fundamental attribution error",
+      "api_response": {
+        "pages": [
+          {
+            "id": 221319,
+            "key": "Fundamental_attribution_error",
+            "title": "Fundamental attribution error",
+            "excerpt": "In social psychology, the <span class=\"searchmatch\">fundamental</span> <span class=\"searchmatch\">attribution</span> <span class=\"searchmatch\">error</span> is a cognitive <span class=\"searchmatch\">attribution</span> bias in which observers underemphasize situational and environmental",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Psychological phenomenon",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 61,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Fundamental_attribution_error.svg/60px-Fundamental_attribution_error.svg.png"
+            }
+          },
+          {
+            "id": 19678111,
+            "key": "Ultimate_attribution_error",
+            "title": "Ultimate attribution error",
+            "excerpt": "ultimate <span class=\"searchmatch\">attribution</span> <span class=\"searchmatch\">error</span> is an <span class=\"searchmatch\">attribution</span> <span class=\"searchmatch\">error</span> made when making in-group and out-group <span class=\"searchmatch\">attributions</span>, resulting in in-group favoritism. The <span class=\"searchmatch\">error</span> occurs",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Cognitive bias",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 61,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Ultimate_attribution_error.svg/60px-Ultimate_attribution_error.svg.png"
+            }
+          },
+          {
+            "id": 511197,
+            "key": "Group_attribution_error",
+            "title": "Group attribution error",
+            "excerpt": "suggesting otherwise. The group <span class=\"searchmatch\">attribution</span> <span class=\"searchmatch\">error</span> shares an <span class=\"searchmatch\">attribution</span> bias analogous to the <span class=\"searchmatch\">fundamental</span> <span class=\"searchmatch\">attribution</span> <span class=\"searchmatch\">error</span>. Rather than focusing on individual&#039;s",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Cognitive bias",
+            "thumbnail": null
+          },
+          {
+            "id": 511014,
+            "key": "Attribution_bias",
+            "title": "Attribution bias",
+            "excerpt": "types of <span class=\"searchmatch\">attribution</span> biases, such as the ultimate <span class=\"searchmatch\">attribution</span> <span class=\"searchmatch\">error</span>, <span class=\"searchmatch\">fundamental</span> <span class=\"searchmatch\">attribution</span> <span class=\"searchmatch\">error</span>, actor-observer bias, and hostile <span class=\"searchmatch\">attribution</span> bias. Each",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Systematic errors made when people evaluate their own and others' behaviors",
+            "thumbnail": null
+          },
+          {
+            "id": 8087746,
+            "key": "Attribution_(psychology)",
+            "title": "Attribution (psychology)",
+            "excerpt": "attribute causation, especially when dealing with others. The <span class=\"searchmatch\">fundamental</span> <span class=\"searchmatch\">attribution</span> <span class=\"searchmatch\">error</span> describes the tendency to attribute dispositional or personality-based",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Process by which individuals explain causes of behavior and events",
+            "thumbnail": null
+          }
+        ]
+      },
+      "fetched_content": "Fundamental attribution error Psychological phenomenon This article is about the social psychology term. For the legal term, see Fundamental error . Chart describing the fundamental attribution error, with an example In social psychology , the fundamental attribution error [ a ] is a cognitive attribution bias in which observers underemphasize situational and environmental factors for the behavior of an actor while overemphasizing dispositional or personality factors. [ 1 ] In other words, observers tend to overattribute the behaviors of others to their personality (e.g., he is late because he's selfish ) and underattribute them to the situation or context (e.g., he is late because he got stuck in traffic ). Although personality traits and predispositions are considered to be observable facts in psychology, the fundamental attribution error is an error because it misinterprets their effects. The group attribution error is identical to the fundamental attribution error, where the bias is shown between members of different groups rather than different individuals. [ 2 ] The ultimate attribution error is a derivative of the fundamental attribution error and group attribution error relating to the actions of groups, with an additional layer of self-justification relating to whether the action of an individual is representative of the wider group. [ 3 ] Origin Etymology The phrase was coined by Lee Ross [ 4 ] 10 years after an experiment by Edward E. Jones and Victor Harris in 1967. [ 5 ] Ross argued in a popular paper that the fundamental attribution error forms the conceptual bedrock for the field of social psychology . Jones wrote that he found Ross's phrase \"overly provocative and somewhat misleading\", and also joked: \"Furthermore, I'm angry that I didn't think of it first.\" [ 6 ] Some psychologists, including Daniel Gilbert , have used the phrase \"correspondence bias\" for the fundamental attribution error. [ 6 ] Other psychologists have argued that the fundamental attribution error and correspondence bias are related but independent phenomena, with the former being a common explanation for the latter. [ 7 ] 1967 demonstration study Jones and Harris hypothesized, based on the correspondent inference theory , that people would attribute apparently freely chosen behaviors to disposition and apparently chance-directed behaviors to situation. The hypothesis was confounded by the fundamental attribution error. [ 5 ] Subjects in an experiment read essays for and against Fidel Castro . Then they were asked to rate the pro-Castro attitudes of the writers. When the subjects believed that the writers freely chose positions for or against Castro, they would normally rate the people who praised Castro as having a more positive attitude towards Castro. However, contradicting Jones and Harris' initial hypothesis, when the subjects were told that the writers' positions were determined by a coin toss, they still rated writers who spoke in favor of Castro as having, on average, a more positive attitude towards Castro than those who spoke against him. In other words, the subjects were unable to properly see the influence of the situational constraints placed upon the writers; they could not refrain from attributing sincere belief to the writers. The experimental group provided more internal attributions towards the writer. Criticism The hypothesis that people systematically overattribute behavior to traits (at least for other people's behavior) is contested. A 1986 study tested whether subjects over-, under-, or correctly estimated the empirical correlation among behaviors (i.e., traits, see trait theory ). [ 8 ] They found that estimates of correlations among behaviors correlated strongly with empirically-observed correlations among these behaviors. Subjects were sensitive to even very small correlations, and their confidence in the association tracked how far they were discrepant (i.e., if they knew when they did not know), and was higher for the strongest relations. Subjects also showed awareness of the effect of aggregation over occasions and used reasonable strategies to arrive at decisions. Epstein concluded that \"Far from being inveterate trait believers, as has been previously suggested, [subjects'] intuitions paralleled psychometric principles in several important respects when assessing relations between real-life behaviors.\" [ 8 ] A 2006 meta-analysis found little support for a related bias, the actor\u2013observer asymmetry , in which people attribute their own behavior more to the environment, but others' behavior to individual attributes. [ 9 ] The implications for the fundamental attribution error, the author explained, were mixed. He explained that the fundamental attribution error has two versions: Observers tend to explain an actor's behavior with dispositional rather than environmental explanations; Observers tend to draw conclusions about an actor's stable disposition based on the actor's behavior in a given situation. The author of the meta-analysis concluded that the existing weight of evidence does not support the first form of the fundamental attribution error, but does not contradict the second. In 2015, the fundamental attribution error was contested once again in an argument against the measures originally used from the 1967 demonstration study done by Jones and Harris, and the 1982 study done by Quattrone. In this argument, the authors posed that the degree to which behaviour is constrained by a situation is a vital determinant of whether or not a dispositional attribution will be made. [ 10 ] Since situations are undeniably complex and are of different \"strengths\", this will interact with an individual's disposition and determine what kind of attribution is made; although some amount of attribution can consistently be allocated to disposition, the way in which this is balanced with situational attribution will be dependent on the kind of situation one is in and the information available in said situation. [ 10 ] The authors analyzing the 2015 study claimed that the results found in the traditional fundamental attribution error studies were \"interpreted as biased only because they have been compared to an inappropriate benchmark of rationality predicated on the assumption of deterministic dispositions and situations.\" [ 10 ] Explanations Several theories predict the fundamental attribution error, and thus both compete to explain it, and can be falsified if it does not occur. Some examples include: Just-world fallacy . The belief that people get what they deserve and deserve what they get, the concept of which was first theorized by Melvin J. Lerner in 1977. [ 11 ] Attributing failures to dispositional causes rather than situational causes\u2014which are unchangeable and uncontrollable\u2014satisfies our need to believe that the world is fair and that we have control over our lives. We are motivated to see a just world because this reduces our perceived threats, [ 12 ] [ 13 ] gives us a sense of security, helps us find meaning in difficult and unsettling circumstances, and benefits us psychologically. [ 14 ] However, the just-world fallacy also results in a tendency for people to blame and disparage victims of an accident or a tragedy, such as rape [ 15 ] [ 16 ] and domestic abuse , [ 17 ] to reassure themselves of their insusceptibility to such events. People may even blame the victim 's faults in a \"past life\" to pursue justification for their bad outcome. [ 18 ] [ page needed ] Salience of the actor. We tend to attribute an observed effect to potential causes that capture our attention. When we observe other people, the person is the primary reference point while the situation is overlooked as if it is nothing but mere background. As such, attributions for others' behavior are more likely to focus on the person we see, not the situational forces acting upon that person that we may not be aware of. [ 19 ] [ 20 ] [ 21 ] (When we observe ourselves, we are",
+      "content_source": "page/Fundamental_attribution_error/with_html (stripped)"
+    }
+  ],
+  "output": "The term you're looking for is the **fundamental attribution error** (also called **correspondence bias** by some psychologists). \n\nAccording to Wikipedia, the fundamental attribution error is \"a cognitive attribution bias in which observers underemphasize situational and environmental factors for the behavior of an actor while overemphasizing dispositional or personality factors.\" In other words, people tend to attribute others' negative behaviors to their character while attributing their own failures to external circumstances. The article also mentions a related concept called the **actor-observer asymmetry**, which describes exactly this pattern where people attribute their own behavior more to the environment but others' behavior to individual attributes.\n\nSource: Fundamental attribution error",
+  "total_tool_calls": 1,
+  "latency_ms": 4707,
+  "error": null
+}

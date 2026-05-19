@@ -1,0 +1,239 @@
+{
+  "eval_id": "Q012",
+  "run_id": "20260519_054032_8f556b",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01JkCyoYknYb9vhtXkxYdUDh",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Great Pyramid of Giza"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01ToT526tnioeRiDD6aKTfqZ",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Homer Iliad"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01JkCyoYknYb9vhtXkxYdUDh",
+          "content": "Great Pyramid of Giza Largest pyramid in the Giza Necropolis, Egypt \"Great Pyramid\" redirects here. For other Egyptian pyramids, see Egyptian pyramids . Great Pyramid of Giza The Great Pyramid, seen in 2023 Great Pyramid Location within Egypt Show map of Egypt Great Pyramid Location within Africa Show map of Africa Location Giza , Egypt Coordinates 29\u00b058\u203245\u2033N 31\u00b008\u203203\u2033E \ufeff / \ufeff 29.97917\u00b0N 31.13417\u00b0E \ufeff / 29.97917; 31.13417 Ancient name Akhet Khufu Khufu's Horizon [ 1 ] Architect Hemiunu (presumed) Constructed c. 2600 BC ( Old Kingdom ) 4626 years ago Type True pyramid Material Limestone, mortar, granite Height Original: 146.6 m (481 ft) or 280 cubits Current: 138.5 m (454 ft) Base 230.33 m (756 ft) or 440 cubits Volume 2.6 million m 3 (92 million ft 3 ) Slope 51\u00b050'40\" or seked of \u2060 5 + 1 / 2 \u2060 palms [ 2 ] UNESCO World Heritage Site Part of Memphis and its Necropolis \u2013 the Pyramid Fields from Giza to Dahshur Criteria Cultural: i, iii, vi Reference 86-002 Inscription 1979 (3rd Session ) Area Egypt Building details Record height Tallest in the world from c. 2600 BC to the mid-13th century AD [I] Preceded by Red Pyramid (Egypt) Surpassed by Old St Paul's Cathedral (England) [ dubious \u2013 discuss ] The Great Pyramid of Giza [ a ] is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyramid complex in Giza , Egypt. It is the oldest of the Seven Wonders of the Ancient World , and the only wonder that has remained largely intact. The Great Pyramid served as the tomb of Egyptian Pharaoh Khufu (\"Cheops\"), who ruled during the Fourth Dynasty of the Old Kingdom . It was built c. 2600 BC [ 3 ] over a period of about 26 years. [ 4 ] Initially standing at 146.6 metres (481 feet) , the Great Pyramid was the world's tallest human-made structure for more than 3,700 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the current 138.5 metres (454.4 ft) ; what is seen today is the underlying core structure. Each side of the base was measured to be about 230.3 metres (755.6 ft) in length, giving a volume of roughly 2.6 million cubic metres (92 million cubic feet) , which includes an internal hillock. [ 5 ] The dimensions of the pyramid were 280 royal cubits (146.7 m; 481.4 ft) high, a base length of 440 cubits (230.6 m; 756.4 ft) , with a seked of \u2060 5 + 1 / 2 \u2060 palms (a slope of 51\u00b050'40\"). The Great Pyramid was built by quarrying an estimated 2.3 million large blocks, weighing 6 million tonnes in total. The majority of the stones are not uniform in size or shape, and are only roughly dressed. [ 6 ] The outside layers were bound together by mortar , primarily local limestone from the Giza Plateau was used for its construction. Other blocks were imported by boat on the Nile : white limestone from Tura for the casing, and blocks of granite from Aswan , weighing up to 80 tonnes, for the \"King's Chamber\" structure. [ 7 ] There are three known chambers inside of the Great Pyramid. The lowest was cut into the bedrock , upon which the pyramid was built, but remained unfinished. The so-called [ 8 ] Queen's Chamber and King's Chamber, which contain a granite sarcophagus, are above ground within the pyramid structure. Hemiunu , Khufu's vizier , is believed by some to be the architect of the Great Pyramid. [ 9 ] Many varying scientific and alternative hypotheses attempt to explain the exact construction techniques , but, as is the case for other such structures, there is no definite consensus. The funerary complex around the pyramid consisted of two mortuary temples connected by a causeway (one close to the pyramid and one near the Nile); tombs for the immediate family and court of Khufu, including three smaller pyramids for Khufu's wives; an even smaller \"satellite pyramid\"; and five buried solar barques . It is part of the UNESCO World Heritage Site \" Memphis and its Necropolis \". [ 10 ] Purpose Statue of pharaoh Khufu /Cheops, Cairo Museum . The Great Pyramid of Giza was the tomb of pharaoh Khufu, [ 11 ] and still contains his granite sarcophagus. [ 12 ] It had, like other tombs of Egyptian elites, four main purposes: [ 13 ] It housed the body of the deceased and kept it safe. [ 14 ] It demonstrated the status of the deceased and his family. It retained the deceased's place in society. It was a place where offerings could be brought to the deceased. Make your grave well furnished and prepare thy place in the west. Look, death counts little for us. Look, life is valued highly by us. The house of the dead (the tomb) is for life. [ 15 ] [ 16 ] [ 17 ] \u2014 Excerpt from the Instruction of Hardjedef (son of Khufu) In ancient Egypt, high social status was considered absolutely positive, and the monumental social inequalities were symbolized by gigantic pyramids versus smaller mastabas . The sizes of tombs were regulated officially, with their allowed dimensions written down in royal decrees . In the Old Kingdom only kings and queens could have a pyramid tomb. Architectural layout and funeral equipment were also sanctioned, and were, like access to material and workers, at the discretion of the king. [ 18 ] The Great Pyramid's internal chambers lack inscriptions and decorations, the norm for Egyptian tombs of the fourth to late fifth dynasty, apart from work-gang graffiti that include Khufu's names. [ 19 ] Constructed around 2600 BC, it predates the custom of inscribing pyramids with text by over 200 years. [ 20 ] [ 3 ] The pyramid complex of Khufu included two temples that were lavishly decorated and inscribed. The pyramid temple was dedicated to the Sed festival , celebrating Khufu's 30th jubilee. [ 21 ] Surviving scenes portray Khufu, officials, priests and other characters performing rituals. The valley temple remains largely unexcavated, but blocks reused by Amenemhat I depict, for instance, nautical scenes and personifications of the estates of Khufu (e.g. the estate \"Khufu is beautiful\"). [ 22 ] The mortuary cult of Khufu which operated in these temples for hundreds of years indicates that Khufu was successfully interred in the Great Pyramid. [ 23 ] That the funeral was carried out by Khufu's son and successor Djedefre is evidenced by the presence of his cartouches on the blocks that sealed the boat pits next to the pyramid. [ 24 ] The Great Pyramid was likely looted as early as the First Intermediate Period and may have been reused afterwards. [ 25 ] Arab accounts tell stories of mummies and treasures being found inside the pyramid. For instance, Al-Maqrizi (1364\u20131442) reports the discovery of three shrouded bodies, a sarcophagus filled with gold, and a corpse in golden armour with a sword of inestimable value and a ruby as large as an egg. [ 26 ] Attribution to Khufu Clay seal bearing the name of the Great Pyramid which includes Khufu's cartouche, c. 664 BC \u2013 c. 332 BC, Louvre museum Khufu's cartouche found inscribed on a backing stone of the pyramid Historically the Great Pyramid had been attributed to Khufu based on the words of authors of classical antiquity , first and foremost Herodotus and Diodorus Siculus . During the Middle Ages other people were credited with the construction of the pyramid as well, for example Joseph from the Book of Genesis , Nimrod , or the legendary king Saurid ibn Salhouk . [ 27 ] In 1837 four additional relieving chambers were found above the King's Chamber after tunnelling to them. The chambers, previously inaccessible, were covered in hieroglyphs of red paint. The workers who were building the pyramid had marked the blocks with the names of their gangs, which included the pharaoh's name (e.g.: \"The gang, The white crown of Khnum-Khufu is powerful\"). The names of Khufu were spelled out on the walls over a dozen times. Another of these graffiti was found by Goyon on an exterior block of the 4th layer of the pyramid. [ 28 ] The inscriptions are comparable to those found at other sites of Khufu, such as the alabaster quarry at Hatnub [ 29 ] or the harbour at Wadi al-J"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01ToT526tnioeRiDD6aKTfqZ",
+          "content": "Iliad Epic poem attributed to Homer For other uses, see Iliad (disambiguation) . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed. Find sources: \"Iliad\" \u2013 news \u00b7 newspapers \u00b7 books \u00b7 scholar \u00b7 JSTOR ( May 2026 ) ( Learn how and when to remove this message ) This article may contain original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed. ( May 2026 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) Iliad by Homer Inscription of lines 468\u2013473, Book I. Dated 400 \u200d \u2013 \u200d 500 AD, from Egypt, on display at the British Museum Original title \u1f38\u03bb\u03b9\u03ac\u03c2 Translator George Chapman and others; see English translations of Homer Written circa 660/650 BCE (orally composed) [ 1 ] Country Ancient Greece Language Homeric Greek Subject Trojan War Genre Epic poetry Published in English 1598 ; 428 years ago ( 1598 ) Lines 15,693 Followed by The Odyssey Metre Dactylic hexameter Full text Iliad at Wikisource \u0399\u03bb\u03b9\u03ac\u03c2 at Greek Wikisource Trojan War Achilles tending the wounded Patroclus ( Attic red-figure kylix , c. 500 BC) Literary sources Iliad Odyssey Epic Cycle Aeneid , Book 2 Iphigenia in Aulis Philoctetes Ajax The Trojan Women Posthomerica See also: Trojan War in literature and the arts Episodes Judgement of Paris Seduction of Helen Trojan Horse Sack of Troy The Returns Wanderings of Odysseus Aeneas and the Founding of Rome Greeks and allies Agamemnon Achilles Helen Menelaus Nestor Odysseus Ajax Diomedes Patroclus Thersites Achaeans Myrmidons See also: Achaean Leaders , Catalogue of Ships Trojans and allies Priam Hecuba Hector Paris Helen Cassandra Andromache Aeneas Memnon Troilus Penthesilea and the Amazons Sarpedon Deiphobos Helenus See also: Trojan Battle Order , Trojan Leaders Participant gods Caused the war: Eris On the Greek side: Athena Hephaestus Hera Hermes Thetis Poseidon On the Trojan side: Aphrodite Apollo Ares Artemis Leto Scamander Zeus Historicity Ahhiyawa Alaksandu Archaeology of Troy Attarsiya Hisarl\u0131k Homeric Question Late Bronze Age Troy Manapa-Tarhunta letter Milawata letter Tawagalawa letter Trojan language Wilusa See also: Historicity of the Iliad Related topics Bronze Age Collapse Euhemerism Homeric Question Mycenae Mycenaean warfare v t e The Iliad ( / \u02c8 \u026a l i \u0259 d / \u24d8 ; [ 2 ] Ancient Greek : \u1f38\u03bb\u03b9\u03ac\u03c2 , romanized : Ili\u00e1s , [ i\u02d0li'as ] ; lit. ' [a poem] about Ilion (Troy) ' ) is one of two major ancient Greek epic poems attributed to Homer . It is one of the oldest extant works of literature still widely read by modern audiences. Like the Odyssey , the poem is divided into 24 books and was written in dactylic hexameter . It contains 15,693 lines in its standard edition. The Iliad is often regarded as the first substantial piece of European literature and is a central part of the Epic Cycle . [ 3 ] [ page needed ] Set toward the end of the Trojan War , a 10-year siege of the city of Troy by a coalition of Mycenaean Greek states, the poem depicts significant events in the war's final weeks. In particular, it traces the anger ( \u03bc\u1fc6\u03bd\u03b9\u03c2 ) of Achilles , a celebrated warrior, from a fierce quarrel between him and King Agamemnon , to the death of the Trojan prince Hector . [ 4 ] [ page needed ] [ 5 ] [ page needed ] The narrative moves between wide battleground scenes and more personal interactions. The Iliad and the Odyssey were likely composed in Homeric Greek , a literary mixture of Ionic Greek and other dialects, around the mid 7th century BCE. [ 1 ] Although the poem's composition has been extensively debated in contemporary scholarship (the Homeric Question ), involving debates such as whether the Iliad and the Odyssey were composed independently, and whether they survived via an oral or also written tradition. [ 6 ] The poem was performed by professional reciters of Homer known as rhapsodes at Greek festivals such as The Great Panathenaia . [ 7 ] [ 8 ] [ page needed ] Critical themes in the poem include kleos (glory), pride, fate, and wrath. [ 9 ] Despite being predominantly known for its tragic and serious themes, the poem also contains instances of comedy and laughter. [ 10 ] The poem is frequently described as a \"heroic\" epic, centred around issues such as war, violence, and the heroic code . It contains detailed descriptions of ancient warfare , including battle tactics and equipment. However, it also explores the social and domestic side of ancient culture in scenes behind the walls of Troy and in the Greek camp. Additionally, the Olympian gods play a major role in the poem, aiding their favoured warriors on the battlefield and intervening in personal disputes. [ 11 ] Their anthropomorphic characterisation in the poem humanised them for Ancient Greek audiences, giving a concrete sense of their cultural and religious tradition . In terms of formal style, the poem's formulae, use of similes, and epithets are often explored by scholars. [ 12 ] Synopsis Exposition (Books 1\u20134) Source: [ 4 ] [ page needed ] The first verses of the Iliad The story begins with an invocation to the Muse . The events take place towards the end of the Trojan War, fought between the Trojans and the besieging Achaeans (Greeks) . The Achaean forces consist of armies from many different Greek kingdoms, led by their respective kings or princes. Agamemnon , king of Mycenae , acts as commander for these united armies. After nine years of fighting, the Achaeans had sacked some towns allied with Troy, and captured two maidens, Chryseis and Briseis . Agamemnon, the leader, took Chryseis as his concubine; Achilles, the Achaeans' greatest warrior, took Briseis. Chryses , father of Chryseis and priest of Apollo , offered Agamemnon a large ransom for the return of his daughter. Agamemnon refused, against the wishes of the other Achaeans, and insulted the priest. The priest asks Apollo for vengeance, and Apollo inflicts a plague upon the Achaeans to punish them for the rudeness of Agamemnon to his priest. After nine days of plague, Achilles , the leader of the Myrmidon forces and aristos achaion (\"best of the Greeks\"), calls for an assembly. Under pressure, Agamemnon agrees to return Chryseis to her father but decides to take Achilles's slave, Briseis, as compensation. Viewing Agamemnon's decision as a huge dishonour in front of the assembled Achaean forces, Achilles furiously declares that he and his men will no longer fight for Agamemnon. Odysseus returns Chryseis to her father, causing Apollo to end the plague. In the meantime, Agamemnon's messengers take Briseis away. Achilles becomes very upset and prays to his mother, Thetis , a minor goddess and sea nymph. [ 13 ] Achilles asks his mother to supplicate Zeus , wanting the Achaeans to be beaten back by the Trojans until their ships are at risk of being burnt. Only then will Agamemnon realise how much the Achaeans need Achilles and restore his honour. Thetis does so, and Zeus agrees. Zeus then sends a dream to Agamemnon, urging him to attack Troy. Agamemnon heeds the dream but first decides to test the Achaean army's morale by telling them to go home. However nine years into the war, the soldiers' morale has worn thin. The plan backfires, and only the intervention of Odysseus, inspired by Athena , stops a rout . Odysseus confronts and beats Thersites , a common soldier who voices discontent about fighting Agamemnon's war. The Achaeans deploy in companies upon the Trojan plain. When news of the Achaean deployment reaches King Priam , the Trojans respond in a sortie upon the plain. The armies approach each other, but before they meet, Paris , urged by Hector , his brother and hero of Troy , offers to end the war by fight"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: The Great Pyramid of Giza was completed before Homer composed the Iliad. The Great Pyramid was built around 2600 BC, while the Iliad was composed circa 660/650 BCE, making the pyramid approximately 1,950 years older.\n\nSource: Great Pyramid of Giza, Iliad"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Great Pyramid of Giza",
+      "api_response": {
+        "pages": [
+          {
+            "id": 12224,
+            "key": "Great_Pyramid_of_Giza",
+            "title": "Great Pyramid of Giza",
+            "excerpt": "The <span class=\"searchmatch\">Great</span> <span class=\"searchmatch\">Pyramid</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Giza</span> is the largest <span class=\"searchmatch\">of</span> the Egyptian <span class=\"searchmatch\">pyramids</span> and the most famous landmark <span class=\"searchmatch\">of</span> the <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramid</span> complex in <span class=\"searchmatch\">Giza</span>, Egypt. It is the oldest",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Largest pyramid in the Giza Necropolis, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 34,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/60px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
+            }
+          },
+          {
+            "id": 1979299,
+            "key": "Giza_pyramid_complex",
+            "title": "Giza pyramid complex",
+            "excerpt": "The <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramid</span> complex (also called the <span class=\"searchmatch\">Giza</span> necropolis) in Egypt is home to the <span class=\"searchmatch\">Great</span> <span class=\"searchmatch\">Pyramid</span>, the <span class=\"searchmatch\">pyramid</span> <span class=\"searchmatch\">of</span> Khafre, and the <span class=\"searchmatch\">pyramid</span> <span class=\"searchmatch\">of</span> Menkaure,",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Archaeological site near Cairo, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 25,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/60px-Pyramids_of_the_Giza_Necropolis.jpg"
+            }
+          },
+          {
+            "id": 864667,
+            "key": "Egyptian_pyramids",
+            "title": "Egyptian pyramids",
+            "excerpt": "masonry. The most famous Egyptian <span class=\"searchmatch\">pyramids</span> are those found at <span class=\"searchmatch\">Giza</span>, on the outskirts <span class=\"searchmatch\">of</span> Cairo. Several <span class=\"searchmatch\">of</span> the <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramids</span> are counted among the largest",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Ancient masonry structures in Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/60px-All_Gizah_Pyramids.jpg"
+            }
+          },
+          {
+            "id": 144514,
+            "key": "Giza",
+            "title": "Giza",
+            "excerpt": "complex <span class=\"searchmatch\">of</span> ancient Egyptian royal mortuary and sacred structures, among which are the <span class=\"searchmatch\">Great</span> Sphinx, the <span class=\"searchmatch\">Great</span> <span class=\"searchmatch\">Pyramid</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Giza</span>, and a number <span class=\"searchmatch\">of</span> other large",
+            "matched_title": null,
+            "anchor": null,
+            "description": "City in Greater Cairo, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/60px-All_Gizah_Pyramids.jpg"
+            }
+          },
+          {
+            "id": 2092712,
+            "key": "Giza_Plateau",
+            "title": "Giza Plateau",
+            "excerpt": "The <span class=\"searchmatch\">Giza</span> Plateau (Arabic: \u0647\u0636\u0628\u0629 \u0627\u0644\u062c\u064a\u0632\u0629) is a limestone plateau in <span class=\"searchmatch\">Giza</span>, Egypt, the site <span class=\"searchmatch\">of</span> the Fourth Dynasty <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramid</span> complex, which includes the",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Site of the largest known collection of pyramids, in Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Giza-pyramids.JPG/60px-Giza-pyramids.JPG"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Great Pyramid of Giza Largest pyramid in the Giza Necropolis, Egypt \"Great Pyramid\" redirects here. For other Egyptian pyramids, see Egyptian pyramids . Great Pyramid of Giza The Great Pyramid, seen in 2023 Great Pyramid Location within Egypt Show map of Egypt Great Pyramid Location within Africa Show map of Africa Location Giza , Egypt Coordinates 29\u00b058\u203245\u2033N 31\u00b008\u203203\u2033E \ufeff / \ufeff 29.97917\u00b0N 31.13417\u00b0E \ufeff / 29.97917; 31.13417 Ancient name Akhet Khufu Khufu's Horizon [ 1 ] Architect Hemiunu (presumed) Constructed c. 2600 BC ( Old Kingdom ) 4626 years ago Type True pyramid Material Limestone, mortar, granite Height Original: 146.6 m (481 ft) or 280 cubits Current: 138.5 m (454 ft) Base 230.33 m (756 ft) or 440 cubits Volume 2.6 million m 3 (92 million ft 3 ) Slope 51\u00b050'40\" or seked of \u2060 5 + 1 / 2 \u2060 palms [ 2 ] UNESCO World Heritage Site Part of Memphis and its Necropolis \u2013 the Pyramid Fields from Giza to Dahshur Criteria Cultural: i, iii, vi Reference 86-002 Inscription 1979 (3rd Session ) Area Egypt Building details Record height Tallest in the world from c. 2600 BC to the mid-13th century AD [I] Preceded by Red Pyramid (Egypt) Surpassed by Old St Paul's Cathedral (England) [ dubious \u2013 discuss ] The Great Pyramid of Giza [ a ] is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyramid complex in Giza , Egypt. It is the oldest of the Seven Wonders of the Ancient World , and the only wonder that has remained largely intact. The Great Pyramid served as the tomb of Egyptian Pharaoh Khufu (\"Cheops\"), who ruled during the Fourth Dynasty of the Old Kingdom . It was built c. 2600 BC [ 3 ] over a period of about 26 years. [ 4 ] Initially standing at 146.6 metres (481 feet) , the Great Pyramid was the world's tallest human-made structure for more than 3,700 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the current 138.5 metres (454.4 ft) ; what is seen today is the underlying core structure. Each side of the base was measured to be about 230.3 metres (755.6 ft) in length, giving a volume of roughly 2.6 million cubic metres (92 million cubic feet) , which includes an internal hillock. [ 5 ] The dimensions of the pyramid were 280 royal cubits (146.7 m; 481.4 ft) high, a base length of 440 cubits (230.6 m; 756.4 ft) , with a seked of \u2060 5 + 1 / 2 \u2060 palms (a slope of 51\u00b050'40\"). The Great Pyramid was built by quarrying an estimated 2.3 million large blocks, weighing 6 million tonnes in total. The majority of the stones are not uniform in size or shape, and are only roughly dressed. [ 6 ] The outside layers were bound together by mortar , primarily local limestone from the Giza Plateau was used for its construction. Other blocks were imported by boat on the Nile : white limestone from Tura for the casing, and blocks of granite from Aswan , weighing up to 80 tonnes, for the \"King's Chamber\" structure. [ 7 ] There are three known chambers inside of the Great Pyramid. The lowest was cut into the bedrock , upon which the pyramid was built, but remained unfinished. The so-called [ 8 ] Queen's Chamber and King's Chamber, which contain a granite sarcophagus, are above ground within the pyramid structure. Hemiunu , Khufu's vizier , is believed by some to be the architect of the Great Pyramid. [ 9 ] Many varying scientific and alternative hypotheses attempt to explain the exact construction techniques , but, as is the case for other such structures, there is no definite consensus. The funerary complex around the pyramid consisted of two mortuary temples connected by a causeway (one close to the pyramid and one near the Nile); tombs for the immediate family and court of Khufu, including three smaller pyramids for Khufu's wives; an even smaller \"satellite pyramid\"; and five buried solar barques . It is part of the UNESCO World Heritage Site \" Memphis and its Necropolis \". [ 10 ] Purpose Statue of pharaoh Khufu /Cheops, Cairo Museum . The Great Pyramid of Giza was the tomb of pharaoh Khufu, [ 11 ] and still contains his granite sarcophagus. [ 12 ] It had, like other tombs of Egyptian elites, four main purposes: [ 13 ] It housed the body of the deceased and kept it safe. [ 14 ] It demonstrated the status of the deceased and his family. It retained the deceased's place in society. It was a place where offerings could be brought to the deceased. Make your grave well furnished and prepare thy place in the west. Look, death counts little for us. Look, life is valued highly by us. The house of the dead (the tomb) is for life. [ 15 ] [ 16 ] [ 17 ] \u2014 Excerpt from the Instruction of Hardjedef (son of Khufu) In ancient Egypt, high social status was considered absolutely positive, and the monumental social inequalities were symbolized by gigantic pyramids versus smaller mastabas . The sizes of tombs were regulated officially, with their allowed dimensions written down in royal decrees . In the Old Kingdom only kings and queens could have a pyramid tomb. Architectural layout and funeral equipment were also sanctioned, and were, like access to material and workers, at the discretion of the king. [ 18 ] The Great Pyramid's internal chambers lack inscriptions and decorations, the norm for Egyptian tombs of the fourth to late fifth dynasty, apart from work-gang graffiti that include Khufu's names. [ 19 ] Constructed around 2600 BC, it predates the custom of inscribing pyramids with text by over 200 years. [ 20 ] [ 3 ] The pyramid complex of Khufu included two temples that were lavishly decorated and inscribed. The pyramid temple was dedicated to the Sed festival , celebrating Khufu's 30th jubilee. [ 21 ] Surviving scenes portray Khufu, officials, priests and other characters performing rituals. The valley temple remains largely unexcavated, but blocks reused by Amenemhat I depict, for instance, nautical scenes and personifications of the estates of Khufu (e.g. the estate \"Khufu is beautiful\"). [ 22 ] The mortuary cult of Khufu which operated in these temples for hundreds of years indicates that Khufu was successfully interred in the Great Pyramid. [ 23 ] That the funeral was carried out by Khufu's son and successor Djedefre is evidenced by the presence of his cartouches on the blocks that sealed the boat pits next to the pyramid. [ 24 ] The Great Pyramid was likely looted as early as the First Intermediate Period and may have been reused afterwards. [ 25 ] Arab accounts tell stories of mummies and treasures being found inside the pyramid. For instance, Al-Maqrizi (1364\u20131442) reports the discovery of three shrouded bodies, a sarcophagus filled with gold, and a corpse in golden armour with a sword of inestimable value and a ruby as large as an egg. [ 26 ] Attribution to Khufu Clay seal bearing the name of the Great Pyramid which includes Khufu's cartouche, c. 664 BC \u2013 c. 332 BC, Louvre museum Khufu's cartouche found inscribed on a backing stone of the pyramid Historically the Great Pyramid had been attributed to Khufu based on the words of authors of classical antiquity , first and foremost Herodotus and Diodorus Siculus . During the Middle Ages other people were credited with the construction of the pyramid as well, for example Joseph from the Book of Genesis , Nimrod , or the legendary king Saurid ibn Salhouk . [ 27 ] In 1837 four additional relieving chambers were found above the King's Chamber after tunnelling to them. The chambers, previously inaccessible, were covered in hieroglyphs of red paint. The workers who were building the pyramid had marked the blocks with the names of their gangs, which included the pharaoh's name (e.g.: \"The gang, The white crown of Khnum-Khufu is powerful\"). The names of Khufu were spelled out on the walls over a dozen times. Another of these graffiti was found by Goyon on an exterior block of the 4th layer of the pyramid. [ 28 ] The inscriptions are comparable to those found at other sites of Khufu, such as the alabaster quarry at Hatnub [ 29 ] or the harbour at Wadi al-J",
+      "content_source": "page/Great_Pyramid_of_Giza/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Homer Iliad",
+      "api_response": {
+        "pages": [
+          {
+            "id": 19381951,
+            "key": "Iliad",
+            "title": "Iliad",
+            "excerpt": "The <span class=\"searchmatch\">Iliad</span> (/<span class=\"searchmatch\">\u02c8\u026ali\u0259d</span>/ ; Ancient Greek: \u1f38\u03bb\u03b9\u03ac\u03c2, romanized:\u00a0Ili\u00e1s, [i\u02d0li&#039;as]; lit.\u2009&#039;[a poem] about Ilion (Troy)&#039;) is one of two major ancient Greek epic poems",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Epic poem attributed to Homer",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 37,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Detail._Wooden_board_inscribed_in_ink_with_lines_468-473%2C_Book_I_of_Homer%27s_Iliad._Roman_Egypt._On_display_at_the_British_Museum.jpg/60px-Detail._Wooden_board_inscribed_in_ink_with_lines_468-473%2C_Book_I_of_Homer%27s_Iliad._Roman_Egypt._On_display_at_the_British_Museum.jpg"
+            }
+          },
+          {
+            "id": 8384405,
+            "key": "English_translations_of_Homer",
+            "title": "English translations of Homer",
+            "excerpt": "Translators and scholars have translated the main works attributed to <span class=\"searchmatch\">Homer</span>, the <span class=\"searchmatch\">Iliad</span> and Odyssey, from the Homeric Greek into English, since the 16th and",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 90,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Frontispiece_to_George_Chapman%27s_translation_of_the_Odyssey.jpg/60px-Frontispiece_to_George_Chapman%27s_translation_of_the_Odyssey.jpg"
+            }
+          },
+          {
+            "id": 13633,
+            "key": "Homer",
+            "title": "Homer",
+            "excerpt": "<span class=\"searchmatch\">Iliad</span> and the Odyssey, two epic poems that are foundational works of ancient Greek literature. Although his life and authorship remain obscure, <span class=\"searchmatch\">Homer</span>",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Ancient Greek poet",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Homer_British_Museum.jpg/60px-Homer_British_Museum.jpg"
+            }
+          },
+          {
+            "id": 81949,
+            "key": "Patroclus",
+            "title": "Patroclus",
+            "excerpt": "in Greek mythology. Patroclus is an important character in <span class=\"searchmatch\">Homer&#039;s</span> <span class=\"searchmatch\">Iliad</span>. Although <span class=\"searchmatch\">Homer</span> does not explicitly describe Patroclus and Achilles as lovers",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Greek mythological character",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 65,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Wall_painting_-_Briseis_taken_away_from_Achilles_-_Pompeii_%28VI_8_5%29_-_Napoli_MAN_9105_-_03_%28cropped%29.jpg/60px-Wall_painting_-_Briseis_taken_away_from_Achilles_-_Pompeii_%28VI_8_5%29_-_Napoli_MAN_9105_-_03_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 49124,
+            "key": "Phoenix_(son_of_Amyntor)",
+            "title": "Phoenix (son of Amyntor)",
+            "excerpt": "271\u2013276; <span class=\"searchmatch\">Homer</span>, <span class=\"searchmatch\">Iliad</span> 9.529\u2013599. <span class=\"searchmatch\">Homer</span>, <span class=\"searchmatch\">Iliad</span> 9.600\u2013605. <span class=\"searchmatch\">Homer</span>, <span class=\"searchmatch\">Iliad</span> 9.606\u2013619. Gantz, p. 609. <span class=\"searchmatch\">Homer</span>, <span class=\"searchmatch\">Iliad</span> 16.194. <span class=\"searchmatch\">Homer</span>, <span class=\"searchmatch\">Iliad</span> 17.555\u2013561. <span class=\"searchmatch\">Homer</span>, <span class=\"searchmatch\">Iliad</span> 19",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Greek mythical figure",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 59,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Briseis_Phoinix_Louvre_G152.jpg/60px-Briseis_Phoinix_Louvre_G152.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Iliad Epic poem attributed to Homer For other uses, see Iliad (disambiguation) . This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages ) This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed. Find sources: \"Iliad\" \u2013 news \u00b7 newspapers \u00b7 books \u00b7 scholar \u00b7 JSTOR ( May 2026 ) ( Learn how and when to remove this message ) This article may contain original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed. ( May 2026 ) ( Learn how and when to remove this message ) ( Learn how and when to remove this message ) Iliad by Homer Inscription of lines 468\u2013473, Book I. Dated 400 \u200d \u2013 \u200d 500 AD, from Egypt, on display at the British Museum Original title \u1f38\u03bb\u03b9\u03ac\u03c2 Translator George Chapman and others; see English translations of Homer Written circa 660/650 BCE (orally composed) [ 1 ] Country Ancient Greece Language Homeric Greek Subject Trojan War Genre Epic poetry Published in English 1598 ; 428 years ago ( 1598 ) Lines 15,693 Followed by The Odyssey Metre Dactylic hexameter Full text Iliad at Wikisource \u0399\u03bb\u03b9\u03ac\u03c2 at Greek Wikisource Trojan War Achilles tending the wounded Patroclus ( Attic red-figure kylix , c. 500 BC) Literary sources Iliad Odyssey Epic Cycle Aeneid , Book 2 Iphigenia in Aulis Philoctetes Ajax The Trojan Women Posthomerica See also: Trojan War in literature and the arts Episodes Judgement of Paris Seduction of Helen Trojan Horse Sack of Troy The Returns Wanderings of Odysseus Aeneas and the Founding of Rome Greeks and allies Agamemnon Achilles Helen Menelaus Nestor Odysseus Ajax Diomedes Patroclus Thersites Achaeans Myrmidons See also: Achaean Leaders , Catalogue of Ships Trojans and allies Priam Hecuba Hector Paris Helen Cassandra Andromache Aeneas Memnon Troilus Penthesilea and the Amazons Sarpedon Deiphobos Helenus See also: Trojan Battle Order , Trojan Leaders Participant gods Caused the war: Eris On the Greek side: Athena Hephaestus Hera Hermes Thetis Poseidon On the Trojan side: Aphrodite Apollo Ares Artemis Leto Scamander Zeus Historicity Ahhiyawa Alaksandu Archaeology of Troy Attarsiya Hisarl\u0131k Homeric Question Late Bronze Age Troy Manapa-Tarhunta letter Milawata letter Tawagalawa letter Trojan language Wilusa See also: Historicity of the Iliad Related topics Bronze Age Collapse Euhemerism Homeric Question Mycenae Mycenaean warfare v t e The Iliad ( / \u02c8 \u026a l i \u0259 d / \u24d8 ; [ 2 ] Ancient Greek : \u1f38\u03bb\u03b9\u03ac\u03c2 , romanized : Ili\u00e1s , [ i\u02d0li'as ] ; lit. ' [a poem] about Ilion (Troy) ' ) is one of two major ancient Greek epic poems attributed to Homer . It is one of the oldest extant works of literature still widely read by modern audiences. Like the Odyssey , the poem is divided into 24 books and was written in dactylic hexameter . It contains 15,693 lines in its standard edition. The Iliad is often regarded as the first substantial piece of European literature and is a central part of the Epic Cycle . [ 3 ] [ page needed ] Set toward the end of the Trojan War , a 10-year siege of the city of Troy by a coalition of Mycenaean Greek states, the poem depicts significant events in the war's final weeks. In particular, it traces the anger ( \u03bc\u1fc6\u03bd\u03b9\u03c2 ) of Achilles , a celebrated warrior, from a fierce quarrel between him and King Agamemnon , to the death of the Trojan prince Hector . [ 4 ] [ page needed ] [ 5 ] [ page needed ] The narrative moves between wide battleground scenes and more personal interactions. The Iliad and the Odyssey were likely composed in Homeric Greek , a literary mixture of Ionic Greek and other dialects, around the mid 7th century BCE. [ 1 ] Although the poem's composition has been extensively debated in contemporary scholarship (the Homeric Question ), involving debates such as whether the Iliad and the Odyssey were composed independently, and whether they survived via an oral or also written tradition. [ 6 ] The poem was performed by professional reciters of Homer known as rhapsodes at Greek festivals such as The Great Panathenaia . [ 7 ] [ 8 ] [ page needed ] Critical themes in the poem include kleos (glory), pride, fate, and wrath. [ 9 ] Despite being predominantly known for its tragic and serious themes, the poem also contains instances of comedy and laughter. [ 10 ] The poem is frequently described as a \"heroic\" epic, centred around issues such as war, violence, and the heroic code . It contains detailed descriptions of ancient warfare , including battle tactics and equipment. However, it also explores the social and domestic side of ancient culture in scenes behind the walls of Troy and in the Greek camp. Additionally, the Olympian gods play a major role in the poem, aiding their favoured warriors on the battlefield and intervening in personal disputes. [ 11 ] Their anthropomorphic characterisation in the poem humanised them for Ancient Greek audiences, giving a concrete sense of their cultural and religious tradition . In terms of formal style, the poem's formulae, use of similes, and epithets are often explored by scholars. [ 12 ] Synopsis Exposition (Books 1\u20134) Source: [ 4 ] [ page needed ] The first verses of the Iliad The story begins with an invocation to the Muse . The events take place towards the end of the Trojan War, fought between the Trojans and the besieging Achaeans (Greeks) . The Achaean forces consist of armies from many different Greek kingdoms, led by their respective kings or princes. Agamemnon , king of Mycenae , acts as commander for these united armies. After nine years of fighting, the Achaeans had sacked some towns allied with Troy, and captured two maidens, Chryseis and Briseis . Agamemnon, the leader, took Chryseis as his concubine; Achilles, the Achaeans' greatest warrior, took Briseis. Chryses , father of Chryseis and priest of Apollo , offered Agamemnon a large ransom for the return of his daughter. Agamemnon refused, against the wishes of the other Achaeans, and insulted the priest. The priest asks Apollo for vengeance, and Apollo inflicts a plague upon the Achaeans to punish them for the rudeness of Agamemnon to his priest. After nine days of plague, Achilles , the leader of the Myrmidon forces and aristos achaion (\"best of the Greeks\"), calls for an assembly. Under pressure, Agamemnon agrees to return Chryseis to her father but decides to take Achilles's slave, Briseis, as compensation. Viewing Agamemnon's decision as a huge dishonour in front of the assembled Achaean forces, Achilles furiously declares that he and his men will no longer fight for Agamemnon. Odysseus returns Chryseis to her father, causing Apollo to end the plague. In the meantime, Agamemnon's messengers take Briseis away. Achilles becomes very upset and prays to his mother, Thetis , a minor goddess and sea nymph. [ 13 ] Achilles asks his mother to supplicate Zeus , wanting the Achaeans to be beaten back by the Trojans until their ships are at risk of being burnt. Only then will Agamemnon realise how much the Achaeans need Achilles and restore his honour. Thetis does so, and Zeus agrees. Zeus then sends a dream to Agamemnon, urging him to attack Troy. Agamemnon heeds the dream but first decides to test the Achaean army's morale by telling them to go home. However nine years into the war, the soldiers' morale has worn thin. The plan backfires, and only the intervention of Odysseus, inspired by Athena , stops a rout . Odysseus confronts and beats Thersites , a common soldier who voices discontent about fighting Agamemnon's war. The Achaeans deploy in companies upon the Trojan plain. When news of the Achaean deployment reaches King Priam , the Trojans respond in a sortie upon the plain. The armies approach each other, but before they meet, Paris , urged by Hector , his brother and hero of Troy , offers to end the war by fight",
+      "content_source": "page/Iliad/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: The Great Pyramid of Giza was completed before Homer composed the Iliad. The Great Pyramid was built around 2600 BC, while the Iliad was composed circa 660/650 BCE, making the pyramid approximately 1,950 years older.\n\nSource: Great Pyramid of Giza, Iliad",
+  "total_tool_calls": 2,
+  "latency_ms": 12022,
+  "error": null
+}

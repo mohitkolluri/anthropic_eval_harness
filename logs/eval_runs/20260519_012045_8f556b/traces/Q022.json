@@ -1,0 +1,194 @@
+{
+  "eval_id": "Q022",
+  "run_id": "20260519_012045_8f556b",
+  "prompt_version": "v4",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What can you tell me about Ajax?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What can you tell me about Ajax?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01X7K4WZYAuVRu4Cv8Hcjkce",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ajax"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01X7K4WZYAuVRu4Cv8Hcjkce",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_011WrZ5eDfaar5LYbqrvR9sa",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ajax Greek mythology"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_011WrZ5eDfaar5LYbqrvR9sa",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_0165gnquk59v13BcBbM4jXrK",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ajax the Great Trojan War"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_0165gnquk59v13BcBbM4jXrK",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: I could not find relevant information on Wikipedia for this question.\nSource: N/A"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Ajax",
+      "api_response": {
+        "pages": [
+          {
+            "id": 2273,
+            "key": "AFC_Ajax",
+            "title": "AFC Ajax",
+            "excerpt": "Amsterdamsche Football Club <span class=\"searchmatch\">Ajax</span> (Dutch: [\u02c8a\u02d0j\u0251ks]), also known as AFC <span class=\"searchmatch\">Ajax</span>, <span class=\"searchmatch\">Ajax</span> Amsterdam, or simply <span class=\"searchmatch\">Ajax</span>, is a Dutch professional football club based",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Association football club in Netherlands",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Logo_AFC_Ajax_%281928-1991%2C_2025-%29.png/60px-Logo_AFC_Ajax_%281928-1991%2C_2025-%29.png"
+            }
+          },
+          {
+            "id": 1569,
+            "key": "Ajax",
+            "title": "Ajax",
+            "excerpt": "Look up <span class=\"searchmatch\">Ajax</span>\u00a0or <span class=\"searchmatch\">AJAX</span> in Wiktionary, the free dictionary. <span class=\"searchmatch\">Ajax</span> may refer to: <span class=\"searchmatch\">Ajax</span> the Great, son of King Telamon and Periboea <span class=\"searchmatch\">Ajax</span> the Lesser, son of Oileus",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Topics referred to by the same term",
+            "thumbnail": null
+          },
+          {
+            "id": 1610950,
+            "key": "Ajax_(programming)",
+            "title": "Ajax (programming)",
+            "excerpt": "The Asynchronous JavaScript and XML, usually referred to as <span class=\"searchmatch\">Ajax</span> (or <span class=\"searchmatch\">AJAX</span>, /\u02c8e\u026ad\u0292\u00e6ks/) is a set of web development techniques that uses various web technologies",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Group of interrelated Web development techniques",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 29,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/60px-AJAX_logo_by_gengns.svg.png"
+            }
+          },
+          {
+            "id": 1568,
+            "key": "Ajax_the_Great",
+            "title": "Ajax the Great",
+            "excerpt": "<span class=\"searchmatch\">Ajax</span> (/\u02c8e\u026ad\u0292\u00e6ks/) or Aias (/\u02c8a\u026a.\u0259s/; Ancient Greek: \u0391\u1f34\u03b1\u03c2, romanized:\u00a0A\u00ed\u0101s [a\u00ed\u032f.a\u02d0s], gen. \u0391\u1f34\u03b1\u03bd\u03c4\u03bf\u03c2 A\u00edantos) is a Greek mythological hero, the son of King",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Character in Greek Mythology",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg/60px-Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg"
+            }
+          },
+          {
+            "id": 43742427,
+            "key": "General_Dynamics_Ajax",
+            "title": "General Dynamics Ajax",
+            "excerpt": "The <span class=\"searchmatch\">Ajax</span>, formerly known as the Scout SV (Specialist Vehicle), is a group of armoured fighting vehicles developed by General Dynamics UK for the British",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Family of British armoured fighting vehicles",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AJAX%2C_the_Future_Armoured_Fighting_Vehicle_for_the_British_Army_MOD_45159441.jpg/60px-AJAX%2C_the_Future_Armoured_Fighting_Vehicle_for_the_British_Army_MOD_45159441.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "",
+      "content_source": "page/AFC_Ajax/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Ajax Greek mythology",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "Ajax the Great Trojan War",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "Answer: I could not find relevant information on Wikipedia for this question.\nSource: N/A",
+  "total_tool_calls": 3,
+  "latency_ms": 14535,
+  "error": null
+}

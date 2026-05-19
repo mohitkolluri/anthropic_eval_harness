@@ -1,0 +1,237 @@
+{
+  "eval_id": "H001",
+  "run_id": "20260519_044747_7be58a",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "On what date did humans first land on the Moon, and what was the name of the lunar module?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "On what date did humans first land on the Moon, and what was the name of the lunar module?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01TuuwbDr2Kvci15Apg8N6RB",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Moon landing"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01TuuwbDr2Kvci15Apg8N6RB",
+          "content": "Moon landing Arrival of a spacecraft on the Moon's surface This article is about lunar landings in general. For the Cold War \"Race to the Moon\", see Space Race . For the first crewed Moon landing, see Apollo 11 . For other uses, see Moon landing (disambiguation) . A clickable map of the locations of all successful soft landings on the Moon to date Luna program (USSR) Surveyor program (United States) Apollo program (United States) Chang'e program (China) Chandrayaan program (India) SLIM (Japan) Commercial Lunar Payload Services (United States) Dates are landing dates in Coordinated Universal Time . Except for the Apollo program, all soft landings were uncrewed. Asterisk indicates partial success. ( Interactive version ) A still frame from a video transmission, taken moments before Neil Armstrong became the first human to step onto the surface of the Moon, at 02:56 UTC on 21 July 1969. An estimated 500 million people worldwide watched this event, the largest television audience for a live broadcast at that time. [ 1 ] [ 2 ] A Moon landing or lunar landing is the arrival of a crewed or robotic spacecraft on the Moon . The first human-made object to touch the Moon was Luna 2 in 1959, [ 3 ] and the first crewed mission to land on the Moon was Apollo 11 in 1969. [ 4 ] There were six crewed landings between 1969 and 1972 and numerous uncrewed landings. All crewed missions to the Moon were conducted by the Apollo program , with the last departing in December 1972. After Luna 24 in 1976, there were no soft landings \u2014landings without significant damage\u2014on the Moon until Chang'e 3 in 2013. All soft landings took place on the near side of the Moon until Chang'e 4 landed on the far side of the Moon in 2019. [ 5 ] Uncrewed landings Government landings A Soviet stamp with a drawing of the first soft landed probe Luna 9 , next to the first view of the lunar surface photographed by the probe Six government space agencies, Interkosmos , NASA , CNSA , ISRO , JAXA and ESA , have reached the Moon with uncrewed missions. The Soviet Union (Interkosmos), the United States (NASA), China (CNSA), India (ISRO), [ 6 ] and Japan (JAXA) [ 7 ] are the only five nations to have successfully achieved soft landings. The Soviet Union performed the first hard Moon landing, in which the spacecraft intentionally crashed into the Moon at high speed, with the Luna 2 spacecraft in 1959, a feat the U.S. duplicated in 1962 with Ranger 4 . Following their initial hard landings on the Moon, sixteen Soviet, U.S., Chinese and Indian spacecraft have used braking rockets ( retrorockets ) to make soft landings and perform scientific operations on the lunar surface. In 1966 the Soviet Union accomplished the first soft landings and took the first pictures from the lunar surface during the Luna 9 and Luna 13 missions. The U.S. followed with five Surveyor soft landings. China's ongoing Chang'e program has landed 4 times since 2013, achieving robotic soil sample return and the first landing on the far side of the Moon. On 23 August 2023, ISRO successfully landed its Chandrayaan-3 module in the lunar south pole region, making India the fourth nation to successfully complete a soft landing on the Moon. [ 8 ] Chandrayaan-3 saw a successful soft landing of its Vikram lander and Pragyan rover at 6.04 pm IST (1234 GMT), marking the first uncrewed soft landing in the little-explored region. [ 9 ] On 19 January 2024, JAXA successfully landed its SLIM lander , making Japan the fifth nation to successfully complete a soft landing. [ 10 ] Commercial landings Two organizations have attempted but failed to achieve soft landings: Israeli private space agency SpaceIL with their Beresheet spacecraft (2019), and Japanese company ispace 's Hakuto-R Mission 1 (2023). On 22 February 2024, Intuitive Machine's Odysseus successfully landed on the Moon after taking off on a SpaceX Falcon 9 liftoff on 15 February 2024 in a mission by NASA , SpaceX , and Intuitive Machines , marking the United States' first soft unmanned Moon landing in over 50 years and as the first successful landing of a privately owned spacecraft on the Moon. [ 11 ] [ 12 ] The lander broke a strut during landing and rested at an angle of 30\u00b0 to the lunar surface and 18\u00b0 to horizontal, with communications impaired. [ 13 ] [ 14 ] It operated until February 29, 2024. [ 15 ] On 2 March 2025, Firefly Aerospace 's Blue Ghost lunar lander made the first fully successful commercial Moon landing after softly landing upright near Mons Latreille in Mare Crisium . Blue Ghost operated for 14 days, including 5 hours into the lunar night, marking it the longest commercial operations on the Moon until now. Part of NASA's Commercial Lunar Payload Services initiative, Firefly operated 10 NASA instruments aboard Blue Ghost. The mission concluded on 16 March 2025. [ 16 ] [ 17 ] [ 18 ] Crewed landings Further information: Apollo program See also: List of people who have walked on the Moon The view through the window of the Lunar Module Orion shortly after Apollo 16 's landing A total of twelve astronauts have landed on the Moon. This was accomplished with two pilot-astronauts flying a Lunar Module on each of six NASA missions. The missions spanned a 41-month period starting 20 July 1969, beginning with Neil Armstrong and Buzz Aldrin on Apollo 11 , and ending on 14 December 1972 with Gene Cernan and Harrison Schmitt on Apollo 17 . Cernan was the last man to step off the lunar surface. All Apollo lunar missions had a third crew member who remained on board the command module . Scientific background To get to the Moon, a spacecraft must first leave Earth's gravity well ; currently, the only practical means is a rocket . Unlike airborne vehicles such as balloons and jet aircraft , a rocket can continue accelerating in the vacuum outside the atmosphere . Upon approach of the target moon, a spacecraft will be drawn ever closer to its surface at increasing speeds due to gravity. In order to land intact it must decelerate to less than about 160 kilometres per hour (100 mph) and be ruggedized to withstand a \"hard landing\" impact, or it must decelerate to negligible speed at contact for a \"soft landing\" (the only option for humans). The first three attempts by the U.S. to perform a successful hard Moon landing with a ruggedized seismometer package in 1962 all failed. [ 19 ] The Soviets first achieved the milestone of a hard lunar landing with a ruggedized camera in 1966, followed only months later by the first uncrewed soft lunar landing by the U.S. The speed of a crash landing on its surface is typically between 70 and 100% of the escape velocity of the target moon, and thus this is the total velocity which must be shed from the target moon's gravitational attraction for a soft landing to occur. For Earth's Moon, the escape velocity is 2.38 kilometres per second (1.48 mi/s) . [ 20 ] The change in velocity (referred to as a delta-v ) is usually provided by a landing rocket, which must be carried into space by the original launch vehicle as part of the overall spacecraft. An exception is the soft moon landing on Saturn 's moon Titan carried out by the Huygens probe in 2005. As the moon with the thickest atmosphere, landings on Titan may be accomplished by using atmospheric entry techniques that are generally lighter in weight than a rocket with equivalent capability. The Soviets succeeded in making the first crash landing on the Moon in 1959. [ 21 ] Crash landings [ 22 ] may occur because of malfunctions in a spacecraft, or they can be deliberately arranged for vehicles which do not have an onboard landing rocket. There have been many such Moon crashes , often with their flight path controlled to impact at precise locations on the lunar surface. For example, during the Apollo program the S-IVB third stage of the Saturn V rocket as well as the spent ascent stage of the Lunar Module were deliberately crashed on the Moon several times to provide impacts registering as a moonquake on seismomet"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01JWag8e85sanDLgx8dfHx9t",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Apollo 11"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01JWag8e85sanDLgx8dfHx9t",
+          "content": "Apollo 11 First crewed Moon landing (1969) \"First Moon landing\" and \"The Moon landing\" redirect here. For earlier uncrewed Moon landings, see Moon landing . This article is about the 1969 crewed lunar mission. For other uses, see Apollo 11 (disambiguation) . Apollo 11 Buzz Aldrin on the Moon in a photograph taken by Neil Armstrong , who can be seen in the visor reflection along with Earth, the Lunar Module Eagle , and the U.S. flag [ 1 ] Mission type Crewed lunar landing ( G ) Operator NASA COSPAR ID CSM: 1969-059A LM: 1969-059C SATCAT no. CSM: 4039 [ 2 ] LM: 4041 [ 3 ] Mission duration 8 days, 3 hours, 18 minutes, 35 seconds Spacecraft properties Spacecraft Apollo CSM -107 Apollo LM -5 Manufacturer CSM: North American Rockwell [ 4 ] LM: Grumman [ 4 ] Launch mass 109,646 lb (49,735 kg) [ 5 ] Landing mass 10,873 lb (4,932 kg) Crew Crew size 3 Members Neil Armstrong Michael Collins Buzz Aldrin Callsign CSM: Columbia LM: Eagle On surface: Tranquility Base Start of mission Launch date July 16, 1969, 13:32:00 ( 1969-07-16UTC13:32Z ) UTC (9:32:00 am EDT ) [ 6 ] Rocket Saturn V SA-506 Launch site Kennedy , LC \u2011 39A End of mission Recovered by USS Hornet Landing date July 24, 1969, 16:50:35 ( 1969-07-24UTC16:50:36Z ) UTC Landing site North Pacific Ocean ( 13\u00b019\u2032N 169\u00b09\u2032W \ufeff / \ufeff 13.317\u00b0N 169.150\u00b0W \ufeff / 13.317; -169.150 \ufeff ( Apollo 11 splashdown ) ) Orbital parameters Reference system Selenocentric Periselene altitude 100.9 km (54.5 nmi ; 62.7 mi) [ 7 ] Aposelene altitude 122.4 km (66.1 nmi; 76.1 mi) [ 7 ] Inclination 1.25\u00b0 [ 7 ] Period 2 hours [ 7 ] Epoch July 19, 1969, 21:44 UTC [ 7 ] Lunar orbiter Spacecraft component Apollo command and service module Orbital insertion July 19, 1969, 17:21:50 UTC [ 8 ] Orbital departure July 22, 1969, 04:55:42 UTC [ 9 ] Orbits 30 Lunar lander Spacecraft component Apollo Lunar Module Landing date July 20, 1969, 20:17:40 UTC [ 10 ] Return launch July 21, 1969, 17:54:00 UTC [ 11 ] Landing site Tranquility Base , Mare Tranquillitatis ( 0\u00b040\u203227\u2033N 23\u00b028\u203223\u2033E \ufeff / \ufeff 0.67416\u00b0N 23.47314\u00b0E \ufeff / 0.67416; 23.47314 ) [ 12 ] Sample mass 47.51 lb (21.55 kg) Surface EVAs 1 EVA duration 2 hours, 31 minutes, 40 seconds Docking with Lunar module Docking date July 16, 1969, 16:56:03 UTC [ 8 ] Undocking date July 20, 1969, 17:44:00 UTC [ 13 ] Time docked 96 hours, 47 minutes, 57 seconds Docking with Lunar module ascent stage Docking date July 21, 1969, 21:35:00 UTC [ 9 ] Undocking date July 21, 1969, 23:41:31 UTC [ 9 ] Time docked 2 hours, 6 minutes, 31 seconds Mission insignia Left to right: Armstrong , Collins , and Aldrin Apollo program \u2190 Apollo 10 Apollo 12 \u2192 Apollo 11 (July 16\u201324, 1969) was the American spaceflight that first landed humans on the Moon , and the fifth crewed mission of NASA 's Apollo program . The mission was crewed by Commander Neil Armstrong , Command Module Pilot Michael Collins , and Lunar Module Pilot Edwin \"Buzz\" Aldrin , all of whom were on their second and final spaceflight. Launched atop a Saturn V rocket from Kennedy Space Center in Florida on July 16 at 13:32 UTC , the Apollo spacecraft consisted of three parts: the command module (CM), which housed the three astronauts and was the only part to return to Earth; the service module (SM), which provided propulsion, electrical power, oxygen, and water to the command module; and the Lunar Module (LM), which had two stages\u2014a descent stage with a large engine and fuel tanks for landing on the Moon, and a lighter ascent stage containing a cabin for two astronauts and a small engine to return them to lunar orbit . After a three-day transit, Armstrong and Aldrin descended to the surface aboard the LM Eagle , landing in the Sea of Tranquility ( Mare Tranquillitatis ) on July 20 at 20:17 UTC while Collins remained in lunar orbit aboard the CM Columbia . Armstrong became the first human to walk on the Moon approximately six hours after landing, followed by Aldrin nineteen minutes later. Together they spent around two and a half hours walking on the surface, planting an American flag , speaking by telephone with President Richard Nixon , deploying scientific instruments, and collecting 21.5 kg (47.5 lb) of lunar material. After more than 21 hours on the surface, they rejoined Collins in lunar orbit, and the crew returned safely to Earth on July 24, splashing down in the Pacific Ocean . Apollo 11 was the culmination of the Space Race , a geopolitical competition between the United States and the Soviet Union rooted in Cold War rivalry. It fulfilled a national goal set by President John F. Kennedy in May 1961, who had challenged the United States to land a man on the Moon and return him safely before the end of the decade. The program overcame a severe setback with the fatal Apollo 1 launchpad fire in January 1967 and drew on technologies developed through the preceding Mercury and Gemini programs. The Soviet Union, despite early leads in spaceflight, was unable to match the Saturn V rocket, and its uncrewed lunar probe Luna 15 crashed on the Moon on July 21, while Neil Armstrong and Buzz Aldrin were still on the lunar surface. Armstrong's moonwalk was broadcast live to an estimated 600 million viewers, roughly one-fifth of the world's population, making it among the most-watched television events in history. Stepping onto the lunar surface, Armstrong declared: \" That's one small step for [a] man, one giant leap for mankind .\" Lunar samples returned by the mission led to the identification of three previously unrecognized minerals, and scientific instruments deployed on the surface continued returning data for years afterwards. The crew were honoured with ticker-tape parades , a world goodwill tour, and the Presidential Medal of Freedom . The command module Columbia is preserved at the National Air and Space Museum in Washington, D.C. , while the descent stage of Eagle remains on the lunar surface. Background In the late 1950s and early 1960s, the United States was engaged in the Cold War , a geopolitical rivalry with the Soviet Union . [ 14 ] On October 4, 1957, the Soviet Union launched Sputnik 1 , the first artificial satellite , surprising the world and fueling fears about Soviet technological and military capabilities. Its success demonstrated that the USSR could potentially deliver nuclear weapons over intercontinental distances , challenging American claims of military, economic, and technological superiority. [ 15 ] This incident sparked the Sputnik crisis and ignited the Space Race , as both superpowers sought to demonstrate superiority in spaceflight. [ 16 ] President Dwight D. Eisenhower responded to the challenge posed by Sputnik by creating the National Aeronautics and Space Administration (NASA), and initiating Project Mercury , [ 17 ] which aimed to place a man into Earth orbit . [ 18 ] The Soviets took the lead on April 12, 1961, when cosmonaut Yuri Gagarin became the first person in space and the first to orbit the Earth. [ 19 ] Nearly a month later, on May 5, 1961, Alan Shepard became the first American in space; his 15-minute flight was suborbital, not a full orbit. [ 20 ] Because the Soviet Union had launch vehicles with higher lift capacity, President John F. Kennedy, Eisenhower's successor, chose a challenge that exceeded the capabilities of the existing generation of rockets, so that both countries would be starting from an equal position. A crewed mission to the Moon would serve this purpose. [ 21 ] On May 25, 1961, Kennedy addressed the United States Congress on \"Urgent National Needs\" and declared: I believe that this nation should commit itself to achieving the goal, before this decade [1960s] is out, of landing a man on the Moon and returning him safely to the Earth. No single space project in this period will be more impressive to mankind, or more important for the long-range exploration of space; and none will be so difficult or expensive to accomplish. We propose to accelerate the development of the appropriate lunar space craft. We propose to develop"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: Humans first landed on the Moon on July 20, 1969, when Apollo 11 astronauts Neil Armstrong and Buzz Aldrin descended to the surface aboard the Lunar Module named Eagle.\n\nSource: Apollo 11"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Moon landing",
+      "api_response": {
+        "pages": [
+          {
+            "id": 1558077,
+            "key": "Moon_landing",
+            "title": "Moon landing",
+            "excerpt": "A <span class=\"searchmatch\">Moon</span> <span class=\"searchmatch\">landing</span> or lunar <span class=\"searchmatch\">landing</span> is the arrival of a crewed or robotic spacecraft on the <span class=\"searchmatch\">Moon</span>. The first human-made object to touch the <span class=\"searchmatch\">Moon</span> was Luna\u00a02",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Arrival of a spacecraft on the Moon's surface",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Moon_Soft_Landings.svg/60px-Moon_Soft_Landings.svg.png"
+            }
+          },
+          {
+            "id": 1461,
+            "key": "Apollo_program",
+            "title": "Apollo program",
+            "excerpt": "John F. Kennedy&#039;s national goal, &quot;before this decade is out, of <span class=\"searchmatch\">landing</span> a man on the <span class=\"searchmatch\">Moon</span> and returning him safely to the Earth&quot; in his address to the U",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1961\u20131972 American crewed lunar exploration program",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Apollo_program.svg/60px-Apollo_program.svg.png"
+            }
+          },
+          {
+            "id": 80740,
+            "key": "Moon_landing_conspiracy_theories",
+            "title": "Moon landing conspiracy theories",
+            "excerpt": "that some or all elements of the Apollo program and the associated <span class=\"searchmatch\">Moon</span> <span class=\"searchmatch\">landings</span> were hoaxes staged by NASA, possibly with the aid of other organizations",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Claims that the Apollo Moon landings were faked",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 79,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Apollo_11_Crew_During_Training_Exercise_-_GPN-2002-000032.jpg/60px-Apollo_11_Crew_During_Training_Exercise_-_GPN-2002-000032.jpg"
+            }
+          },
+          {
+            "id": 662,
+            "key": "Apollo_11",
+            "title": "Apollo 11",
+            "excerpt": "two stages\u2014a descent stage with a large engine and fuel tanks for <span class=\"searchmatch\">landing</span> on the <span class=\"searchmatch\">Moon</span>, and a lighter ascent stage containing a cabin for two astronauts",
+            "matched_title": null,
+            "anchor": null,
+            "description": "First crewed Moon landing (1969)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 61,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/60px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 9481400,
+            "key": "List_of_Apollo_missions",
+            "title": "List of Apollo missions",
+            "excerpt": "crewed flight; and the third <span class=\"searchmatch\">landing</span> attempt on Apollo 13 was aborted by an oxygen tank explosion en route to the <span class=\"searchmatch\">Moon</span>, which disabled the CSM Odyssey&#039;s",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Missions and flights of NASA's Apollo Program",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 75,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/60px-Apollo_11_Launch_-_GPN-2000-000630.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Moon landing Arrival of a spacecraft on the Moon's surface This article is about lunar landings in general. For the Cold War \"Race to the Moon\", see Space Race . For the first crewed Moon landing, see Apollo 11 . For other uses, see Moon landing (disambiguation) . A clickable map of the locations of all successful soft landings on the Moon to date Luna program (USSR) Surveyor program (United States) Apollo program (United States) Chang'e program (China) Chandrayaan program (India) SLIM (Japan) Commercial Lunar Payload Services (United States) Dates are landing dates in Coordinated Universal Time . Except for the Apollo program, all soft landings were uncrewed. Asterisk indicates partial success. ( Interactive version ) A still frame from a video transmission, taken moments before Neil Armstrong became the first human to step onto the surface of the Moon, at 02:56 UTC on 21 July 1969. An estimated 500 million people worldwide watched this event, the largest television audience for a live broadcast at that time. [ 1 ] [ 2 ] A Moon landing or lunar landing is the arrival of a crewed or robotic spacecraft on the Moon . The first human-made object to touch the Moon was Luna 2 in 1959, [ 3 ] and the first crewed mission to land on the Moon was Apollo 11 in 1969. [ 4 ] There were six crewed landings between 1969 and 1972 and numerous uncrewed landings. All crewed missions to the Moon were conducted by the Apollo program , with the last departing in December 1972. After Luna 24 in 1976, there were no soft landings \u2014landings without significant damage\u2014on the Moon until Chang'e 3 in 2013. All soft landings took place on the near side of the Moon until Chang'e 4 landed on the far side of the Moon in 2019. [ 5 ] Uncrewed landings Government landings A Soviet stamp with a drawing of the first soft landed probe Luna 9 , next to the first view of the lunar surface photographed by the probe Six government space agencies, Interkosmos , NASA , CNSA , ISRO , JAXA and ESA , have reached the Moon with uncrewed missions. The Soviet Union (Interkosmos), the United States (NASA), China (CNSA), India (ISRO), [ 6 ] and Japan (JAXA) [ 7 ] are the only five nations to have successfully achieved soft landings. The Soviet Union performed the first hard Moon landing, in which the spacecraft intentionally crashed into the Moon at high speed, with the Luna 2 spacecraft in 1959, a feat the U.S. duplicated in 1962 with Ranger 4 . Following their initial hard landings on the Moon, sixteen Soviet, U.S., Chinese and Indian spacecraft have used braking rockets ( retrorockets ) to make soft landings and perform scientific operations on the lunar surface. In 1966 the Soviet Union accomplished the first soft landings and took the first pictures from the lunar surface during the Luna 9 and Luna 13 missions. The U.S. followed with five Surveyor soft landings. China's ongoing Chang'e program has landed 4 times since 2013, achieving robotic soil sample return and the first landing on the far side of the Moon. On 23 August 2023, ISRO successfully landed its Chandrayaan-3 module in the lunar south pole region, making India the fourth nation to successfully complete a soft landing on the Moon. [ 8 ] Chandrayaan-3 saw a successful soft landing of its Vikram lander and Pragyan rover at 6.04 pm IST (1234 GMT), marking the first uncrewed soft landing in the little-explored region. [ 9 ] On 19 January 2024, JAXA successfully landed its SLIM lander , making Japan the fifth nation to successfully complete a soft landing. [ 10 ] Commercial landings Two organizations have attempted but failed to achieve soft landings: Israeli private space agency SpaceIL with their Beresheet spacecraft (2019), and Japanese company ispace 's Hakuto-R Mission 1 (2023). On 22 February 2024, Intuitive Machine's Odysseus successfully landed on the Moon after taking off on a SpaceX Falcon 9 liftoff on 15 February 2024 in a mission by NASA , SpaceX , and Intuitive Machines , marking the United States' first soft unmanned Moon landing in over 50 years and as the first successful landing of a privately owned spacecraft on the Moon. [ 11 ] [ 12 ] The lander broke a strut during landing and rested at an angle of 30\u00b0 to the lunar surface and 18\u00b0 to horizontal, with communications impaired. [ 13 ] [ 14 ] It operated until February 29, 2024. [ 15 ] On 2 March 2025, Firefly Aerospace 's Blue Ghost lunar lander made the first fully successful commercial Moon landing after softly landing upright near Mons Latreille in Mare Crisium . Blue Ghost operated for 14 days, including 5 hours into the lunar night, marking it the longest commercial operations on the Moon until now. Part of NASA's Commercial Lunar Payload Services initiative, Firefly operated 10 NASA instruments aboard Blue Ghost. The mission concluded on 16 March 2025. [ 16 ] [ 17 ] [ 18 ] Crewed landings Further information: Apollo program See also: List of people who have walked on the Moon The view through the window of the Lunar Module Orion shortly after Apollo 16 's landing A total of twelve astronauts have landed on the Moon. This was accomplished with two pilot-astronauts flying a Lunar Module on each of six NASA missions. The missions spanned a 41-month period starting 20 July 1969, beginning with Neil Armstrong and Buzz Aldrin on Apollo 11 , and ending on 14 December 1972 with Gene Cernan and Harrison Schmitt on Apollo 17 . Cernan was the last man to step off the lunar surface. All Apollo lunar missions had a third crew member who remained on board the command module . Scientific background To get to the Moon, a spacecraft must first leave Earth's gravity well ; currently, the only practical means is a rocket . Unlike airborne vehicles such as balloons and jet aircraft , a rocket can continue accelerating in the vacuum outside the atmosphere . Upon approach of the target moon, a spacecraft will be drawn ever closer to its surface at increasing speeds due to gravity. In order to land intact it must decelerate to less than about 160 kilometres per hour (100 mph) and be ruggedized to withstand a \"hard landing\" impact, or it must decelerate to negligible speed at contact for a \"soft landing\" (the only option for humans). The first three attempts by the U.S. to perform a successful hard Moon landing with a ruggedized seismometer package in 1962 all failed. [ 19 ] The Soviets first achieved the milestone of a hard lunar landing with a ruggedized camera in 1966, followed only months later by the first uncrewed soft lunar landing by the U.S. The speed of a crash landing on its surface is typically between 70 and 100% of the escape velocity of the target moon, and thus this is the total velocity which must be shed from the target moon's gravitational attraction for a soft landing to occur. For Earth's Moon, the escape velocity is 2.38 kilometres per second (1.48 mi/s) . [ 20 ] The change in velocity (referred to as a delta-v ) is usually provided by a landing rocket, which must be carried into space by the original launch vehicle as part of the overall spacecraft. An exception is the soft moon landing on Saturn 's moon Titan carried out by the Huygens probe in 2005. As the moon with the thickest atmosphere, landings on Titan may be accomplished by using atmospheric entry techniques that are generally lighter in weight than a rocket with equivalent capability. The Soviets succeeded in making the first crash landing on the Moon in 1959. [ 21 ] Crash landings [ 22 ] may occur because of malfunctions in a spacecraft, or they can be deliberately arranged for vehicles which do not have an onboard landing rocket. There have been many such Moon crashes , often with their flight path controlled to impact at precise locations on the lunar surface. For example, during the Apollo program the S-IVB third stage of the Saturn V rocket as well as the spent ascent stage of the Lunar Module were deliberately crashed on the Moon several times to provide impacts registering as a moonquake on seismomet",
+      "content_source": "page/Moon_landing/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Apollo 11",
+      "api_response": {
+        "pages": [
+          {
+            "id": 662,
+            "key": "Apollo_11",
+            "title": "Apollo 11",
+            "excerpt": "<span class=\"searchmatch\">Apollo</span> <span class=\"searchmatch\">11</span> (July 16\u201324, 1969) was the American spaceflight that first landed humans on the Moon, and the fifth crewed mission of NASA&#039;s <span class=\"searchmatch\">Apollo</span> program",
+            "matched_title": null,
+            "anchor": null,
+            "description": "First crewed Moon landing (1969)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 61,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/60px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 59817401,
+            "key": "Apollo_11_(2019_film)",
+            "title": "Apollo 11 (2019 film)",
+            "excerpt": "<span class=\"searchmatch\">Apollo</span> <span class=\"searchmatch\">11</span> is a 2019 American documentary film edited, produced, and directed by Todd Douglas Miller. It focuses on the 1969 <span class=\"searchmatch\">Apollo</span> <span class=\"searchmatch\">11</span> mission, the first",
+            "matched_title": null,
+            "anchor": null,
+            "description": "2019 documentary film",
+            "thumbnail": null
+          },
+          {
+            "id": 1461,
+            "key": "Apollo_program",
+            "title": "Apollo program",
+            "excerpt": "The <span class=\"searchmatch\">Apollo</span> program, also known as Project <span class=\"searchmatch\">Apollo</span>, was the United States human spaceflight program led by NASA, which landed the first humans on the Moon",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1961\u20131972 American crewed lunar exploration program",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Apollo_program.svg/60px-Apollo_program.svg.png"
+            }
+          },
+          {
+            "id": 5185989,
+            "key": "Apollo_11_(disambiguation)",
+            "title": "Apollo 11 (disambiguation)",
+            "excerpt": "<span class=\"searchmatch\">Apollo</span> <span class=\"searchmatch\">11</span> was the first mission that sent people to the surface of the Moon. <span class=\"searchmatch\">Apollo</span> <span class=\"searchmatch\">11</span> may also refer to: <span class=\"searchmatch\">Apollo</span> <span class=\"searchmatch\">11</span> (1996 film), a telefilm <span class=\"searchmatch\">Apollo</span> <span class=\"searchmatch\">11</span>",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Topics referred to by the same term",
+            "thumbnail": null
+          },
+          {
+            "id": 1770,
+            "key": "Apollo_13",
+            "title": "Apollo 13",
+            "excerpt": "<span class=\"searchmatch\">Apollo</span> 13 (April <span class=\"searchmatch\">11</span>\u201317, 1970) was the seventh crewed mission in the <span class=\"searchmatch\">Apollo</span> space program and would have been the third Moon landing. The craft was launched",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Aborted Moon landing mission in the Apollo program",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Apollo_13-insignia.png/60px-Apollo_13-insignia.png"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Apollo 11 First crewed Moon landing (1969) \"First Moon landing\" and \"The Moon landing\" redirect here. For earlier uncrewed Moon landings, see Moon landing . This article is about the 1969 crewed lunar mission. For other uses, see Apollo 11 (disambiguation) . Apollo 11 Buzz Aldrin on the Moon in a photograph taken by Neil Armstrong , who can be seen in the visor reflection along with Earth, the Lunar Module Eagle , and the U.S. flag [ 1 ] Mission type Crewed lunar landing ( G ) Operator NASA COSPAR ID CSM: 1969-059A LM: 1969-059C SATCAT no. CSM: 4039 [ 2 ] LM: 4041 [ 3 ] Mission duration 8 days, 3 hours, 18 minutes, 35 seconds Spacecraft properties Spacecraft Apollo CSM -107 Apollo LM -5 Manufacturer CSM: North American Rockwell [ 4 ] LM: Grumman [ 4 ] Launch mass 109,646 lb (49,735 kg) [ 5 ] Landing mass 10,873 lb (4,932 kg) Crew Crew size 3 Members Neil Armstrong Michael Collins Buzz Aldrin Callsign CSM: Columbia LM: Eagle On surface: Tranquility Base Start of mission Launch date July 16, 1969, 13:32:00 ( 1969-07-16UTC13:32Z ) UTC (9:32:00 am EDT ) [ 6 ] Rocket Saturn V SA-506 Launch site Kennedy , LC \u2011 39A End of mission Recovered by USS Hornet Landing date July 24, 1969, 16:50:35 ( 1969-07-24UTC16:50:36Z ) UTC Landing site North Pacific Ocean ( 13\u00b019\u2032N 169\u00b09\u2032W \ufeff / \ufeff 13.317\u00b0N 169.150\u00b0W \ufeff / 13.317; -169.150 \ufeff ( Apollo 11 splashdown ) ) Orbital parameters Reference system Selenocentric Periselene altitude 100.9 km (54.5 nmi ; 62.7 mi) [ 7 ] Aposelene altitude 122.4 km (66.1 nmi; 76.1 mi) [ 7 ] Inclination 1.25\u00b0 [ 7 ] Period 2 hours [ 7 ] Epoch July 19, 1969, 21:44 UTC [ 7 ] Lunar orbiter Spacecraft component Apollo command and service module Orbital insertion July 19, 1969, 17:21:50 UTC [ 8 ] Orbital departure July 22, 1969, 04:55:42 UTC [ 9 ] Orbits 30 Lunar lander Spacecraft component Apollo Lunar Module Landing date July 20, 1969, 20:17:40 UTC [ 10 ] Return launch July 21, 1969, 17:54:00 UTC [ 11 ] Landing site Tranquility Base , Mare Tranquillitatis ( 0\u00b040\u203227\u2033N 23\u00b028\u203223\u2033E \ufeff / \ufeff 0.67416\u00b0N 23.47314\u00b0E \ufeff / 0.67416; 23.47314 ) [ 12 ] Sample mass 47.51 lb (21.55 kg) Surface EVAs 1 EVA duration 2 hours, 31 minutes, 40 seconds Docking with Lunar module Docking date July 16, 1969, 16:56:03 UTC [ 8 ] Undocking date July 20, 1969, 17:44:00 UTC [ 13 ] Time docked 96 hours, 47 minutes, 57 seconds Docking with Lunar module ascent stage Docking date July 21, 1969, 21:35:00 UTC [ 9 ] Undocking date July 21, 1969, 23:41:31 UTC [ 9 ] Time docked 2 hours, 6 minutes, 31 seconds Mission insignia Left to right: Armstrong , Collins , and Aldrin Apollo program \u2190 Apollo 10 Apollo 12 \u2192 Apollo 11 (July 16\u201324, 1969) was the American spaceflight that first landed humans on the Moon , and the fifth crewed mission of NASA 's Apollo program . The mission was crewed by Commander Neil Armstrong , Command Module Pilot Michael Collins , and Lunar Module Pilot Edwin \"Buzz\" Aldrin , all of whom were on their second and final spaceflight. Launched atop a Saturn V rocket from Kennedy Space Center in Florida on July 16 at 13:32 UTC , the Apollo spacecraft consisted of three parts: the command module (CM), which housed the three astronauts and was the only part to return to Earth; the service module (SM), which provided propulsion, electrical power, oxygen, and water to the command module; and the Lunar Module (LM), which had two stages\u2014a descent stage with a large engine and fuel tanks for landing on the Moon, and a lighter ascent stage containing a cabin for two astronauts and a small engine to return them to lunar orbit . After a three-day transit, Armstrong and Aldrin descended to the surface aboard the LM Eagle , landing in the Sea of Tranquility ( Mare Tranquillitatis ) on July 20 at 20:17 UTC while Collins remained in lunar orbit aboard the CM Columbia . Armstrong became the first human to walk on the Moon approximately six hours after landing, followed by Aldrin nineteen minutes later. Together they spent around two and a half hours walking on the surface, planting an American flag , speaking by telephone with President Richard Nixon , deploying scientific instruments, and collecting 21.5 kg (47.5 lb) of lunar material. After more than 21 hours on the surface, they rejoined Collins in lunar orbit, and the crew returned safely to Earth on July 24, splashing down in the Pacific Ocean . Apollo 11 was the culmination of the Space Race , a geopolitical competition between the United States and the Soviet Union rooted in Cold War rivalry. It fulfilled a national goal set by President John F. Kennedy in May 1961, who had challenged the United States to land a man on the Moon and return him safely before the end of the decade. The program overcame a severe setback with the fatal Apollo 1 launchpad fire in January 1967 and drew on technologies developed through the preceding Mercury and Gemini programs. The Soviet Union, despite early leads in spaceflight, was unable to match the Saturn V rocket, and its uncrewed lunar probe Luna 15 crashed on the Moon on July 21, while Neil Armstrong and Buzz Aldrin were still on the lunar surface. Armstrong's moonwalk was broadcast live to an estimated 600 million viewers, roughly one-fifth of the world's population, making it among the most-watched television events in history. Stepping onto the lunar surface, Armstrong declared: \" That's one small step for [a] man, one giant leap for mankind .\" Lunar samples returned by the mission led to the identification of three previously unrecognized minerals, and scientific instruments deployed on the surface continued returning data for years afterwards. The crew were honoured with ticker-tape parades , a world goodwill tour, and the Presidential Medal of Freedom . The command module Columbia is preserved at the National Air and Space Museum in Washington, D.C. , while the descent stage of Eagle remains on the lunar surface. Background In the late 1950s and early 1960s, the United States was engaged in the Cold War , a geopolitical rivalry with the Soviet Union . [ 14 ] On October 4, 1957, the Soviet Union launched Sputnik 1 , the first artificial satellite , surprising the world and fueling fears about Soviet technological and military capabilities. Its success demonstrated that the USSR could potentially deliver nuclear weapons over intercontinental distances , challenging American claims of military, economic, and technological superiority. [ 15 ] This incident sparked the Sputnik crisis and ignited the Space Race , as both superpowers sought to demonstrate superiority in spaceflight. [ 16 ] President Dwight D. Eisenhower responded to the challenge posed by Sputnik by creating the National Aeronautics and Space Administration (NASA), and initiating Project Mercury , [ 17 ] which aimed to place a man into Earth orbit . [ 18 ] The Soviets took the lead on April 12, 1961, when cosmonaut Yuri Gagarin became the first person in space and the first to orbit the Earth. [ 19 ] Nearly a month later, on May 5, 1961, Alan Shepard became the first American in space; his 15-minute flight was suborbital, not a full orbit. [ 20 ] Because the Soviet Union had launch vehicles with higher lift capacity, President John F. Kennedy, Eisenhower's successor, chose a challenge that exceeded the capabilities of the existing generation of rockets, so that both countries would be starting from an equal position. A crewed mission to the Moon would serve this purpose. [ 21 ] On May 25, 1961, Kennedy addressed the United States Congress on \"Urgent National Needs\" and declared: I believe that this nation should commit itself to achieving the goal, before this decade [1960s] is out, of landing a man on the Moon and returning him safely to the Earth. No single space project in this period will be more impressive to mankind, or more important for the long-range exploration of space; and none will be so difficult or expensive to accomplish. We propose to accelerate the development of the appropriate lunar space craft. We propose to develop",
+      "content_source": "page/Apollo_11/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: Humans first landed on the Moon on July 20, 1969, when Apollo 11 astronauts Neil Armstrong and Buzz Aldrin descended to the surface aboard the Lunar Module named Eagle.\n\nSource: Apollo 11",
+  "total_tool_calls": 2,
+  "latency_ms": 4722,
+  "error": null
+}

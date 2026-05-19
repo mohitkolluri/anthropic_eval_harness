@@ -1,0 +1,346 @@
+{
+  "eval_id": "H007",
+  "run_id": "20260519_044747_7be58a",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "How did the invention of the steam engine contribute to the growth of cities in 19th century Britain?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "How did the invention of the steam engine contribute to the growth of cities in 19th century Britain?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01VL7CxUvrxUyaNEyvjF2kqQ",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Steam engine"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01JQZ5DotgHyWd8YNjgT7rde",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Urbanization Britain 19th century"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01VL7CxUvrxUyaNEyvjF2kqQ",
+          "content": "Steam engine Engine that uses steam to perform mechanical work For the railway engine, see Steam locomotive . For the steam turbine, see Steam turbine . \"Steam machine\" and \"Steam-powered\" redirect here. For the video game distribution service, see Steam (service) . For the computer, see Steam Machine . For other uses, see Steam machine (disambiguation) . History of technology By technological eras Premodern / Pre-industrial Prehistoric Stone Age ( lithic ) First Agricultural Revolution Copper Age Urban revolution Bronze Age Iron Age Ancient Modern Proto-industrialization Second Agricultural Revolution First Industrial Revolution Standardization Second Industrial Revolution Machine Age Jet Age Third Agricultural Revolution Atomic Age Space Age Digital transformation Information Age Fourth Industrial Revolution Imagination Age Future Post-industrial Singularity Emerging technologies By historical regions Ancient Africa Ancient Egypt Indian subcontinent Ancient China Maya civilization Hellenistic world Roman Empire Byzantine Empire Medieval Islamic world Arab Agricultural Revolution Medieval Europe Renaissance Europe By type of technology History of agriculture History of biotechnology History of communication History of computer hardware History of electrical engineering History of manufacturing History of maritime History of materials science History of measurement History of medicine History of simple machine History of nuclear technology History of transport Technology timelines Timeline of historic inventions Technological revolution Complete list by category Article indices Outline of technology Outline of prehistoric technology v t e J\u017d 06-018 steam locomotive, in Ljubljana, Slovenia A model of a beam engine featuring James Watt's parallel linkage for double action [ a ] A mill engine from Stott Park Bobbin Mill , Cumbria, England A steam locomotive from East Germany [ b ] A steam ploughing engine by Kemna A steam engine is a heat engine that performs mechanical work using steam as its working fluid . The steam engine uses the force produced by steam pressure to push a piston back and forth inside a cylinder . This pushing force can be transformed by a connecting rod and crank into rotational force for work. The term \u201csteam engine\u201d is normally applied to reciprocating engines , although some authorities have also referred to the steam turbine and devices such as Hero 's aeolipile as \u201csteam engines\u201d. The essential feature of steam engines is that they are external combustion engines , [ 1 ] where the working fluid is separated from the combustion products. The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle . In general usage, the term \u201csteam engine\u201d can refer to either complete steam plants (including boilers etc.), such as railway steam locomotives and portable engines , or may refer to the piston or turbine machinery alone, as in the beam engine and stationary steam engine . Steam-driven devices such as the aeolipile were known in the first century AD, and few other uses were recorded in the 16th century. [ 2 ] In 1606 Jer\u00f3nimo de Ayanz y Beaumont patented his invention of the first steam-powered water pump for draining mines. [ 3 ] Thomas Savery is considered the inventor of the first commercially used steam powered device, a steam pump that used steam pressure operating directly on the water. The first commercially successful engine that could transmit continuous power to a machine was developed in 1712 by Thomas Newcomen . In 1764, James Watt made a critical improvement by removing spent steam to a separate vessel for condensation, greatly improving the amount of work obtained per unit of fuel consumed. By the 19th century, stationary steam engines powered the factories of the Industrial Revolution . Steam engines led to the replacement of sailing ships by paddle steamers , and steam locomotives operated on the railways. Reciprocating piston type steam engines were the dominant source of power until the early 20th century. The efficiency of stationary steam engines increased dramatically until about 1922. [ 4 ] The highest Rankine Cycle Efficiency of 91% and combined thermal efficiency of 31% was demonstrated and published in 1921 and 1928. [ 5 ] Advances in the design of electric motors and internal combustion engines resulted in the gradual replacement of steam engines in commercial usage. Steam turbines replaced reciprocating engines in power generation, due to lower cost, higher operating speed, and higher efficiency. [ 6 ] Note that small scale steam turbines are much less efficient than large ones. [ 7 ] As of 2023 [ update ] , large reciprocating piston steam engines are still being manufactured in Germany. [ 8 ] History Main article: History of the steam engine Early experiments A big size reconstruction of Heron's aeolipile in Kotsanas Museum of Ancient Greek Technology , Athens, Greece. One recorded rudimentary steam-powered engine was the aeolipile described by Hero of Alexandria , a Hellenistic mathematician and engineer in Roman Egypt during the first century AD. [ 9 ] In the following centuries, the few steam-powered engines known were, like the aeolipile, [ 10 ] essentially experimental devices used by inventors to demonstrate the properties of steam. A rudimentary steam turbine device was described by Taqi al-Din [ 11 ] in Ottoman Egypt in 1551 and by Giovanni Branca [ 12 ] in Italy in 1629. [ 13 ] In 1601, Giambattista della Porta , described an apparatus by which the pressure of steam might be made to raise a column of water. [ 14 ] The Spanish inventor Jer\u00f3nimo de Ayanz received patents in 1606 for 50 steam-powered inventions, including a water pump for draining inundated mines. [ 15 ] By 1615, Salomon de Caus developed a solar-powered atmospheric engine. [ 16 ] Frenchman Denis Papin did some useful work on the steam digester in 1679, and first used a piston to raise weights in 1690. [ 17 ] Pumping engines The first commercial steam-powered device was a water pump, developed in 1698 by Thomas Savery . [ 18 ] It used condensing steam to create a vacuum which raised water from below and then used steam pressure to raise it higher. Small engines were effective though larger models were problematic. They had a very limited lift height and were prone to boiler explosions . Savery's engine was used in mines, pumping stations and supplying water to water wheels powering textile machinery. [ 19 ] One advantage of Savery's engine was its low cost. [ 20 ] Bento de Moura Portugal introduced an improvement of Savery's construction \u201cto render it capable of working itself\u201d, as described by John Smeaton in the Philosophical Transactions published in 1751. [ 21 ] It continued to be manufactured until the late 18th century. [ 22 ] At least one engine was still known to be operating in 1820. [ 23 ] Piston steam engines Jacob Leupold 's steam engine, 1720 The first commercially successful engine that could transmit continuous power to a machine was the atmospheric engine (or \"fire engine\"), invented by Thomas Newcomen around 1712. [ c ] [ 25 ] It improved on Savery's steam pump, using a piston as proposed by Papin. Newcomen's engine was relatively inefficient, and mostly used for pumping water. It worked by creating a partial vacuum by condensing steam under a piston within a cylinder. It was employed for draining mine workings at depths originally impractical using traditional means, and for providing reusable water for driving waterwheels at factories sited away from a suitable \u201chead\u201d. Water that passed over the wheel was pumped up into a storage reservoir above the wheel. [ 26 ] [ 27 ] In 1780 James Pickard patented the use of a flywheel and crankshaft to provide rotative motion from an improved Newcomen engine. [ 28 ] In 1720, Jacob Leupold described a two-cylinder high-pressure steam engine. [ 29 ] The invention was published in his major work \"Theatri Machinarum Hydraulicarum\". [ 30 ] The engine us"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01JQZ5DotgHyWd8YNjgT7rde",
+          "content": "19th century in fashion The nineteenth century marks the period beginning January 1, 1801, and ends December 31, 1900. It was a period of dramatic change and rapid socio-cultural advancement, where society and culture are constantly changing with advancement of time. The technology, art, politics, and culture of the 19th century were strongly reflected in the styles and silhouettes of the era's clothing. For women, fashion was an extravagant and extroverted display of the female silhouette with corset pinched waistlines, bustling full-skirts that flowed in and out of trend and decoratively embellished gowns. For men, three piece suits were tailored for usefulness in business as well as sporting activity. The fashion in this article includes styles from the 19th century through a Western context \u2013 namely Europe and North America. American woman's dress, 1860 - 1865 Man's tailcoat, 1825\u20131830 Historical overview and fashions Early 1800s (1800\u20131829) Technological innovations At the turn of the 18th century, the Western world \u2013 namely Europe and the United States \u2013 were revelling in the prosperity of the rapid progress that came with the rise of the Industrial Revolution . [ 1 ] The period from approximately 1760 to between 1820 and 1840 saw the transition to new manufacturing processes from traditional hand production methods to new machine production methods. [ 2 ] The textile industry was the first to use modern production techniques, namely mechanised cotton spinning with automatic machine looms. [ 2 ] With the arrival of automated methods, through industrialisation came too the creation of factories which maximised productivity and enhanced efficient production. [ 3 ] The unprecedented rapid and sustained economic growth demonstrated by the textile industry \u2013 through employment and value output \u2013 saw huge changes in the affordability of clothes and materials as prices fell. [ 4 ] [ 5 ] Art, culture, and politics The early 19th century saw a shift from 18th century Enlightenment ideologies of order, reason and rationalism to new values of imagination and emotion with the emergence of Romanticism . [ 6 ] The period of Romanticism from around 1800\u20131840 emphasised an opposition to stability, celebrating an appreciation of the chaotic which admires creativity, individuality, subjectivity, spontaneity, the sensory and the transcendental . [ 6 ] In England, this period is also known as the Georgian [or Regency ] Era which saw great change with rapid urbanisation as cities grew, trade expanded, and a capitalist -driven consumer culture emerged. [ 7 ] The fashion of the time reflects this transitional period as it gradually moves away from the Empire silhouette and Neoclassical influences of Enlightenment which take inspiration from ' classical antiquity '. [ 8 ] The shift towards a new Romantic style inspired by creativity and imagination, is defined by more theatrical and dramatic designs which are inspired by a blend of the mysterious medieval past with lavish and dramatic Gothic decoration. [ 9 ] The extravagance of these displays reaches its peak nearing the end of Romanticism as 'exuberance becomes sentimentality'. [ 10 ] For both men and women, silhouettes were increasingly exaggerated with the establishment of curvaceous shapes pointing to an obvious rejection of previous Neoclassical geometric style. [ 11 ] Layers of colour and pattern added to the dramatic and expressive display which became characteristic of Romanticism and again contrasted the 18th century monochromatic palette. [ 11 ] Mid-1800s (1830\u20131869) Technological innovations 1830 silhouette By mid-nineteenth century people were settling into the normal routine of life as shaped by the changes and innovations that came with the First Industrial Revolution. Further discoveries in mathematics, science and engineering saw advancements in medicine as well as huge progress for communication and transportation. [ 12 ] The introduction of telegraphy and the opening of major railways connected people in major industrial cities to one another. [ 12 ] Emerging globalisation and world-wide economic integration saw new trade routes and brought wealth to the capitalist powers of the Western world. [ 13 ] As standards of living slowly improved and income per capita was on the rise, the middle-class were beginning to spend more on indulgent rather than solely necessary goods. [ 14 ] [ 15 ] 1840 silhouette The modernisation of communication and transportation technologies saw a shift in the traditional consumption patterns of retail consumers. The invention of mail order business by Pryce Pryce-Jones in 1861 revolutionised shopping patterns and enabled people to order clothing and accessories [via telegram] from other parts of the world [to then be delivered via train] [ 16 ] a much similar concept to contemporary online shopping habits. Art, culture and politics The mid-19th century again shifts from Romanticism to Realism , sometimes called Naturalism . This ideological art movement \"sought to convey a truthful and objective vision of contemporary life\". [ 17 ] 1837 marked the beginning of the Victorian era , a time that saw tremendous progress, change and power for the British Empire and one that characterises an entire genre of fashion history. [ 18 ] Women's fashion at the beginning of Queen Victoria 's reign became more modest \u2013 corsets were paired with swelled skirts which aligned with early Victorian ideals of the modest domestic lady stereotype. [ 19 ] Layered petticoats with crinoline and steel-hoop structures,. [ 20 ] [ 21 ] Menswear of the early Victorian Era was understated with the rise of the respectable male bourgeois gentleman. [ 18 ] However, soon after both men's and women's fashion became more colourful and relaxed with more exuberant styles and new techniques including passementerie trims thanks to increasing availability of the sewing machine . [ 22 ] By the latter half of mid-nineteenth century it becomes clear that fashion technologies revolutionised the designs of particularly womenswear fashion with cage crinoline enabling a larger but more lightweight hoop skirt . [ 23 ] In align with the trend of offering greater comfort, menswear \"relaxed into wide, easy cuts\". [ 23 ] Late 1800s (1870\u20131899) 1880 silhouette Technological innovations The late-19th century constituted further industrialization with the Second Industrial Revolution , also known as the Technological revolution , which was responsible for illustrious innovations. [ 24 ] The modern social and economic infrastructure continued to revolutionise consumption patterns as the prices of consumer goods decreased dramatically with the increase in productivity. [ 25 ] The growth of urban centres and \"new technologies, such as the introduction of electricity into clothing manufacturing, produced a boom in the ready-to-wear market\". [ 26 ] Progress in communications and the media meant that fashionable styles and silhouettes were widespread globally and accessible to the everyday person. With the rise of publications, magazines aimed especially at women depicted the styles in vogue at the time and began to introduce paper patterns. [ 27 ] The popularity of these patterns paired with machine innovation and ease-of-use saw a rise in the popularity of at home dressmaking. [ 27 ] 1890 silhouette Art, culture and politics Late 19th century movements in art and culture include Impressionism and Post-Impressionism which are characterised by their rebellion against classical subject matter and that which embraces depictions of modern life including new technology and ideas [ 28 ] \u2013 \"concentrating on themes of deeper symbolism to express emotions, rather than simply optical impressions\". [ 29 ] The women's rights and suffragist movement towards the turn of the 20th century also saw a shift in gender roles. As the 19th century neared its end, the world began to transition away from stiff Victorian fashions with the rise of the Edwardian "
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01MzK2CBNd9CpVjcwKxkffPf",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Industrial Revolution Britain"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01MzK2CBNd9CpVjcwKxkffPf",
+          "content": "Industrial Revolution 1760\u20131840 agrarian to industrial era shift This article is about the 1760\u20131840 agrarian to industrial era shift. For a more general overview, see Industrialisation . For other uses, see Industrial revolutions (disambiguation) . This article may be too long to read and navigate comfortably . When this tag was added, its readable prose size was 16,000 words. Consider splitting content into sub-articles, condensing it, or adding subheadings . Please discuss this issue on the article's talk page . ( February 2025 ) Industrial Revolution c. 1760 \u2013 c. 1840 Proto-industrialisation Second Industrial Revolution A Roberts Loom in a weaving shed in the United Kingdom in 1835 Location Great Britain Western Europe North America Key events Mechanised textile production Canal construction Steam engine Factory system Iron production increase History of technology By technological eras Premodern / Pre-industrial Prehistoric Stone Age ( lithic ) First Agricultural Revolution Copper Age Urban revolution Bronze Age Iron Age Ancient Modern Proto-industrialization Second Agricultural Revolution First Industrial Revolution Standardization Second Industrial Revolution Machine Age Jet Age Third Agricultural Revolution Atomic Age Space Age Digital transformation Information Age Fourth Industrial Revolution Imagination Age Future Post-industrial Singularity Emerging technologies By historical regions Ancient Africa Ancient Egypt Indian subcontinent Ancient China Maya civilization Hellenistic world Roman Empire Byzantine Empire Medieval Islamic world Arab Agricultural Revolution Medieval Europe Renaissance Europe By type of technology History of agriculture History of biotechnology History of communication History of computer hardware History of electrical engineering History of manufacturing History of maritime History of materials science History of measurement History of medicine History of simple machine History of nuclear technology History of transport Technology timelines Timeline of historic inventions Technological revolution Complete list by category Article indices Outline of technology Outline of prehistoric technology v t e The Industrial Revolution , sometimes called the First Industrial Revolution in contrast to the subsequent Second Industrial Revolution , was a transitional period of the global economy toward more widespread, efficient and stable manufacturing processes, succeeding the Second Agricultural Revolution . Beginning in Great Britain around 1760, the Industrial Revolution had spread to continental Europe and the United States by about 1840. [ 1 ] [ 2 ] Economic historians agree that the onset of the Industrial Revolution is the most important event in human history , comparable only to the adoption of agriculture with respect to material advancement. [ 3 ] This transition included going from hand production methods to machines ; new chemical manufacturing and iron production processes; the increasing use of water power and steam power ; the development of machine tools ; and rise of the mechanised factory system . Output greatly increased, and the result was an unprecedented rise in population and population growth . Many technological and architectural innovations were British. [ 4 ] [ 5 ] By the mid-18th century, Britain was the leading commercial nation, [ 6 ] with GDP per capita considerably over the world average. [ 2 ] The textile industry was the first to use modern production methods, [ 7 ] : 40 and textiles became the dominant industry in terms of employment, value of output, and capital invested. [ 7 ] The precise start and end of the Industrial Revolution is debated among historians, as is the pace of economic and social changes . [ 8 ] [ 9 ] [ 10 ] Rapid adoption of mechanized textiles spinning occurred in Britain in the 1780s, [ 11 ] and high rates of growth in steam power and iron production occurred after 1800. Mechanised textile production spread from Britain to continental Europe and the US in the early 19th century. [ 7 ] A recession occurred from the late 1830s when the adoption of the Industrial Revolution's early innovations, such as mechanised spinning and weaving, slowed as markets matured despite increased adoption of locomotives, steamships, and hot blast iron smelting . New technologies such as the electrical telegraph , widely introduced in the 1840s in the UK and US, were not sufficient to drive high rates of growth. Rapid growth reoccurred after 1870, springing from new innovations in the Second Industrial Revolution . These included steel-making processes , mass production , assembly lines , electrical grid systems, large-scale manufacture of machine tools, and use of advanced machinery in steam-powered factories. [ 7 ] [ 12 ] [ 13 ] [ 14 ] The Industrial Revolution influenced almost every aspect of life. In particular, average income and population began to exhibit unprecedented sustained growth, with the standard of living improving for most in the Western world , [ 15 ] though others have said it did not begin to improve meaningfully until the 20th century. [ 16 ] [ 17 ] [ 18 ] Prior to the Industrial Revolution, most manufacturing occurred in China and India; after the Industrial Revolution, most manufacturing took place in North America and Western Europe. [ 2 ] Etymology The earliest recorded use of \"Industrial Revolution\" was in 1799 by French envoy Louis-Guillaume Otto , announcing that France had entered the race to industrialise. [ 19 ] Raymond Williams states: \"The idea of a new social order based on major industrial change was clear in Southey and Owen , between 1811\u201318, and was implicit as early as Blake in the early 1790s and Wordsworth at the turn of the [19th] century.\" The term Industrial Revolution applied to technological change became more common by the 1830s, as in J\u00e9r\u00f4me-Adolphe Blanqui 's description in 1837 of la r\u00e9volution industrielle . [ 20 ] Friedrich Engels in The Condition of the Working Class in England in 1844 spoke of \"an industrial revolution, a revolution which...changed the whole of civil society\". His book was not translated into English until the late 19th century, and the expression did not enter everyday language till then. Credit for its popularisation is given to Arnold Toynbee , whose 1881 lectures gave a detailed account of the term. [ 21 ] Economic historians such as Mendels, Pomeranz , and Kridte argue proto-industrialisation in parts of Europe, the Islamic world , Mughal India , and China created the social and economic conditions that led to the Industrial Revolution, thus causing the Great Divergence . [ 22 ] [ 23 ] [ 24 ] Some historians, such as John Clapham and Nicholas Crafts , have argued that the economic and social changes occurred gradually and that revolution is a misnomer. [ 25 ] Requirements It has been suggested that this article be split out into a new article titled Technologies of the Industrial Revolution . ( Discuss ) ( February 2026 ) Several key factors enabled industrialisation. High agricultural productivity\u2014exemplified by the British Agricultural Revolution \u2014freed up labor and ensured food surpluses. The presence of skilled managers and entrepreneurs , an extensive network of ports, rivers, canals, and roads for efficient transport, and abundant natural resources such as coal, iron, and water power further supported industrial growth. Political stability, a legal system favorable to business, and access to financial capital also played crucial roles. Once industrialisation began in Britain in the 18th century, its spread was facilitated by the eagerness of British entrepreneurs to export industrial methods and the willingness of other nations to adopt them. By the early 19th century, industrialisation had reached Western Europe and the United States, and by the late 19th century, Japan. [ 26 ] [ 27 ] Important technological developments The commencement of the Industrial Revolution is closely linked to a small number of innovat"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the Wikipedia articles retrieved, I can provide information about how the steam engine contributed to city growth in 19th-century Britain, though the retrieved content addresses this indirectly through the broader context of the Industrial Revolution.\n\nAnswer: The steam engine powered the factories that drove the Industrial Revolution, which fundamentally transformed Britain's economy and society. By the 19th century, stationary steam engines powered factories across Britain, and steam locomotives developed railways that connected major industrial cities. These developments sparked rapid urbanization: the Industrial Revolution created unprecedented manufacturing growth and population increases, with factories drawing workers to industrial centers. As noted in the retrieved content, the \"growth of urban centres\" and the railway connections enabled by steam technology \"connected people in major industrial cities to one another,\" facilitating trade expansion and the emergence of a capitalist-driven economy that concentrated wealth and employment in urban areas.\n\nSource: Steam engine, Industrial Revolution"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Steam engine",
+      "api_response": {
+        "pages": [
+          {
+            "id": 27692,
+            "key": "Steam_engine",
+            "title": "Steam engine",
+            "excerpt": "A <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engine</span> is a heat <span class=\"searchmatch\">engine</span> that performs mechanical work using <span class=\"searchmatch\">steam</span> as its working fluid. The <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engine</span> uses the force produced by <span class=\"searchmatch\">steam</span> pressure",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Engine that uses steam to perform mechanical work",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 41,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Steam_locomotive_gear_%28J%C5%BD_06-018%3B_Slovenia%29.jpg/60px-Steam_locomotive_gear_%28J%C5%BD_06-018%3B_Slovenia%29.jpg"
+            }
+          },
+          {
+            "id": 17423952,
+            "key": "History_of_the_steam_engine",
+            "title": "History of the steam engine",
+            "excerpt": "The first recorded rudimentary <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engine</span> was the aeolipile mentioned by Vitruvius between 30 and 15 BCE and, described by Heron of Alexandria in 1st-century",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Heat engine that performs mechanical work using steam as its working fluid",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Savery-engine.jpg/60px-Savery-engine.jpg"
+            }
+          },
+          {
+            "id": 165067,
+            "key": "Watt_steam_engine",
+            "title": "Watt steam engine",
+            "excerpt": "it was &quot;the first truly efficient <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engine</span>&quot;. The Watt <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engine</span> was inspired by the Newcomen atmospheric <span class=\"searchmatch\">engine</span>, which was introduced by Thomas Newcomen",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Pioneering machine of the Industrial Revolution",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 45,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Maquina_vapor_Watt_ETSIIM.jpg/60px-Maquina_vapor_Watt_ETSIIM.jpg"
+            }
+          },
+          {
+            "id": 22359454,
+            "key": "Marine_steam_engine",
+            "title": "Marine steam engine",
+            "excerpt": "A marine <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engine</span> is a <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engine</span> that is used to power a ship or boat. This article deals mainly with marine <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engines</span> of the reciprocating",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Steam engine that is used to power a ship or boat",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 50,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Popular_Science_Dec_1918_p23_-_Ship_Emergency_Steam_Cutoff_Valves.JPG/60px-Popular_Science_Dec_1918_p23_-_Ship_Emergency_Steam_Cutoff_Valves.JPG"
+            }
+          },
+          {
+            "id": 1084216,
+            "key": "Compound_steam_engine",
+            "title": "Compound steam engine",
+            "excerpt": "compound <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engine</span> unit is a type of <span class=\"searchmatch\">steam</span> <span class=\"searchmatch\">engine</span> where <span class=\"searchmatch\">steam</span> is expanded in two or more stages. A typical arrangement for a compound <span class=\"searchmatch\">engine</span> is that",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Steam engine where steam is expanded in stages",
+            "thumbnail": {
+              "mimetype": "image/gif",
+              "width": 60,
+              "height": 44,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Triple_expansion_engine_animation.gif/60px-Triple_expansion_engine_animation.gif"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Steam engine Engine that uses steam to perform mechanical work For the railway engine, see Steam locomotive . For the steam turbine, see Steam turbine . \"Steam machine\" and \"Steam-powered\" redirect here. For the video game distribution service, see Steam (service) . For the computer, see Steam Machine . For other uses, see Steam machine (disambiguation) . History of technology By technological eras Premodern / Pre-industrial Prehistoric Stone Age ( lithic ) First Agricultural Revolution Copper Age Urban revolution Bronze Age Iron Age Ancient Modern Proto-industrialization Second Agricultural Revolution First Industrial Revolution Standardization Second Industrial Revolution Machine Age Jet Age Third Agricultural Revolution Atomic Age Space Age Digital transformation Information Age Fourth Industrial Revolution Imagination Age Future Post-industrial Singularity Emerging technologies By historical regions Ancient Africa Ancient Egypt Indian subcontinent Ancient China Maya civilization Hellenistic world Roman Empire Byzantine Empire Medieval Islamic world Arab Agricultural Revolution Medieval Europe Renaissance Europe By type of technology History of agriculture History of biotechnology History of communication History of computer hardware History of electrical engineering History of manufacturing History of maritime History of materials science History of measurement History of medicine History of simple machine History of nuclear technology History of transport Technology timelines Timeline of historic inventions Technological revolution Complete list by category Article indices Outline of technology Outline of prehistoric technology v t e J\u017d 06-018 steam locomotive, in Ljubljana, Slovenia A model of a beam engine featuring James Watt's parallel linkage for double action [ a ] A mill engine from Stott Park Bobbin Mill , Cumbria, England A steam locomotive from East Germany [ b ] A steam ploughing engine by Kemna A steam engine is a heat engine that performs mechanical work using steam as its working fluid . The steam engine uses the force produced by steam pressure to push a piston back and forth inside a cylinder . This pushing force can be transformed by a connecting rod and crank into rotational force for work. The term \u201csteam engine\u201d is normally applied to reciprocating engines , although some authorities have also referred to the steam turbine and devices such as Hero 's aeolipile as \u201csteam engines\u201d. The essential feature of steam engines is that they are external combustion engines , [ 1 ] where the working fluid is separated from the combustion products. The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle . In general usage, the term \u201csteam engine\u201d can refer to either complete steam plants (including boilers etc.), such as railway steam locomotives and portable engines , or may refer to the piston or turbine machinery alone, as in the beam engine and stationary steam engine . Steam-driven devices such as the aeolipile were known in the first century AD, and few other uses were recorded in the 16th century. [ 2 ] In 1606 Jer\u00f3nimo de Ayanz y Beaumont patented his invention of the first steam-powered water pump for draining mines. [ 3 ] Thomas Savery is considered the inventor of the first commercially used steam powered device, a steam pump that used steam pressure operating directly on the water. The first commercially successful engine that could transmit continuous power to a machine was developed in 1712 by Thomas Newcomen . In 1764, James Watt made a critical improvement by removing spent steam to a separate vessel for condensation, greatly improving the amount of work obtained per unit of fuel consumed. By the 19th century, stationary steam engines powered the factories of the Industrial Revolution . Steam engines led to the replacement of sailing ships by paddle steamers , and steam locomotives operated on the railways. Reciprocating piston type steam engines were the dominant source of power until the early 20th century. The efficiency of stationary steam engines increased dramatically until about 1922. [ 4 ] The highest Rankine Cycle Efficiency of 91% and combined thermal efficiency of 31% was demonstrated and published in 1921 and 1928. [ 5 ] Advances in the design of electric motors and internal combustion engines resulted in the gradual replacement of steam engines in commercial usage. Steam turbines replaced reciprocating engines in power generation, due to lower cost, higher operating speed, and higher efficiency. [ 6 ] Note that small scale steam turbines are much less efficient than large ones. [ 7 ] As of 2023 [ update ] , large reciprocating piston steam engines are still being manufactured in Germany. [ 8 ] History Main article: History of the steam engine Early experiments A big size reconstruction of Heron's aeolipile in Kotsanas Museum of Ancient Greek Technology , Athens, Greece. One recorded rudimentary steam-powered engine was the aeolipile described by Hero of Alexandria , a Hellenistic mathematician and engineer in Roman Egypt during the first century AD. [ 9 ] In the following centuries, the few steam-powered engines known were, like the aeolipile, [ 10 ] essentially experimental devices used by inventors to demonstrate the properties of steam. A rudimentary steam turbine device was described by Taqi al-Din [ 11 ] in Ottoman Egypt in 1551 and by Giovanni Branca [ 12 ] in Italy in 1629. [ 13 ] In 1601, Giambattista della Porta , described an apparatus by which the pressure of steam might be made to raise a column of water. [ 14 ] The Spanish inventor Jer\u00f3nimo de Ayanz received patents in 1606 for 50 steam-powered inventions, including a water pump for draining inundated mines. [ 15 ] By 1615, Salomon de Caus developed a solar-powered atmospheric engine. [ 16 ] Frenchman Denis Papin did some useful work on the steam digester in 1679, and first used a piston to raise weights in 1690. [ 17 ] Pumping engines The first commercial steam-powered device was a water pump, developed in 1698 by Thomas Savery . [ 18 ] It used condensing steam to create a vacuum which raised water from below and then used steam pressure to raise it higher. Small engines were effective though larger models were problematic. They had a very limited lift height and were prone to boiler explosions . Savery's engine was used in mines, pumping stations and supplying water to water wheels powering textile machinery. [ 19 ] One advantage of Savery's engine was its low cost. [ 20 ] Bento de Moura Portugal introduced an improvement of Savery's construction \u201cto render it capable of working itself\u201d, as described by John Smeaton in the Philosophical Transactions published in 1751. [ 21 ] It continued to be manufactured until the late 18th century. [ 22 ] At least one engine was still known to be operating in 1820. [ 23 ] Piston steam engines Jacob Leupold 's steam engine, 1720 The first commercially successful engine that could transmit continuous power to a machine was the atmospheric engine (or \"fire engine\"), invented by Thomas Newcomen around 1712. [ c ] [ 25 ] It improved on Savery's steam pump, using a piston as proposed by Papin. Newcomen's engine was relatively inefficient, and mostly used for pumping water. It worked by creating a partial vacuum by condensing steam under a piston within a cylinder. It was employed for draining mine workings at depths originally impractical using traditional means, and for providing reusable water for driving waterwheels at factories sited away from a suitable \u201chead\u201d. Water that passed over the wheel was pumped up into a storage reservoir above the wheel. [ 26 ] [ 27 ] In 1780 James Pickard patented the use of a flywheel and crankshaft to provide rotative motion from an improved Newcomen engine. [ 28 ] In 1720, Jacob Leupold described a two-cylinder high-pressure steam engine. [ 29 ] The invention was published in his major work \"Theatri Machinarum Hydraulicarum\". [ 30 ] The engine us",
+      "content_source": "page/Steam_engine/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Urbanization Britain 19th century",
+      "api_response": {
+        "pages": [
+          {
+            "id": 10046880,
+            "key": "19th_century_in_fashion",
+            "title": "19th century in fashion",
+            "excerpt": "(2003). <span class=\"searchmatch\">Urbanization</span>, Mortality, and the Standard of Living Debate: New Estimates of the Expectation of Life at Birth in Nineteenth-<span class=\"searchmatch\">century</span> <span class=\"searchmatch\">British</span> Cities",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 75,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Dress_MET_DT447.jpg/60px-Dress_MET_DT447.jpg"
+            }
+          },
+          {
+            "id": 28419612,
+            "key": "19th_century",
+            "title": "19th century",
+            "excerpt": "though it began in the late 18th <span class=\"searchmatch\">century</span>, expanded beyond its <span class=\"searchmatch\">British</span> homeland for the first time during the <span class=\"searchmatch\">19th</span> <span class=\"searchmatch\">century</span>, particularly remaking the economies",
+            "matched_title": null,
+            "anchor": null,
+            "description": "One hundred years, from 1801 to 1900",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Powerloom_weaving_in_1835.jpg/60px-Powerloom_weaving_in_1835.jpg"
+            }
+          },
+          {
+            "id": 2647677,
+            "key": "France_in_the_long_nineteenth_century",
+            "title": "France in the long nineteenth century",
+            "excerpt": "still well behind that of the UK (80% <span class=\"searchmatch\">urbanization</span> rate in the early 1900s).[page\u00a0needed] In the <span class=\"searchmatch\">19th</span> <span class=\"searchmatch\">century</span>, France was a country of immigration for",
+            "matched_title": null,
+            "anchor": null,
+            "description": "History of France from 1789 to 1914",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 48,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Carte_de_France_divis%C3%A9e_suivant_les_quatre_d%C3%A9partements_de_Messieurs_les_secretaires_d%27Etat_-_par_Philippe_Buache_-_btv1b8593230j.jpg/60px-Carte_de_France_divis%C3%A9e_suivant_les_quatre_d%C3%A9partements_de_Messieurs_les_secretaires_d%27Etat_-_par_Philippe_Buache_-_btv1b8593230j.jpg"
+            }
+          },
+          {
+            "id": 13224,
+            "key": "History_of_Germany",
+            "title": "History of Germany",
+            "excerpt": "of debate among historians. In the early <span class=\"searchmatch\">19th</span> <span class=\"searchmatch\">century</span> the Industrial Revolution was in full swing in <span class=\"searchmatch\">Britain</span>, France, and Belgium. The various small federal",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 51,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Atlas_Van_der_Hagen-KW1049B10_047-S._IMPERIUM_ROMANO-GERMANICUM_oder_DEUTSCHLAND_MIT_SEINEN_ANGR%C3%84NTZENDEN_K%C3%96NIGREICHEN_UND_PROVINCIEN_Neulich_entworffen_und_theils_gezeichnet_durch_IULIUM_REICHELT_Chur_Pfaltz.jpg/60px-thumbnail.jpg"
+            }
+          },
+          {
+            "id": 23713433,
+            "key": "Novel",
+            "title": "Novel",
+            "excerpt": "Troyes (late 12th <span class=\"searchmatch\">century</span>), and in Middle English (Geoffrey Chaucer&#039;s (c.\u20091343 \u2013 1400) The Canterbury Tales). Even in the <span class=\"searchmatch\">19th</span> <span class=\"searchmatch\">century</span>, fictional narratives",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Long fictional narrative story",
+            "thumbnail": null
+          }
+        ]
+      },
+      "fetched_content": "19th century in fashion The nineteenth century marks the period beginning January 1, 1801, and ends December 31, 1900. It was a period of dramatic change and rapid socio-cultural advancement, where society and culture are constantly changing with advancement of time. The technology, art, politics, and culture of the 19th century were strongly reflected in the styles and silhouettes of the era's clothing. For women, fashion was an extravagant and extroverted display of the female silhouette with corset pinched waistlines, bustling full-skirts that flowed in and out of trend and decoratively embellished gowns. For men, three piece suits were tailored for usefulness in business as well as sporting activity. The fashion in this article includes styles from the 19th century through a Western context \u2013 namely Europe and North America. American woman's dress, 1860 - 1865 Man's tailcoat, 1825\u20131830 Historical overview and fashions Early 1800s (1800\u20131829) Technological innovations At the turn of the 18th century, the Western world \u2013 namely Europe and the United States \u2013 were revelling in the prosperity of the rapid progress that came with the rise of the Industrial Revolution . [ 1 ] The period from approximately 1760 to between 1820 and 1840 saw the transition to new manufacturing processes from traditional hand production methods to new machine production methods. [ 2 ] The textile industry was the first to use modern production techniques, namely mechanised cotton spinning with automatic machine looms. [ 2 ] With the arrival of automated methods, through industrialisation came too the creation of factories which maximised productivity and enhanced efficient production. [ 3 ] The unprecedented rapid and sustained economic growth demonstrated by the textile industry \u2013 through employment and value output \u2013 saw huge changes in the affordability of clothes and materials as prices fell. [ 4 ] [ 5 ] Art, culture, and politics The early 19th century saw a shift from 18th century Enlightenment ideologies of order, reason and rationalism to new values of imagination and emotion with the emergence of Romanticism . [ 6 ] The period of Romanticism from around 1800\u20131840 emphasised an opposition to stability, celebrating an appreciation of the chaotic which admires creativity, individuality, subjectivity, spontaneity, the sensory and the transcendental . [ 6 ] In England, this period is also known as the Georgian [or Regency ] Era which saw great change with rapid urbanisation as cities grew, trade expanded, and a capitalist -driven consumer culture emerged. [ 7 ] The fashion of the time reflects this transitional period as it gradually moves away from the Empire silhouette and Neoclassical influences of Enlightenment which take inspiration from ' classical antiquity '. [ 8 ] The shift towards a new Romantic style inspired by creativity and imagination, is defined by more theatrical and dramatic designs which are inspired by a blend of the mysterious medieval past with lavish and dramatic Gothic decoration. [ 9 ] The extravagance of these displays reaches its peak nearing the end of Romanticism as 'exuberance becomes sentimentality'. [ 10 ] For both men and women, silhouettes were increasingly exaggerated with the establishment of curvaceous shapes pointing to an obvious rejection of previous Neoclassical geometric style. [ 11 ] Layers of colour and pattern added to the dramatic and expressive display which became characteristic of Romanticism and again contrasted the 18th century monochromatic palette. [ 11 ] Mid-1800s (1830\u20131869) Technological innovations 1830 silhouette By mid-nineteenth century people were settling into the normal routine of life as shaped by the changes and innovations that came with the First Industrial Revolution. Further discoveries in mathematics, science and engineering saw advancements in medicine as well as huge progress for communication and transportation. [ 12 ] The introduction of telegraphy and the opening of major railways connected people in major industrial cities to one another. [ 12 ] Emerging globalisation and world-wide economic integration saw new trade routes and brought wealth to the capitalist powers of the Western world. [ 13 ] As standards of living slowly improved and income per capita was on the rise, the middle-class were beginning to spend more on indulgent rather than solely necessary goods. [ 14 ] [ 15 ] 1840 silhouette The modernisation of communication and transportation technologies saw a shift in the traditional consumption patterns of retail consumers. The invention of mail order business by Pryce Pryce-Jones in 1861 revolutionised shopping patterns and enabled people to order clothing and accessories [via telegram] from other parts of the world [to then be delivered via train] [ 16 ] a much similar concept to contemporary online shopping habits. Art, culture and politics The mid-19th century again shifts from Romanticism to Realism , sometimes called Naturalism . This ideological art movement \"sought to convey a truthful and objective vision of contemporary life\". [ 17 ] 1837 marked the beginning of the Victorian era , a time that saw tremendous progress, change and power for the British Empire and one that characterises an entire genre of fashion history. [ 18 ] Women's fashion at the beginning of Queen Victoria 's reign became more modest \u2013 corsets were paired with swelled skirts which aligned with early Victorian ideals of the modest domestic lady stereotype. [ 19 ] Layered petticoats with crinoline and steel-hoop structures,. [ 20 ] [ 21 ] Menswear of the early Victorian Era was understated with the rise of the respectable male bourgeois gentleman. [ 18 ] However, soon after both men's and women's fashion became more colourful and relaxed with more exuberant styles and new techniques including passementerie trims thanks to increasing availability of the sewing machine . [ 22 ] By the latter half of mid-nineteenth century it becomes clear that fashion technologies revolutionised the designs of particularly womenswear fashion with cage crinoline enabling a larger but more lightweight hoop skirt . [ 23 ] In align with the trend of offering greater comfort, menswear \"relaxed into wide, easy cuts\". [ 23 ] Late 1800s (1870\u20131899) 1880 silhouette Technological innovations The late-19th century constituted further industrialization with the Second Industrial Revolution , also known as the Technological revolution , which was responsible for illustrious innovations. [ 24 ] The modern social and economic infrastructure continued to revolutionise consumption patterns as the prices of consumer goods decreased dramatically with the increase in productivity. [ 25 ] The growth of urban centres and \"new technologies, such as the introduction of electricity into clothing manufacturing, produced a boom in the ready-to-wear market\". [ 26 ] Progress in communications and the media meant that fashionable styles and silhouettes were widespread globally and accessible to the everyday person. With the rise of publications, magazines aimed especially at women depicted the styles in vogue at the time and began to introduce paper patterns. [ 27 ] The popularity of these patterns paired with machine innovation and ease-of-use saw a rise in the popularity of at home dressmaking. [ 27 ] 1890 silhouette Art, culture and politics Late 19th century movements in art and culture include Impressionism and Post-Impressionism which are characterised by their rebellion against classical subject matter and that which embraces depictions of modern life including new technology and ideas [ 28 ] \u2013 \"concentrating on themes of deeper symbolism to express emotions, rather than simply optical impressions\". [ 29 ] The women's rights and suffragist movement towards the turn of the 20th century also saw a shift in gender roles. As the 19th century neared its end, the world began to transition away from stiff Victorian fashions with the rise of the Edwardian ",
+      "content_source": "page/19th_century_in_fashion/with_html (stripped)"
+    },
+    {
+      "call_index": 2,
+      "query": "Industrial Revolution Britain",
+      "api_response": {
+        "pages": [
+          {
+            "id": 14914,
+            "key": "Industrial_Revolution",
+            "title": "Industrial Revolution",
+            "excerpt": "succeeding the Second Agricultural <span class=\"searchmatch\">Revolution</span>. Beginning in Great <span class=\"searchmatch\">Britain</span> around 1760, the <span class=\"searchmatch\">Industrial</span> <span class=\"searchmatch\">Revolution</span> had spread to continental Europe and",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1760\u20131840 agrarian to industrial era shift",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Powerloom_weaving_in_1835.jpg/60px-Powerloom_weaving_in_1835.jpg"
+            }
+          },
+          {
+            "id": 50613684,
+            "key": "Industrial_Revolution_in_the_United_States",
+            "title": "Industrial Revolution in the United States",
+            "excerpt": "In the United States from the late 18th and 19th centuries, the <span class=\"searchmatch\">Industrial</span> <span class=\"searchmatch\">Revolution</span> affected the U.S. economy, progressing it from manual labor, farm",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Gorham_Manufacturing_Company_1886.jpg/60px-Gorham_Manufacturing_Company_1886.jpg"
+            }
+          },
+          {
+            "id": 359626,
+            "key": "Second_Industrial_Revolution",
+            "title": "Second Industrial Revolution",
+            "excerpt": "The Second <span class=\"searchmatch\">Industrial</span> <span class=\"searchmatch\">Revolution</span>, also known as the Technological <span class=\"searchmatch\">Revolution</span>, was a phase of rapid scientific discovery, standardization, mass production",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1870\u20131914 electrical and chemical era",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Skglb_promo_1895.jpg/60px-Skglb_promo_1895.jpg"
+            }
+          },
+          {
+            "id": 78489171,
+            "key": "Child_labour_in_the_British_Industrial_Revolution",
+            "title": "Child labour in the British Industrial Revolution",
+            "excerpt": "When the <span class=\"searchmatch\">Industrial</span> <span class=\"searchmatch\">Revolution</span> began, industrialists used children as a workforce. Children as young as four and five years old often worked the same",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 85,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Child_apprentices_in_textile_factory._Wellcome_M0013538EA.jpg/60px-Child_apprentices_in_textile_factory._Wellcome_M0013538EA.jpg"
+            }
+          },
+          {
+            "id": 39773873,
+            "key": "Fourth_Industrial_Revolution",
+            "title": "Fourth Industrial Revolution",
+            "excerpt": "The Fourth <span class=\"searchmatch\">Industrial</span> <span class=\"searchmatch\">Revolution</span>, also known as 4IR, Industry 4.0 or the Intelligence Age, is a neologism describing rapid technological advancement in",
+            "matched_title": null,
+            "anchor": null,
+            "description": "2010s\u2013present technological convergence era",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 41,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ocado_warehouse_bots.jpg/60px-Ocado_warehouse_bots.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Industrial Revolution 1760\u20131840 agrarian to industrial era shift This article is about the 1760\u20131840 agrarian to industrial era shift. For a more general overview, see Industrialisation . For other uses, see Industrial revolutions (disambiguation) . This article may be too long to read and navigate comfortably . When this tag was added, its readable prose size was 16,000 words. Consider splitting content into sub-articles, condensing it, or adding subheadings . Please discuss this issue on the article's talk page . ( February 2025 ) Industrial Revolution c. 1760 \u2013 c. 1840 Proto-industrialisation Second Industrial Revolution A Roberts Loom in a weaving shed in the United Kingdom in 1835 Location Great Britain Western Europe North America Key events Mechanised textile production Canal construction Steam engine Factory system Iron production increase History of technology By technological eras Premodern / Pre-industrial Prehistoric Stone Age ( lithic ) First Agricultural Revolution Copper Age Urban revolution Bronze Age Iron Age Ancient Modern Proto-industrialization Second Agricultural Revolution First Industrial Revolution Standardization Second Industrial Revolution Machine Age Jet Age Third Agricultural Revolution Atomic Age Space Age Digital transformation Information Age Fourth Industrial Revolution Imagination Age Future Post-industrial Singularity Emerging technologies By historical regions Ancient Africa Ancient Egypt Indian subcontinent Ancient China Maya civilization Hellenistic world Roman Empire Byzantine Empire Medieval Islamic world Arab Agricultural Revolution Medieval Europe Renaissance Europe By type of technology History of agriculture History of biotechnology History of communication History of computer hardware History of electrical engineering History of manufacturing History of maritime History of materials science History of measurement History of medicine History of simple machine History of nuclear technology History of transport Technology timelines Timeline of historic inventions Technological revolution Complete list by category Article indices Outline of technology Outline of prehistoric technology v t e The Industrial Revolution , sometimes called the First Industrial Revolution in contrast to the subsequent Second Industrial Revolution , was a transitional period of the global economy toward more widespread, efficient and stable manufacturing processes, succeeding the Second Agricultural Revolution . Beginning in Great Britain around 1760, the Industrial Revolution had spread to continental Europe and the United States by about 1840. [ 1 ] [ 2 ] Economic historians agree that the onset of the Industrial Revolution is the most important event in human history , comparable only to the adoption of agriculture with respect to material advancement. [ 3 ] This transition included going from hand production methods to machines ; new chemical manufacturing and iron production processes; the increasing use of water power and steam power ; the development of machine tools ; and rise of the mechanised factory system . Output greatly increased, and the result was an unprecedented rise in population and population growth . Many technological and architectural innovations were British. [ 4 ] [ 5 ] By the mid-18th century, Britain was the leading commercial nation, [ 6 ] with GDP per capita considerably over the world average. [ 2 ] The textile industry was the first to use modern production methods, [ 7 ] : 40 and textiles became the dominant industry in terms of employment, value of output, and capital invested. [ 7 ] The precise start and end of the Industrial Revolution is debated among historians, as is the pace of economic and social changes . [ 8 ] [ 9 ] [ 10 ] Rapid adoption of mechanized textiles spinning occurred in Britain in the 1780s, [ 11 ] and high rates of growth in steam power and iron production occurred after 1800. Mechanised textile production spread from Britain to continental Europe and the US in the early 19th century. [ 7 ] A recession occurred from the late 1830s when the adoption of the Industrial Revolution's early innovations, such as mechanised spinning and weaving, slowed as markets matured despite increased adoption of locomotives, steamships, and hot blast iron smelting . New technologies such as the electrical telegraph , widely introduced in the 1840s in the UK and US, were not sufficient to drive high rates of growth. Rapid growth reoccurred after 1870, springing from new innovations in the Second Industrial Revolution . These included steel-making processes , mass production , assembly lines , electrical grid systems, large-scale manufacture of machine tools, and use of advanced machinery in steam-powered factories. [ 7 ] [ 12 ] [ 13 ] [ 14 ] The Industrial Revolution influenced almost every aspect of life. In particular, average income and population began to exhibit unprecedented sustained growth, with the standard of living improving for most in the Western world , [ 15 ] though others have said it did not begin to improve meaningfully until the 20th century. [ 16 ] [ 17 ] [ 18 ] Prior to the Industrial Revolution, most manufacturing occurred in China and India; after the Industrial Revolution, most manufacturing took place in North America and Western Europe. [ 2 ] Etymology The earliest recorded use of \"Industrial Revolution\" was in 1799 by French envoy Louis-Guillaume Otto , announcing that France had entered the race to industrialise. [ 19 ] Raymond Williams states: \"The idea of a new social order based on major industrial change was clear in Southey and Owen , between 1811\u201318, and was implicit as early as Blake in the early 1790s and Wordsworth at the turn of the [19th] century.\" The term Industrial Revolution applied to technological change became more common by the 1830s, as in J\u00e9r\u00f4me-Adolphe Blanqui 's description in 1837 of la r\u00e9volution industrielle . [ 20 ] Friedrich Engels in The Condition of the Working Class in England in 1844 spoke of \"an industrial revolution, a revolution which...changed the whole of civil society\". His book was not translated into English until the late 19th century, and the expression did not enter everyday language till then. Credit for its popularisation is given to Arnold Toynbee , whose 1881 lectures gave a detailed account of the term. [ 21 ] Economic historians such as Mendels, Pomeranz , and Kridte argue proto-industrialisation in parts of Europe, the Islamic world , Mughal India , and China created the social and economic conditions that led to the Industrial Revolution, thus causing the Great Divergence . [ 22 ] [ 23 ] [ 24 ] Some historians, such as John Clapham and Nicholas Crafts , have argued that the economic and social changes occurred gradually and that revolution is a misnomer. [ 25 ] Requirements It has been suggested that this article be split out into a new article titled Technologies of the Industrial Revolution . ( Discuss ) ( February 2026 ) Several key factors enabled industrialisation. High agricultural productivity\u2014exemplified by the British Agricultural Revolution \u2014freed up labor and ensured food surpluses. The presence of skilled managers and entrepreneurs , an extensive network of ports, rivers, canals, and roads for efficient transport, and abundant natural resources such as coal, iron, and water power further supported industrial growth. Political stability, a legal system favorable to business, and access to financial capital also played crucial roles. Once industrialisation began in Britain in the 18th century, its spread was facilitated by the eagerness of British entrepreneurs to export industrial methods and the willingness of other nations to adopt them. By the early 19th century, industrialisation had reached Western Europe and the United States, and by the late 19th century, Japan. [ 26 ] [ 27 ] Important technological developments The commencement of the Industrial Revolution is closely linked to a small number of innovat",
+      "content_source": "page/Industrial_Revolution/with_html (stripped)"
+    }
+  ],
+  "output": "Based on the Wikipedia articles retrieved, I can provide information about how the steam engine contributed to city growth in 19th-century Britain, though the retrieved content addresses this indirectly through the broader context of the Industrial Revolution.\n\nAnswer: The steam engine powered the factories that drove the Industrial Revolution, which fundamentally transformed Britain's economy and society. By the 19th century, stationary steam engines powered factories across Britain, and steam locomotives developed railways that connected major industrial cities. These developments sparked rapid urbanization: the Industrial Revolution created unprecedented manufacturing growth and population increases, with factories drawing workers to industrial centers. As noted in the retrieved content, the \"growth of urban centres\" and the railway connections enabled by steam technology \"connected people in major industrial cities to one another,\" facilitating trade expansion and the emergence of a capitalist-driven economy that concentrated wealth and employment in urban areas.\n\nSource: Steam engine, Industrial Revolution",
+  "total_tool_calls": 3,
+  "latency_ms": 26734,
+  "error": null
+}

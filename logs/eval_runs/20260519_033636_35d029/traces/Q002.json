@@ -1,0 +1,227 @@
+{
+  "eval_id": "Q002",
+  "run_id": "20260519_033636_35d029",
+  "prompt_version": "v6",
+  "model": "claude-sonnet-4-6",
+  "input": "Was the Eiffel Tower completed before or after the Statue of Liberty, and what were their respective completion years?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Was the Eiffel Tower completed before or after the Statue of Liberty, and what were their respective completion years?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01DpuSbT7sKa79hcnasgwPe7",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Eiffel Tower"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01DM4bmbRKcYzk8HmiiNTkb7",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Statue of Liberty"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DpuSbT7sKa79hcnasgwPe7",
+          "content": "Eiffel Tower Tower in Paris, France This article is about the landmark in Paris, France. For other uses, see Eiffel Tower (disambiguation) . \"300-metre tower\" and \"Tour Eiffel\" redirect here. For other tall towers, see List of tallest towers . For other uses, see Tour Eiffel (disambiguation) . Eiffel Tower Tour Eiffel ( French ) Seen from the Champ de Mars , 2009 Interactive map of the Eiffel Tower area Record height Tallest in the world from 1889 to 1930 [I] Preceded by Washington Monument Surpassed by Chrysler Building General information Type Observation tower Broadcasting tower Location 7th arrondissement of Paris , France Coordinates 48\u00b051\u203229.6\u2033N 2\u00b017\u203240.2\u2033E \ufeff / \ufeff 48.858222\u00b0N 2.294500\u00b0E \ufeff / 48.858222; 2.294500 Construction started 28 January 1887 ; 139 years ago ( 1887-01-28 ) Completed 31 March 1889 ; 137 years ago ( 1889-03-31 ) [ 1 ] Opening 15 May 1889 ; 137 years ago ( 1889-05-15 ) [ 1 ] Owner City of Paris , France Operator Soci\u00e9t\u00e9 d'Exploitation de la Tour Eiffel (SETE) Height Architectural 300 m (984 ft) [ 2 ] Tip 330 m (1,083 ft) Top floor 276 m (906 ft) [ 2 ] Technical details Floor count 4 (3 accessible, 1 residual) [ 3 ] Lifts/elevators 8 [ 4 ] Design and construction Architect Stephen Sauvestre Structural engineer Maurice Koechlin \u00c9mile Nouguier Main contractor Compagnie des Etablissements Eiffel Website toureiffel .paris /en Monument historique Official name Tour Eiffel Type Class\u00e9 Designated 1964 References I. ^ \"Eiffel Tower\" . Emporis . Archived from the original on 22 April 2016. UNESCO World Heritage Site Part of Paris, Banks of the Seine Criteria Cultural: i, ii, iv Reference 600 Inscription 1991 (15th Session ) The Eiffel Tower ( / \u02c8 a\u026a f \u0259l / \u24d8 EYE -f\u0259l ; French : Tour Eiffel [ tu\u0281 \u025bf\u025bl ] \u24d8 ) is a lattice tower on the Champ de Mars in Paris , France . It is named after the engineer Gustave Eiffel , whose company designed and built the tower from 1887 to 1889. Locally nicknamed \" La dame de fer \" (French for \"Iron Lady\") for its use of wrought iron , it was constructed as the centrepiece of the 1889 World's Fair , and to crown the centennial anniversary of the French Revolution . Although initially criticised by some of France's leading artists and intellectuals for its design, it has since become a global cultural icon of France and one of the most recognisable structures in the world. [ 5 ] The tower received 5,889,000 visitors in 2022. [ 6 ] The Eiffel Tower is the most visited monument with an entrance fee in the world: [ 7 ] 6.91 million people ascended it in 2015. It was designated a monument historique in 1964, and was named part of a UNESCO World Heritage Site (\"Paris, Banks of the Seine\") in 1991. [ 8 ] The tower is 330 metres (1,083 ft) tall, [ 9 ] about the same height as an 81- storey building, and the tallest structure in Paris . Its base is square, measuring 125 metres (410 ft) on each side. During its construction, the Eiffel Tower surpassed the Washington Monument to become by far the tallest human-made structure in the world, a title it held for 41 years until the Chrysler Building in New York City was finished in 1930. It was the first structure in the world to surpass both the 200-metre and 300-metre mark in height. Due to the addition of a broadcasting aerial at the top of the tower in 1957, it is now taller than the Chrysler Building by 5.2 metres (17 ft) . Excluding transmitters, the Eiffel Tower is the second tallest free-standing structure in France after the Millau Viaduct . The tower has three levels for visitors, with restaurants on the first and second levels. The top level's upper platform is 276 m (906 ft) above the ground\u2014the highest public observation deck in the European Union . Tickets can be purchased to ascend by stairs or lift to the first and second levels. The climb from ground level to the first level is over 300 steps, as is the climb from the first level to the second, making the entire ascent a 600-step climb. Although there is a staircase to the top level, it is usually accessible only by lift. On this top, third level, is a private apartment built for Gustave Eiffel, who decorated it with furniture made by Jean Lachaise and invited friends such as Thomas Edison . History Origin The design of the Eiffel Tower is attributed to Maurice Koechlin and \u00c9mile Nouguier , two senior engineers working for the Compagnie des \u00c9tablissements Eiffel . It was envisaged after discussion about a suitable centrepiece for the proposed 1889 Exposition Universelle , a world's fair to celebrate the centennial of the French Revolution . In May 1884, working at home, Koechlin made a sketch of their idea, described by him as \"a great pylon, consisting of four lattice girders standing apart at the base and coming together at the top, joined together by metal trusses at regular intervals\". [ 10 ] Eiffel initially showed little enthusiasm, but he did approve further study, and the two engineers then asked Stephen Sauvestre , the head of the company's architectural department, to contribute to the design. Sauvestre added decorative arches to the base of the tower, a glass pavilion to the first level, and other embellishments. [ citation needed ] First drawing of the Eiffel Tower by Maurice Koechlin including size comparison with other Parisian landmarks such as Notre Dame de Paris , the Statue of Liberty , and the Vend\u00f4me Column The new version gained Eiffel's support: he bought the rights to the patent on the design which Koechlin, Nouguier, and Sauvestre had taken out, and the design was put on display at the Exhibition of Decorative Arts in the autumn of 1884 under the company name. On 30 March 1885, Eiffel presented his plans to the Soci\u00e9t\u00e9 des Ing\u00e9nieurs Civils ; after discussing the technical problems and emphasising the practical uses of the tower, he finished his talk by saying the tower would symbolise [n]ot only the art of the modern engineer, but also the century of Industry and Science in which we are living, and for which the way was prepared by the great scientific movement of the eighteenth century and by the Revolution of 1789, to which this monument will be built as an expression of France's gratitude. [ 11 ] Little progress was made until 1886, when Jules Gr\u00e9vy was re-elected as president of France and \u00c9douard Lockroy was appointed as minister for trade. A budget for the exposition was passed and, on 1 May, Lockroy announced an alteration to the terms of the open competition being held for a centrepiece to the exposition, which effectively made the selection of Eiffel's design a foregone conclusion, as entries had to include a study for a 300 m (980 ft) four-sided metal tower on the Champ de Mars. [ 11 ] (A 300-metre tower was then considered a herculean engineering effort.) On 12 May, a commission was set up to examine Eiffel's scheme and its rivals, which, a month later, decided that all the proposals except Eiffel's were either impractical or lacking in details. [ citation needed ] After some debate about the exact location of the tower, a contract was signed on 8 January 1887. Eiffel signed it acting in his own capacity rather than as the representative of his company, the contract granting him 1.5 million francs toward the construction costs: less than a quarter of the estimated 6.5 million francs. Eiffel was to receive all income from the commercial exploitation of the tower during the exhibition and for the next 20 years. He later established a separate company to manage the tower, putting up half the necessary capital himself. [ 12 ] A French bank, the Cr\u00e9dit Industriel et Commercial (CIC), helped finance the construction of the Eiffel Tower. During the period of the tower's construction, the CIC was acquiring funds from predatory loans to the National Bank of Haiti , some of which went towards the financing of the tower. These loans were connected to an indemnity controversy that saw France force Haiti's government to financially compensate French slaveowners for lost income as a re"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DM4bmbRKcYzk8HmiiNTkb7",
+          "content": "Statue of Liberty Colossal sculpture in New York Harbor For other uses, see Statue of Liberty (disambiguation) . Statue of Liberty Liberty Enlightening the World Statue of Liberty in June 2024 Interactive map of Statue of Liberty Liberty Enlightening the World Location Liberty Island New York City , U.S. Coordinates 40\u00b041\u203221\u2033N 74\u00b02\u203240\u2033W \ufeff / \ufeff 40.68917\u00b0N 74.04444\u00b0W \ufeff / 40.68917; -74.04444 Height Height of copper statue (to torch): 151 feet 1 inch (46 meters) From ground level to torch: 305 feet 1 inch (93 meters) Dedicated October 28, 1886 ; 139 years ago ( October 28, 1886 ) Restored 1938, 1984\u20131986, 2011\u20132012 Sculptor Fr\u00e9d\u00e9ric Auguste Bartholdi Visitors 4.5 million (in 2019) [ 1 ] Governing body National Park Service Website nps.gov/stli UNESCO World Heritage Site Type Cultural Criteria i, vi Designated 1984 (8th session ) Reference no. 307 Region Europe and North America U.S. National Monument Designated October 15, 1924 Designated by President Calvin Coolidge [ 2 ] U.S. National Register of Historic Places Official name The Statue of Liberty Enlightening the World [ 3 ] [ 4 ] Designated September 14, 2017 Reference no. 100000829 New Jersey Register of Historic Places Official name Statue of Liberty National Monument, Ellis Island and Liberty Island Designated May 27, 1971 Reference no. 1535 [ 5 ] New York State Register of Historic Places Designated June 23, 1980 [ 6 ] Reference no. 06101.003324 New York City Landmark Type Individual Designated September 14, 1976 [ 7 ] Reference no. 0931 The Statue of Liberty ( Liberty Enlightening the World ; French : La Libert\u00e9 \u00e9clairant le monde ) is a colossal neoclassical sculpture of a robed and crowned woman on Liberty Island , part of New York City , in New York Harbor . The copper -clad statue, a gift to the United States from the people of France, was designed by French sculptor Fr\u00e9d\u00e9ric Auguste Bartholdi , and its metal framework built by Gustave Eiffel . The statue was dedicated on October 28, 1886. The statue is a figure of a classically draped woman, [ 8 ] inspired by the Roman goddess of liberty , Libertas . [ 9 ] She holds a torch above her head with her right hand, and in her left hand carries a tabula ansata inscribed JULY IV MDCCLXXVI (July 4, 1776, in Roman numerals ), the date of the U.S. Declaration of Independence . With her left foot she steps on a broken chain and shackle , [ 8 ] commemorating the national abolition of slavery following the American Civil War . [ 10 ] [ 11 ] [ 12 ] In 1865, the French historian and abolitionist \u00c9douard de Laboulaye proposed a monument to commemorate the upcoming centennial of U.S. independence (1876), the perseverance of American democracy and the liberation of the nation's slaves. [ 13 ] The Franco-Prussian War delayed progress until 1875, when Laboulaye proposed that the people of France finance the statue and the United States provide the site and build the pedestal. Bartholdi completed the head and the torch-bearing arm before the statue was fully designed, and these pieces were exhibited for publicity at international expositions. The torch-bearing arm was displayed at the Centennial Exposition in Philadelphia in 1876, and in Madison Square Park in Manhattan from 1876 to 1882. Fundraising proved difficult, especially for the Americans; publisher Joseph Pulitzer of the New York World started a drive for donations to finish the project. The statue was built in France, shipped overseas in crates, and assembled on the completed pedestal on what was then called Bedloe's Island. The statue's completion was marked by New York's first ticker-tape parade and a dedication ceremony presided over by President Grover Cleveland . The statue became an icon of freedom and of the United States, seen as a symbol of welcome to immigrants arriving by sea. The statue was administered by the United States Lighthouse Board until 1901 and then by the Department of War ; since 1933, it has been maintained by the National Park Service as part of the Statue of Liberty National Monument , and is a major tourist attraction. Limited numbers of visitors can access the rim of the pedestal and the interior of the statue's crown from within; public access to the torch has been barred since 1916. Development Origin Leaf disc dedicated to Sol Invictus , sun god of the late Roman Empire . Sol Invictus, along with Libertas the Roman goddess and personification of Liberty , influenced the design of Liberty Enlightening the World . According to the National Park Service , the idea of a monument presented by the French people to the United States was first proposed by \u00c9douard Ren\u00e9 de Laboulaye , president of the French Anti-Slavery Society and a prominent and important political thinker of his time. The project is traced to a mid-1865 conversation between Laboulaye, a staunch abolitionist , and Fr\u00e9d\u00e9ric Auguste Bartholdi , a sculptor. In after-dinner conversation at his home near Versailles , Laboulaye, an ardent supporter of the Union in the American Civil War , is supposed to have said: \"If a monument should rise in the United States, as a memorial to their independence, I should think it only natural if it were built by united effort\u2014a common work of both our nations.\" [ 14 ] The National Park Service, in a 2000 report, however, deemed this a legend traced to an 1885 fundraising pamphlet, and that the statue was most likely conceived in 1870. [ 15 ] In another essay on their website, the Park Service suggested that Laboulaye was minded to honor the Union victory and its consequences, \"With the abolition of slavery and the Union's victory in the Civil War in 1865, Laboulaye's wishes of freedom and democracy were turning into a reality in the United States. In order to honor these achievements, Laboulaye proposed that a gift be built for the United States on behalf of France. Laboulaye hoped that by calling attention to the recent achievements of the United States, the French people would be inspired to call for their own democracy in the face of a repressive monarchy.\" [ 16 ] According to sculptor Bartholdi, who later recounted the story, Laboulaye's alleged comment was not intended as a proposal, but it inspired Bartholdi. [ 14 ] Given the repressive nature of the regime of Napoleon III , Bartholdi took no immediate action on the idea except to discuss it with Laboulaye. [ 14 ] Bartholdi was in any event busy with other possible projects. In 1856, he traveled to Egypt to study ancient works. [ 17 ] In the late 1860s, he approached Isma'il Pasha , Khedive of Egypt , with a plan to build Progress or Egypt Carrying the Light to Asia , [ 18 ] a huge lighthouse in the form of an ancient Egyptian female fellah or peasant, robed and holding a torch aloft, at the northern entrance to the Suez Canal in Port Said . [ 14 ] Sketches and models were made of the proposed work, though it was never erected. There was a classical precedent for the Suez proposal, the Colossus of Rhodes : an ancient bronze statue of the Greek god of the sun, Helios . [ 19 ] This statue is believed to have been over 100 feet (30 m) high, and it similarly stood at a harbor entrance and carried a light to guide ships. [ 19 ] Both the khedive and Ferdinand de Lesseps , developer of the Suez Canal, declined the proposed statue from Bartholdi, citing the high cost. [ 20 ] The Port Said Lighthouse was built instead, by Fran\u00e7ois Coignet in 1869. Upon his return from Egypt, Bartholdi visited Giovanni Battista Crespi 's sculpture Sancarlone , a 76-foot statue of St Charles Borromeo in repouss\u00e9 copper covering an iron armature at Lago Maggiore in Italy. He was also familiar with the similar construction of the Vercing\u00e9torix monument by Aim\u00e9 Millet ; the restoration of Millet's statue a century later would call international attention to the Statue of Liberty's own poor state of preservation. Bartholdi chose copper over bronze or stone due to its lower cost, weight, and ease of transportation. [ 17 ] Any large project was further del"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: The Statue of Liberty was completed before the Eiffel Tower. The Statue of Liberty was dedicated on **October 28, 1886**, while the Eiffel Tower was completed on **March 31, 1889** \u2014 nearly three years later. Interestingly, both structures share a connection: Gustave Eiffel engineered the metal framework of the Statue of Liberty before designing the famous tower that bears his name.\nSource: Eiffel Tower, Statue of Liberty"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Eiffel Tower",
+      "api_response": {
+        "pages": [
+          {
+            "id": 9232,
+            "key": "Eiffel_Tower",
+            "title": "Eiffel Tower",
+            "excerpt": "The <span class=\"searchmatch\">Eiffel</span> <span class=\"searchmatch\">Tower</span> (/\u02c8a\u026af\u0259l/ EYE-f\u0259l; French: Tour <span class=\"searchmatch\">Eiffel</span> [tu\u0281 \u025bf\u025bl] ) is a lattice <span class=\"searchmatch\">tower</span> on the Champ de Mars in Paris, France. It is named after the engineer",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Tower in Paris, France",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 100,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/60px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 31655286,
+            "key": "Eiffel_Tower_replicas_and_derivatives",
+            "title": "Eiffel Tower replicas and derivatives",
+            "excerpt": "structures in the world, the <span class=\"searchmatch\">Eiffel</span> <span class=\"searchmatch\">Tower</span>, completed in 1889, has been the inspiration for the creation of over 50 similar <span class=\"searchmatch\">towers</span> around the world. Most are",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 85,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Eiffel_Tower_from_the_Seine%2C_17_July_2007.jpg/60px-Eiffel_Tower_from_the_Seine%2C_17_July_2007.jpg"
+            }
+          },
+          {
+            "id": 12232,
+            "key": "Gustave_Eiffel",
+            "title": "Gustave Eiffel",
+            "excerpt": "network, most famously the Garabit Viaduct. He is best known for the <span class=\"searchmatch\">Eiffel</span> <span class=\"searchmatch\">Tower</span>, designed by his company and built for the 1889 Universal Exposition",
+            "matched_title": null,
+            "anchor": null,
+            "description": "French civil engineer (1832\u20131923)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 89,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gustave_Eiffel_1888_Nadar2.jpg/60px-Gustave_Eiffel_1888_Nadar2.jpg"
+            }
+          },
+          {
+            "id": 1278990,
+            "key": "List_of_the_72_names_on_the_Eiffel_Tower",
+            "title": "List of the 72 names on the Eiffel Tower",
+            "excerpt": "the <span class=\"searchmatch\">Eiffel</span> <span class=\"searchmatch\">Tower</span>, 72 names of French male scientists, engineers, and mathematicians are engraved in recognition of their contributions. Gustave <span class=\"searchmatch\">Eiffel</span> chose",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 54,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Eiffel_Tower_%2872_names%29.jpg/60px-Eiffel_Tower_%2872_names%29.jpg"
+            }
+          },
+          {
+            "id": 41731654,
+            "key": "Eiffel_Tower_(disambiguation)",
+            "title": "Eiffel Tower (disambiguation)",
+            "excerpt": "Look up <span class=\"searchmatch\">Eiffel</span> <span class=\"searchmatch\">Tower</span> in Wiktionary, the free dictionary. The <span class=\"searchmatch\">Eiffel</span> <span class=\"searchmatch\">Tower</span> is an iron lattice <span class=\"searchmatch\">tower</span> in Paris. <span class=\"searchmatch\">Eiffel</span> <span class=\"searchmatch\">Tower</span> or similar may also refer to:",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Topics referred to by the same term",
+            "thumbnail": null
+          }
+        ]
+      },
+      "fetched_content": "Eiffel Tower Tower in Paris, France This article is about the landmark in Paris, France. For other uses, see Eiffel Tower (disambiguation) . \"300-metre tower\" and \"Tour Eiffel\" redirect here. For other tall towers, see List of tallest towers . For other uses, see Tour Eiffel (disambiguation) . Eiffel Tower Tour Eiffel ( French ) Seen from the Champ de Mars , 2009 Interactive map of the Eiffel Tower area Record height Tallest in the world from 1889 to 1930 [I] Preceded by Washington Monument Surpassed by Chrysler Building General information Type Observation tower Broadcasting tower Location 7th arrondissement of Paris , France Coordinates 48\u00b051\u203229.6\u2033N 2\u00b017\u203240.2\u2033E \ufeff / \ufeff 48.858222\u00b0N 2.294500\u00b0E \ufeff / 48.858222; 2.294500 Construction started 28 January 1887 ; 139 years ago ( 1887-01-28 ) Completed 31 March 1889 ; 137 years ago ( 1889-03-31 ) [ 1 ] Opening 15 May 1889 ; 137 years ago ( 1889-05-15 ) [ 1 ] Owner City of Paris , France Operator Soci\u00e9t\u00e9 d'Exploitation de la Tour Eiffel (SETE) Height Architectural 300 m (984 ft) [ 2 ] Tip 330 m (1,083 ft) Top floor 276 m (906 ft) [ 2 ] Technical details Floor count 4 (3 accessible, 1 residual) [ 3 ] Lifts/elevators 8 [ 4 ] Design and construction Architect Stephen Sauvestre Structural engineer Maurice Koechlin \u00c9mile Nouguier Main contractor Compagnie des Etablissements Eiffel Website toureiffel .paris /en Monument historique Official name Tour Eiffel Type Class\u00e9 Designated 1964 References I. ^ \"Eiffel Tower\" . Emporis . Archived from the original on 22 April 2016. UNESCO World Heritage Site Part of Paris, Banks of the Seine Criteria Cultural: i, ii, iv Reference 600 Inscription 1991 (15th Session ) The Eiffel Tower ( / \u02c8 a\u026a f \u0259l / \u24d8 EYE -f\u0259l ; French : Tour Eiffel [ tu\u0281 \u025bf\u025bl ] \u24d8 ) is a lattice tower on the Champ de Mars in Paris , France . It is named after the engineer Gustave Eiffel , whose company designed and built the tower from 1887 to 1889. Locally nicknamed \" La dame de fer \" (French for \"Iron Lady\") for its use of wrought iron , it was constructed as the centrepiece of the 1889 World's Fair , and to crown the centennial anniversary of the French Revolution . Although initially criticised by some of France's leading artists and intellectuals for its design, it has since become a global cultural icon of France and one of the most recognisable structures in the world. [ 5 ] The tower received 5,889,000 visitors in 2022. [ 6 ] The Eiffel Tower is the most visited monument with an entrance fee in the world: [ 7 ] 6.91 million people ascended it in 2015. It was designated a monument historique in 1964, and was named part of a UNESCO World Heritage Site (\"Paris, Banks of the Seine\") in 1991. [ 8 ] The tower is 330 metres (1,083 ft) tall, [ 9 ] about the same height as an 81- storey building, and the tallest structure in Paris . Its base is square, measuring 125 metres (410 ft) on each side. During its construction, the Eiffel Tower surpassed the Washington Monument to become by far the tallest human-made structure in the world, a title it held for 41 years until the Chrysler Building in New York City was finished in 1930. It was the first structure in the world to surpass both the 200-metre and 300-metre mark in height. Due to the addition of a broadcasting aerial at the top of the tower in 1957, it is now taller than the Chrysler Building by 5.2 metres (17 ft) . Excluding transmitters, the Eiffel Tower is the second tallest free-standing structure in France after the Millau Viaduct . The tower has three levels for visitors, with restaurants on the first and second levels. The top level's upper platform is 276 m (906 ft) above the ground\u2014the highest public observation deck in the European Union . Tickets can be purchased to ascend by stairs or lift to the first and second levels. The climb from ground level to the first level is over 300 steps, as is the climb from the first level to the second, making the entire ascent a 600-step climb. Although there is a staircase to the top level, it is usually accessible only by lift. On this top, third level, is a private apartment built for Gustave Eiffel, who decorated it with furniture made by Jean Lachaise and invited friends such as Thomas Edison . History Origin The design of the Eiffel Tower is attributed to Maurice Koechlin and \u00c9mile Nouguier , two senior engineers working for the Compagnie des \u00c9tablissements Eiffel . It was envisaged after discussion about a suitable centrepiece for the proposed 1889 Exposition Universelle , a world's fair to celebrate the centennial of the French Revolution . In May 1884, working at home, Koechlin made a sketch of their idea, described by him as \"a great pylon, consisting of four lattice girders standing apart at the base and coming together at the top, joined together by metal trusses at regular intervals\". [ 10 ] Eiffel initially showed little enthusiasm, but he did approve further study, and the two engineers then asked Stephen Sauvestre , the head of the company's architectural department, to contribute to the design. Sauvestre added decorative arches to the base of the tower, a glass pavilion to the first level, and other embellishments. [ citation needed ] First drawing of the Eiffel Tower by Maurice Koechlin including size comparison with other Parisian landmarks such as Notre Dame de Paris , the Statue of Liberty , and the Vend\u00f4me Column The new version gained Eiffel's support: he bought the rights to the patent on the design which Koechlin, Nouguier, and Sauvestre had taken out, and the design was put on display at the Exhibition of Decorative Arts in the autumn of 1884 under the company name. On 30 March 1885, Eiffel presented his plans to the Soci\u00e9t\u00e9 des Ing\u00e9nieurs Civils ; after discussing the technical problems and emphasising the practical uses of the tower, he finished his talk by saying the tower would symbolise [n]ot only the art of the modern engineer, but also the century of Industry and Science in which we are living, and for which the way was prepared by the great scientific movement of the eighteenth century and by the Revolution of 1789, to which this monument will be built as an expression of France's gratitude. [ 11 ] Little progress was made until 1886, when Jules Gr\u00e9vy was re-elected as president of France and \u00c9douard Lockroy was appointed as minister for trade. A budget for the exposition was passed and, on 1 May, Lockroy announced an alteration to the terms of the open competition being held for a centrepiece to the exposition, which effectively made the selection of Eiffel's design a foregone conclusion, as entries had to include a study for a 300 m (980 ft) four-sided metal tower on the Champ de Mars. [ 11 ] (A 300-metre tower was then considered a herculean engineering effort.) On 12 May, a commission was set up to examine Eiffel's scheme and its rivals, which, a month later, decided that all the proposals except Eiffel's were either impractical or lacking in details. [ citation needed ] After some debate about the exact location of the tower, a contract was signed on 8 January 1887. Eiffel signed it acting in his own capacity rather than as the representative of his company, the contract granting him 1.5 million francs toward the construction costs: less than a quarter of the estimated 6.5 million francs. Eiffel was to receive all income from the commercial exploitation of the tower during the exhibition and for the next 20 years. He later established a separate company to manage the tower, putting up half the necessary capital himself. [ 12 ] A French bank, the Cr\u00e9dit Industriel et Commercial (CIC), helped finance the construction of the Eiffel Tower. During the period of the tower's construction, the CIC was acquiring funds from predatory loans to the National Bank of Haiti , some of which went towards the financing of the tower. These loans were connected to an indemnity controversy that saw France force Haiti's government to financially compensate French slaveowners for lost income as a re",
+      "content_source": "page/Eiffel_Tower/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Statue of Liberty",
+      "api_response": {
+        "pages": [
+          {
+            "id": 28617,
+            "key": "Statue_of_Liberty",
+            "title": "Statue of Liberty",
+            "excerpt": "The <span class=\"searchmatch\">Statue</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Liberty</span> (<span class=\"searchmatch\">Liberty</span> Enlightening the World; French: La Libert\u00e9 \u00e9clairant le monde) is a colossal neoclassical sculpture <span class=\"searchmatch\">of</span> a robed and crowned",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Colossal sculpture in New York Harbor",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 92,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Front_view_of_Statue_of_Liberty_%28cropped%29.jpg/60px-Front_view_of_Statue_of_Liberty_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 4424980,
+            "key": "Statue_of_Liberty_National_Monument",
+            "title": "Statue of Liberty National Monument",
+            "excerpt": "<span class=\"searchmatch\">Statue</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Liberty</span> (<span class=\"searchmatch\">Liberty</span> Enlightening the World) by sculptor Fr\u00e9d\u00e9ric Auguste Bartholdi and the <span class=\"searchmatch\">Statue</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Liberty</span> Museum, both situated on <span class=\"searchmatch\">Liberty</span> Island",
+            "matched_title": null,
+            "anchor": null,
+            "description": "United States national monument",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 73,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Liberty_and_Ellis_Island.jpg/60px-Liberty_and_Ellis_Island.jpg"
+            }
+          },
+          {
+            "id": 5378000,
+            "key": "Replicas_of_the_Statue_of_Liberty",
+            "title": "Replicas of the Statue of Liberty",
+            "excerpt": "Hundreds <span class=\"searchmatch\">of</span> replicas <span class=\"searchmatch\">of</span> New York City&#039;s <span class=\"searchmatch\">Statue</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Liberty</span> (<span class=\"searchmatch\">Liberty</span> Enlightening the World) have been created worldwide. The original <span class=\"searchmatch\">Statue</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Liberty</span>, designed",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Statue_of_Liberty_Paris_2007-05-29.jpg/60px-Statue_of_Liberty_Paris_2007-05-29.jpg"
+            }
+          },
+          {
+            "id": 31016272,
+            "key": "Conservation-restoration_of_the_Statue_of_Liberty",
+            "title": "Conservation-restoration of the Statue of Liberty",
+            "excerpt": "The <span class=\"searchmatch\">Statue</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Liberty</span> (<span class=\"searchmatch\">Liberty</span> Enlightening the World), a colossal sculpture on <span class=\"searchmatch\">Liberty</span> Island in New York Harbor, underwent an extensive conservation-restoration",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 89,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Statue_of_Liberty_restoration_project.jpg/60px-Statue_of_Liberty_restoration_project.jpg"
+            }
+          },
+          {
+            "id": 20305637,
+            "key": "Statue_of_Liberty_(disambiguation)",
+            "title": "Statue of Liberty (disambiguation)",
+            "excerpt": "The <span class=\"searchmatch\">Statue</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Liberty</span> is a colossal <span class=\"searchmatch\">statue</span> in New York Harbor, New York City, United States. The <span class=\"searchmatch\">Statue</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Liberty</span> may also refer to: <span class=\"searchmatch\">Liberty</span> <span class=\"searchmatch\">Statue</span> (Budapest)",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Topics referred to by the same term",
+            "thumbnail": null
+          }
+        ]
+      },
+      "fetched_content": "Statue of Liberty Colossal sculpture in New York Harbor For other uses, see Statue of Liberty (disambiguation) . Statue of Liberty Liberty Enlightening the World Statue of Liberty in June 2024 Interactive map of Statue of Liberty Liberty Enlightening the World Location Liberty Island New York City , U.S. Coordinates 40\u00b041\u203221\u2033N 74\u00b02\u203240\u2033W \ufeff / \ufeff 40.68917\u00b0N 74.04444\u00b0W \ufeff / 40.68917; -74.04444 Height Height of copper statue (to torch): 151 feet 1 inch (46 meters) From ground level to torch: 305 feet 1 inch (93 meters) Dedicated October 28, 1886 ; 139 years ago ( October 28, 1886 ) Restored 1938, 1984\u20131986, 2011\u20132012 Sculptor Fr\u00e9d\u00e9ric Auguste Bartholdi Visitors 4.5 million (in 2019) [ 1 ] Governing body National Park Service Website nps.gov/stli UNESCO World Heritage Site Type Cultural Criteria i, vi Designated 1984 (8th session ) Reference no. 307 Region Europe and North America U.S. National Monument Designated October 15, 1924 Designated by President Calvin Coolidge [ 2 ] U.S. National Register of Historic Places Official name The Statue of Liberty Enlightening the World [ 3 ] [ 4 ] Designated September 14, 2017 Reference no. 100000829 New Jersey Register of Historic Places Official name Statue of Liberty National Monument, Ellis Island and Liberty Island Designated May 27, 1971 Reference no. 1535 [ 5 ] New York State Register of Historic Places Designated June 23, 1980 [ 6 ] Reference no. 06101.003324 New York City Landmark Type Individual Designated September 14, 1976 [ 7 ] Reference no. 0931 The Statue of Liberty ( Liberty Enlightening the World ; French : La Libert\u00e9 \u00e9clairant le monde ) is a colossal neoclassical sculpture of a robed and crowned woman on Liberty Island , part of New York City , in New York Harbor . The copper -clad statue, a gift to the United States from the people of France, was designed by French sculptor Fr\u00e9d\u00e9ric Auguste Bartholdi , and its metal framework built by Gustave Eiffel . The statue was dedicated on October 28, 1886. The statue is a figure of a classically draped woman, [ 8 ] inspired by the Roman goddess of liberty , Libertas . [ 9 ] She holds a torch above her head with her right hand, and in her left hand carries a tabula ansata inscribed JULY IV MDCCLXXVI (July 4, 1776, in Roman numerals ), the date of the U.S. Declaration of Independence . With her left foot she steps on a broken chain and shackle , [ 8 ] commemorating the national abolition of slavery following the American Civil War . [ 10 ] [ 11 ] [ 12 ] In 1865, the French historian and abolitionist \u00c9douard de Laboulaye proposed a monument to commemorate the upcoming centennial of U.S. independence (1876), the perseverance of American democracy and the liberation of the nation's slaves. [ 13 ] The Franco-Prussian War delayed progress until 1875, when Laboulaye proposed that the people of France finance the statue and the United States provide the site and build the pedestal. Bartholdi completed the head and the torch-bearing arm before the statue was fully designed, and these pieces were exhibited for publicity at international expositions. The torch-bearing arm was displayed at the Centennial Exposition in Philadelphia in 1876, and in Madison Square Park in Manhattan from 1876 to 1882. Fundraising proved difficult, especially for the Americans; publisher Joseph Pulitzer of the New York World started a drive for donations to finish the project. The statue was built in France, shipped overseas in crates, and assembled on the completed pedestal on what was then called Bedloe's Island. The statue's completion was marked by New York's first ticker-tape parade and a dedication ceremony presided over by President Grover Cleveland . The statue became an icon of freedom and of the United States, seen as a symbol of welcome to immigrants arriving by sea. The statue was administered by the United States Lighthouse Board until 1901 and then by the Department of War ; since 1933, it has been maintained by the National Park Service as part of the Statue of Liberty National Monument , and is a major tourist attraction. Limited numbers of visitors can access the rim of the pedestal and the interior of the statue's crown from within; public access to the torch has been barred since 1916. Development Origin Leaf disc dedicated to Sol Invictus , sun god of the late Roman Empire . Sol Invictus, along with Libertas the Roman goddess and personification of Liberty , influenced the design of Liberty Enlightening the World . According to the National Park Service , the idea of a monument presented by the French people to the United States was first proposed by \u00c9douard Ren\u00e9 de Laboulaye , president of the French Anti-Slavery Society and a prominent and important political thinker of his time. The project is traced to a mid-1865 conversation between Laboulaye, a staunch abolitionist , and Fr\u00e9d\u00e9ric Auguste Bartholdi , a sculptor. In after-dinner conversation at his home near Versailles , Laboulaye, an ardent supporter of the Union in the American Civil War , is supposed to have said: \"If a monument should rise in the United States, as a memorial to their independence, I should think it only natural if it were built by united effort\u2014a common work of both our nations.\" [ 14 ] The National Park Service, in a 2000 report, however, deemed this a legend traced to an 1885 fundraising pamphlet, and that the statue was most likely conceived in 1870. [ 15 ] In another essay on their website, the Park Service suggested that Laboulaye was minded to honor the Union victory and its consequences, \"With the abolition of slavery and the Union's victory in the Civil War in 1865, Laboulaye's wishes of freedom and democracy were turning into a reality in the United States. In order to honor these achievements, Laboulaye proposed that a gift be built for the United States on behalf of France. Laboulaye hoped that by calling attention to the recent achievements of the United States, the French people would be inspired to call for their own democracy in the face of a repressive monarchy.\" [ 16 ] According to sculptor Bartholdi, who later recounted the story, Laboulaye's alleged comment was not intended as a proposal, but it inspired Bartholdi. [ 14 ] Given the repressive nature of the regime of Napoleon III , Bartholdi took no immediate action on the idea except to discuss it with Laboulaye. [ 14 ] Bartholdi was in any event busy with other possible projects. In 1856, he traveled to Egypt to study ancient works. [ 17 ] In the late 1860s, he approached Isma'il Pasha , Khedive of Egypt , with a plan to build Progress or Egypt Carrying the Light to Asia , [ 18 ] a huge lighthouse in the form of an ancient Egyptian female fellah or peasant, robed and holding a torch aloft, at the northern entrance to the Suez Canal in Port Said . [ 14 ] Sketches and models were made of the proposed work, though it was never erected. There was a classical precedent for the Suez proposal, the Colossus of Rhodes : an ancient bronze statue of the Greek god of the sun, Helios . [ 19 ] This statue is believed to have been over 100 feet (30 m) high, and it similarly stood at a harbor entrance and carried a light to guide ships. [ 19 ] Both the khedive and Ferdinand de Lesseps , developer of the Suez Canal, declined the proposed statue from Bartholdi, citing the high cost. [ 20 ] The Port Said Lighthouse was built instead, by Fran\u00e7ois Coignet in 1869. Upon his return from Egypt, Bartholdi visited Giovanni Battista Crespi 's sculpture Sancarlone , a 76-foot statue of St Charles Borromeo in repouss\u00e9 copper covering an iron armature at Lago Maggiore in Italy. He was also familiar with the similar construction of the Vercing\u00e9torix monument by Aim\u00e9 Millet ; the restoration of Millet's statue a century later would call international attention to the Statue of Liberty's own poor state of preservation. Bartholdi chose copper over bronze or stone due to its lower cost, weight, and ease of transportation. [ 17 ] Any large project was further del",
+      "content_source": "page/Statue_of_Liberty/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: The Statue of Liberty was completed before the Eiffel Tower. The Statue of Liberty was dedicated on **October 28, 1886**, while the Eiffel Tower was completed on **March 31, 1889** \u2014 nearly three years later. Interestingly, both structures share a connection: Gustave Eiffel engineered the metal framework of the Statue of Liberty before designing the famous tower that bears his name.\nSource: Eiffel Tower, Statue of Liberty",
+  "total_tool_calls": 2,
+  "latency_ms": 8721,
+  "error": null
+}

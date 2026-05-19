@@ -1,0 +1,109 @@
+{
+  "eval_id": "Q005",
+  "run_id": "20260519_001542_8f556b",
+  "prompt_version": "v3",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What was the name of the 1648 peace settlement that ended the Thirty Years' War, and what major political principle did it establish that still shapes international relations today?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What was the name of the 1648 peace settlement that ended the Thirty Years' War, and what major political principle did it establish that still shapes international relations today?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01NEQ9eWMWUeygJ3QsTfpyRd",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Thirty Years War peace settlement 1648"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_011jWrY62tWRFYYLyCUhMPFV",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Peace of Westphalia"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01NEQ9eWMWUeygJ3QsTfpyRd",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_011jWrY62tWRFYYLyCUhMPFV",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01Bsa4qAVVFEiZs9Vff3fLjD",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Westphalia 1648"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Bsa4qAVVFEiZs9Vff3fLjD",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find relevant information on Wikipedia for this question.\n\nSource: N/A"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Thirty Years War peace settlement 1648",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "Peace of Westphalia",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "Westphalia 1648",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "I could not find relevant information on Wikipedia for this question.\n\nSource: N/A",
+  "total_tool_calls": 3,
+  "latency_ms": 3292,
+  "error": null
+}

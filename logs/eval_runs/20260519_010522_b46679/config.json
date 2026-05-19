@@ -1,0 +1,16 @@
+{
+  "run_id": "20260519_010522_b46679",
+  "suite_path": "evals/suite.jsonl",
+  "model": "claude-sonnet-4-6",
+  "backend": "claude",
+  "prompt_version": "v5",
+  "total_cases": 10,
+  "parallelism": 1,
+  "graders": [
+    "tool_use_appropriateness",
+    "query_entity_adherence",
+    "factual_accuracy",
+    "groundedness",
+    "no_opinion_leakage"
+  ]
+}

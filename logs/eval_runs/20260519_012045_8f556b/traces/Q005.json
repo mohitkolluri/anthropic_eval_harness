@@ -1,0 +1,152 @@
+{
+  "eval_id": "Q005",
+  "run_id": "20260519_012045_8f556b",
+  "prompt_version": "v4",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What was the name of the 1648 peace settlement that ended the Thirty Years' War, and what major political principle did it establish that still shapes international relations today?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What was the name of the 1648 peace settlement that ended the Thirty Years' War, and what major political principle did it establish that still shapes international relations today?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_013karjSjMDYQ8CPcXGH1S5g",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Thirty Years War"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01DURvJYfsgvPGAEo6XpSEea",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Peace of Westphalia"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_013karjSjMDYQ8CPcXGH1S5g",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DURvJYfsgvPGAEo6XpSEea",
+          "content": "Peace of Westphalia 1648 treaties ending the Thirty Years' War and Eighty Years' War Peace of Westphalia Treaties of Osnabr\u00fcck and M\u00fcnster The historic town hall of M\u00fcnster where the treaty was signed Type Peace treaty Context Thirty Years' War Drafted 1646\u20131648 Signed 24 October 1648 Location Osnabr\u00fcck and M\u00fcnster , Westphalia , Holy Roman Empire Parties 109 Languages Latin The Peace of Westphalia ( German : Westf\u00e4lischer Friede , pronounced [ v\u025bst\u02c8f\u025b\u02d0l\u026a\u0283\u0250 \u02c8f\u0281i\u02d0d\u0259 ] \u24d8 ) is the collective name for two peace treaties signed in October 1648 in the Westphalian cities of Osnabr\u00fcck and M\u00fcnster . They ended the Thirty Years' War (1618\u20131648) and brought peace to the Holy Roman Empire , closing a calamitous period of European history that killed approximately eight million people. Ferdinand III, Holy Roman Emperor , the kingdoms of France and Sweden , and their respective allies among the princes of the Holy Roman Empire, participated in the treaties. [ 1 ] The negotiation process was lengthy and complex. Talks took place in two cities, because each side wanted to meet on territory under its own control. A total of 109 delegations arrived to represent the belligerent states, but not all delegations were present at the same time. Two treaties were signed to end the war in the Empire: the Treaty of M\u00fcnster and the Treaty of Osnabr\u00fcck. [ 2 ] [ 3 ] These treaties ended the Thirty Years' War in the Holy Roman Empire, with the Habsburgs (rulers of Austria and Spain ) and their Catholic allies on one side, battling the Protestant powers (Sweden and certain Holy Roman principalities) allied with France (though Catholic, strongly anti-Habsburg under King Louis XIV ). Several scholars of international relations have identified the Peace of Westphalia as the origin of principles crucial to modern international relations, [ 4 ] collectively known as Westphalian sovereignty . However, some historians have argued against this, suggesting that such views emerged during the nineteenth and twentieth century in relation to concerns about sovereignty during that time. [ 5 ] Regardless of whether the Peace of Westphalia was a critical juncture or not, narratives about the Peace of Westphalia have profoundly shaped international legal and political thought in subsequent centuries. [ 6 ] Background Europe had been battered by both the Thirty Years' War and the overlapping Eighty Years' War (begun c. 1568), exacting a heavy toll in money and lives. The Eighty Years' War was a prolonged struggle for the independence of the Protestant-majority Dutch Republic (the modern Netherlands), supported by Protestant-majority England , against Catholic-dominated Spain and Portugal . The Thirty Years' War was the most deadly of the European wars of religion , centered on the Holy Roman Empire. The war, which developed into four phases, included a large number of domestic and foreign players, siding either with the Catholic League or the Protestant Union (later Heilbronn League ). The Peace of Prague (1635) ended most religious aspects of the war, and the French\u2013Habsburg rivalry took over prominence. With between 4.5 million and 8 million dead in the Thirty Years' War alone, and decades of constant warfare, the need for peace became increasingly clear. [ 7 ] Locations Peace negotiations between France and the Habsburg Emperor began in Cologne in 1636. These negotiations were initially blocked by Cardinal Richelieu of France, who insisted on the inclusion of all his allies, whether fully sovereign countries or states within the Holy Roman Empire . [ 8 ] [ page needed ] In Hamburg , Sweden, France, and the Holy Roman Empire negotiated a preliminary peace in December 1641. [ 9 ] They declared that the preparations of Cologne and the Treaty of Hamburg were preliminaries of an overall peace agreement. [ citation needed ] Dutch envoy Adriaan Pauw enters M\u00fcnster around 1646 for the peace negotiations. The main peace negotiations took place in Westphalia , in the neighbouring cities of M\u00fcnster and Osnabr\u00fcck . Both cities were maintained as neutral and demilitarized zones for the negotiations. [ 9 ] In M\u00fcnster, negotiations took place between the Holy Roman Empire and France, as well as between the Dutch Republic and Spain who on 30 January 1648 signed a peace treaty ending the Eighty Years' War [ 10 ] that was not part of the Peace of Westphalia. [ 11 ] M\u00fcnster had been, since its re-Catholicism in 1535, a strictly mono-denominational community. It housed the Chapter of the Prince-Bishopric of M\u00fcnster . Only Roman Catholic worship was permitted, while Calvinism and Lutheranism were prohibited. [ citation needed ] Sweden preferred to negotiate with the Holy Roman Empire in Osnabr\u00fcck, which was controlled by Protestant forces. Osnabr\u00fcck was a bi-denominational Lutheran and Catholic city, with two Lutheran churches and two Catholic churches. The city council was exclusively Lutheran, and the burghers mostly so, but the city also housed the Catholic Chapter of the Prince-Bishopric of Osnabr\u00fcck and had many other Catholic inhabitants. Osnabr\u00fcck had been subjugated by troops of the Catholic League from 1628 to 1633 and was then taken by Lutheran Sweden. [ 12 ] Delegations Sebastian Dadler undated medal (1648), Christina of Sweden , portrait with feathered helmet right. Obverse The reverse of this medal: Christina of Sweden as Minerva holding an olive branch in her left arm and grasping the tree of knowledge with her right hand. Peace treaty of Osnabr\u00fcck, October 24, 1648 The peace negotiations had no exact beginning or end, because the 109 delegations never met in a plenary session. Instead, various delegations arrived between 1643 and 1646 and left between 1647 and 1649. The largest number of diplomats were present between January 1646 and July 1647. [ 13 ] Delegations had been sent by 16 European states, 66 Imperial States representing the interests of 140 Imperial States, and 27 interest groups representing 38 groups. [ 14 ] The French delegation was headed by Henri II d'Orl\u00e9ans, Duke of Longueville and further comprised the diplomats Claude d'Avaux and Abel Servien . The Swedish delegation was headed by Count Johan Oxenstierna and was assisted by Baron Johan Adler Salvius . The Imperial delegation was headed by Count Maximilian von Trautmansdorff . His aides were: In M\u00fcnster, Johann Ludwig von Nassau-Hadamar and Isaak Volmar. In Osnabr\u00fcck, Johann Maximilian von Lamberg and Reichshofrat Johann Krane. Philip IV of Spain was represented by two delegations: The Spanish delegation was headed by Gaspar de Bracamonte y Guzm\u00e1n , and notably included the diplomats and writers Diego de Saavedra Fajardo , and Bernardino de Rebolledo . The County of Burgundy and the Spanish Netherlands were represented by Joseph de Bergaigne (who died before peace was concluded) and Antoine Brun . The papal nuncio in Cologne , Fabio Chigi , and the Venetian envoy, Alvise Contarini , acted as mediators. Various Imperial Estates of the Holy Roman Empire also sent delegations; among these Johann Ernst Pistoris [ de ] represented the Electorate of Saxony , Johann VIII zu Sayn-Wittgenstein-Wittgenstein [ de ] the Margraviate of Brandenburg , and Georg Christoph von Haslang [ de ] the Electorate of Bavaria . Important Protestant envoys were Wolfgang Conrad von Thumbshirn [ de ] for Saxe-Altenburg and Jakob Lampadius [ de ] for Brunswick-L\u00fcneburg . The Catholic estates were divided between those willing to compromise like Mainz represented by Hugo Eberhard Kratz von Scharfenstein , and Catholic hardliners like Franz Wilhelm von Wartenberg for the Electorate of Cologne . The Dutch Republic sent a delegation of six, including two delegates from the province of Holland, including Adriaan Pauw , and Willem Ripperda from the province of Overijssel; [ 15 ] [ page needed ] two provinces were absent. The Swiss Confederacy was represented by Johann Rudolf Wettstein . Treaties Two separate treaties constituted the peace settlement: The Treaty of M"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: The 1648 peace settlement was called the **Peace of Westphalia**, consisting of two treaties signed in October 1648 in the Westphalian cities of M\u00fcnster and Osnabr\u00fcck. The major political principle it established was **Westphalian sovereignty**, which scholars of international relations have identified as foundational to modern international relations\u2014establishing principles that still shape how nations relate to one another today.\n\nSource: Peace of Westphalia"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Thirty Years War",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "Peace of Westphalia",
+      "api_response": {
+        "pages": [
+          {
+            "id": 23850,
+            "key": "Peace_of_Westphalia",
+            "title": "Peace of Westphalia",
+            "excerpt": "The <span class=\"searchmatch\">Peace</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Westphalia</span> (German: Westf\u00e4lischer Friede, pronounced [v\u025bst\u02c8f\u025b\u02d0l\u026a\u0283\u0250 \u02c8f\u0281i\u02d0d\u0259] ) is the collective name for two <span class=\"searchmatch\">peace</span> treaties signed in October",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1648 treaties ending the Thirty Years' War and Eighty Years' War",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 96,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/df/M%C3%BCnster%2C_Historisches_Rathaus_--_2014_--_6855.jpg/60px-M%C3%BCnster%2C_Historisches_Rathaus_--_2014_--_6855.jpg"
+            }
+          },
+          {
+            "id": 33165,
+            "key": "Westphalia",
+            "title": "Westphalia",
+            "excerpt": "<span class=\"searchmatch\">Westphalia</span> (/w\u025bst\u02c8fe\u026ali\u0259/; German: Westfalen [v\u025bst\u02c8fa\u02d0l\u0259n]; Low German: Westf\u00e5len [v\u03b5s(t)\u02c8f\u0254\u02d0ln]) is a region <span class=\"searchmatch\">of</span> northwestern Germany and one <span class=\"searchmatch\">of</span> the three",
+            "matched_title": null,
+            "anchor": null,
+            "description": "State part and historic region of North Rhine-Westphalia, Germany",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/MuensterPrinzipalmarkt09.JPG/60px-MuensterPrinzipalmarkt09.JPG"
+            }
+          },
+          {
+            "id": 4019188,
+            "key": "Westphalian_system",
+            "title": "Westphalian system",
+            "excerpt": "developed in Europe after the <span class=\"searchmatch\">Peace</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Westphalia</span> in 1648, based on the state theory <span class=\"searchmatch\">of</span> Jean Bodin and the natural law teachings <span class=\"searchmatch\">of</span> Hugo Grotius. It underlies",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Concept of the sovereignty of nation-states",
+            "thumbnail": null
+          },
+          {
+            "id": 30583,
+            "key": "Thirty_Years'_War",
+            "title": "Thirty Years' War",
+            "excerpt": "rivals, Emperor Ferdinand III and Spain. Fighting ended with the 1648 <span class=\"searchmatch\">Peace</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Westphalia</span>, whose terms included greater autonomy for states like Bavaria and",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Major war in Central Europe (1618\u20131648)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Carl_Friedrich_Lessing_-_The_Siege_%28Defense_of_a_Church_Courtyard_During_the_Thirty_Years%E2%80%99_War%29_-_Google_Art_Project.jpg/60px-Carl_Friedrich_Lessing_-_The_Siege_%28Defense_of_a_Church_Courtyard_During_the_Thirty_Years%E2%80%99_War%29_-_Google_Art_Project.jpg"
+            }
+          },
+          {
+            "id": 320616,
+            "key": "Peace_of_Augsburg",
+            "title": "Peace of Augsburg",
+            "excerpt": "Catholicism as the official confession <span class=\"searchmatch\">of</span> their state. Calvinism was not allowed until the <span class=\"searchmatch\">Peace</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Westphalia</span>. The <span class=\"searchmatch\">Peace</span> <span class=\"searchmatch\">of</span> Augsburg has been described as &quot;the",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1555 treaty between the Holy Roman Emperor and the Schmalkaldic League",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 90,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Druck_Augsburger_Reichsfrieden.jpg/60px-Druck_Augsburger_Reichsfrieden.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Peace of Westphalia 1648 treaties ending the Thirty Years' War and Eighty Years' War Peace of Westphalia Treaties of Osnabr\u00fcck and M\u00fcnster The historic town hall of M\u00fcnster where the treaty was signed Type Peace treaty Context Thirty Years' War Drafted 1646\u20131648 Signed 24 October 1648 Location Osnabr\u00fcck and M\u00fcnster , Westphalia , Holy Roman Empire Parties 109 Languages Latin The Peace of Westphalia ( German : Westf\u00e4lischer Friede , pronounced [ v\u025bst\u02c8f\u025b\u02d0l\u026a\u0283\u0250 \u02c8f\u0281i\u02d0d\u0259 ] \u24d8 ) is the collective name for two peace treaties signed in October 1648 in the Westphalian cities of Osnabr\u00fcck and M\u00fcnster . They ended the Thirty Years' War (1618\u20131648) and brought peace to the Holy Roman Empire , closing a calamitous period of European history that killed approximately eight million people. Ferdinand III, Holy Roman Emperor , the kingdoms of France and Sweden , and their respective allies among the princes of the Holy Roman Empire, participated in the treaties. [ 1 ] The negotiation process was lengthy and complex. Talks took place in two cities, because each side wanted to meet on territory under its own control. A total of 109 delegations arrived to represent the belligerent states, but not all delegations were present at the same time. Two treaties were signed to end the war in the Empire: the Treaty of M\u00fcnster and the Treaty of Osnabr\u00fcck. [ 2 ] [ 3 ] These treaties ended the Thirty Years' War in the Holy Roman Empire, with the Habsburgs (rulers of Austria and Spain ) and their Catholic allies on one side, battling the Protestant powers (Sweden and certain Holy Roman principalities) allied with France (though Catholic, strongly anti-Habsburg under King Louis XIV ). Several scholars of international relations have identified the Peace of Westphalia as the origin of principles crucial to modern international relations, [ 4 ] collectively known as Westphalian sovereignty . However, some historians have argued against this, suggesting that such views emerged during the nineteenth and twentieth century in relation to concerns about sovereignty during that time. [ 5 ] Regardless of whether the Peace of Westphalia was a critical juncture or not, narratives about the Peace of Westphalia have profoundly shaped international legal and political thought in subsequent centuries. [ 6 ] Background Europe had been battered by both the Thirty Years' War and the overlapping Eighty Years' War (begun c. 1568), exacting a heavy toll in money and lives. The Eighty Years' War was a prolonged struggle for the independence of the Protestant-majority Dutch Republic (the modern Netherlands), supported by Protestant-majority England , against Catholic-dominated Spain and Portugal . The Thirty Years' War was the most deadly of the European wars of religion , centered on the Holy Roman Empire. The war, which developed into four phases, included a large number of domestic and foreign players, siding either with the Catholic League or the Protestant Union (later Heilbronn League ). The Peace of Prague (1635) ended most religious aspects of the war, and the French\u2013Habsburg rivalry took over prominence. With between 4.5 million and 8 million dead in the Thirty Years' War alone, and decades of constant warfare, the need for peace became increasingly clear. [ 7 ] Locations Peace negotiations between France and the Habsburg Emperor began in Cologne in 1636. These negotiations were initially blocked by Cardinal Richelieu of France, who insisted on the inclusion of all his allies, whether fully sovereign countries or states within the Holy Roman Empire . [ 8 ] [ page needed ] In Hamburg , Sweden, France, and the Holy Roman Empire negotiated a preliminary peace in December 1641. [ 9 ] They declared that the preparations of Cologne and the Treaty of Hamburg were preliminaries of an overall peace agreement. [ citation needed ] Dutch envoy Adriaan Pauw enters M\u00fcnster around 1646 for the peace negotiations. The main peace negotiations took place in Westphalia , in the neighbouring cities of M\u00fcnster and Osnabr\u00fcck . Both cities were maintained as neutral and demilitarized zones for the negotiations. [ 9 ] In M\u00fcnster, negotiations took place between the Holy Roman Empire and France, as well as between the Dutch Republic and Spain who on 30 January 1648 signed a peace treaty ending the Eighty Years' War [ 10 ] that was not part of the Peace of Westphalia. [ 11 ] M\u00fcnster had been, since its re-Catholicism in 1535, a strictly mono-denominational community. It housed the Chapter of the Prince-Bishopric of M\u00fcnster . Only Roman Catholic worship was permitted, while Calvinism and Lutheranism were prohibited. [ citation needed ] Sweden preferred to negotiate with the Holy Roman Empire in Osnabr\u00fcck, which was controlled by Protestant forces. Osnabr\u00fcck was a bi-denominational Lutheran and Catholic city, with two Lutheran churches and two Catholic churches. The city council was exclusively Lutheran, and the burghers mostly so, but the city also housed the Catholic Chapter of the Prince-Bishopric of Osnabr\u00fcck and had many other Catholic inhabitants. Osnabr\u00fcck had been subjugated by troops of the Catholic League from 1628 to 1633 and was then taken by Lutheran Sweden. [ 12 ] Delegations Sebastian Dadler undated medal (1648), Christina of Sweden , portrait with feathered helmet right. Obverse The reverse of this medal: Christina of Sweden as Minerva holding an olive branch in her left arm and grasping the tree of knowledge with her right hand. Peace treaty of Osnabr\u00fcck, October 24, 1648 The peace negotiations had no exact beginning or end, because the 109 delegations never met in a plenary session. Instead, various delegations arrived between 1643 and 1646 and left between 1647 and 1649. The largest number of diplomats were present between January 1646 and July 1647. [ 13 ] Delegations had been sent by 16 European states, 66 Imperial States representing the interests of 140 Imperial States, and 27 interest groups representing 38 groups. [ 14 ] The French delegation was headed by Henri II d'Orl\u00e9ans, Duke of Longueville and further comprised the diplomats Claude d'Avaux and Abel Servien . The Swedish delegation was headed by Count Johan Oxenstierna and was assisted by Baron Johan Adler Salvius . The Imperial delegation was headed by Count Maximilian von Trautmansdorff . His aides were: In M\u00fcnster, Johann Ludwig von Nassau-Hadamar and Isaak Volmar. In Osnabr\u00fcck, Johann Maximilian von Lamberg and Reichshofrat Johann Krane. Philip IV of Spain was represented by two delegations: The Spanish delegation was headed by Gaspar de Bracamonte y Guzm\u00e1n , and notably included the diplomats and writers Diego de Saavedra Fajardo , and Bernardino de Rebolledo . The County of Burgundy and the Spanish Netherlands were represented by Joseph de Bergaigne (who died before peace was concluded) and Antoine Brun . The papal nuncio in Cologne , Fabio Chigi , and the Venetian envoy, Alvise Contarini , acted as mediators. Various Imperial Estates of the Holy Roman Empire also sent delegations; among these Johann Ernst Pistoris [ de ] represented the Electorate of Saxony , Johann VIII zu Sayn-Wittgenstein-Wittgenstein [ de ] the Margraviate of Brandenburg , and Georg Christoph von Haslang [ de ] the Electorate of Bavaria . Important Protestant envoys were Wolfgang Conrad von Thumbshirn [ de ] for Saxe-Altenburg and Jakob Lampadius [ de ] for Brunswick-L\u00fcneburg . The Catholic estates were divided between those willing to compromise like Mainz represented by Hugo Eberhard Kratz von Scharfenstein , and Catholic hardliners like Franz Wilhelm von Wartenberg for the Electorate of Cologne . The Dutch Republic sent a delegation of six, including two delegates from the province of Holland, including Adriaan Pauw , and Willem Ripperda from the province of Overijssel; [ 15 ] [ page needed ] two provinces were absent. The Swiss Confederacy was represented by Johann Rudolf Wettstein . Treaties Two separate treaties constituted the peace settlement: The Treaty of M",
+      "content_source": "page/Peace_of_Westphalia/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: The 1648 peace settlement was called the **Peace of Westphalia**, consisting of two treaties signed in October 1648 in the Westphalian cities of M\u00fcnster and Osnabr\u00fcck. The major political principle it established was **Westphalian sovereignty**, which scholars of international relations have identified as foundational to modern international relations\u2014establishing principles that still shape how nations relate to one another today.\n\nSource: Peace of Westphalia",
+  "total_tool_calls": 2,
+  "latency_ms": 8687,
+  "error": null
+}

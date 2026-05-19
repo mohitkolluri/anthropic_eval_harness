@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import time
+import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
@@ -19,8 +20,16 @@ from src.eval.graders.boundaries.no_opinion import NoOpinionLeakageGrader
 from src.eval.suite import load_suite
 
 _LOGS_DIR = Path("logs/eval_runs")
-_DEFAULT_PARALLELISM = 3
-_DELAY_BETWEEN_CASES = 1.0  # seconds — avoids hitting 50k token/min rate limit
+_DEFAULT_PARALLELISM = 1
+_DELAY_BETWEEN_CASES = 3.0  # seconds — avoids hitting 50k token/min rate limit
+
+ALL_GRADERS: list[Grader] = [
+    ToolUseAppropriatenessGrader(),
+    QueryEntityAdherenceGrader(),
+    FactualAccuracyGrader(),
+    GroundednessGrader(),
+    NoOpinionLeakageGrader(),
+]
 
 def make_graders(client: ClaudeClient) -> list[Grader]:
     """Instantiate all graders, injecting the shared Claude client into LLM-judge graders."""
@@ -70,6 +79,10 @@ def _grader_result_to_dict(gr: GraderResult) -> dict:
     return d
 
 
+_MAX_RETRIES = 3
+_RETRY_BACKOFF = [10, 30, 60]  # seconds between retries on rate limit
+
+
 def _run_case(
     case: EvalCase,
     client: ClaudeClient,
@@ -79,7 +92,13 @@ def _run_case(
     graders: list[Grader],
 ) -> list[dict]:
     """Run a single eval case; return list of score dicts. Always writes the trace."""
-    result = agent_run(case.input, client, prompt_version)
+    result = None
+    for attempt in range(_MAX_RETRIES):
+        result = agent_run(case.input, client, prompt_version)
+        if not result.error or "rate_limit" not in str(result.error).lower():
+            break
+        wait = _RETRY_BACKOFF[min(attempt, len(_RETRY_BACKOFF) - 1)]
+        time.sleep(wait)
     trace = _agent_result_to_trace(result, case, run_id)
 
     # Write trace immediately (before graders, so partial data is never lost)
@@ -181,12 +200,20 @@ def run_eval(
     return run_id
 
 
+def _case_real_scores(case_id: str, scores: list[dict]) -> list[dict]:
+    """Return grader results that actually ran — excludes skipped and errored rows."""
+    return [
+        s for s in scores
+        if s["eval_id"] == case_id and not s["skipped"] and not s.get("error")
+    ]
+
+
 def _case_passed(case_id: str, scores: list[dict]) -> bool:
     """
-    A case passes if every grader that produced a real result (not skipped, not error)
-    returned passed=True. Cases where ALL graders skipped/errored are excluded (False).
+    AND of all assigned graders that ran (skipped graders are excluded).
+    Returns False if no grader ran (case not evaluated).
     """
-    real = [s for s in scores if s["eval_id"] == case_id and not s["skipped"] and not s.get("error")]
+    real = _case_real_scores(case_id, scores)
     return bool(real) and all(s["passed"] for s in real)
 
 
@@ -225,16 +252,21 @@ def _build_summary(
             "threshold": g.threshold,
         }
 
-    # Overall pass rate — per case (≤ n), not per grader-evaluation
-    # A case passes if all applicable (non-skipped, non-error) graders pass
-    overall_pass = sum(1 for cid in case_ids if _case_passed(cid, scores))
+    # Overall pass rate — denominator is evaluated cases only (at least one grader ran)
+    # Skipped cases (e.g. rate limit errors) are excluded from both numerator and denominator
+    evaluated_ids = [cid for cid in case_ids if _case_real_scores(cid, scores)]
+    overall_pass = sum(1 for cid in evaluated_ids if _case_passed(cid, scores))
+    n_evaluated = len(evaluated_ids)
+    n_skipped_cases = n - n_evaluated
 
     real_scores = [s["score"] for s in scores if s["score"] is not None and not s.get("error")]
     mean_overall = sum(real_scores) / len(real_scores) if real_scores else 0.0
 
+    skip_note = f"  ({n_skipped_cases} cases not evaluated — agent errors)" if n_skipped_cases else ""
+    pct = (100 * overall_pass // n_evaluated) if n_evaluated else 0
     lines += [
         "## Overall",
-        f"Pass rate: {overall_pass}/{n} ({100*overall_pass//n}%)  |  Mean score: {mean_overall:.2f}",
+        f"Pass rate: {overall_pass}/{n_evaluated} ({pct}%){skip_note}  |  Mean score: {mean_overall:.2f}",
         "",
     ]
 
@@ -259,11 +291,11 @@ def _build_summary(
                 and not s.get("error")
             ]
             if not cat_real:
-                continue  # all graders in this category were skipped/errored for this case
+                continue  # no grader in this category ran for this case — excluded
             cat_case_total += 1
             if all(s["passed"] for s in cat_real):
                 cat_case_pass += 1
-            cat_scores_real.extend(s["score"] for s in cat_real)
+            cat_scores_real.extend(s["score"] for s in cat_real if s["score"] is not None)
 
         if cat_case_total == 0:
             continue

@@ -48,19 +48,24 @@ class GroundednessGrader(Grader):
         LLM-as-judge: given the retrieved content and the answer, are all factual
         claims supported? Returns 0.0–1.0.
         """
-        if trace.total_tool_calls == 0:
-            return self._skip("no tool calls — nothing was retrieved to ground against")
+        # Only fetch_wikipedia calls contain actual page content to ground against
+        fetch_calls = [tc for tc in trace.tool_calls if tc.content_source.startswith("page/")]
+
+        if not fetch_calls:
+            return self._skip("no fetch_wikipedia calls — nothing was retrieved to ground against")
 
         if not trace.output:
             return self._error("trace.output is empty")
 
-        retrieved_parts = [
-            tc.fetched_content
-            for tc in trace.tool_calls
-            if tc.fetched_content
-        ]
-        combined_retrieved = "\n\n---\n\n".join(retrieved_parts)
-        combined_retrieved = combined_retrieved[:_MAX_RETRIEVED_CHARS]
+        retrieved_parts = [tc.fetched_content for tc in fetch_calls if tc.fetched_content]
+
+        # Truncate each article to an equal share of the budget so every
+        # retrieved source is represented — avoids silently dropping later
+        # articles when a single article fills the entire character budget.
+        n = len(retrieved_parts)
+        per_article = _MAX_RETRIEVED_CHARS // n if n else _MAX_RETRIEVED_CHARS
+        truncated = [part[:per_article] for part in retrieved_parts]
+        combined_retrieved = "\n\n---\n\n".join(truncated)
 
         user_prompt = _USER_PROMPT_TEMPLATE.format(
             retrieved_content=combined_retrieved,

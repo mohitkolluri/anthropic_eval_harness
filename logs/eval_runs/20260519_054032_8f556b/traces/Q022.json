@@ -1,0 +1,316 @@
+{
+  "eval_id": "Q022",
+  "run_id": "20260519_054032_8f556b",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What can you tell me about Ajax?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What can you tell me about Ajax?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01DEmfbdd27nHWw6Vh7mBDWE",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ajax"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DEmfbdd27nHWw6Vh7mBDWE",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01XWebop3rLrJMT51fwLaTH6",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ajax mythology"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_014VjbzYwavME8dhQ2q4uh7F",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ajax football club"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01XWebop3rLrJMT51fwLaTH6",
+          "content": "Ajax the Lesser Ancient Greek mythological hero For the Marvel Comics character Ajax the Lesser, see List of Eternals . Ajax the Lesser and Cassandra on an Attic-red figure cup, Louvre . Scene from the Trojan War: Cassandra clings to the Palladium , the wooden cult image of Athene, while Ajax the Lesser is about to drag her away in front of her father Priam (standing on the left). Fresco from the atrium of the Casa del Menandro (I 10, 4) in Pompeii. Ajax , 1820 painting by Henri Serrur Ajax ( Ancient Greek : \u0391\u1f34\u03b1\u03c2 , romanized : A\u00ed\u0101s ) was a Greek mythological hero , son of Oileus , the king of Locris . He was called the \"Ajax the Less\", the \"lesser\" or \"Locrian\" Ajax, [ 1 ] to distinguish him from Ajax the Great , son of Telamon . He was the leader of the Locrian contingent during the Trojan War . He is a significant figure in Homer 's Iliad and is also mentioned in the Odyssey , [ 2 ] in Virgil 's Aeneid and in Euripides ' The Trojan Women . In Etruscan legend , he was known as Aivas Vilates . Description In the account of Dares the Phrygian , Ajax was described as \"stocky, powerfully built, swarthy, a pleasant person, and brave.\" [ 3 ] Mythology Life Ajax's mother's name was Eriopis . [ 4 ] According to Strabo , he was born in Naryx in Locris , [ 5 ] where Ovid calls him Narycius heros . [ 6 ] According to the Iliad , [ 7 ] he led his Locrians in forty ships against Troy . [ 8 ] He is described as one of the great heroes among the Greeks. In battle, he wore a linen cuirass ( \u03bb\u03b9\u03bd\u03bf\u03b8\u03ce\u03c1\u03b1\u03be , linothorax ), was brave and intrepid, especially skilled in throwing the spear and, next to Achilles , the swiftest of all the Greeks. [ 9 ] [ 10 ] The chronicler Malalas portrayed him as \"tall, strong, tawny, squinting, good nose, curly hair, black hair, thick beard, long face, daring warrior, magnanimous, a womanizer.\" [ 11 ] In the funeral games at the pyre of Patroclus , Ajax contended with Odysseus and Antilochus for the prize in the footrace; but Athena , who was hostile towards him and favored Odysseus, made him stumble and fall, so that he won only the second prize. [ 12 ] In later traditions, this Ajax is called a son of Oileus and the nymph Rhene, and is also mentioned among the suitors of Helen. [ 13 ] After the taking of Troy, he rushed into the temple of Athena, where Cassandra had taken refuge, and was embracing the statue of the goddess in supplication . Ajax violently dragged her away to the other captives. [ 14 ] According to some writers, he raped Cassandra inside the temple. [ 15 ] Odysseus called for Ajax's death by stoning for this crime, but Ajax saved himself by claiming innocence with an oath to Athena, clutching her statue in supplication. [ 16 ] Death Since Ajax dragged the supplicant from her temple, Athena had cause to be indignant. According to the Bibliotheca , no one was aware that Ajax had raped Cassandra until Calchas , the Greek seer, warned the Greeks that Athena was furious at the treatment of her priestess and she would destroy the Greek ships if they did not kill him immediately. Despite this, Ajax managed to hide at the altar of a deity where the Greeks, fearing divine retribution should they kill him and destroy the altar, allowed him to live. When the Greeks left without killing Ajax, despite their sacrifices, Athena became so angry that she persuaded Zeus to send a storm that sank many of their ships. Poseidon killing Ajax the Lesser, drawing by Bonaventura Genelli As Ajax was returning from Troy , Athena hit his ship with a thunderbolt and the vessel was wrecked on the Whirling Rocks ( \u0393\u03c5\u03c1\u03b1\u1f76 \u03c0\u03ad\u03c4\u03c1\u03b1\u03b9 ). But he escaped with some of his men, managing to cling onto a rock through the assistance of Poseidon . He would have been saved in spite of Athena, but he then audaciously declared that he would escape the dangers of the sea in defiance of the immortals. Offended by this presumption, Poseidon split the rock with his trident and Ajax was swallowed up by the sea. [ 17 ] [ 10 ] Thetis buried him when the corpse washed up on Mykonos . [ 18 ] Other versions depict a different death for Ajax, showing him dying when on his voyage home. In these versions, when Ajax came to the Capharean Rocks on the coast of Euboea , his ship was wrecked in a fierce storm, he himself was lifted up in a whirlwind and impaled with a flash of rapid fire from Athena in his chest, and his body thrust upon sharp rocks, which afterwards were called the rocks of Ajax. [ 19 ] After Ajax's death, his spirit dwelt in the island of Leuce . [ 20 ] The Opuntian Locrians worshipped Ajax as their national hero, and so great was their faith in him that when they drew up their army in battle, they always left one place open for him, believing that, although invisible to them, he was fighting for and among them. [ 21 ] The story of Ajax was frequently made use of by ancient poets and artists, and the hero who appears on some Locrian coins with the helmet, shield, and sword is probably this Ajax. [ 22 ] Other accounts of Ajax's death are offered by Philostratus , Euripides , and the scholiast on Lycophron . [ 23 ] Art Ajax and Cassandra by Solomon Joseph Solomon (1886) [ 24 ] The abduction of Cassandra by Ajax was frequently represented in Greek works of art, such as the chest of Cypselus described by Pausanias and in extant works. [ 25 ] [ 10 ] Notes \u2191 Homer , Iliad 2.527 \u2191 Schmitz, Leonhard (1867), \"Ajax (2)\" , in Smith, William (ed.), Dictionary of Greek and Roman Biography and Mythology , vol. 1, Boston: Little, Brown and Company , pp. 87\u2013 88, archived from the original on 2013-10-20 , retrieved 2008-06-09 \u2191 Dares Phrygius , History of the Fall of Troy 13 \u2191 Tzetzes , John (2015). Allegories of the Iliad . Translated by Goldwyn, Adam; Kokkini, Dimitra. Harvard University Press, Cambridge, Massachusetts, London, England: Dumbarton Oaks Medieval Library. pp. 41, Prologue 43\u201344. ISBN 978-0-674-96785-4 . \u2191 Strabo , 9. p. 425 \u2191 Ovid , Metamorphoses 14.468 \u2191 Homer, Iliad 2.527 \u2191 Hyginus , Fabulae 97 gives the number of ships as twenty \u2191 Homer, Iliad 14.520 & 23.789 1 2 3 Chisholm 1911 . \u2191 Malalas , Chronography 5.104 \u2191 Homer, Iliad 23.754 \u2191 Apollodorus , 3.10.8; Hyginus, Fabulae 81 & 97 \u2191 Euripides , Tro. 70; Virgil , Aeneid 2.403; Hyginus, Fabulae 116; Dictys Cretensis , 5.12 \u2191 Tryphiodorus , 635; Quintus Smyrnaeus , 13.422; Lycophron , 360 with the Scholion \u2191 Pausanias , 10.26.1 & 10.31.1 \u2191 Homer, Odyssey 4.499 \u2191 Apollodore, R. Scott Smith, Stephen Trzaskoma, and Hygin. Apollodorus' Library and Hyginus' Fabulae: Two Handbooks of Greek Mythology , Indianapolis: Hackett Pub., 2007. 84\u201385. \"5.24\u20136.6.\" \u2191 Virgil, Aeneid 1.40 & 11.260; Hyginus, Fabulae 116 \u2191 Pausanias, 3.19.13 \u2191 Conon , Narrations 18; Pausanias, 3.19.13 \u2191 Th\u00e9odore Edme Mionnet, No. 570, &c. \u2191 Philostratus , Her. 31.6\u20139; Euripides , Tro. 90; Scholiast on Lycophron \u2191 \"Solomon Joseph Solomon RA PRBA (1860\u20131927)\" . 2007-05-17. Archived from the original on 2016-03-04 . Retrieved 2015-10-28 . \u2191 Pausanias, 5.17 References Apollodorus , The Library with an English Translation by Sir James George Frazer, F.B.A., F.R.S. in 2 Volumes, Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1921. ISBN 0-674-99135-4 . Online version at the Perseus Digital Library. Greek text available from the same website . Conon , Fifty Narrations, surviving as one-paragraph summaries in the Bibliotheca (Library) of Photius, Patriarch of Constantinople translated from the Greek by Brady Kiesling. Online version at the Topos Text Project. Dictys Cretensis , from The Trojan War. The Chronicles of Dictys of Crete and Dares the Phrygian translated by Richard McIlwaine Frazer Jr. Indiana University Press. 1966. Online version at the Topos Text Project. Gaius Julius Hyginus , Fabulae from The Myths of Hyginus translated and edited by Mary Grant. University of Kansas Publications in Humanistic Studies. Online version at the Topos Text Project. Graves, Robert , The Greek Myths , Harmondsworth, London, England, Penguin Books, 19"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_014VjbzYwavME8dhQ2q4uh7F",
+          "content": "AFC Ajax Association football club in Netherlands This article is about men's football club. For the women's team, see AFC Ajax (women) . For other uses, see Ajax . Football club Ajax Full name Amsterdamsche Football Club Ajax Nicknames de Godenzonen (Sons of the Gods) [ 1 ] [ 2 ] de Joden (the Jews) Lucky Ajax the Lancers Founded 18 March 1900 ; 126 years ago ( 1900-03-18 ) Ground Johan Cruyff Arena Capacity 55,865 [ 3 ] Owner AFC Ajax N.V. ( Euronext Amsterdam : AJAX ) Chairman Menno Geelen Head coach \u00d3scar Garcia (interim) League Eredivisie 2025\u201326 Eredivisie, 5th of 18 Website ajax.nl Home colours Away colours Third colours Current season Active departments of AFC Ajax Eredivisie (Men's) Eerste Divisie (Reserves) Vierde Divisie (Amateurs) Eredivisie (Women's) eSports Amsterdamsche Football Club Ajax ( Dutch: [ \u02c8a\u02d0j\u0251ks ] ), also known as AFC Ajax , Ajax Amsterdam , or simply Ajax , is a Dutch professional football club based in Amsterdam , that plays in the Eredivisie , the top tier in Dutch football. Historically, Ajax (named after the legendary Greek hero ) is the most successful club in the Netherlands , with 36 Eredivisie titles and 20 KNVB Cups , both are records. It has continuously played in the Eredivisie since the league's inception in 1956, and along with Feyenoord and PSV Eindhoven , it is one of the country's \" big three \" clubs. Ajax was one of the most successful clubs in the world in the 20th century. According to the International Federation of Football History & Statistics , Ajax was the seventh-most successful European club of the 20th century and The World's Club Team of the Year in 1992. [ 4 ] [ new archival link needed ] According to German magazine Kicker , Ajax was the second-most successful European club of the 20th century. The club is one of five teams that have earned the right to keep the European Cup and to wear a multiple-winner badge. In 1972, they completed the continental treble by winning the Eredivisie , KNVB Cup , and the European Cup . They also won the first (albeit unofficial) European Super Cup against Rangers in January 1973. Ajax's most recent international trophies are the 1995 Intercontinental Cup , 1995 UEFA Super Cup and the 1995 Champions League , where they defeated Milan in the final ; they lost the 1996 Champions League final on penalties to Juventus . In 1995, Ajax was crowned as World Team of the Year by World Soccer magazine. Ajax is also one of four teams to win the continental treble and the Intercontinental Cup or Club World Cup in the same season/calendar year; [ 5 ] this was achieved in the 1971\u201372 season. [ 6 ] Ajax is one of five clubs to have won all three major UEFA club competitions played until 2021. [ 7 ] They have also won the Intercontinental Cup twice, the 1991\u201392 UEFA Cup , as well as the Karl Rappan Cup , a predecessor of the UEFA Intertoto Cup in 1962. [ 8 ] Ajax plays at the Johan Cruyff Arena , which opened as the Amsterdam ArenA in 1996 and was renamed in 2018. They previously played at De Meer Stadion and the Amsterdam Olympic Stadium (for international matches). Throughout their history, Ajax have cultivated a reputation for scouting, spotting and developing young talent, and have remained focused on developing a youth system . [ 9 ] History Main article: History of AFC Ajax Ajax's former squad in 1900 Ajax was founded in Amsterdam on 18 March 1900. The club achieved promotion to the highest level of Dutch football in 1911 and had its first major success in 1917, winning the KNVB Beker , the Netherlands' national cup. The following season , Ajax became national champion for the first time. The club defended its title in 1918\u201319 , becoming the only team to achieve an unbeaten season in the Netherlands Football League Championship. [ 10 ] Throughout the 1920s, Ajax was a strong regional power, winning the Eerste Klasse West division in 1921, 1927 and 1928, but could not maintain its success at the national level. This changed in the 1930s, with the club winning five national championships ( 1931 , 1932 , 1934 , 1937 , 1939 ), making it the most successful Dutch team of the decade. Ajax won its second KNVB Cup in 1942\u201343, and an eighth Dutch title in 1946\u201347 , the last season the club was managed by Englishman Jack Reynolds , who, up to this point, had overseen all of its national championship successes as well as its 1917 KNVB Cup win. [ 11 ] [ 12 ] In 1956, the first season of the Netherlands' new professional league, the Eredivisie , was played with Ajax participating as a founding member. The Amsterdam club became the first national champions under the new format and made its debut in the European Champion Clubs' Cup the following year , losing to Hungarian champions Vasas SC 6\u20132 on aggregate at the quarter-final stage. The team was again Eredivisie champions in 1960 and won a third KNVB Cup in 1961. [ 13 ] Johan Cruyff played at Ajax from 1959 to 1973, and from 1981 to 1983, winning 3 European Cups; his No. 14 is the only squad number Ajax has ever retired. Cruyff came back to manage the club from 1985 to 1988. Against Panathinaikos in the 1971 European Cup Final In 1965, Rinus Michels , who had played for the club between 1946 and 1958, was appointed manager of Ajax, implementing his philosophy of Total Football which was to become synonymous with both Ajax and the Netherlands national team . [ 14 ] [ 15 ] A year earlier, Johan Cruyff , who would go on to become widely regarded as the greatest Dutch footballer of all time, made his debut. [ 16 ] Between them, Michels and Cruyff led Ajax through the most successful period in its history, winning seven Eredivisie titles, four KNVB Cups and three European Cups . Ajax won the Dutch championship in 1966 , 1967 and 1968 , and reached the 1969 European Cup final , losing to Milan . During the 1966\u201367 season, Ajax scored a record 122 goals in an Eredivisie season and also won the KNVB Cup to achieve its first league and cup double . In 1969\u201370 , Ajax won a fourth Dutch league championship and second league and cup double in five seasons, winning 27 out of 34 league matches and scoring 100 goals. [ 17 ] The 1970\u201371 season saw Ajax retain the KNVB Cup and reach the 1971 European Cup final , where they defeated Panathinaikos 2\u20130 with goals from Dick van Dijk and Arie Haan to become continental champions for the first time, with Cruyff being named European Footballer of the Year . After this success, Michels departed to become manager of Barcelona and was replaced by the Romanian \u0218tefan Kov\u00e1cs . In Kov\u00e1cs' first season, Ajax completed a treble of the European Cup , the Eredivisie and a third consecutive KNVB Cup . The following season, the team beat Argentine Club Atl\u00e9tico Independiente to win the 1972 Intercontinental Cup and retained their Eredivisie and European Cup titles, becoming the first club to win three consecutive European Cups since Real Madrid in the 1950s. In 1973, Michels' Barcelona broke the world transfer record to bring Cruyff to the Catalan team . Kov\u00e1cs also departed to become manager of the France national team , signalling the end of this period of international success. [ 18 ] In 1976\u201377 , Ajax won its first domestic championship in four seasons and recorded a double of the Eredivisie and KNVB Cup two years later. The early 1980s saw the return of Cruyff to the club, as well as the emergence of young players Marco van Basten and Frank Rijkaard . The team won back-to-back Eredivisie titles in 1982 and 1983 , with all three playing a significant role in the latter. After Cruyff's sale to rivals Feyenoord in 1983, van Basten became Ajax's key player, top scoring in the Eredivisie for four seasons between 1983\u201384 and 1986\u201387 . [ 19 ] Cruijff, seen here with van Basten and Rijkaard , returned as manager in 1985. In 1985, Cruyff returned to Ajax as manager and the team ended his first season in charge with 120 goals from 34 matches. However, Ajax still finished as runner-up to PSV by eight points. The following s"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Since \"Ajax\" can refer to multiple different subjects, here's information about the two most notable ones:\n\n**Ajax in Greek Mythology:**\nAjax the Lesser was a Greek mythological hero and son of Oileus, king of Locris. He was a significant figure in the Trojan War, leading the Locrian contingent in forty ships against Troy. According to Homer's Iliad, he was one of the great Greek heroes, skilled in spear-throwing and swift in battle. He is best known for dragging the supplicant Cassandra away from Athena's temple after Troy's fall, which enraged the goddess. According to different versions of his death, either Athena struck his ship with a thunderbolt during his return voyage, or Poseidon split the rock Ajax was clinging to, causing him to be swallowed by the sea. The Opuntian Locrians worshipped him as their national hero.\n\n**Ajax as a Football Club:**\nAFC Ajax is a Dutch professional football club based in Amsterdam, founded on March 18, 1900. It is historically the most successful club in the Netherlands, with 36 Eredivisie titles and 20 KNVB Cups. Ajax was one of the most successful clubs in the world during the 20th century and won the 1995 Champions League, defeating Milan in the final. The club is known for developing young talent and plays at the Johan Cruyff Arena.\n\nSource: Ajax the Lesser, AFC Ajax"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Ajax",
+      "api_response": {
+        "pages": [
+          {
+            "id": 2273,
+            "key": "AFC_Ajax",
+            "title": "AFC Ajax",
+            "excerpt": "Amsterdamsche Football Club <span class=\"searchmatch\">Ajax</span> (Dutch: [\u02c8a\u02d0j\u0251ks]), also known as AFC <span class=\"searchmatch\">Ajax</span>, <span class=\"searchmatch\">Ajax</span> Amsterdam, or simply <span class=\"searchmatch\">Ajax</span>, is a Dutch professional football club based",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Association football club in Netherlands",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Logo_AFC_Ajax_%281928-1991%2C_2025-%29.png/60px-Logo_AFC_Ajax_%281928-1991%2C_2025-%29.png"
+            }
+          },
+          {
+            "id": 1569,
+            "key": "Ajax",
+            "title": "Ajax",
+            "excerpt": "Look up <span class=\"searchmatch\">Ajax</span>\u00a0or <span class=\"searchmatch\">AJAX</span> in Wiktionary, the free dictionary. <span class=\"searchmatch\">Ajax</span> may refer to: <span class=\"searchmatch\">Ajax</span> the Great, son of King Telamon and Periboea <span class=\"searchmatch\">Ajax</span> the Lesser, son of Oileus",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Topics referred to by the same term",
+            "thumbnail": null
+          },
+          {
+            "id": 1610950,
+            "key": "Ajax_(programming)",
+            "title": "Ajax (programming)",
+            "excerpt": "The Asynchronous JavaScript and XML, usually referred to as <span class=\"searchmatch\">Ajax</span> (or <span class=\"searchmatch\">AJAX</span>, /\u02c8e\u026ad\u0292\u00e6ks/) is a set of web development techniques that uses various web technologies",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Group of interrelated Web development techniques",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 29,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/60px-AJAX_logo_by_gengns.svg.png"
+            }
+          },
+          {
+            "id": 1568,
+            "key": "Ajax_the_Great",
+            "title": "Ajax the Great",
+            "excerpt": "<span class=\"searchmatch\">Ajax</span> (/\u02c8e\u026ad\u0292\u00e6ks/) or Aias (/\u02c8a\u026a.\u0259s/; Ancient Greek: \u0391\u1f34\u03b1\u03c2, romanized:\u00a0A\u00ed\u0101s [a\u00ed\u032f.a\u02d0s], gen. \u0391\u1f34\u03b1\u03bd\u03c4\u03bf\u03c2 A\u00edantos) is a Greek mythological hero, the son of King",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Character in Greek Mythology",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg/60px-Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg"
+            }
+          },
+          {
+            "id": 43742427,
+            "key": "General_Dynamics_Ajax",
+            "title": "General Dynamics Ajax",
+            "excerpt": "The <span class=\"searchmatch\">Ajax</span>, formerly known as the Scout SV (Specialist Vehicle), is a group of armoured fighting vehicles developed by General Dynamics UK for the British",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Family of British armoured fighting vehicles",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AJAX%2C_the_Future_Armoured_Fighting_Vehicle_for_the_British_Army_MOD_45159441.jpg/60px-AJAX%2C_the_Future_Armoured_Fighting_Vehicle_for_the_British_Army_MOD_45159441.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "",
+      "content_source": "page/AFC_Ajax/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Ajax mythology",
+      "api_response": {
+        "pages": [
+          {
+            "id": 1567,
+            "key": "Ajax_the_Lesser",
+            "title": "Ajax the Lesser",
+            "excerpt": "527 Schmitz, Leonhard (1867), &quot;<span class=\"searchmatch\">Ajax</span> (2)&quot;, in Smith, William (ed.), Dictionary of Greek and Roman Biography and <span class=\"searchmatch\">Mythology</span>, vol.\u00a01, Boston: Little, Brown",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Ancient Greek mythological hero",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Attic_red-figure_cup_with_Ajax_and_Cassandra_Louvre_G_458.jpg/60px-Attic_red-figure_cup_with_Ajax_and_Cassandra_Louvre_G_458.jpg"
+            }
+          },
+          {
+            "id": 1569,
+            "key": "Ajax",
+            "title": "Ajax",
+            "excerpt": "Look up <span class=\"searchmatch\">Ajax</span>\u00a0or <span class=\"searchmatch\">AJAX</span> in Wiktionary, the free dictionary. <span class=\"searchmatch\">Ajax</span> may refer to: <span class=\"searchmatch\">Ajax</span> the Great, son of King Telamon and Periboea <span class=\"searchmatch\">Ajax</span> the Lesser, son of Oileus",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Topics referred to by the same term",
+            "thumbnail": null
+          },
+          {
+            "id": 1568,
+            "key": "Ajax_the_Great",
+            "title": "Ajax the Great",
+            "excerpt": "<span class=\"searchmatch\">Ajax</span> (/\u02c8e\u026ad\u0292\u00e6ks/) or Aias (/\u02c8a\u026a.\u0259s/; Ancient Greek: \u0391\u1f34\u03b1\u03c2, romanized:\u00a0A\u00ed\u0101s [a\u00ed\u032f.a\u02d0s], gen. \u0391\u1f34\u03b1\u03bd\u03c4\u03bf\u03c2 A\u00edantos) is a Greek mythological hero, the son of King",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Character in Greek Mythology",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg/60px-Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg"
+            }
+          },
+          {
+            "id": 77369814,
+            "key": "Nessus_(mythology)",
+            "title": "Nessus (mythology)",
+            "excerpt": "In Greek <span class=\"searchmatch\">mythology</span>, Nessus (/\u02c8n\u025bs\u0259s/; Ancient Greek: \u039d\u03ad\u03c3\u03c3\u03bf\u03c2, romanized:\u00a0Nessos) may refer to the following personages: Nessus, the river-god of the river",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Greek mythological figures",
+            "thumbnail": null
+          },
+          {
+            "id": 77511915,
+            "key": "Ajax_and_Cassandra",
+            "title": "Ajax and Cassandra",
+            "excerpt": "August 2024. Sheposh, Richard (2022). &quot;Cassandra (<span class=\"searchmatch\">mythology</span>)&quot;. EBSCO. Retrieved 6 May 2025. &quot;<span class=\"searchmatch\">Ajax</span> and Cassandra&quot;. Art Gallery of Ballarat. Retrieved",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Painting by Solomon Joseph Solomon",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 121,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Solomon_Ajax_and_Cassandra.jpg/60px-Solomon_Ajax_and_Cassandra.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Ajax the Lesser Ancient Greek mythological hero For the Marvel Comics character Ajax the Lesser, see List of Eternals . Ajax the Lesser and Cassandra on an Attic-red figure cup, Louvre . Scene from the Trojan War: Cassandra clings to the Palladium , the wooden cult image of Athene, while Ajax the Lesser is about to drag her away in front of her father Priam (standing on the left). Fresco from the atrium of the Casa del Menandro (I 10, 4) in Pompeii. Ajax , 1820 painting by Henri Serrur Ajax ( Ancient Greek : \u0391\u1f34\u03b1\u03c2 , romanized : A\u00ed\u0101s ) was a Greek mythological hero , son of Oileus , the king of Locris . He was called the \"Ajax the Less\", the \"lesser\" or \"Locrian\" Ajax, [ 1 ] to distinguish him from Ajax the Great , son of Telamon . He was the leader of the Locrian contingent during the Trojan War . He is a significant figure in Homer 's Iliad and is also mentioned in the Odyssey , [ 2 ] in Virgil 's Aeneid and in Euripides ' The Trojan Women . In Etruscan legend , he was known as Aivas Vilates . Description In the account of Dares the Phrygian , Ajax was described as \"stocky, powerfully built, swarthy, a pleasant person, and brave.\" [ 3 ] Mythology Life Ajax's mother's name was Eriopis . [ 4 ] According to Strabo , he was born in Naryx in Locris , [ 5 ] where Ovid calls him Narycius heros . [ 6 ] According to the Iliad , [ 7 ] he led his Locrians in forty ships against Troy . [ 8 ] He is described as one of the great heroes among the Greeks. In battle, he wore a linen cuirass ( \u03bb\u03b9\u03bd\u03bf\u03b8\u03ce\u03c1\u03b1\u03be , linothorax ), was brave and intrepid, especially skilled in throwing the spear and, next to Achilles , the swiftest of all the Greeks. [ 9 ] [ 10 ] The chronicler Malalas portrayed him as \"tall, strong, tawny, squinting, good nose, curly hair, black hair, thick beard, long face, daring warrior, magnanimous, a womanizer.\" [ 11 ] In the funeral games at the pyre of Patroclus , Ajax contended with Odysseus and Antilochus for the prize in the footrace; but Athena , who was hostile towards him and favored Odysseus, made him stumble and fall, so that he won only the second prize. [ 12 ] In later traditions, this Ajax is called a son of Oileus and the nymph Rhene, and is also mentioned among the suitors of Helen. [ 13 ] After the taking of Troy, he rushed into the temple of Athena, where Cassandra had taken refuge, and was embracing the statue of the goddess in supplication . Ajax violently dragged her away to the other captives. [ 14 ] According to some writers, he raped Cassandra inside the temple. [ 15 ] Odysseus called for Ajax's death by stoning for this crime, but Ajax saved himself by claiming innocence with an oath to Athena, clutching her statue in supplication. [ 16 ] Death Since Ajax dragged the supplicant from her temple, Athena had cause to be indignant. According to the Bibliotheca , no one was aware that Ajax had raped Cassandra until Calchas , the Greek seer, warned the Greeks that Athena was furious at the treatment of her priestess and she would destroy the Greek ships if they did not kill him immediately. Despite this, Ajax managed to hide at the altar of a deity where the Greeks, fearing divine retribution should they kill him and destroy the altar, allowed him to live. When the Greeks left without killing Ajax, despite their sacrifices, Athena became so angry that she persuaded Zeus to send a storm that sank many of their ships. Poseidon killing Ajax the Lesser, drawing by Bonaventura Genelli As Ajax was returning from Troy , Athena hit his ship with a thunderbolt and the vessel was wrecked on the Whirling Rocks ( \u0393\u03c5\u03c1\u03b1\u1f76 \u03c0\u03ad\u03c4\u03c1\u03b1\u03b9 ). But he escaped with some of his men, managing to cling onto a rock through the assistance of Poseidon . He would have been saved in spite of Athena, but he then audaciously declared that he would escape the dangers of the sea in defiance of the immortals. Offended by this presumption, Poseidon split the rock with his trident and Ajax was swallowed up by the sea. [ 17 ] [ 10 ] Thetis buried him when the corpse washed up on Mykonos . [ 18 ] Other versions depict a different death for Ajax, showing him dying when on his voyage home. In these versions, when Ajax came to the Capharean Rocks on the coast of Euboea , his ship was wrecked in a fierce storm, he himself was lifted up in a whirlwind and impaled with a flash of rapid fire from Athena in his chest, and his body thrust upon sharp rocks, which afterwards were called the rocks of Ajax. [ 19 ] After Ajax's death, his spirit dwelt in the island of Leuce . [ 20 ] The Opuntian Locrians worshipped Ajax as their national hero, and so great was their faith in him that when they drew up their army in battle, they always left one place open for him, believing that, although invisible to them, he was fighting for and among them. [ 21 ] The story of Ajax was frequently made use of by ancient poets and artists, and the hero who appears on some Locrian coins with the helmet, shield, and sword is probably this Ajax. [ 22 ] Other accounts of Ajax's death are offered by Philostratus , Euripides , and the scholiast on Lycophron . [ 23 ] Art Ajax and Cassandra by Solomon Joseph Solomon (1886) [ 24 ] The abduction of Cassandra by Ajax was frequently represented in Greek works of art, such as the chest of Cypselus described by Pausanias and in extant works. [ 25 ] [ 10 ] Notes \u2191 Homer , Iliad 2.527 \u2191 Schmitz, Leonhard (1867), \"Ajax (2)\" , in Smith, William (ed.), Dictionary of Greek and Roman Biography and Mythology , vol. 1, Boston: Little, Brown and Company , pp. 87\u2013 88, archived from the original on 2013-10-20 , retrieved 2008-06-09 \u2191 Dares Phrygius , History of the Fall of Troy 13 \u2191 Tzetzes , John (2015). Allegories of the Iliad . Translated by Goldwyn, Adam; Kokkini, Dimitra. Harvard University Press, Cambridge, Massachusetts, London, England: Dumbarton Oaks Medieval Library. pp. 41, Prologue 43\u201344. ISBN 978-0-674-96785-4 . \u2191 Strabo , 9. p. 425 \u2191 Ovid , Metamorphoses 14.468 \u2191 Homer, Iliad 2.527 \u2191 Hyginus , Fabulae 97 gives the number of ships as twenty \u2191 Homer, Iliad 14.520 & 23.789 1 2 3 Chisholm 1911 . \u2191 Malalas , Chronography 5.104 \u2191 Homer, Iliad 23.754 \u2191 Apollodorus , 3.10.8; Hyginus, Fabulae 81 & 97 \u2191 Euripides , Tro. 70; Virgil , Aeneid 2.403; Hyginus, Fabulae 116; Dictys Cretensis , 5.12 \u2191 Tryphiodorus , 635; Quintus Smyrnaeus , 13.422; Lycophron , 360 with the Scholion \u2191 Pausanias , 10.26.1 & 10.31.1 \u2191 Homer, Odyssey 4.499 \u2191 Apollodore, R. Scott Smith, Stephen Trzaskoma, and Hygin. Apollodorus' Library and Hyginus' Fabulae: Two Handbooks of Greek Mythology , Indianapolis: Hackett Pub., 2007. 84\u201385. \"5.24\u20136.6.\" \u2191 Virgil, Aeneid 1.40 & 11.260; Hyginus, Fabulae 116 \u2191 Pausanias, 3.19.13 \u2191 Conon , Narrations 18; Pausanias, 3.19.13 \u2191 Th\u00e9odore Edme Mionnet, No. 570, &c. \u2191 Philostratus , Her. 31.6\u20139; Euripides , Tro. 90; Scholiast on Lycophron \u2191 \"Solomon Joseph Solomon RA PRBA (1860\u20131927)\" . 2007-05-17. Archived from the original on 2016-03-04 . Retrieved 2015-10-28 . \u2191 Pausanias, 5.17 References Apollodorus , The Library with an English Translation by Sir James George Frazer, F.B.A., F.R.S. in 2 Volumes, Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1921. ISBN 0-674-99135-4 . Online version at the Perseus Digital Library. Greek text available from the same website . Conon , Fifty Narrations, surviving as one-paragraph summaries in the Bibliotheca (Library) of Photius, Patriarch of Constantinople translated from the Greek by Brady Kiesling. Online version at the Topos Text Project. Dictys Cretensis , from The Trojan War. The Chronicles of Dictys of Crete and Dares the Phrygian translated by Richard McIlwaine Frazer Jr. Indiana University Press. 1966. Online version at the Topos Text Project. Gaius Julius Hyginus , Fabulae from The Myths of Hyginus translated and edited by Mary Grant. University of Kansas Publications in Humanistic Studies. Online version at the Topos Text Project. Graves, Robert , The Greek Myths , Harmondsworth, London, England, Penguin Books, 19",
+      "content_source": "page/Ajax_the_Lesser/with_html (stripped)"
+    },
+    {
+      "call_index": 2,
+      "query": "Ajax football club",
+      "api_response": {
+        "pages": [
+          {
+            "id": 2273,
+            "key": "AFC_Ajax",
+            "title": "AFC Ajax",
+            "excerpt": "Amsterdamsche <span class=\"searchmatch\">Football</span> <span class=\"searchmatch\">Club</span> <span class=\"searchmatch\">Ajax</span> (Dutch: [\u02c8a\u02d0j\u0251ks]), also known as AFC <span class=\"searchmatch\">Ajax</span>, <span class=\"searchmatch\">Ajax</span> Amsterdam, or simply <span class=\"searchmatch\">Ajax</span>, is a Dutch professional <span class=\"searchmatch\">football</span> <span class=\"searchmatch\">club</span> based in",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Association football club in Netherlands",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Logo_AFC_Ajax_%281928-1991%2C_2025-%29.png/60px-Logo_AFC_Ajax_%281928-1991%2C_2025-%29.png"
+            }
+          },
+          {
+            "id": 15428776,
+            "key": "AJAX_Football_Club",
+            "title": "AJAX Football Club",
+            "excerpt": "The <span class=\"searchmatch\">AJAX</span> <span class=\"searchmatch\">Football</span> <span class=\"searchmatch\">Club</span> (Associated Judaean Athletic <span class=\"searchmatch\">Clubs</span>), nicknamed the Jackas, is an Australian rules <span class=\"searchmatch\">football</span> <span class=\"searchmatch\">club</span> based in the Melbourne suburb of",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Australian rules football club",
+            "thumbnail": null
+          },
+          {
+            "id": 6899129,
+            "key": "Cape_Town_Spurs_F.C.",
+            "title": "Cape Town Spurs F.C.",
+            "excerpt": "Cape Town Spurs F.C. (formerly known as <span class=\"searchmatch\">Ajax</span> Cape Town) is a South African professional <span class=\"searchmatch\">football</span> <span class=\"searchmatch\">club</span> based in Parow in the city of Cape Town that plays",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Association football club in South Africa",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/CT_SPURS_LOGO-01.jpg/60px-CT_SPURS_LOGO-01.jpg"
+            }
+          },
+          {
+            "id": 40156713,
+            "key": "AFC_Ajax_(amateurs)",
+            "title": "AFC Ajax (amateurs)",
+            "excerpt": "AFC <span class=\"searchmatch\">Ajax</span> Amateurs or <span class=\"searchmatch\">Ajax</span> Zaterdag (Dutch pronunciation: [\u02c8a\u02d0j\u0251k(s) \u02c8sa\u02d0t\u0259rd\u0251x]; English: &quot;<span class=\"searchmatch\">Ajax</span> Saturday&quot;) is a Dutch amateur <span class=\"searchmatch\">football</span> <span class=\"searchmatch\">club</span> and the amateur",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Dutch football club",
+            "thumbnail": null
+          },
+          {
+            "id": 18539770,
+            "key": "Jong_Ajax",
+            "title": "Jong Ajax",
+            "excerpt": "Jong <span class=\"searchmatch\">Ajax</span> (Dutch pronunciation: [j\u0254\u014b \u02c8a\u02d0j\u0251ks]; lit.\u2009&#039;Young <span class=\"searchmatch\">Ajax</span>&#039;), also referred to as <span class=\"searchmatch\">Ajax</span> II, <span class=\"searchmatch\">Ajax</span> 2 or &#039;<span class=\"searchmatch\">Ajax</span> Dos&#039;, is the reserve team of <span class=\"searchmatch\">Ajax</span>. Based",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Dutch football club",
+            "thumbnail": null
+          }
+        ]
+      },
+      "fetched_content": "AFC Ajax Association football club in Netherlands This article is about men's football club. For the women's team, see AFC Ajax (women) . For other uses, see Ajax . Football club Ajax Full name Amsterdamsche Football Club Ajax Nicknames de Godenzonen (Sons of the Gods) [ 1 ] [ 2 ] de Joden (the Jews) Lucky Ajax the Lancers Founded 18 March 1900 ; 126 years ago ( 1900-03-18 ) Ground Johan Cruyff Arena Capacity 55,865 [ 3 ] Owner AFC Ajax N.V. ( Euronext Amsterdam : AJAX ) Chairman Menno Geelen Head coach \u00d3scar Garcia (interim) League Eredivisie 2025\u201326 Eredivisie, 5th of 18 Website ajax.nl Home colours Away colours Third colours Current season Active departments of AFC Ajax Eredivisie (Men's) Eerste Divisie (Reserves) Vierde Divisie (Amateurs) Eredivisie (Women's) eSports Amsterdamsche Football Club Ajax ( Dutch: [ \u02c8a\u02d0j\u0251ks ] ), also known as AFC Ajax , Ajax Amsterdam , or simply Ajax , is a Dutch professional football club based in Amsterdam , that plays in the Eredivisie , the top tier in Dutch football. Historically, Ajax (named after the legendary Greek hero ) is the most successful club in the Netherlands , with 36 Eredivisie titles and 20 KNVB Cups , both are records. It has continuously played in the Eredivisie since the league's inception in 1956, and along with Feyenoord and PSV Eindhoven , it is one of the country's \" big three \" clubs. Ajax was one of the most successful clubs in the world in the 20th century. According to the International Federation of Football History & Statistics , Ajax was the seventh-most successful European club of the 20th century and The World's Club Team of the Year in 1992. [ 4 ] [ new archival link needed ] According to German magazine Kicker , Ajax was the second-most successful European club of the 20th century. The club is one of five teams that have earned the right to keep the European Cup and to wear a multiple-winner badge. In 1972, they completed the continental treble by winning the Eredivisie , KNVB Cup , and the European Cup . They also won the first (albeit unofficial) European Super Cup against Rangers in January 1973. Ajax's most recent international trophies are the 1995 Intercontinental Cup , 1995 UEFA Super Cup and the 1995 Champions League , where they defeated Milan in the final ; they lost the 1996 Champions League final on penalties to Juventus . In 1995, Ajax was crowned as World Team of the Year by World Soccer magazine. Ajax is also one of four teams to win the continental treble and the Intercontinental Cup or Club World Cup in the same season/calendar year; [ 5 ] this was achieved in the 1971\u201372 season. [ 6 ] Ajax is one of five clubs to have won all three major UEFA club competitions played until 2021. [ 7 ] They have also won the Intercontinental Cup twice, the 1991\u201392 UEFA Cup , as well as the Karl Rappan Cup , a predecessor of the UEFA Intertoto Cup in 1962. [ 8 ] Ajax plays at the Johan Cruyff Arena , which opened as the Amsterdam ArenA in 1996 and was renamed in 2018. They previously played at De Meer Stadion and the Amsterdam Olympic Stadium (for international matches). Throughout their history, Ajax have cultivated a reputation for scouting, spotting and developing young talent, and have remained focused on developing a youth system . [ 9 ] History Main article: History of AFC Ajax Ajax's former squad in 1900 Ajax was founded in Amsterdam on 18 March 1900. The club achieved promotion to the highest level of Dutch football in 1911 and had its first major success in 1917, winning the KNVB Beker , the Netherlands' national cup. The following season , Ajax became national champion for the first time. The club defended its title in 1918\u201319 , becoming the only team to achieve an unbeaten season in the Netherlands Football League Championship. [ 10 ] Throughout the 1920s, Ajax was a strong regional power, winning the Eerste Klasse West division in 1921, 1927 and 1928, but could not maintain its success at the national level. This changed in the 1930s, with the club winning five national championships ( 1931 , 1932 , 1934 , 1937 , 1939 ), making it the most successful Dutch team of the decade. Ajax won its second KNVB Cup in 1942\u201343, and an eighth Dutch title in 1946\u201347 , the last season the club was managed by Englishman Jack Reynolds , who, up to this point, had overseen all of its national championship successes as well as its 1917 KNVB Cup win. [ 11 ] [ 12 ] In 1956, the first season of the Netherlands' new professional league, the Eredivisie , was played with Ajax participating as a founding member. The Amsterdam club became the first national champions under the new format and made its debut in the European Champion Clubs' Cup the following year , losing to Hungarian champions Vasas SC 6\u20132 on aggregate at the quarter-final stage. The team was again Eredivisie champions in 1960 and won a third KNVB Cup in 1961. [ 13 ] Johan Cruyff played at Ajax from 1959 to 1973, and from 1981 to 1983, winning 3 European Cups; his No. 14 is the only squad number Ajax has ever retired. Cruyff came back to manage the club from 1985 to 1988. Against Panathinaikos in the 1971 European Cup Final In 1965, Rinus Michels , who had played for the club between 1946 and 1958, was appointed manager of Ajax, implementing his philosophy of Total Football which was to become synonymous with both Ajax and the Netherlands national team . [ 14 ] [ 15 ] A year earlier, Johan Cruyff , who would go on to become widely regarded as the greatest Dutch footballer of all time, made his debut. [ 16 ] Between them, Michels and Cruyff led Ajax through the most successful period in its history, winning seven Eredivisie titles, four KNVB Cups and three European Cups . Ajax won the Dutch championship in 1966 , 1967 and 1968 , and reached the 1969 European Cup final , losing to Milan . During the 1966\u201367 season, Ajax scored a record 122 goals in an Eredivisie season and also won the KNVB Cup to achieve its first league and cup double . In 1969\u201370 , Ajax won a fourth Dutch league championship and second league and cup double in five seasons, winning 27 out of 34 league matches and scoring 100 goals. [ 17 ] The 1970\u201371 season saw Ajax retain the KNVB Cup and reach the 1971 European Cup final , where they defeated Panathinaikos 2\u20130 with goals from Dick van Dijk and Arie Haan to become continental champions for the first time, with Cruyff being named European Footballer of the Year . After this success, Michels departed to become manager of Barcelona and was replaced by the Romanian \u0218tefan Kov\u00e1cs . In Kov\u00e1cs' first season, Ajax completed a treble of the European Cup , the Eredivisie and a third consecutive KNVB Cup . The following season, the team beat Argentine Club Atl\u00e9tico Independiente to win the 1972 Intercontinental Cup and retained their Eredivisie and European Cup titles, becoming the first club to win three consecutive European Cups since Real Madrid in the 1950s. In 1973, Michels' Barcelona broke the world transfer record to bring Cruyff to the Catalan team . Kov\u00e1cs also departed to become manager of the France national team , signalling the end of this period of international success. [ 18 ] In 1976\u201377 , Ajax won its first domestic championship in four seasons and recorded a double of the Eredivisie and KNVB Cup two years later. The early 1980s saw the return of Cruyff to the club, as well as the emergence of young players Marco van Basten and Frank Rijkaard . The team won back-to-back Eredivisie titles in 1982 and 1983 , with all three playing a significant role in the latter. After Cruyff's sale to rivals Feyenoord in 1983, van Basten became Ajax's key player, top scoring in the Eredivisie for four seasons between 1983\u201384 and 1986\u201387 . [ 19 ] Cruijff, seen here with van Basten and Rijkaard , returned as manager in 1985. In 1985, Cruyff returned to Ajax as manager and the team ended his first season in charge with 120 goals from 34 matches. However, Ajax still finished as runner-up to PSV by eight points. The following s",
+      "content_source": "page/AFC_Ajax/with_html (stripped)"
+    }
+  ],
+  "output": "Since \"Ajax\" can refer to multiple different subjects, here's information about the two most notable ones:\n\n**Ajax in Greek Mythology:**\nAjax the Lesser was a Greek mythological hero and son of Oileus, king of Locris. He was a significant figure in the Trojan War, leading the Locrian contingent in forty ships against Troy. According to Homer's Iliad, he was one of the great Greek heroes, skilled in spear-throwing and swift in battle. He is best known for dragging the supplicant Cassandra away from Athena's temple after Troy's fall, which enraged the goddess. According to different versions of his death, either Athena struck his ship with a thunderbolt during his return voyage, or Poseidon split the rock Ajax was clinging to, causing him to be swallowed by the sea. The Opuntian Locrians worshipped him as their national hero.\n\n**Ajax as a Football Club:**\nAFC Ajax is a Dutch professional football club based in Amsterdam, founded on March 18, 1900. It is historically the most successful club in the Netherlands, with 36 Eredivisie titles and 20 KNVB Cups. Ajax was one of the most successful clubs in the world during the 20th century and won the 1995 Champions League, defeating Milan in the final. The club is known for developing young talent and plays at the Johan Cruyff Arena.\n\nSource: Ajax the Lesser, AFC Ajax",
+  "total_tool_calls": 3,
+  "latency_ms": 18016,
+  "error": null
+}

@@ -1,0 +1,200 @@
+{
+  "eval_id": "Q007",
+  "run_id": "20260519_012045_8f556b",
+  "prompt_version": "v4",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What is the name of the 1987 arms control agreement between the US and the Soviet Union that eliminated an entire category of nuclear missiles, and what type of missiles were banned?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What is the name of the 1987 arms control agreement between the US and the Soviet Union that eliminated an entire category of nuclear missiles, and what type of missiles were banned?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_0143G8xq1X4K86wDSSnwnFMK",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "1987 arms control agreement US Soviet Union nuclear missiles"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_0143G8xq1X4K86wDSSnwnFMK",
+          "content": "Strategic Arms Limitation Talks Two conferences between the United States and Soviet Union involving arms control \"SALT\" redirects here. For other uses, see SALT (disambiguation) . For the Wikipedia creation protection method, see WP:SALT . Strategic Arms Limitation Talks May 26, 1972. President Nixon and General Secretary Brezhnev signing the (SALT 1) ABM Treaty (Limitation of Anti-Ballistic Missile Systems) President Jimmy Carter and Soviet General Secretary Leonid Brezhnev sign the Strategic Arms Limitation Talks (SALT II) treaty, June 18, 1979, in Vienna. Type Strategic nuclear disarmament Replaced by START I Signatories SALT I: Richard Nixon Leonid Brezhnev SALT II: Jimmy Carter Leonid Brezhnev Parties United States Soviet Union Part of a series on the History of the Cold War Origins Fascist Cold War World War II Aftermath Eastern Bloc Western Bloc Iron Curtain Bamboo curtain Periods 1947\u20131948 1948\u20131953 1953\u20131962 1962\u20131979 1979\u20131985 1985\u20131991 Post\u2013Cold War era Related topics Timeline Historiography Related conflicts Relations since 1989 Second Cold War Post-Soviet conflicts Arab Cold War Cold War in Asia v t e This article is part of a series about Non-proliferation , disarmament , & arms control Overview Nuclear weapons Major treaties NPT \u00b7 TPNW \u00b7 JCPOA \u00b7 CPPNM \u00b7 UNSC resolution 1540 Regional restrictions ATS \u00b7 Outer Space Treaty \u00b7 Seabed Treaty \u00b7 NWFZ \u00b7 Treaty of Tlatelolco \u00b7 Treaty of Rarotonga \u00b7 Treaty of Pelindaba \u00b7 Treaty of Semipalatinsk \u00b7 Bangkok treaty \u00b7 ZPCAS \u00b7 Two Plus Four Agreement \u00b7 Indo-US nuclear deal Weapons limitations McCloy\u2013Zorin Accords \u00b7 PTBT \u00b7 TTBT \u00b7 CTBT \u00b7 ABM \u00b7 FMCT \u00b7 INF \u00b7 SALT \u00b7 START I \u00b7 START II \u00b7 New START \u00b7 SORT Cooperation Quebec Agreement \u00b7 Nassau Agreement \u00b7 Nuclear Suppliers Group \u00b7 IPPNW \u00b7 Zangger Committee \u00b7 Polaris Sales Agreement \u00b7 Nuclear Terrorism Convention \u00b7 US\u2013UK Mutual Defence Agreement Related concepts Nuclear deterrence \u00b7 Nuclear disarmament \u00b7 Nuclear arms race \u00b7 Nuclear latency Chemical weapons Treaties & agreements Chemical Weapons Convention \u00b7 Strasbourg Agreement \u00b7 Hague Conventions \u00b7 Geneva Protocol \u00b7 Australia Group \u00b7 1990 Chemical Weapons Accord \u00b7 Related concepts Chemical warfare \u00b7 Dual-use chemicals \u00b7 Chemical weapons destruction facility \u00b7 United States chemical weapons program Biological weapons Treaty & related concepts Biological Weapons Convention \u00b7 Biological warfare \u00b7 Biological agent \u00b7 History of biological warfare \u00b7 United States biological weapons program \u00b7 Soviet biological weapons program \u00b7 Iraqi biological weapons program \u00b7 Operation Sea-Spray Conventional weapons Treaties & regimes ATT \u00b7 CCW \u00b7 HCOC \u00b7 CCM \u00b7 Ottawa Treaty \u00b7 Multilateral export control regime \u00b7 Missile Technology Control Regime \u00b7 Wassenaar Arrangement \u00b7 Illicit Trade in Small Arms \u00b7 Gun control \u00b7 Arms embargo Control & monitoring Intergovernmental organizations UNODA \u00b7 UNRCPD \u00b7 UNREC \u00b7 UNLIREC \u00b7 IAEA \u00b7 OPCW \u00b7 CND \u00b7 CTBTO PrepCom Nuclear technology portal v t e The Strategic Arms Limitation Talks ( SALT ) were two rounds of bilateral conferences and corresponding international treaties involving the United States and the Soviet Union . The Cold War superpowers dealt with arms control in two rounds of talks and agreements: SALT I and SALT II . Negotiations commenced in Helsinki , in November 1969. [ 1 ] SALT I led to the Anti-Ballistic Missile Treaty and an interim agreement between the two countries. Although SALT II resulted in an agreement in 1979 in Vienna , in response to the 1980 Soviet invasion of Afghanistan the US Senate chose not to ratify the treaty. The Supreme Soviet did not ratify it either. The agreement expired on December 31, 1985, and was not renewed, although both sides continued to respect it. The talks led to the STARTs, or St rategic A rms R eduction T reaties, which consisted of START I , a 1991 completed agreement between the United States and the Soviet Union, and START II , a 1993 agreement between the United States and Russia which never entered into effect, both of which proposed limits on multiple-warhead capacities and other restrictions on each side's number of nuclear weapons. A successor to START I, New START , was proposed and was eventually ratified in February 2011. SALT I Treaty SALT I is the common name for the Strategic Arms Limitation Talks Agreement signed on May 26, 1972. SALT I froze the number of strategic ballistic missile launchers at existing levels and provided for the addition of new submarine-launched ballistic missile (SLBM) launchers only after the same number of older intercontinental ballistic missile (ICBM) and SLBM launchers had been dismantled. [ 2 ] SALT I also limited land-based ICBMs that were in range from the northeastern border of the Continental United States to the northwestern border of the continental Soviet Union. [ 3 ] In addition, SALT I limited the number of SLBM capable submarines that NATO and the United States could operate to 50 with a maximum of 800 SLBM launchers between them. If the United States or NATO were to increase that number, the Soviets could respond with increasing their arsenal by the same amount. The strategic nuclear forces of the Soviet Union and the United States were changing in character in 1968. The total number of missiles held by the United States had been static since 1967 at 1,054 ICBMs and 656 SLBMs but there was an increasing number of missiles with multiple independently targetable reentry vehicle (MIRV) warheads being deployed. MIRVs carried multiple nuclear warheads, often with dummies , to confuse ABM systems, making MIRV defense by ABM systems increasingly difficult and expensive. [ 2 ] Both sides were also permitted to increase their number of SLBM forces but only if they disassembled an equivalent number of older ICBMs or SLBM launchers on older submarines. One of the terms of the treaty required both countries to limit the number of deployment sites protected by an anti-ballistic missile (ABM) system to one each. The idea of that system was to prevent a competition in ABM deployment between the United States and the Soviet Union. The Soviet Union had deployed such a system around Moscow in 1966, and the United States announced an ABM program to protect twelve ICBM sites in 1967. After 1968, the Soviets tested a system for the SS-9 missile, otherwise known as the R-36 missile . [ 4 ] A modified two-tier Moscow ABM system is still used. The United States built only one ABM site to protect a Minuteman base in North Dakota where the \" Safeguard \" Program was deployed. That base was increasingly more vulnerable to attacks by the Soviet ICBMs because of the advancement in Soviet missile technology. Negotiations lasted from November 17, 1969, to May 26, 1972, in a series of meetings beginning in Helsinki , with the American delegation headed by Gerard C. Smith , director of the Arms Control and Disarmament Agency . Subsequent sessions alternated between Vienna and Helsinki. McNamara played a significant role with working to reduce the arms race between the U.S. and Soviet Union. There were two distinct ways in which he worked to govern the nuclear threat. First, he thought there was a need to avoid the deployment of an ABM system from both countries. To do this, the second thing he believed was the only way to limit the tension was to have many negotiations and discussion about deterrence, holding each other responsible for keeping peace through full communication. One problem that he ran into was that limitation strategies weren't working and open to full of critiques, and the U.S. alongside Soviet continued to make new ballistic missiles. The US nuclear arsenals was far too large at that point in history to even pose for arms limitation at that point. [ 5 ] After a long deadlock, the first results of SALT I came in May 1971, when an agreement was reached over ABM systems. Further discussion brought the negotiations to an end in Moscow in 1972, when U.S. President Richard Nixon and Soviet General Secretary Leon"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_013CKw3AtQrnRbFpQZwwxMwG",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "INF Treaty 1987"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_013CKw3AtQrnRbFpQZwwxMwG",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01UaP8kMZr8zREgadr3DiqfA",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Intermediate-Range Nuclear Forces Treaty"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01UaP8kMZr8zREgadr3DiqfA",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "I was unable to find the specific details about the 1987 arms control agreement on Wikipedia through my searches. While I found information about SALT I and SALT II treaties from the 1970s, my searches did not return relevant results for the 1987 agreement you're asking about.\n\nAnswer: I could not find relevant information on Wikipedia for this question.\nSource: N/A"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "1987 arms control agreement US Soviet Union nuclear missiles",
+      "api_response": {
+        "pages": [
+          {
+            "id": 154849,
+            "key": "Strategic_Arms_Limitation_Talks",
+            "title": "Strategic Arms Limitation Talks",
+            "excerpt": "the United States and the <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">Union</span>. The Cold War superpowers dealt with <span class=\"searchmatch\">arms</span> <span class=\"searchmatch\">control</span> in two rounds of talks and <span class=\"searchmatch\">agreements</span>: SALT I and SALT II. Negotiations",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Two conferences between the United States and Soviet Union involving arms control",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 39,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Richard_Nixon_and_Leonid_Brezhnev_sign_ABM_treaty_and_SALT_agreement_in_Moscow.jpg/60px-Richard_Nixon_and_Leonid_Brezhnev_sign_ABM_treaty_and_SALT_agreement_in_Moscow.jpg"
+            }
+          },
+          {
+            "id": 60465272,
+            "key": "Nuclear_weapons_of_China",
+            "title": "Nuclear weapons of China",
+            "excerpt": "confronted <span class=\"searchmatch\">US</span> <span class=\"searchmatch\">nuclear</span> threats, which were partially deterred by the <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">nuclear</span> arsenal. The <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">Union</span> transferred <span class=\"searchmatch\">nuclear</span> and <span class=\"searchmatch\">missile</span> technology",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 31,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/DF-61.png/60px-DF-61.png"
+            }
+          },
+          {
+            "id": 2032576,
+            "key": "Nuclear_weapons_of_the_United_States",
+            "title": "Nuclear weapons of the United States",
+            "excerpt": "Obama To Cancel <span class=\"searchmatch\">Nuclear</span> Cruise <span class=\"searchmatch\">Missile</span>&quot;. Defense News. Retrieved 21 December 2022. &quot;<span class=\"searchmatch\">U.S</span>. <span class=\"searchmatch\">Nuclear</span> Modernization Programs&quot;. <span class=\"searchmatch\">Arms</span> <span class=\"searchmatch\">Control</span> Association. 2022",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 45,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/UGM-133A_Trident_II_launch_in_June_2014.JPG/60px-UGM-133A_Trident_II_launch_in_June_2014.JPG"
+            }
+          },
+          {
+            "id": 49750,
+            "key": "Arms_control",
+            "title": "Arms control",
+            "excerpt": "stringent international <span class=\"searchmatch\">control</span> over the <span class=\"searchmatch\">nuclear</span> fuel cycle and thereby avert a global <span class=\"searchmatch\">nuclear</span> <span class=\"searchmatch\">arms</span> race, but the <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">Union</span> rejected the proposal and",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Term for international restriction of weapons",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 50,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Dove_peace.svg/60px-Dove_peace.svg.png"
+            }
+          },
+          {
+            "id": 14318910,
+            "key": "1983_Soviet_nuclear_false_alarm_incident",
+            "title": "1983 Soviet nuclear false alarm incident",
+            "excerpt": "Cold War, the <span class=\"searchmatch\">Soviet</span> <span class=\"searchmatch\">nuclear</span> early warning system Oko reported the launch of one intercontinental ballistic <span class=\"searchmatch\">missile</span> with four more <span class=\"searchmatch\">missiles</span> behind it, from",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Incident which nearly precipitated nuclear warfare",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 31,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/NASA_FIRMS_2025-07-20_Serpukhov-15.png/60px-NASA_FIRMS_2025-07-20_Serpukhov-15.png"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Strategic Arms Limitation Talks Two conferences between the United States and Soviet Union involving arms control \"SALT\" redirects here. For other uses, see SALT (disambiguation) . For the Wikipedia creation protection method, see WP:SALT . Strategic Arms Limitation Talks May 26, 1972. President Nixon and General Secretary Brezhnev signing the (SALT 1) ABM Treaty (Limitation of Anti-Ballistic Missile Systems) President Jimmy Carter and Soviet General Secretary Leonid Brezhnev sign the Strategic Arms Limitation Talks (SALT II) treaty, June 18, 1979, in Vienna. Type Strategic nuclear disarmament Replaced by START I Signatories SALT I: Richard Nixon Leonid Brezhnev SALT II: Jimmy Carter Leonid Brezhnev Parties United States Soviet Union Part of a series on the History of the Cold War Origins Fascist Cold War World War II Aftermath Eastern Bloc Western Bloc Iron Curtain Bamboo curtain Periods 1947\u20131948 1948\u20131953 1953\u20131962 1962\u20131979 1979\u20131985 1985\u20131991 Post\u2013Cold War era Related topics Timeline Historiography Related conflicts Relations since 1989 Second Cold War Post-Soviet conflicts Arab Cold War Cold War in Asia v t e This article is part of a series about Non-proliferation , disarmament , & arms control Overview Nuclear weapons Major treaties NPT \u00b7 TPNW \u00b7 JCPOA \u00b7 CPPNM \u00b7 UNSC resolution 1540 Regional restrictions ATS \u00b7 Outer Space Treaty \u00b7 Seabed Treaty \u00b7 NWFZ \u00b7 Treaty of Tlatelolco \u00b7 Treaty of Rarotonga \u00b7 Treaty of Pelindaba \u00b7 Treaty of Semipalatinsk \u00b7 Bangkok treaty \u00b7 ZPCAS \u00b7 Two Plus Four Agreement \u00b7 Indo-US nuclear deal Weapons limitations McCloy\u2013Zorin Accords \u00b7 PTBT \u00b7 TTBT \u00b7 CTBT \u00b7 ABM \u00b7 FMCT \u00b7 INF \u00b7 SALT \u00b7 START I \u00b7 START II \u00b7 New START \u00b7 SORT Cooperation Quebec Agreement \u00b7 Nassau Agreement \u00b7 Nuclear Suppliers Group \u00b7 IPPNW \u00b7 Zangger Committee \u00b7 Polaris Sales Agreement \u00b7 Nuclear Terrorism Convention \u00b7 US\u2013UK Mutual Defence Agreement Related concepts Nuclear deterrence \u00b7 Nuclear disarmament \u00b7 Nuclear arms race \u00b7 Nuclear latency Chemical weapons Treaties & agreements Chemical Weapons Convention \u00b7 Strasbourg Agreement \u00b7 Hague Conventions \u00b7 Geneva Protocol \u00b7 Australia Group \u00b7 1990 Chemical Weapons Accord \u00b7 Related concepts Chemical warfare \u00b7 Dual-use chemicals \u00b7 Chemical weapons destruction facility \u00b7 United States chemical weapons program Biological weapons Treaty & related concepts Biological Weapons Convention \u00b7 Biological warfare \u00b7 Biological agent \u00b7 History of biological warfare \u00b7 United States biological weapons program \u00b7 Soviet biological weapons program \u00b7 Iraqi biological weapons program \u00b7 Operation Sea-Spray Conventional weapons Treaties & regimes ATT \u00b7 CCW \u00b7 HCOC \u00b7 CCM \u00b7 Ottawa Treaty \u00b7 Multilateral export control regime \u00b7 Missile Technology Control Regime \u00b7 Wassenaar Arrangement \u00b7 Illicit Trade in Small Arms \u00b7 Gun control \u00b7 Arms embargo Control & monitoring Intergovernmental organizations UNODA \u00b7 UNRCPD \u00b7 UNREC \u00b7 UNLIREC \u00b7 IAEA \u00b7 OPCW \u00b7 CND \u00b7 CTBTO PrepCom Nuclear technology portal v t e The Strategic Arms Limitation Talks ( SALT ) were two rounds of bilateral conferences and corresponding international treaties involving the United States and the Soviet Union . The Cold War superpowers dealt with arms control in two rounds of talks and agreements: SALT I and SALT II . Negotiations commenced in Helsinki , in November 1969. [ 1 ] SALT I led to the Anti-Ballistic Missile Treaty and an interim agreement between the two countries. Although SALT II resulted in an agreement in 1979 in Vienna , in response to the 1980 Soviet invasion of Afghanistan the US Senate chose not to ratify the treaty. The Supreme Soviet did not ratify it either. The agreement expired on December 31, 1985, and was not renewed, although both sides continued to respect it. The talks led to the STARTs, or St rategic A rms R eduction T reaties, which consisted of START I , a 1991 completed agreement between the United States and the Soviet Union, and START II , a 1993 agreement between the United States and Russia which never entered into effect, both of which proposed limits on multiple-warhead capacities and other restrictions on each side's number of nuclear weapons. A successor to START I, New START , was proposed and was eventually ratified in February 2011. SALT I Treaty SALT I is the common name for the Strategic Arms Limitation Talks Agreement signed on May 26, 1972. SALT I froze the number of strategic ballistic missile launchers at existing levels and provided for the addition of new submarine-launched ballistic missile (SLBM) launchers only after the same number of older intercontinental ballistic missile (ICBM) and SLBM launchers had been dismantled. [ 2 ] SALT I also limited land-based ICBMs that were in range from the northeastern border of the Continental United States to the northwestern border of the continental Soviet Union. [ 3 ] In addition, SALT I limited the number of SLBM capable submarines that NATO and the United States could operate to 50 with a maximum of 800 SLBM launchers between them. If the United States or NATO were to increase that number, the Soviets could respond with increasing their arsenal by the same amount. The strategic nuclear forces of the Soviet Union and the United States were changing in character in 1968. The total number of missiles held by the United States had been static since 1967 at 1,054 ICBMs and 656 SLBMs but there was an increasing number of missiles with multiple independently targetable reentry vehicle (MIRV) warheads being deployed. MIRVs carried multiple nuclear warheads, often with dummies , to confuse ABM systems, making MIRV defense by ABM systems increasingly difficult and expensive. [ 2 ] Both sides were also permitted to increase their number of SLBM forces but only if they disassembled an equivalent number of older ICBMs or SLBM launchers on older submarines. One of the terms of the treaty required both countries to limit the number of deployment sites protected by an anti-ballistic missile (ABM) system to one each. The idea of that system was to prevent a competition in ABM deployment between the United States and the Soviet Union. The Soviet Union had deployed such a system around Moscow in 1966, and the United States announced an ABM program to protect twelve ICBM sites in 1967. After 1968, the Soviets tested a system for the SS-9 missile, otherwise known as the R-36 missile . [ 4 ] A modified two-tier Moscow ABM system is still used. The United States built only one ABM site to protect a Minuteman base in North Dakota where the \" Safeguard \" Program was deployed. That base was increasingly more vulnerable to attacks by the Soviet ICBMs because of the advancement in Soviet missile technology. Negotiations lasted from November 17, 1969, to May 26, 1972, in a series of meetings beginning in Helsinki , with the American delegation headed by Gerard C. Smith , director of the Arms Control and Disarmament Agency . Subsequent sessions alternated between Vienna and Helsinki. McNamara played a significant role with working to reduce the arms race between the U.S. and Soviet Union. There were two distinct ways in which he worked to govern the nuclear threat. First, he thought there was a need to avoid the deployment of an ABM system from both countries. To do this, the second thing he believed was the only way to limit the tension was to have many negotiations and discussion about deterrence, holding each other responsible for keeping peace through full communication. One problem that he ran into was that limitation strategies weren't working and open to full of critiques, and the U.S. alongside Soviet continued to make new ballistic missiles. The US nuclear arsenals was far too large at that point in history to even pose for arms limitation at that point. [ 5 ] After a long deadlock, the first results of SALT I came in May 1971, when an agreement was reached over ABM systems. Further discussion brought the negotiations to an end in Moscow in 1972, when U.S. President Richard Nixon and Soviet General Secretary Leon",
+      "content_source": "page/Strategic_Arms_Limitation_Talks/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "INF Treaty 1987",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "Intermediate-Range Nuclear Forces Treaty",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "I was unable to find the specific details about the 1987 arms control agreement on Wikipedia through my searches. While I found information about SALT I and SALT II treaties from the 1970s, my searches did not return relevant results for the 1987 agreement you're asking about.\n\nAnswer: I could not find relevant information on Wikipedia for this question.\nSource: N/A",
+  "total_tool_calls": 3,
+  "latency_ms": 14582,
+  "error": null
+}

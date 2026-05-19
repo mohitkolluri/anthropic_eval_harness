@@ -1,0 +1,239 @@
+{
+  "eval_id": "H006",
+  "run_id": "20260519_044747_7be58a",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "Did the Ming Dynasty in China and the European Renaissance overlap in time, and if so during which period?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Did the Ming Dynasty in China and the European Renaissance overlap in time, and if so during which period?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_014WJPx1qXz587pKqu5fFX3C",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ming Dynasty"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01BAXa6MdRCETFQvrqQQ66eR",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "European Renaissance"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_014WJPx1qXz587pKqu5fFX3C",
+          "content": "Ming dynasty Imperial dynasty of China (1368\u20131644) \"Ming\" redirects here. For other uses, see Ming (disambiguation) and Ming Dynasty (disambiguation) . Great Ming \u5927\u660e D\u00e0 M\u00edng 1368\u20131644 Imperial seal Ming territory in 1415 Capital Nanjing (1368 \u200d \u2013 \u200d 1644) Beijing (1403 \u200d \u2013 \u200d 1644) Common languages Mandarin (official) other Chinese languages Turki Old Uyghur Tibetan Mongolian Jurchen and others Religion Heaven worship Taoism Confucianism Buddhism Chinese folk religion Islam Roman Catholicism Government Absolute monarchy Emperor \u2022 1368\u20131398 (first) Hongwu Emperor \u2022 1627\u20131644 (last) Chongzhen Emperor Historical era Early modern \u2022 Established in Nanjing [ a ] 23 January 1368 \u2022 Beijing designated as capital 28 October 1420 \u2022 Fall of Beijing 25 April 1644 \u2022 End of the Southern Ming [ b ] 1662 Area 1400 [ 1 ] 3,900,000 km 2 (1,500,000 sq mi) 1450 [ 2 ] [ 3 ] 6,500,000 km 2 (2,500,000 sq mi) Population \u2022 1393 [ 4 ] 65,000,000 \u2022 1500 [ 5 ] 125,000,000 \u2022 1600 [ 6 ] 160,000,000 GDP (nominal) estimate \u2022 Per capita 19.8 taels [ 7 ] Currency Paper money (1368 \u200d \u2013 \u200d 1450) Bimetallic (copper cashes and silver taels ) Preceded by Succeeded by Yuan dynasty Later Jin Shun dynasty Xi dynasty Southern Ming Qing dynasty Chinese name Chinese \u660e\u671d Transcriptions Standard Mandarin Hanyu Pinyin M\u00edngch\u00e1o Bopomofo \u3107\u3127\u3125\u02ca \u3114\u3120\u02ca Wade\u2013Giles Ming 2 ch'ao 2 Tongyong Pinyin M\u00edngch\u00e1o IPA [mi \u030c \u014b \u0288\u0282\u02b0a \u030c \u028a] Wu Suzhounese Min 2 zau 2 Yue: Cantonese Yale Romanization M\u00echng ch\u00ecuh Jyutping Ming4 ciu4 IPA [m\u026a\u014b\u02e9 ts\u02b0iw\u02e9] Southern Min Hokkien POJ B\u00eang ti\u00e2u T\u00e2i-l\u00f4 B\u00eeng ti\u00e2u Dynastic name Chinese \u5927\u660e Transcriptions Standard Mandarin Hanyu Pinyin D\u00e0 M\u00edng Bopomofo \u3109\u311a\u02cb \u3107\u3127\u3125\u02ca Wade\u2013Giles Ta 4 Ming 2 Tongyong Pinyin D\u00e0 M\u00edng Wu Romanization Da men Yue: Cantonese Yale Romanization Daaih M\u00echng Jyutping Daai6 ming4 IPA [taj\u02e8 m\u026a\u014b\u02e9] Southern Min Hokkien POJ T\u0101i-b\u00eang T\u00e2i-l\u00f4 T\u0101i-b\u00eeng Part of a series on the History of China Timeline Dynasties Historiography Prehistoric Paleolithic ( c. 2.43 Ma \u2013 c. 12 ka ) Mesolithic ( c. 10 \u2013 c. 7 ka ) Neolithic ( c. 8500 \u2013 c. 2000 BCE ) Yellow , Yangtze , and Liao civilization Ancient Xia ( c. 2070 \u2013 c. 1600 BCE ) Shang ( c. 1600 \u2013 c. 1046 BCE ) Late Shang ( c. 1250 \u2013 c. 1046 BCE) Zhou ( c. 1046 \u2013 c. 256 BCE ) Western Zhou ( c. 1046 \u2013 c. 771 BCE ) Eastern Zhou ( c. 771 \u2013 c. 256 BCE ) Spring and Autumn ( c. 770 \u2013 c. 476 BCE ) Warring States ( c. 475 \u2013 c. 221 BCE ) Imperial Qin (221\u2013207 BCE) Han (202 BCE \u2013 220 CE) Chu\u2013Han Contention (206\u2013202 BCE) Western Han (202 BCE \u2013 9/25 CE) Xin (9\u201323 CE) Eastern Han (25\u2013220 CE) Three Kingdoms (220\u2013280 CE) Wei , Shu Han , and Wu Jin (266\u2013420) Western Jin (266\u2013316) Eastern Jin (317\u2013420) Sixteen Kingdoms (304\u2013439) Northern and Southern dynasties (420\u2013589) Sui (581\u2013618) Tang (618\u2013907) Wu Zhou (690\u2013705) Five Dynasties and Ten Kingdoms (907\u2013979) Song (960\u20131279) Northern Song (960\u20131127) Southern Song (1127\u20131279) Liao (916\u20131125) Western Xia (1038\u20131227) Jin (1115\u20131234) Yuan (1271\u20131368) Ming (1368\u20131644) Qing (1644\u20131912) Modern Republic of China (mainland, 1912\u20131949) People's Republic of China (1949\u2013present) Republic of China (Taiwan, 1949\u2013present) Related articles Art history Cuisine history Economic history Education history Environmental history Jewish history Legal history LGBTQ history Media history Music history Timeline Military history before 1912 Naval history Religion in China Buddhism Christianity Daoism Islam Science and technology history Archaeology Cartography Discoveries Inventions Sports history Transport history Women's history v t e The Ming dynasty , officially the Great Ming , was an imperial dynasty of China that ruled from 1368 to 1644, following the collapse of the Mongol -led Yuan dynasty . The Ming was the last imperial dynasty of China ruled by the Han people , the majority ethnic group in China. Although the primary capital of Beijing fell in 1644 to a rebellion led by Li Zicheng (who established the short-lived Shun dynasty ), numerous rump regimes ruled by remnants of the Ming imperial family , collectively called the Southern Ming , survived until 1662. The Ming dynasty's founder, the Hongwu Emperor ( r. 1368\u20131398), attempted to create a society of self-sufficient rural communities ordered in a rigid, immobile system that would guarantee and support a permanent class of soldiers for his dynasty: the empire's standing army exceeded one million troops and the navy 's dockyards in Nanjing were the largest in the world. [ 8 ] He also took great care breaking the power of the court eunuchs and unrelated magnates, enfeoffing his many sons throughout China and attempting to guide these princes through the Huang-Ming Zuxun , a set of published dynastic instructions. This failed when his teenage successor, the Jianwen Emperor , attempted to curtail his uncle's power, prompting the Jingnan campaign , an uprising that placed the Prince of Yan upon the throne as the Yongle Emperor in 1402. The Yongle Emperor established Yan as a secondary capital and renamed it Beijing , constructed the Forbidden City , and restored the Grand Canal and the primacy of the imperial examinations in official appointments. He rewarded his eunuch supporters and employed them as a counterweight against the Confucian scholar-bureaucrats . One eunuch, Zheng He , led seven enormous voyages of exploration into the Indian Ocean as far as Arabia and the eastern coasts of Africa. Hongwu and Yongle emperors had also expanded the empire's rule into Inner Asia . The rise of new emperors and new factions diminished such extravagances; the capture of the Emperor Yingzong of Ming during the 1449 Tumu Crisis ended them completely. The imperial navy was allowed to fall into disrepair while forced labor constructed the Liaodong palisade and connected and fortified the Great Wall into its modern form. Wide-ranging censuses of the entire empire were conducted decennially, but the desire to avoid labor and taxes and the difficulty of storing and reviewing the enormous archives at Nanjing hampered accurate figures. Estimates for the late-Ming population vary from 160 to 200 million, [ c ] but necessary revenues were squeezed out of smaller and smaller numbers of farmers as more disappeared from the official records or \"donated\" their lands to tax-exempt eunuchs or temples. Haijin laws intended to protect the coasts from Japanese pirates instead turned many into smugglers and pirates themselves. By the 16th century, the expansion of European trade \u2014though restricted to islands near Guangzhou such as Macau \u2014spread the Columbian exchange of crops, plants, and animals into China, introducing chili peppers to Sichuan cuisine and highly productive maize and potatoes, which diminished famines and spurred population growth. The growth of Portuguese , Spanish , and Dutch trade created new demand for Chinese products and produced a massive influx of South American silver. This abundance of specie re-monetized the Ming economy, whose paper money had suffered repeated hyperinflation and was no longer trusted. While traditional Confucians opposed such a prominent role for commerce and the newly rich it created, the heterodoxy introduced by Wang Yangming permitted a more accommodating attitude. Zhang Juzheng 's initially successful reforms proved devastating when a slowdown in agriculture was produced by the Little Ice Age . The value of silver rapidly increased because of a disruption in the supply of imported silver from Spanish and Portuguese sources, making it impossible for Chinese farmers to pay their taxes. Combined with crop failure, floods, and an epidemic , the dynasty collapsed in 1644 as Li Zicheng's rebel forces entered Beijing. Li then established the Shun dynasty , but it was defeated shortly afterwards by the Manchu -led Eight Banner armies of the Qing dynasty , with the help of the defecting Ming general Wu Sangui . History Main article: History of the Ming dynasty For a chronological guide, see Timeline of the Ming dynasty . Founding Revolt and rebel rivalry Main article: Red T"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01BAXa6MdRCETFQvrqQQ66eR",
+          "content": "Renaissance European cultural period of the 14th to 17th centuries This article is about the European Renaissance of the 14th and 15th centuries. For earlier European renaissances, see Medieval renaissances . For other uses, see Renaissance (disambiguation) . Not to be confused with Reconnaissance . Renaissance Leonardo da Vinci 's Vitruvian Man (c. 1490) demonstrates the effect writers of Antiquity had on Renaissance thinkers. Aspects Architecture Dance Fine arts Greek scholars Humanism Literature Magic Music Philosophy Science Technology Warfare Regions England France Germany Italy Poland Portugal Spain Scotland Northern Europe Low Countries History and study Age of Discovery Continuity thesis High Renaissance v t e The Renaissance ( UK : / r \u026a \u02c8 n e\u026a s \u0259n s / rin- AY -s\u0259nss , US : / \u02c8 r \u025b n \u0259 s \u0251\u02d0 n s / \u24d8 REN -\u0259-sahnss ) [ 1 ] [ 2 ] [ a ] was a European period of history and cultural movement taking place at the end of the Late Middle Ages and the beginning of the early modern era . It is variously defined as lasting from the 14th century to the 17th [ 4 ] [ 5 ] or, more narrowly, as covering only the 15th and 16th centuries. [ 6 ] It was characterized by the European rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity . [ 5 ] Associated with great change in art , architecture , politics, literature , exploration and technology , the Renaissance was first centered in the Republic of Florence , then spread to the rest of Italy and later throughout Europe. The Renaissance's intellectual basis was founded in its version of humanism , derived from the concept of Roman humanitas and the rediscovery of classical Greek philosophy , such as that of Protagoras , who said that \"man is the measure of all things\". Although the invention of metal movable type sped the dissemination of ideas from the later 15th century, the changes of the Renaissance were not uniform across Europe: the first traces appear in Italy as early as the late 13th century, in particular with the writings of Dante and the paintings of Giotto . As a cultural movement, the Renaissance encompassed innovative flowering of literary Latin and an explosion of vernacular literatures , beginning with the 14th-century resurgence of learning based on classical sources, which contemporaries credited to Petrarch ; the development of linear perspective and other techniques of rendering a more natural reality in painting; and gradual but widespread educational reform . It saw myriad artistic developments and contributions from such polymaths as Leonardo da Vinci and Michelangelo , who inspired the term \" Renaissance man \". [ 7 ] [ 8 ] In politics, the Renaissance contributed to the development of the customs and conventions of diplomacy. The period also saw revolutions in printing and navigation , as well as the introduction of modern banking and the field of accounting . [ 9 ] Period The Renaissance began in Italy during the crisis of the Late Middle Ages . It had a different period and characteristics north of the Alps and in Spain . In Italy, the period conventionally ends with the waning of humanism , and the advent of the Reformation (1517), the Sack of Rome (1527) or the Counter-Reformation (1545), and in art, the Baroque period. Proponents of a \"long Renaissance,\" however, may propose that (outside of Italy) the period extended into the 17th century. [ b ] The traditional view focuses more on the Renaissance's early modern aspects and argues that it was a break from the past, but many historians today focus more on its medieval aspects and argue that it was an extension of the Middle Ages. [ 13 ] [ 14 ] Italian Renaissance Main article: Italian Renaissance The beginnings of the period\u2014the early Renaissance of the 15th century and the Italian Proto-Renaissance from around 1250 or 1300\u2014overlap considerably with the Late Middle Ages , conventionally dated to c. 1350\u20131500 , and the Middle Ages themselves were a long period filled with gradual changes, like the modern age; as a transitional period between both, the Renaissance has close similarities to both, especially the late and early sub-periods of either. The Renaissance began in Florence , one of the many states of Italy . [ 15 ] The Italian Renaissance concluded in 1527 when Holy Roman Emperor Charles V launched an assault on Rome during the war of the League of Cognac . Nevertheless, its impact endured in the art of renowned Italian painters like Tintoretto , Sofonisba Anguissola , and Paolo Veronese , who continued their work during the mid-to-late 16th century. [ 16 ] Various theories have been proposed to account for its origins and characteristics, focusing on a variety of factors, including Florence's social and civic peculiarities at the time: its political structure, the patronage of its dominant family, the Medici , [ 17 ] and the migration of Greek scholars and their texts to Italy following the fall of Constantinople to the Ottoman Empire . [ 18 ] [ 19 ] [ 20 ] Other major centers were Venice , Genoa , Milan , Rome during the Renaissance Papacy , and Naples . From Italy, the Renaissance spread throughout Europe and also to American, African and Asian territories ruled by the European colonial powers of the time or where Christian missionaries were active. The Renaissance has a long and complex historiography , and in line with general skepticism of discrete periodizations, there has been much debate among historians reacting to the 19th-century glorification of the \"Renaissance\" and individual cultural heroes as \"Renaissance men\", questioning the usefulness of Renaissance as a term and as a historical delineation. [ 21 ] Some observers have questioned whether the Renaissance was a cultural \"advance\" from the Middle Ages, instead seeing it as a period of pessimism and nostalgia for classical antiquity , [ 22 ] while social and economic historians, especially of the longue dur\u00e9e , have instead focused on the continuity between the two eras, [ 23 ] which are linked, as Panofsky observed, \"by a thousand ties\". [ 24 ] [ c ] Overview The Renaissance was a cultural movement that profoundly affected European intellectual life in the early modern period . Beginning in Italy, and spreading to the rest of Europe by the 16th century, its influence was felt in art , architecture , philosophy , literature , music , science , technology , politics, religion, and other aspects of intellectual inquiry. Renaissance scholars employed the humanist method in study, and searched for realism and human emotion in art. [ 26 ] Renaissance humanists such as Poggio Bracciolini sought out in Europe's monastic libraries the Latin literary, historical, and oratorical texts of antiquity , while the fall of Constantinople (1453) generated a wave of \u00e9migr\u00e9 Greek scholars bringing precious manuscripts in ancient Greek , many of which had fallen into obscurity in the West. It was in their new focus on literary and historical texts that Renaissance scholars differed so markedly from the medieval scholars of the Renaissance of the 12th century , who had focused on studying Greek and Arabic works of natural sciences, philosophy, and mathematics, rather than on such cultural texts. [ citation needed ] Portrait of a Young Woman ( c. 1480 \u201385) ( Simonetta Vespucci ) by Sandro Botticelli In the revival of neoplatonism , Renaissance humanists did not reject Christianity ; on the contrary, many of the Renaissance's greatest works were devoted to it, and the Church patronized many works of Renaissance art. [ 27 ] But a subtle shift took place in the way that intellectuals approached religion that was reflected in many other areas of cultural life. [ 28 ] [ better source needed ] In addition, many Greek Christian works, including the Greek New Testament, were brought back from Byzantium to Western Europe and engaged Western scholars for the first time since late antiquity. This new engagement with Greek Christian works, and"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, the Ming Dynasty and the European Renaissance did overlap in time. According to the retrieved information, the Ming Dynasty ruled from 1368 to 1644, while the European Renaissance is variously defined as lasting from the 14th century to the 17th century, or more narrowly covering the 15th and 16th centuries. The two periods overlapped substantially from approximately the late 15th century through the 16th century, during which time both civilizations experienced significant cultural, artistic, and intellectual development.\n\nAnswer: Yes, the Ming Dynasty (1368\u20131644) and the European Renaissance (14th\u201317th centuries, or more narrowly 15th\u201316th centuries) overlapped significantly. The overlap occurred primarily from the late 15th century through the 16th century, when both the Ming Dynasty and the Renaissance were at prominent stages of cultural and intellectual flourishing.\n\nSource: Ming Dynasty, European Renaissance"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Ming Dynasty",
+      "api_response": {
+        "pages": [
+          {
+            "id": 43449,
+            "key": "Ming_dynasty",
+            "title": "Ming dynasty",
+            "excerpt": "The <span class=\"searchmatch\">Ming</span> <span class=\"searchmatch\">dynasty</span>, officially the Great <span class=\"searchmatch\">Ming</span>, was an imperial <span class=\"searchmatch\">dynasty</span> of China that ruled from 1368 to 1644, following the collapse of the Mongol-led Yuan",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Imperial dynasty of China (1368\u20131644)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 72,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Map_of_Ming_Chinese_empire_1415_%28cropped_2%29.jpg/60px-Map_of_Ming_Chinese_empire_1415_%28cropped_2%29.jpg"
+            }
+          },
+          {
+            "id": 33712291,
+            "key": "Transition_from_Ming_to_Qing",
+            "title": "Transition from Ming to Qing",
+            "excerpt": "from <span class=\"searchmatch\">Ming</span> to Qing, also known as the Manchu conquest of China or <span class=\"searchmatch\">Ming</span>-Qing transition, was a decades-long period of conflict between the Qing <span class=\"searchmatch\">dynasty</span>, established",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Period of Chinese history (1618\u20131683)",
+            "thumbnail": {
+              "mimetype": "image/gif",
+              "width": 60,
+              "height": 74,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Shanhaiguan.gif/60px-Shanhaiguan.gif"
+            }
+          },
+          {
+            "id": 33559623,
+            "key": "Empress_Ma_(Hongwu)",
+            "title": "Empress Ma (Hongwu)",
+            "excerpt": "commonly known as Empress Ma (Chinese: \u99ac\u7687\u540e), was an imperial consort of the <span class=\"searchmatch\">Ming</span> <span class=\"searchmatch\">dynasty</span>. She was the principal wife of the Hongwu Emperor and acted as his adviser",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Empress of China from 1368 to 1382",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/%E5%AD%9D%E6%85%88%E9%AB%98%E7%9A%87%E5%90%8E1.jpg/60px-%E5%AD%9D%E6%85%88%E9%AB%98%E7%9A%87%E5%90%8E1.jpg"
+            }
+          },
+          {
+            "id": 530241,
+            "key": "List_of_emperors_of_the_Ming_dynasty",
+            "title": "List of emperors of the Ming dynasty",
+            "excerpt": "emperors of the <span class=\"searchmatch\">Ming</span> <span class=\"searchmatch\">dynasty</span> ruled over China proper from 1368 to 1644 during the late imperial era of China (960\u20131912). Members of the <span class=\"searchmatch\">Ming</span> <span class=\"searchmatch\">dynasty</span> continued",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 81,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Portrait_officiel_de_l%27empereur_Jiajing.jpg/60px-Portrait_officiel_de_l%27empereur_Jiajing.jpg"
+            }
+          },
+          {
+            "id": 14577912,
+            "key": "Southern_Ming",
+            "title": "Southern Ming",
+            "excerpt": "The Southern <span class=\"searchmatch\">Ming</span>, also known in historiography as the Later <span class=\"searchmatch\">Ming</span>, officially the Great <span class=\"searchmatch\">Ming</span>, was an imperial <span class=\"searchmatch\">dynasty</span> of China and a series of rump states",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Rump state in China during the Ming\u2013Qing transition",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 42,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Southern_Ming.png/60px-Southern_Ming.png"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Ming dynasty Imperial dynasty of China (1368\u20131644) \"Ming\" redirects here. For other uses, see Ming (disambiguation) and Ming Dynasty (disambiguation) . Great Ming \u5927\u660e D\u00e0 M\u00edng 1368\u20131644 Imperial seal Ming territory in 1415 Capital Nanjing (1368 \u200d \u2013 \u200d 1644) Beijing (1403 \u200d \u2013 \u200d 1644) Common languages Mandarin (official) other Chinese languages Turki Old Uyghur Tibetan Mongolian Jurchen and others Religion Heaven worship Taoism Confucianism Buddhism Chinese folk religion Islam Roman Catholicism Government Absolute monarchy Emperor \u2022 1368\u20131398 (first) Hongwu Emperor \u2022 1627\u20131644 (last) Chongzhen Emperor Historical era Early modern \u2022 Established in Nanjing [ a ] 23 January 1368 \u2022 Beijing designated as capital 28 October 1420 \u2022 Fall of Beijing 25 April 1644 \u2022 End of the Southern Ming [ b ] 1662 Area 1400 [ 1 ] 3,900,000 km 2 (1,500,000 sq mi) 1450 [ 2 ] [ 3 ] 6,500,000 km 2 (2,500,000 sq mi) Population \u2022 1393 [ 4 ] 65,000,000 \u2022 1500 [ 5 ] 125,000,000 \u2022 1600 [ 6 ] 160,000,000 GDP (nominal) estimate \u2022 Per capita 19.8 taels [ 7 ] Currency Paper money (1368 \u200d \u2013 \u200d 1450) Bimetallic (copper cashes and silver taels ) Preceded by Succeeded by Yuan dynasty Later Jin Shun dynasty Xi dynasty Southern Ming Qing dynasty Chinese name Chinese \u660e\u671d Transcriptions Standard Mandarin Hanyu Pinyin M\u00edngch\u00e1o Bopomofo \u3107\u3127\u3125\u02ca \u3114\u3120\u02ca Wade\u2013Giles Ming 2 ch'ao 2 Tongyong Pinyin M\u00edngch\u00e1o IPA [mi \u030c \u014b \u0288\u0282\u02b0a \u030c \u028a] Wu Suzhounese Min 2 zau 2 Yue: Cantonese Yale Romanization M\u00echng ch\u00ecuh Jyutping Ming4 ciu4 IPA [m\u026a\u014b\u02e9 ts\u02b0iw\u02e9] Southern Min Hokkien POJ B\u00eang ti\u00e2u T\u00e2i-l\u00f4 B\u00eeng ti\u00e2u Dynastic name Chinese \u5927\u660e Transcriptions Standard Mandarin Hanyu Pinyin D\u00e0 M\u00edng Bopomofo \u3109\u311a\u02cb \u3107\u3127\u3125\u02ca Wade\u2013Giles Ta 4 Ming 2 Tongyong Pinyin D\u00e0 M\u00edng Wu Romanization Da men Yue: Cantonese Yale Romanization Daaih M\u00echng Jyutping Daai6 ming4 IPA [taj\u02e8 m\u026a\u014b\u02e9] Southern Min Hokkien POJ T\u0101i-b\u00eang T\u00e2i-l\u00f4 T\u0101i-b\u00eeng Part of a series on the History of China Timeline Dynasties Historiography Prehistoric Paleolithic ( c. 2.43 Ma \u2013 c. 12 ka ) Mesolithic ( c. 10 \u2013 c. 7 ka ) Neolithic ( c. 8500 \u2013 c. 2000 BCE ) Yellow , Yangtze , and Liao civilization Ancient Xia ( c. 2070 \u2013 c. 1600 BCE ) Shang ( c. 1600 \u2013 c. 1046 BCE ) Late Shang ( c. 1250 \u2013 c. 1046 BCE) Zhou ( c. 1046 \u2013 c. 256 BCE ) Western Zhou ( c. 1046 \u2013 c. 771 BCE ) Eastern Zhou ( c. 771 \u2013 c. 256 BCE ) Spring and Autumn ( c. 770 \u2013 c. 476 BCE ) Warring States ( c. 475 \u2013 c. 221 BCE ) Imperial Qin (221\u2013207 BCE) Han (202 BCE \u2013 220 CE) Chu\u2013Han Contention (206\u2013202 BCE) Western Han (202 BCE \u2013 9/25 CE) Xin (9\u201323 CE) Eastern Han (25\u2013220 CE) Three Kingdoms (220\u2013280 CE) Wei , Shu Han , and Wu Jin (266\u2013420) Western Jin (266\u2013316) Eastern Jin (317\u2013420) Sixteen Kingdoms (304\u2013439) Northern and Southern dynasties (420\u2013589) Sui (581\u2013618) Tang (618\u2013907) Wu Zhou (690\u2013705) Five Dynasties and Ten Kingdoms (907\u2013979) Song (960\u20131279) Northern Song (960\u20131127) Southern Song (1127\u20131279) Liao (916\u20131125) Western Xia (1038\u20131227) Jin (1115\u20131234) Yuan (1271\u20131368) Ming (1368\u20131644) Qing (1644\u20131912) Modern Republic of China (mainland, 1912\u20131949) People's Republic of China (1949\u2013present) Republic of China (Taiwan, 1949\u2013present) Related articles Art history Cuisine history Economic history Education history Environmental history Jewish history Legal history LGBTQ history Media history Music history Timeline Military history before 1912 Naval history Religion in China Buddhism Christianity Daoism Islam Science and technology history Archaeology Cartography Discoveries Inventions Sports history Transport history Women's history v t e The Ming dynasty , officially the Great Ming , was an imperial dynasty of China that ruled from 1368 to 1644, following the collapse of the Mongol -led Yuan dynasty . The Ming was the last imperial dynasty of China ruled by the Han people , the majority ethnic group in China. Although the primary capital of Beijing fell in 1644 to a rebellion led by Li Zicheng (who established the short-lived Shun dynasty ), numerous rump regimes ruled by remnants of the Ming imperial family , collectively called the Southern Ming , survived until 1662. The Ming dynasty's founder, the Hongwu Emperor ( r. 1368\u20131398), attempted to create a society of self-sufficient rural communities ordered in a rigid, immobile system that would guarantee and support a permanent class of soldiers for his dynasty: the empire's standing army exceeded one million troops and the navy 's dockyards in Nanjing were the largest in the world. [ 8 ] He also took great care breaking the power of the court eunuchs and unrelated magnates, enfeoffing his many sons throughout China and attempting to guide these princes through the Huang-Ming Zuxun , a set of published dynastic instructions. This failed when his teenage successor, the Jianwen Emperor , attempted to curtail his uncle's power, prompting the Jingnan campaign , an uprising that placed the Prince of Yan upon the throne as the Yongle Emperor in 1402. The Yongle Emperor established Yan as a secondary capital and renamed it Beijing , constructed the Forbidden City , and restored the Grand Canal and the primacy of the imperial examinations in official appointments. He rewarded his eunuch supporters and employed them as a counterweight against the Confucian scholar-bureaucrats . One eunuch, Zheng He , led seven enormous voyages of exploration into the Indian Ocean as far as Arabia and the eastern coasts of Africa. Hongwu and Yongle emperors had also expanded the empire's rule into Inner Asia . The rise of new emperors and new factions diminished such extravagances; the capture of the Emperor Yingzong of Ming during the 1449 Tumu Crisis ended them completely. The imperial navy was allowed to fall into disrepair while forced labor constructed the Liaodong palisade and connected and fortified the Great Wall into its modern form. Wide-ranging censuses of the entire empire were conducted decennially, but the desire to avoid labor and taxes and the difficulty of storing and reviewing the enormous archives at Nanjing hampered accurate figures. Estimates for the late-Ming population vary from 160 to 200 million, [ c ] but necessary revenues were squeezed out of smaller and smaller numbers of farmers as more disappeared from the official records or \"donated\" their lands to tax-exempt eunuchs or temples. Haijin laws intended to protect the coasts from Japanese pirates instead turned many into smugglers and pirates themselves. By the 16th century, the expansion of European trade \u2014though restricted to islands near Guangzhou such as Macau \u2014spread the Columbian exchange of crops, plants, and animals into China, introducing chili peppers to Sichuan cuisine and highly productive maize and potatoes, which diminished famines and spurred population growth. The growth of Portuguese , Spanish , and Dutch trade created new demand for Chinese products and produced a massive influx of South American silver. This abundance of specie re-monetized the Ming economy, whose paper money had suffered repeated hyperinflation and was no longer trusted. While traditional Confucians opposed such a prominent role for commerce and the newly rich it created, the heterodoxy introduced by Wang Yangming permitted a more accommodating attitude. Zhang Juzheng 's initially successful reforms proved devastating when a slowdown in agriculture was produced by the Little Ice Age . The value of silver rapidly increased because of a disruption in the supply of imported silver from Spanish and Portuguese sources, making it impossible for Chinese farmers to pay their taxes. Combined with crop failure, floods, and an epidemic , the dynasty collapsed in 1644 as Li Zicheng's rebel forces entered Beijing. Li then established the Shun dynasty , but it was defeated shortly afterwards by the Manchu -led Eight Banner armies of the Qing dynasty , with the help of the defecting Ming general Wu Sangui . History Main article: History of the Ming dynasty For a chronological guide, see Timeline of the Ming dynasty . Founding Revolt and rebel rivalry Main article: Red T",
+      "content_source": "page/Ming_dynasty/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "European Renaissance",
+      "api_response": {
+        "pages": [
+          {
+            "id": 25532,
+            "key": "Renaissance",
+            "title": "Renaissance",
+            "excerpt": "The <span class=\"searchmatch\">Renaissance</span> (UK: /r\u026a\u02c8ne\u026as\u0259ns/ rin-AY-s\u0259nss, US: /\u02c8r\u025bn\u0259s\u0251\u02d0ns/ REN-\u0259-sahnss) was a <span class=\"searchmatch\">European</span> period of history and cultural movement taking place at",
+            "matched_title": null,
+            "anchor": null,
+            "description": "European cultural period of the 14th to 17th centuries",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 82,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/60px-Da_Vinci_Vitruve_Luc_Viatour.jpg"
+            }
+          },
+          {
+            "id": 893563,
+            "key": "Northern_Renaissance",
+            "title": "Northern Renaissance",
+            "excerpt": "The Northern <span class=\"searchmatch\">Renaissance</span> was the <span class=\"searchmatch\">Renaissance</span> that occurred in <span class=\"searchmatch\">Europe</span> north of the Alps, developing later than the Italian <span class=\"searchmatch\">Renaissance</span>, and in most respects",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Renaissance that occurred in the European countries north of the Alps",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 82,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/60px-Van_Eyck_-_Arnolfini_Portrait.jpg"
+            }
+          },
+          {
+            "id": 1762493,
+            "key": "Renaissance_literature",
+            "title": "Renaissance literature",
+            "excerpt": "<span class=\"searchmatch\">Renaissance</span> literature refers to <span class=\"searchmatch\">European</span> literature which was influenced by the intellectual and cultural tendencies associated with the <span class=\"searchmatch\">Renaissance</span>",
+            "matched_title": null,
+            "anchor": null,
+            "description": "European literature influenced by the Renaissance",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 82,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/60px-Da_Vinci_Vitruve_Luc_Viatour.jpg"
+            }
+          },
+          {
+            "id": 311401,
+            "key": "Renaissance_art",
+            "title": "Renaissance art",
+            "excerpt": "<span class=\"searchmatch\">Renaissance</span> art (1350 \u2013 1620) is the painting, sculpture, and decorative arts of the period of <span class=\"searchmatch\">European</span> history known as the <span class=\"searchmatch\">Renaissance</span>, which emerged",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Visual arts produced during the European Renaissance",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 88,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg/60px-Piero_della_Francesca_-_Baptism_of_Christ_-_WGA17595.jpg"
+            }
+          },
+          {
+            "id": 322915,
+            "key": "Italian_Renaissance",
+            "title": "Italian Renaissance",
+            "excerpt": "initial development of the broader <span class=\"searchmatch\">Renaissance</span> culture that spread from Italy to the rest of <span class=\"searchmatch\">Europe</span> (and also to extra-<span class=\"searchmatch\">European</span> territories ruled by colonial",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Italian cultural movement from the 14th to 17th century",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 90,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Italian_Renaissance_montage.png/60px-Italian_Renaissance_montage.png"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Renaissance European cultural period of the 14th to 17th centuries This article is about the European Renaissance of the 14th and 15th centuries. For earlier European renaissances, see Medieval renaissances . For other uses, see Renaissance (disambiguation) . Not to be confused with Reconnaissance . Renaissance Leonardo da Vinci 's Vitruvian Man (c. 1490) demonstrates the effect writers of Antiquity had on Renaissance thinkers. Aspects Architecture Dance Fine arts Greek scholars Humanism Literature Magic Music Philosophy Science Technology Warfare Regions England France Germany Italy Poland Portugal Spain Scotland Northern Europe Low Countries History and study Age of Discovery Continuity thesis High Renaissance v t e The Renaissance ( UK : / r \u026a \u02c8 n e\u026a s \u0259n s / rin- AY -s\u0259nss , US : / \u02c8 r \u025b n \u0259 s \u0251\u02d0 n s / \u24d8 REN -\u0259-sahnss ) [ 1 ] [ 2 ] [ a ] was a European period of history and cultural movement taking place at the end of the Late Middle Ages and the beginning of the early modern era . It is variously defined as lasting from the 14th century to the 17th [ 4 ] [ 5 ] or, more narrowly, as covering only the 15th and 16th centuries. [ 6 ] It was characterized by the European rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity . [ 5 ] Associated with great change in art , architecture , politics, literature , exploration and technology , the Renaissance was first centered in the Republic of Florence , then spread to the rest of Italy and later throughout Europe. The Renaissance's intellectual basis was founded in its version of humanism , derived from the concept of Roman humanitas and the rediscovery of classical Greek philosophy , such as that of Protagoras , who said that \"man is the measure of all things\". Although the invention of metal movable type sped the dissemination of ideas from the later 15th century, the changes of the Renaissance were not uniform across Europe: the first traces appear in Italy as early as the late 13th century, in particular with the writings of Dante and the paintings of Giotto . As a cultural movement, the Renaissance encompassed innovative flowering of literary Latin and an explosion of vernacular literatures , beginning with the 14th-century resurgence of learning based on classical sources, which contemporaries credited to Petrarch ; the development of linear perspective and other techniques of rendering a more natural reality in painting; and gradual but widespread educational reform . It saw myriad artistic developments and contributions from such polymaths as Leonardo da Vinci and Michelangelo , who inspired the term \" Renaissance man \". [ 7 ] [ 8 ] In politics, the Renaissance contributed to the development of the customs and conventions of diplomacy. The period also saw revolutions in printing and navigation , as well as the introduction of modern banking and the field of accounting . [ 9 ] Period The Renaissance began in Italy during the crisis of the Late Middle Ages . It had a different period and characteristics north of the Alps and in Spain . In Italy, the period conventionally ends with the waning of humanism , and the advent of the Reformation (1517), the Sack of Rome (1527) or the Counter-Reformation (1545), and in art, the Baroque period. Proponents of a \"long Renaissance,\" however, may propose that (outside of Italy) the period extended into the 17th century. [ b ] The traditional view focuses more on the Renaissance's early modern aspects and argues that it was a break from the past, but many historians today focus more on its medieval aspects and argue that it was an extension of the Middle Ages. [ 13 ] [ 14 ] Italian Renaissance Main article: Italian Renaissance The beginnings of the period\u2014the early Renaissance of the 15th century and the Italian Proto-Renaissance from around 1250 or 1300\u2014overlap considerably with the Late Middle Ages , conventionally dated to c. 1350\u20131500 , and the Middle Ages themselves were a long period filled with gradual changes, like the modern age; as a transitional period between both, the Renaissance has close similarities to both, especially the late and early sub-periods of either. The Renaissance began in Florence , one of the many states of Italy . [ 15 ] The Italian Renaissance concluded in 1527 when Holy Roman Emperor Charles V launched an assault on Rome during the war of the League of Cognac . Nevertheless, its impact endured in the art of renowned Italian painters like Tintoretto , Sofonisba Anguissola , and Paolo Veronese , who continued their work during the mid-to-late 16th century. [ 16 ] Various theories have been proposed to account for its origins and characteristics, focusing on a variety of factors, including Florence's social and civic peculiarities at the time: its political structure, the patronage of its dominant family, the Medici , [ 17 ] and the migration of Greek scholars and their texts to Italy following the fall of Constantinople to the Ottoman Empire . [ 18 ] [ 19 ] [ 20 ] Other major centers were Venice , Genoa , Milan , Rome during the Renaissance Papacy , and Naples . From Italy, the Renaissance spread throughout Europe and also to American, African and Asian territories ruled by the European colonial powers of the time or where Christian missionaries were active. The Renaissance has a long and complex historiography , and in line with general skepticism of discrete periodizations, there has been much debate among historians reacting to the 19th-century glorification of the \"Renaissance\" and individual cultural heroes as \"Renaissance men\", questioning the usefulness of Renaissance as a term and as a historical delineation. [ 21 ] Some observers have questioned whether the Renaissance was a cultural \"advance\" from the Middle Ages, instead seeing it as a period of pessimism and nostalgia for classical antiquity , [ 22 ] while social and economic historians, especially of the longue dur\u00e9e , have instead focused on the continuity between the two eras, [ 23 ] which are linked, as Panofsky observed, \"by a thousand ties\". [ 24 ] [ c ] Overview The Renaissance was a cultural movement that profoundly affected European intellectual life in the early modern period . Beginning in Italy, and spreading to the rest of Europe by the 16th century, its influence was felt in art , architecture , philosophy , literature , music , science , technology , politics, religion, and other aspects of intellectual inquiry. Renaissance scholars employed the humanist method in study, and searched for realism and human emotion in art. [ 26 ] Renaissance humanists such as Poggio Bracciolini sought out in Europe's monastic libraries the Latin literary, historical, and oratorical texts of antiquity , while the fall of Constantinople (1453) generated a wave of \u00e9migr\u00e9 Greek scholars bringing precious manuscripts in ancient Greek , many of which had fallen into obscurity in the West. It was in their new focus on literary and historical texts that Renaissance scholars differed so markedly from the medieval scholars of the Renaissance of the 12th century , who had focused on studying Greek and Arabic works of natural sciences, philosophy, and mathematics, rather than on such cultural texts. [ citation needed ] Portrait of a Young Woman ( c. 1480 \u201385) ( Simonetta Vespucci ) by Sandro Botticelli In the revival of neoplatonism , Renaissance humanists did not reject Christianity ; on the contrary, many of the Renaissance's greatest works were devoted to it, and the Church patronized many works of Renaissance art. [ 27 ] But a subtle shift took place in the way that intellectuals approached religion that was reflected in many other areas of cultural life. [ 28 ] [ better source needed ] In addition, many Greek Christian works, including the Greek New Testament, were brought back from Byzantium to Western Europe and engaged Western scholars for the first time since late antiquity. This new engagement with Greek Christian works, and",
+      "content_source": "page/Renaissance/with_html (stripped)"
+    }
+  ],
+  "output": "Yes, the Ming Dynasty and the European Renaissance did overlap in time. According to the retrieved information, the Ming Dynasty ruled from 1368 to 1644, while the European Renaissance is variously defined as lasting from the 14th century to the 17th century, or more narrowly covering the 15th and 16th centuries. The two periods overlapped substantially from approximately the late 15th century through the 16th century, during which time both civilizations experienced significant cultural, artistic, and intellectual development.\n\nAnswer: Yes, the Ming Dynasty (1368\u20131644) and the European Renaissance (14th\u201317th centuries, or more narrowly 15th\u201316th centuries) overlapped significantly. The overlap occurred primarily from the late 15th century through the 16th century, when both the Ming Dynasty and the Renaissance were at prominent stages of cultural and intellectual flourishing.\n\nSource: Ming Dynasty, European Renaissance",
+  "total_tool_calls": 2,
+  "latency_ms": 6983,
+  "error": null
+}

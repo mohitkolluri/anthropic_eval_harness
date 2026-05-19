@@ -1,0 +1,118 @@
+{
+  "eval_id": "H003",
+  "run_id": "20260519_035348_7be58a",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What is the name of the economic theory that argues a nation's wealth depends on maximising exports and minimising imports, and during which historical period was it the dominant policy in Europe?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What is the name of the economic theory that argues a nation's wealth depends on maximising exports and minimising imports, and during which historical period was it the dominant policy in Europe?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_0116e2fUiwAhf2ahMf3qNUke",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "mercantilism"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_0116e2fUiwAhf2ahMf3qNUke",
+          "content": "Mercantilism Economic policy emphasizing exports Seaport at sunset , a painting by Claude Lorrain , completed in 1639 at the height of mercantilism Part of a series on Economic systems Major types Capitalism Socialism By ideology Associative Capitalist Corporate Democratic Laissez-faire Mercantilist Neo- Neoliberal Social market State Welfare Communist Democratic Developmentalism Distributist Feminist Georgist Freiwirtschaft Green Nationalist Protectionist Religious Buddhist economics Christian Sabbath economics Islamic Socialist Market socialist Mutualist Participatory Socialist market Socialist-oriented market State Syndicalist Social credit Traditional Corporatist Fascist Feudalism By coordination Closed (autarky) Decentralized Digital Dirigist Dual Gift Informal Market Mixed Natural Open Planned Robinson Crusoe Sharing Subsistence Underground Vertical archipelago Virtual By regional model Americas American School Socialism of the 21st century Asia East Asian Beijing Singaporean Keralan Europe Anglo-Saxon German Nordic Dutch Rhenish Soviet Sectors Common ownership Private Public Voluntary Property types Collective ownership Commons ( Common ownership ) Private property State ownership Social ownership Transition Collectivization Communization Corporatization Demutualization Deregulation Expropriation Financialization Liberalization Marketization Municipalization Mutualization Nationalization Privatization Socialization Marxist Coordination Barter Market Free Open Regulated Planning In kind Cybernetics Indicative Material balancing Price Self-managed Peer-to-peer Sharing Open access Other types Attention Commons-based peer production Expeditionary Hunter-gatherer Inclusive Democracy Information Manorialism Newly industrialized Palace Plantation Plutonomy Post-capitalist Post-industrial Post-scarcity Resource-based Token Transition World Economics portal v t e Mercantilism is a form of economic system and nationalist economic policy that is designed to maximize the exports and minimize the imports of an economy. It seeks to maximize the accumulation of resources within the country and use those resources for one-sided trade. The concept aims to reduce a possible current account deficit or reach a current account surplus, and it includes measures aimed at accumulating monetary reserves by a positive balance of trade , especially of finished goods . Historically, such policies may have contributed to war and motivated colonial expansion . [ 1 ] Mercantilist theory varies in sophistication from one writer to another and has evolved over time. Mercantilism promotes government regulation of a nation's economy for the purpose of augmenting and bolstering state power at the expense of rival national powers. High tariffs , especially on manufactured goods, were almost universally a feature of mercantilist policy. [ 2 ] Before it fell into decline, mercantilism was dominant in modernized parts of Europe and some areas in Africa from the 16th to the 19th centuries, a period of proto-industrialization . [ 3 ] Some commentators argue that it is still practised in the economies of industrializing countries [ 4 ] in the form of economic interventionism . [ 5 ] [ 6 ] [ 7 ] [ 8 ] [ 9 ] With the efforts of supranational organizations such as the World Trade Organization to reduce tariffs globally, non-tariff barriers to trade have assumed a greater importance in neomercantilism . History Merchants in Venice Mercantilism became the dominant school of economic thought in Europe throughout the late Renaissance and the early modern period (from the 15th to the 18th centuries) before advent of Classical liberalism . Evidence of mercantilistic practices appeared in early modern Venice , Genoa , and Pisa regarding control of the Mediterranean trade in bullion . However, the empiricism of the Renaissance , which first began to quantify large-scale trade accurately, marked the beginning of mercantilism as a codified school of economic theories. [ 2 ] The Italian economist and mercantilist Antonio Serra is considered to have written one of the first treatises on political economy in his 1613 work, A Short Treatise on the Wealth and Poverty of Nations . [ 10 ] Mercantilism, in its simplest form, is all about bullionism, or the theory that a nation's wealth is measured in terms of how much precious metal, particularly gold and silver, it possesses. Mercantilist authors were concerned with the movement of money, however, more than with the hoarding of it. They felt that money needed to move through the economy to induce trade and economic activity, a concept different from that of simply amassing wealth. This focus on money's role, specifically precious metals, mirrors modern discussions of the money supply and its implications for economic growth, i.e., how money supply expansion can stimulate economic activity. However, with the advent of fiat money (money not backed by a physical commodity) and floating exchange rates, the importance of specie (gold and silver) in economic systems has diminished. Progressively, the focus shifted from the handling of money to the implementation of industrial policies that placed greater economic goals, e.g., stimulating general prosperity and supporting technological and industrial advancement, above the financing of war. England began the first large-scale and integrative approach to mercantilism during the Elizabethan Era (1558\u20131603). An early statement on national balance of trade appeared in Discourse of the Common Wealth of this Realm of England , 1549: \"We must always take heed that we buy no more from strangers than we sell them, for so should we impoverish ourselves and enrich them.\" [ 11 ] The period featured various but often disjointed efforts by the court of Queen Elizabeth I (r. 1558\u20131603) to develop a naval and merchant fleet capable of challenging the Spanish stranglehold on trade and of expanding the growth of bullion at home. Queen Elizabeth promoted trade and navigation acts in Parliament and issued orders to her navy for the protection and promotion of English shipping. [ citation needed ] The first Navigation Acts regulating trade were passed by Parliament in 1651 and 1652, during the English Commonwealth . Authors noted most for establishing the English mercantilist system include Gerard de Malynes ( fl. 1585\u20131641) and Thomas Mun (1571\u20131641), who first articulated the Elizabethan system ( England's Treasure by Foreign Trade or the Balance of Foreign Trade is the Rule of Our Treasure ), which Josiah Child ( c. 1630/31 \u20131699) then developed further. Numerous French authors helped cement French policy around statist mercantilism in the 17th century, as King Louis XIV (reigned 1643\u20131715) followed the guidance of Jean Baptiste Colbert , his Controller-General of Finances from 1665 to 1683 who revised the tariff system and expanded industrial policy. Colbertism was based on the principle that the state should rule in the economic realm as it did in the diplomatic, and that the interests of the state as identified by the king were superior to those of merchants and of everyone else. Mercantilist economic policies aimed to build up the state, especially in an age of incessant warfare, and theorists charged the state with looking for ways to strengthen the economy and to weaken foreign adversaries. [ 12 ] [ need quotation to verify ] In Europe, academic belief in mercantilism began to fade in the late 18th century after the East India Company annexed Mughal Bengal , [ 13 ] [ 14 ] a major trading nation, and the establishment of British India through the activities of the East India Company, [ 15 ] in light of the arguments of Adam Smith (1723\u20131790) and of the classical economists . [ 16 ] French economic policy liberalized greatly under Napoleon (in power from 1799 to 1814/1815). The British Parliament's repeal of the Corn Laws under Robert Peel in 1846 symbolized the emergence of free trade as an alternative system. Theory Most "
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: The economic theory is called **mercantilism**, which is a nationalist economic policy designed to maximize exports and minimize imports in order to maximize the accumulation of resources within a country. According to Wikipedia, mercantilism was the dominant school of economic thought in Europe from the 15th to the 18th centuries (the late Renaissance and early modern period), before it began to decline in the late 18th century.\n\nSource: Mercantilism"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "mercantilism",
+      "api_response": {
+        "pages": [
+          {
+            "id": 19708,
+            "key": "Mercantilism",
+            "title": "Mercantilism",
+            "excerpt": "of <span class=\"searchmatch\">Mercantilism</span>, 1650\u20131770 Rees, J. F. &quot;<span class=\"searchmatch\">Mercantilism</span>&quot; History 24#94 (1939), pp.\u00a0129\u2013135 online; historiography Rothbard, Murray (1997), <span class=\"searchmatch\">Mercantilism</span>: A",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Economic policy emphasizing exports",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 46,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/F0087_Louvre_Gellee_port_au_soleil_couchant-_INV4715_rwk.jpg/60px-F0087_Louvre_Gellee_port_au_soleil_couchant-_INV4715_rwk.jpg"
+            }
+          },
+          {
+            "id": 20959502,
+            "key": "Mercantil_Banco",
+            "title": "Mercantil Banco",
+            "excerpt": "<span class=\"searchmatch\">Mercantil</span> Banco is a financial institution with more than 100 years of banking activity in Venezuela and is a subsidiary of <span class=\"searchmatch\">Mercantil</span> Servicios Financieros",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Venezuelan bank",
+            "thumbnail": null
+          },
+          {
+            "id": 75837620,
+            "key": "Armenian_merchantry",
+            "title": "Armenian merchantry",
+            "excerpt": "From antiquity, Armenian merchants have played a pivotal role in transcontinental trade across Eurasia. Positioned strategically along the vital trade",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": null
+          },
+          {
+            "id": 2317810,
+            "key": "Colbertism",
+            "title": "Colbertism",
+            "excerpt": "Colbertism is a variant of <span class=\"searchmatch\">mercantilism</span>, and is sometimes seen as its synonym. The simplified objectives of <span class=\"searchmatch\">mercantilism</span> in terms of Colbertism were",
+            "matched_title": null,
+            "anchor": null,
+            "description": "17th century economic and political doctrine",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 77,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/76/Colbert1666.jpg/60px-Colbert1666.jpg"
+            }
+          },
+          {
+            "id": 2777609,
+            "key": "History_of_capitalism",
+            "title": "History of capitalism",
+            "excerpt": "French authors helped to cement French policy around <span class=\"searchmatch\">mercantilism</span> in the 17th century. French <span class=\"searchmatch\">mercantilism</span> was best articulated by Jean-Baptiste Colbert (in",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": null
+          }
+        ]
+      },
+      "fetched_content": "Mercantilism Economic policy emphasizing exports Seaport at sunset , a painting by Claude Lorrain , completed in 1639 at the height of mercantilism Part of a series on Economic systems Major types Capitalism Socialism By ideology Associative Capitalist Corporate Democratic Laissez-faire Mercantilist Neo- Neoliberal Social market State Welfare Communist Democratic Developmentalism Distributist Feminist Georgist Freiwirtschaft Green Nationalist Protectionist Religious Buddhist economics Christian Sabbath economics Islamic Socialist Market socialist Mutualist Participatory Socialist market Socialist-oriented market State Syndicalist Social credit Traditional Corporatist Fascist Feudalism By coordination Closed (autarky) Decentralized Digital Dirigist Dual Gift Informal Market Mixed Natural Open Planned Robinson Crusoe Sharing Subsistence Underground Vertical archipelago Virtual By regional model Americas American School Socialism of the 21st century Asia East Asian Beijing Singaporean Keralan Europe Anglo-Saxon German Nordic Dutch Rhenish Soviet Sectors Common ownership Private Public Voluntary Property types Collective ownership Commons ( Common ownership ) Private property State ownership Social ownership Transition Collectivization Communization Corporatization Demutualization Deregulation Expropriation Financialization Liberalization Marketization Municipalization Mutualization Nationalization Privatization Socialization Marxist Coordination Barter Market Free Open Regulated Planning In kind Cybernetics Indicative Material balancing Price Self-managed Peer-to-peer Sharing Open access Other types Attention Commons-based peer production Expeditionary Hunter-gatherer Inclusive Democracy Information Manorialism Newly industrialized Palace Plantation Plutonomy Post-capitalist Post-industrial Post-scarcity Resource-based Token Transition World Economics portal v t e Mercantilism is a form of economic system and nationalist economic policy that is designed to maximize the exports and minimize the imports of an economy. It seeks to maximize the accumulation of resources within the country and use those resources for one-sided trade. The concept aims to reduce a possible current account deficit or reach a current account surplus, and it includes measures aimed at accumulating monetary reserves by a positive balance of trade , especially of finished goods . Historically, such policies may have contributed to war and motivated colonial expansion . [ 1 ] Mercantilist theory varies in sophistication from one writer to another and has evolved over time. Mercantilism promotes government regulation of a nation's economy for the purpose of augmenting and bolstering state power at the expense of rival national powers. High tariffs , especially on manufactured goods, were almost universally a feature of mercantilist policy. [ 2 ] Before it fell into decline, mercantilism was dominant in modernized parts of Europe and some areas in Africa from the 16th to the 19th centuries, a period of proto-industrialization . [ 3 ] Some commentators argue that it is still practised in the economies of industrializing countries [ 4 ] in the form of economic interventionism . [ 5 ] [ 6 ] [ 7 ] [ 8 ] [ 9 ] With the efforts of supranational organizations such as the World Trade Organization to reduce tariffs globally, non-tariff barriers to trade have assumed a greater importance in neomercantilism . History Merchants in Venice Mercantilism became the dominant school of economic thought in Europe throughout the late Renaissance and the early modern period (from the 15th to the 18th centuries) before advent of Classical liberalism . Evidence of mercantilistic practices appeared in early modern Venice , Genoa , and Pisa regarding control of the Mediterranean trade in bullion . However, the empiricism of the Renaissance , which first began to quantify large-scale trade accurately, marked the beginning of mercantilism as a codified school of economic theories. [ 2 ] The Italian economist and mercantilist Antonio Serra is considered to have written one of the first treatises on political economy in his 1613 work, A Short Treatise on the Wealth and Poverty of Nations . [ 10 ] Mercantilism, in its simplest form, is all about bullionism, or the theory that a nation's wealth is measured in terms of how much precious metal, particularly gold and silver, it possesses. Mercantilist authors were concerned with the movement of money, however, more than with the hoarding of it. They felt that money needed to move through the economy to induce trade and economic activity, a concept different from that of simply amassing wealth. This focus on money's role, specifically precious metals, mirrors modern discussions of the money supply and its implications for economic growth, i.e., how money supply expansion can stimulate economic activity. However, with the advent of fiat money (money not backed by a physical commodity) and floating exchange rates, the importance of specie (gold and silver) in economic systems has diminished. Progressively, the focus shifted from the handling of money to the implementation of industrial policies that placed greater economic goals, e.g., stimulating general prosperity and supporting technological and industrial advancement, above the financing of war. England began the first large-scale and integrative approach to mercantilism during the Elizabethan Era (1558\u20131603). An early statement on national balance of trade appeared in Discourse of the Common Wealth of this Realm of England , 1549: \"We must always take heed that we buy no more from strangers than we sell them, for so should we impoverish ourselves and enrich them.\" [ 11 ] The period featured various but often disjointed efforts by the court of Queen Elizabeth I (r. 1558\u20131603) to develop a naval and merchant fleet capable of challenging the Spanish stranglehold on trade and of expanding the growth of bullion at home. Queen Elizabeth promoted trade and navigation acts in Parliament and issued orders to her navy for the protection and promotion of English shipping. [ citation needed ] The first Navigation Acts regulating trade were passed by Parliament in 1651 and 1652, during the English Commonwealth . Authors noted most for establishing the English mercantilist system include Gerard de Malynes ( fl. 1585\u20131641) and Thomas Mun (1571\u20131641), who first articulated the Elizabethan system ( England's Treasure by Foreign Trade or the Balance of Foreign Trade is the Rule of Our Treasure ), which Josiah Child ( c. 1630/31 \u20131699) then developed further. Numerous French authors helped cement French policy around statist mercantilism in the 17th century, as King Louis XIV (reigned 1643\u20131715) followed the guidance of Jean Baptiste Colbert , his Controller-General of Finances from 1665 to 1683 who revised the tariff system and expanded industrial policy. Colbertism was based on the principle that the state should rule in the economic realm as it did in the diplomatic, and that the interests of the state as identified by the king were superior to those of merchants and of everyone else. Mercantilist economic policies aimed to build up the state, especially in an age of incessant warfare, and theorists charged the state with looking for ways to strengthen the economy and to weaken foreign adversaries. [ 12 ] [ need quotation to verify ] In Europe, academic belief in mercantilism began to fade in the late 18th century after the East India Company annexed Mughal Bengal , [ 13 ] [ 14 ] a major trading nation, and the establishment of British India through the activities of the East India Company, [ 15 ] in light of the arguments of Adam Smith (1723\u20131790) and of the classical economists . [ 16 ] French economic policy liberalized greatly under Napoleon (in power from 1799 to 1814/1815). The British Parliament's repeal of the Corn Laws under Robert Peel in 1846 symbolized the emergence of free trade as an alternative system. Theory Most ",
+      "content_source": "page/Mercantilism/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: The economic theory is called **mercantilism**, which is a nationalist economic policy designed to maximize exports and minimize imports in order to maximize the accumulation of resources within a country. According to Wikipedia, mercantilism was the dominant school of economic thought in Europe from the 15th to the 18th centuries (the late Renaissance and early modern period), before it began to decline in the late 18th century.\n\nSource: Mercantilism",
+  "total_tool_calls": 1,
+  "latency_ms": 3603,
+  "error": null
+}

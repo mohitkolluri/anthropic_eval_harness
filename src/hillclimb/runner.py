@@ -67,11 +67,19 @@ class HillClimbInput:
 # ── Rubric definitions (human-readable, injected into improvement prompt) ────
 
 _RUBRIC_DEFINITIONS: dict[str, str] = {
+    # ── retrieval ────────────────────────────────────────────────────────────
     "tool_use_appropriateness": (
         "The model searches Wikipedia when a question requires factual information, "
-        "skips search for opinions/unanswerable questions, uses well-targeted queries, "
-        "and does not exceed the allowed search count."
+        "skips search for opinions/unanswerable questions, "
+        "and does not exceed the allowed search count per question."
     ),
+    "query_entity_adherence": (
+        "Every search query sent to Wikipedia must be an entity name or Wikipedia article title "
+        "(a clean noun phrase), never a rephrased question or keyword soup. "
+        "Good: 'Mount Everest', 'French Revolution', 'Boiling point'. "
+        "Bad: 'boiling point of water at high altitude', 'how long did the war last'."
+    ),
+    # ── accuracy ─────────────────────────────────────────────────────────────
     "factual_accuracy": (
         "Every factual claim in the answer is correct according to Wikipedia."
     ),
@@ -79,9 +87,18 @@ _RUBRIC_DEFINITIONS: dict[str, str] = {
         "Every factual claim in the answer is directly traceable to the retrieved "
         "Wikipedia content — no facts added from the model's own memory."
     ),
+    # ── boundaries ───────────────────────────────────────────────────────────
     "no_opinion_leakage": (
-        "When asked an opinion question, the model gives a pure refusal "
-        "('This is a matter of opinion and I cannot answer it.') with no additional content."
+        "When asked an opinion or unanswerable question, the model gives a pure refusal "
+        "with exactly one of the two allowed phrases and nothing else: "
+        "'This is a matter of opinion and I cannot answer it.' or "
+        "'This question cannot be answered from Wikipedia.'"
+    ),
+    "ambiguity_acknowledgment": (
+        "When a question contains an ambiguous term with multiple Wikipedia interpretations, "
+        "the model must: (1) acknowledge the competing interpretations by naming them, "
+        "(2) pick the most prominent one and answer it, "
+        "(3) ask the user to be more specific."
     ),
 }
 
@@ -135,10 +152,10 @@ def _current_prompt() -> tuple[str, str]:
 
 # ── Build HillClimbInput ─────────────────────────────────────────────────────
 
-def _build_input(category: str, run_id: str) -> HillClimbInput:
+def _build_input(category: str, run_id: str, rubric: str | None = None) -> HillClimbInput:
     scores = _load_scores(run_id)
 
-    # Rubrics in the targeted category
+    # Rubrics in scope — either just the targeted rubric or all in the category
     target_rubrics = {
         g.rubric_id: RubricContext(
             rubric_id=g.rubric_id,
@@ -146,7 +163,7 @@ def _build_input(category: str, run_id: str) -> HillClimbInput:
             threshold=g.threshold,
         )
         for g in ALL_GRADERS
-        if g.category == category
+        if g.category == category and (rubric is None or g.rubric_id == rubric)
     }
 
     # Group scores by eval_id
@@ -158,10 +175,13 @@ def _build_input(category: str, run_id: str) -> HillClimbInput:
     regression_cases: list[PassedCase] = []
 
     for eval_id, case_scores in by_case.items():
-        # Failed: any rubric in targeted category not passed
+        # Failed: targeted rubric(s) not passed
         cat_fails = [
             s for s in case_scores
-            if s["category"] == category and not s["skipped"] and not s["passed"]
+            if s["category"] == category
+            and (rubric is None or s["grader"] == rubric)
+            and not s["skipped"]
+            and not s["passed"]
         ]
         all_pass = all(
             s["passed"] for s in case_scores if not s["skipped"]
@@ -268,11 +288,20 @@ Current content:
 </regression_cases>
 
 ## Instructions
-1. Analyse the failure patterns across the failed cases.
-2. Identify the minimal change to the <current_section> that would address those patterns.
+1. Analyse the failure patterns across the failed cases. Look for the UNDERLYING behavioural pattern, not just the surface symptom.
+2. Identify the minimal change to the <current_section> that would address those patterns through clearer rules or decision criteria.
 3. Do not modify instructions that address passing cases.
+
+## How to improve rules (critical)
+- Express the fix as a **decision rule or self-check** the agent applies, not as more examples.
+  Good: "Before submitting a query, ask: 'Could this be a Wikipedia article title?' If not, strip it down."
+  Bad: Adding more Good/Bad query examples derived from the failing cases.
+- If you must clarify an existing rule, tighten its language — make the boundary condition explicit.
+- Only add an example if no rule formulation can capture the principle clearly. If you do add examples, they must NOT be drawn from the failing cases above (that is overfitting).
+- Prefer removing vagueness over adding content. A shorter, crisper rule generalises better than a longer one with more examples.
+
 4. Return a JSON object with exactly two keys:
-   - "rationale": your analysis of why the failures occurred and what you changed (2-4 sentences)
+   - "rationale": the behavioural root cause and what rule change addresses it (2-4 sentences)
    - "revised_section": the full revised content for the <section id="{hci.category}"> block (no XML tags, just the content)
 
 Return ONLY the JSON object, no other text."""
@@ -281,21 +310,33 @@ Return ONLY the JSON object, no other text."""
 # ── Main entry point ─────────────────────────────────────────────────────────
 
 def run_hillclimb(
-    category: str,
-    suite_path: str | Path,
+    category: str | None = None,
+    suite_path: str | Path = "evals/suite.jsonl",
     run_id: str | None = None,
     max_cases: int = _MAX_FAILED_CASES,
     judge_model: str = "claude-sonnet-4-6",
+    rubric: str | None = None,
 ) -> dict[str, Any]:
     """
-    Run one hill climb cycle for the given rubric category.
-    Returns a summary dict with before/after scores and the new prompt version.
+    Run one hill climb cycle for the given rubric category or specific rubric.
+    When rubric is set, category is derived automatically and only that rubric's
+    failures are used. Returns a summary dict with before/after scores.
     """
     from src.agent.agent import load_prompt
     import os
 
+    # Derive category from rubric if rubric-level targeting is used
+    if rubric and not category:
+        matched = [g for g in ALL_GRADERS if g.rubric_id == rubric]
+        if not matched:
+            raise ValueError(f"Unknown rubric: {rubric!r}")
+        category = matched[0].category
+
+    if not category:
+        raise ValueError("Either --category or --rubric must be specified")
+
     active_run_id = run_id or _latest_run_id()
-    hci = _build_input(category, active_run_id)
+    hci = _build_input(category, active_run_id, rubric=rubric)
 
     if not hci.failed_cases:
         return {"status": "no_failures", "category": category, "run_id": active_run_id}
@@ -311,17 +352,27 @@ def run_hillclimb(
         system="You are an expert prompt engineer. Return only the requested JSON.",
         messages=[{"role": "user", "content": improvement_prompt}],
         tools=None,
+        max_tokens=4096,  # hill climb response includes full revised prompt section
     )
 
     raw = response.get("content") or ""
-    # Strip markdown code fences if present
-    raw = re.sub(r"^```(?:json)?\s*", "", raw.strip())
-    raw = re.sub(r"\s*```$", "", raw.strip())
 
+    # Strip markdown fences if present
+    cleaned = re.sub(r"^```(?:json)?\s*", "", raw.strip(), flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*```$", "", cleaned.strip())
+
+    # Try direct parse first; fall back to extracting the outermost JSON object
+    payload = None
     try:
-        payload = json.loads(raw)
-    except json.JSONDecodeError as e:
-        raise ValueError(f"Hill climb response was not valid JSON: {e}\nRaw:\n{raw}") from e
+        payload = json.loads(cleaned)
+    except json.JSONDecodeError:
+        json_match = re.search(r"\{.*\}", cleaned, re.DOTALL)
+        if not json_match:
+            raise ValueError(f"No JSON object found in hill climb response:\n{raw}")
+        try:
+            payload = json.loads(json_match.group(0))
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Hill climb JSON was malformed: {e}\nExtracted:\n{json_match.group(0)[:300]}") from e
 
     rationale = payload.get("rationale", "")
     revised_section = payload.get("revised_section", "")
@@ -333,10 +384,9 @@ def run_hillclimb(
     new_prompt_path = _PROMPTS_DIR / f"{new_version}.md"
     new_prompt_path.write_text(new_prompt_text)
 
-    # Re-eval with new prompt
-    from src.agent.client import make_client
-    eval_client = make_client("claude", judge_model)
-    new_run_id = run_eval(suite_path, eval_client, prompt_version=new_version)
+    # Re-eval with new prompt (capped to keep hillclimb fast)
+    eval_client = ClaudeClient(model=judge_model)
+    new_run_id = run_eval(suite_path, eval_client, prompt_version=new_version, limit=max_cases)
 
     # Compare scores
     old_scores = _load_scores(active_run_id)
@@ -379,7 +429,6 @@ def run_hillclimb(
         and s["passed"]
         and (s["eval_id"], s["grader"]) not in old_pass_set
     )
-    history_entry["cases_improved"] = cases_improved
 
     history_entry = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
@@ -394,6 +443,7 @@ def run_hillclimb(
         "after": {r: round(after.get(r, 0), 3) for r in target_rubric_ids},
         "regressions": regressions,
         "failed_cases_count": len(hci.failed_cases),
+        "cases_improved": cases_improved,
     }
 
     _HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)

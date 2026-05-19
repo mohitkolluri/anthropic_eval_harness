@@ -1,0 +1,378 @@
+{
+  "eval_id": "Q012",
+  "run_id": "20260519_034520_8f556b",
+  "prompt_version": "v6",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01DGDSvStZ11JKADbaDydony",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Great Pyramid of Giza"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01SypcC4LHiAYumxYywLViUH",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Iliad Homer"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DGDSvStZ11JKADbaDydony",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01SypcC4LHiAYumxYywLViUH",
+          "content": "English translations of Homer Frontispiece to George Chapman 's translation of the Odyssey , the first translation in English Translators and scholars have translated the main works attributed to Homer , the Iliad and Odyssey , from the Homeric Greek into English, since the 16th and 17th centuries. Translations are ordered chronologically by date of first publication, with first lines provided to illustrate the style of the translation. Not all translators translated both the Iliad and Odyssey ; in addition to the complete translations listed here, numerous partial translations, ranging from several lines to complete books, have appeared in a variety of publications. The \"original\" text cited below is that of \"the Oxford Homer\". [ 1 ] Iliad Reference text Poet Provenance Proemic verse R Homer c. 8th century BC Greek rhapsode Aeolis Ancient Greek : \u03bc\u1fc6\u03bd\u03b9\u03bd \u1f04\u03b5\u03b9\u03b4\u03b5 \u03b8\u03b5\u1f70 \u03a0\u03b7\u03bb\u03b7\u03ca\u03ac\u03b4\u03b5\u03c9 \u1f08\u03c7\u03b9\u03bb\u1fc6\u03bf\u03c2 \u03bf\u1f50\u03bb\u03bf\u03bc\u03ad\u03bd\u03b7\u03bd, \u1f23 \u03bc\u03c5\u03c1\u03af\u1fbd \u1f08\u03c7\u03b1\u03b9\u03bf\u1fd6\u03c2 \u1f04\u03bb\u03b3\u03b5\u1fbd \u1f14\u03b8\u03b7\u03ba\u03b5, \u03c0\u03bf\u03bb\u03bb\u1f70\u03c2 \u03b4\u1fbd \u1f30\u03c6\u03b8\u03af\u03bc\u03bf\u03c5\u03c2 \u03c8\u03c5\u03c7\u1f70\u03c2 \u1f0c\u03ca\u03b4\u03b9 \u03c0\u03c1\u03bf\u0390\u03b1\u03c8\u03b5\u03bd \u1f21\u03c1\u03ce\u03c9\u03bd, \u03b1\u1f50\u03c4\u03bf\u1f7a\u03c2 \u03b4\u1f72 \u1f11\u03bb\u03ce\u03c1\u03b9\u03b1 \u03c4\u03b5\u1fe6\u03c7\u03b5 \u03ba\u03cd\u03bd\u03b5\u03c3\u03c3\u03b9\u03bd \u03bf\u1f30\u03c9\u03bd\u03bf\u1fd6\u03c3\u03af \u03c4\u03b5 \u03c0\u1fb6\u03c3\u03b9, \u0394\u03b9\u1f78\u03c2 \u03b4\u1fbd \u1f10\u03c4\u03b5\u03bb\u03b5\u03af\u03b5\u03c4\u03bf \u03b2\u03bf\u03c5\u03bb\u03ae, \u1f10\u03be \u03bf\u1f57 \u03b4\u1f74 \u03c4\u1f70 \u03c0\u03c1\u1ff6\u03c4\u03b1 \u03b4\u03b9\u03b1\u03c3\u03c4\u03ae\u03c4\u03b7\u03bd \u1f10\u03c1\u03af\u03c3\u03b1\u03bd\u03c4\u03b5 \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b7\u03c2 \u03c4\u03b5 \u1f04\u03bd\u03b1\u03be \u1f00\u03bd\u03b4\u03c1\u1ff6\u03bd \u03ba\u03b1\u1f76 \u03b4\u1fd6\u03bf\u03c2 \u1f08\u03c7\u03b9\u03bb\u03bb\u03b5\u03cd\u03c2. \u2014 \u03c4\u03af\u03c2 \u03c4\u1fbd \u1f04\u03c1 \u03c3\u03c6\u03c9\u03b5 \u03b8\u03b5\u1ff6\u03bd \u1f14\u03c1\u03b9\u03b4\u03b9 \u03be\u03c5\u03bd\u03ad\u03b7\u03ba\u03b5 \u03bc\u03ac\u03c7\u03b5\u03c3\u03b8\u03b1\u03b9; \u039b\u03b7\u03c4\u03bf\u1fe6\u03c2 \u03ba\u03b1\u1f76 \u0394\u03b9\u1f78\u03c2 \u03c5\u1f31\u03cc\u03c2: \u1f43 \u03b3\u1f70\u03c1 \u03b2\u03b1\u03c3\u03b9\u03bb\u1fc6\u03ca \u03c7\u03bf\u03bb\u03c9\u03b8\u03b5\u1f76\u03c2 \u03bd\u03bf\u1fe6\u03c3\u03bf\u03bd \u1f00\u03bd\u1f70 \u03c3\u03c4\u03c1\u03b1\u03c4\u1f78\u03bd \u1f44\u03c1\u03c3\u03b5 \u03ba\u03b1\u03ba\u03ae\u03bd, \u1f40\u03bb\u03ad\u03ba\u03bf\u03bd\u03c4\u03bf \u03b4\u1f72 \u03bb\u03b1\u03bf\u03af, \u03bf\u1f55\u03bd\u03b5\u03ba\u03b1 \u03c4\u1f78\u03bd \u03a7\u03c1\u03cd\u03c3\u03b7\u03bd \u1f20\u03c4\u03af\u03bc\u03b1\u03c3\u03b5\u03bd \u1f00\u03c1\u03b7\u03c4\u1fc6\u03c1\u03b1 \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b7\u03c2: \u1f43 \u03b3\u1f70\u03c1 \u1f26\u03bb\u03b8\u03b5 \u03b8\u03bf\u1f70\u03c2 \u1f10\u03c0\u1f76 \u03bd\u1fc6\u03b1\u03c2 \u1f08\u03c7\u03b1\u03b9\u1ff6\u03bd \u03bb\u03c5\u03c3\u03cc\u03bc\u03b5\u03bd\u03cc\u03c2 \u03c4\u03b5 \u03b8\u03cd\u03b3\u03b1\u03c4\u03c1\u03b1 \u03c6\u03ad\u03c1\u03c9\u03bd \u03c4\u1fbd \u1f00\u03c0\u03b5\u03c1\u03b5\u03af\u03c3\u03b9\u1fbd \u1f04\u03c0\u03bf\u03b9\u03bd\u03b1, \u03c3\u03c4\u03ad\u03bc\u03bc\u03b1\u03c4\u1fbd \u1f14\u03c7\u03c9\u03bd \u1f10\u03bd \u03c7\u03b5\u03c1\u03c3\u1f76\u03bd \u1f11\u03ba\u03b7\u03b2\u03cc\u03bb\u03bf\u03c5 \u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03bd\u03bf\u03c2 \u03c7\u03c1\u03c5\u03c3\u03ad\u1ff3 \u1f00\u03bd\u1f70 \u03c3\u03ba\u03ae\u03c0\u03c4\u03c1\u1ff3, \u03ba\u03b1\u1f76 \u03bb\u03af\u03c3\u03c3\u03b5\u03c4\u03bf \u03c0\u03ac\u03bd\u03c4\u03b1\u03c2 \u1f08\u03c7\u03b1\u03b9\u03bf\u03cd\u03c2, \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b1 \u03b4\u1f72 \u03bc\u03ac\u03bb\u03b9\u03c3\u03c4\u03b1 \u03b4\u03cd\u03c9, \u03ba\u03bf\u03c3\u03bc\u03ae\u03c4\u03bf\u03c1\u03b5 \u03bb\u03b1\u1ff6\u03bd: \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b1\u03b9 \u03c4\u03b5 \u03ba\u03b1\u1f76 \u1f04\u03bb\u03bb\u03bf\u03b9 \u1f10\u03cb\u03ba\u03bd\u03ae\u03bc\u03b9\u03b4\u03b5\u03c2 \u1f08\u03c7\u03b1\u03b9\u03bf\u03af, \u1f51\u03bc\u1fd6\u03bd \u03bc\u1f72\u03bd \u03b8\u03b5\u03bf\u1f76 \u03b4\u03bf\u1fd6\u03b5\u03bd \u1f48\u03bb\u03cd\u03bc\u03c0\u03b9\u03b1 \u03b4\u03ce\u03bc\u03b1\u03c4\u1fbd \u1f14\u03c7\u03bf\u03bd\u03c4\u03b5\u03c2 \u1f10\u03ba\u03c0\u03ad\u03c1\u03c3\u03b1\u03b9 \u03a0\u03c1\u03b9\u03ac\u03bc\u03bf\u03b9\u03bf \u03c0\u03cc\u03bb\u03b9\u03bd, \u03b5\u1f56 \u03b4\u1fbd \u03bf\u1f34\u03ba\u03b1\u03b4\u1fbd \u1f31\u03ba\u03ad\u03c3\u03b8\u03b1\u03b9: \u03c0\u03b1\u1fd6\u03b4\u03b1 \u03b4\u1fbd \u1f10\u03bc\u03bf\u1f76 \u03bb\u03cd\u03c3\u03b1\u03b9\u03c4\u03b5 \u03c6\u03af\u03bb\u03b7\u03bd, \u03c4\u1f70 \u03b4\u1fbd \u1f04\u03c0\u03bf\u03b9\u03bd\u03b1 \u03b4\u03ad\u03c7\u03b5\u03c3\u03b8\u03b1\u03b9, \u1f01\u03b6\u03cc\u03bc\u03b5\u03bd\u03bf\u03b9 \u0394\u03b9\u1f78\u03c2 \u03c5\u1f31\u1f78\u03bd \u1f11\u03ba\u03b7\u03b2\u03cc\u03bb\u03bf\u03bd \u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03bd\u03b1. Romanization : m\u0113nin aeide thea P\u0113l\u0113iade\u014d Achil\u0113os oulomen\u0113n, h\u0113 myri' Achaiois alge' eth\u0113ke, pollas d' iphthimous psychas Aidi proiapsen h\u0113r\u014d\u014dn, autous de hel\u014dria teuche kynessin oi\u014dnoisi te pasi, Dios d' eteleieto boul\u0113, ex hou d\u0113 ta pr\u014dta diast\u0113t\u0113n erisante Atreid\u0113s te anax andr\u014dn kai dios Achilleus. \u2014 tis t' ar sph\u014de the\u014dn eridi xyne\u0113ke machesthai? L\u0113tous kai Dios huios: ho gar basil\u0113i chol\u014dtheis nouson ana straton orse kak\u0113n, olekonto de laoi, houneka ton Chrys\u0113n \u0113timasen ar\u0113t\u0113ra Atreid\u0113s: ho gar \u0113lthe thoas epi n\u0113as Achai\u014dn lysomenos te thygatra pher\u014dn t' apereisi' apoina, stemmat' ech\u014dn en chersin hek\u0113bolou Apoll\u014dnos chryse\u014d ana sk\u0113ptr\u014d, kai lisseto pantas Achaious, Atreida de malista dy\u014d, kosm\u0113tore la\u014dn: Atreidai te kai alloi eukn\u0113mides Achaioi, hymin men theoi doien Olympia d\u014dmat' echontes ekpersai Priamoio polin, eu d' oikad' hikesthai: paida d' emoi lysaite phil\u0113n, ta d' apoina dechesthai, hazomenoi Dios huion hek\u0113bolon Apoll\u014dna. [ 2 ] 16th and 17th centuries (1581\u20131700) Translator Publication Proemic verse R Hall, Arthur of Grantham 1539 \u2013 1605, M. P. , courtier, translator 1581 London, for Ralph Newberie I Thee beseech, O Goddesse milde, the hatefull hate to plaine, Whereby Achilles was so wroong, and grewe in suche disdaine, [ 3 ] Rawlyns, Roger 1587 London, Orwin [ 4 ] Colse, Peter 1596 London, H. Jackson [ 5 ] Chapman, George 1559\u20131634, dramatist, poet, classicist 1611 \u2013 15 London, Rich. Field for Nathaniell Butter [ 6 ] Achilles' banefull wrath resound, O Goddesse, that imposd Infinite sorrowes on the Greekes, and many brave soules losd [ 7 ] Grantham, Thomas c. 1610 \u2013 1664 1659 London, T. Lock Achilles son of Peleus Goddes sing, His baneful wrath which to the Greeks did bring Unnumbred greifs, brave souls to hel did send [ 8 ] Ogilby, John 1600 \u2013 1676, cartographer, publisher, translator 1660 London, Roycroft Achilles Peleus Son's destructive Rage, Great Goddess, sing, which did the Greeks engage [ 9 ] Hobbes, Thomas 1588 \u2013 1679, acclaimed philosopher, etc. 1676 London, W. Crook O Goddess sing what woe the discontent Of Thetis' son brought to the Greeks; what souls Of heroes down to Erebus it sent, [ 10 ] Dryden, John 1631 \u2013 1700, dramatist, Poet Laureate 1700 London, J. Tonson The Wrath of Peleus Son, O Muse, resound; Whose dire Effects the Grecian Army found: [ 11 ] Early 18th century (1701\u20131750) Translator Publication Proemic verse R Ozell, John d. 1743, translator, accountant 1712 London, Bernard Lintott Broome, William 1689 \u2013 1745, poet, translator Oldisworth, William 1680 \u2013 1734 [ 12 ] Pope, Alexander 1688 \u2013 1744, poet 1715 London, Bernard Lintot Achilles' wrath, to Greece the direful spring Of woes unnumber'd, heavenly goddess, sing! [ 13 ] Tickell, Thomas 1685 \u2013 1740, poet 1715 London, Tickell Achilles' fatal wrath, whence discord rose, That brought the sons of Greece unnumber'd woes, [ 14 ] Fenton, Elijah 1683 \u2013 1730, poet, biographer, translator 1717 London, printed for Bernard Lintot Cooke, T. 1729 Fitz-Cotton, H. 1749 Dublin, George Faulkner Ashwick, Samuel 1750 London, printed for Brindley, Sheepey and Keith Late 18th century (1751\u20131800) Translator Publication Proemic verse R Scott, J. N. 1755 London, Osborne and Shipton Langley, Samuel , 1720 \u2013 1791 Rector of Checkley [ 15 ] 1767 London, Dodsley Macpherson, James 1736 \u2013 1796, poet, compiler of Scots Gaelic poems, politician 1773 London, T. Becket The wrath of the son of Peleus,\u2014O goddess of song, unfold! The deadly wrath of Achilles : To Greece the source of many woes! [ 16 ] Cowper, William 1731 \u2013 1800, poet and hymnodist 1791 London, J. Johnson Achilles sing, O Goddess! Peleus' son; His wrath pernicious, who ten thousand woes [ 17 ] Tremenheere, William 1757 \u2013 1838 Chaplain to the Royal Navy [ 18 ] 1792 London, Faulder? Geddes, Alexander 1737 \u2013 1802, Scots Roman Catholic theologian; scholar, poet 1792 London: printed for J. Debrett Bak, Joshua (T. Bridges?) 1797 London Early 19th century (1801\u20131850) Translator Publication Proemic verse R Williams, Peter ? Bulmer, William [ improper synthesis? ] 1757 \u2013 1830, printer 1807 The stern resentment of Achilles, son Of Peleus, Muse record,\u2014dire source of woe; [ 19 ] Cowper, William (3rd edition) 1731 \u2013 1800, poet and hymnodist 1809 Sing Muse the deadly wrath of Peleus' son Achilles, source of many thousand woes [ 20 ] Morrice, Rev. James 1809 Sing , Muse, the fatal wrath of Peleus' son, Which to the Greeks unnumb'red evils brought, [ 21 ] Cary, Henry 1772 \u2013 1844, author, translator 1821 London, Munday and Slatter Sing, Goddess, the destructive wrath of Achilles, son of Peleus, which brought many disasters upon the Greeks, [ 22 ] Sotheby, William 1757 \u2013 1833, poet, translator 1831 London, John Murray Anonymous A Graduate Of The University of Oxford 1847 Dublin, Cumming and Ferguson Sing, Goddess, the fatal resentment of Achilles, the son of Peleus, which caused innumerable woes to the Achaeans, and prematurely despatched many brave souls of heroes to Orcus, and made themselves (i.e. their bodies) a prey to dogs and all birds, (for the counsel of Jove was being accomplished,) from the time that Atrides, king of men, and the noble Achilles, first contending, were disunited. [ 23 ] Munford, William 1775 \u2013 1825, American lawyer [ 24 ] 1846 Boston, Little Brown Brandreth, Thomas Shaw 1788 \u2013 1873, mathematician, inventor, classicist 1846 London, W. Pickering Achillies wrath accurst, O Goddess, sing, Which caused ten thousand sorrows to the Greeks, [ 25 ] Late middle 19th century (1851\u20131875) Translator Publication Proemic verse R Buckley, Theodore Alois 1825 \u2013 1856, translator 1851 London, H. G. Bohn Sing, O goddess, the destructive wrath of Achilles, son of Peleus, which brought countless woes upon the Greeks, [ 26 ] Hamilton, Sidney G. 1855 \u2013 58 Philadelphia Clark, Thomas Newman, Francis William 1807 \u2013 1893, classics professor [ 27 ] 1856 London, Walton & Maberly Of Peleus' son, Achilles, sing, oh goddess, the resentment Accursed, which with countless pangs Achaia's army wounded, [ 28 ] Wright, Ichabod Charles 1795 \u2013 1871, translator, poet, accountant 1858 \u2013 65 Cambridge, Macmillan Giles, Rev. Dr. J. A. [John Allen] 1808 \u2013 1884, headmaster, scholar, prolific author, clergyman [ 29 ] 1861 \u2013 82 Sing, O goddess, th"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01PAyudTFDTcM273nEmnzoPD",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Great Pyramid Giza construction date"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01PAyudTFDTcM273nEmnzoPD",
+          "content": "Great Pyramid of Giza Largest pyramid in the Giza Necropolis, Egypt \"Great Pyramid\" redirects here. For other Egyptian pyramids, see Egyptian pyramids . Great Pyramid of Giza The Great Pyramid, seen in 2023 Great Pyramid Location within Egypt Show map of Egypt Great Pyramid Location within Africa Show map of Africa Location Giza , Egypt Coordinates 29\u00b058\u203245\u2033N 31\u00b008\u203203\u2033E \ufeff / \ufeff 29.97917\u00b0N 31.13417\u00b0E \ufeff / 29.97917; 31.13417 Ancient name Akhet Khufu Khufu's Horizon [ 1 ] Architect Hemiunu (presumed) Constructed c. 2600 BC ( Old Kingdom ) 4626 years ago Type True pyramid Material Limestone, mortar, granite Height Original: 146.6 m (481 ft) or 280 cubits Current: 138.5 m (454 ft) Base 230.33 m (756 ft) or 440 cubits Volume 2.6 million m 3 (92 million ft 3 ) Slope 51\u00b050'40\" or seked of \u2060 5 + 1 / 2 \u2060 palms [ 2 ] UNESCO World Heritage Site Part of Memphis and its Necropolis \u2013 the Pyramid Fields from Giza to Dahshur Criteria Cultural: i, iii, vi Reference 86-002 Inscription 1979 (3rd Session ) Area Egypt Building details Record height Tallest in the world from c. 2600 BC to the mid-13th century AD [I] Preceded by Red Pyramid (Egypt) Surpassed by Old St Paul's Cathedral (England) [ dubious \u2013 discuss ] The Great Pyramid of Giza [ a ] is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyramid complex in Giza , Egypt. It is the oldest of the Seven Wonders of the Ancient World , and the only wonder that has remained largely intact. The Great Pyramid served as the tomb of Egyptian Pharaoh Khufu (\"Cheops\"), who ruled during the Fourth Dynasty of the Old Kingdom . It was built c. 2600 BC [ 3 ] over a period of about 26 years. [ 4 ] Initially standing at 146.6 metres (481 feet) , the Great Pyramid was the world's tallest human-made structure for more than 3,700 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the current 138.5 metres (454.4 ft) ; what is seen today is the underlying core structure. Each side of the base was measured to be about 230.3 metres (755.6 ft) in length, giving a volume of roughly 2.6 million cubic metres (92 million cubic feet) , which includes an internal hillock. [ 5 ] The dimensions of the pyramid were 280 royal cubits (146.7 m; 481.4 ft) high, a base length of 440 cubits (230.6 m; 756.4 ft) , with a seked of \u2060 5 + 1 / 2 \u2060 palms (a slope of 51\u00b050'40\"). The Great Pyramid was built by quarrying an estimated 2.3 million large blocks, weighing 6 million tonnes in total. The majority of the stones are not uniform in size or shape, and are only roughly dressed. [ 6 ] The outside layers were bound together by mortar , primarily local limestone from the Giza Plateau was used for its construction. Other blocks were imported by boat on the Nile : white limestone from Tura for the casing, and blocks of granite from Aswan , weighing up to 80 tonnes, for the \"King's Chamber\" structure. [ 7 ] There are three known chambers inside of the Great Pyramid. The lowest was cut into the bedrock , upon which the pyramid was built, but remained unfinished. The so-called [ 8 ] Queen's Chamber and King's Chamber, which contain a granite sarcophagus, are above ground within the pyramid structure. Hemiunu , Khufu's vizier , is believed by some to be the architect of the Great Pyramid. [ 9 ] Many varying scientific and alternative hypotheses attempt to explain the exact construction techniques , but, as is the case for other such structures, there is no definite consensus. The funerary complex around the pyramid consisted of two mortuary temples connected by a causeway (one close to the pyramid and one near the Nile); tombs for the immediate family and court of Khufu, including three smaller pyramids for Khufu's wives; an even smaller \"satellite pyramid\"; and five buried solar barques . It is part of the UNESCO World Heritage Site \" Memphis and its Necropolis \". [ 10 ] Purpose Statue of pharaoh Khufu /Cheops, Cairo Museum . The Great Pyramid of Giza was the tomb of pharaoh Khufu, [ 11 ] and still contains his granite sarcophagus. [ 12 ] It had, like other tombs of Egyptian elites, four main purposes: [ 13 ] It housed the body of the deceased and kept it safe. [ 14 ] It demonstrated the status of the deceased and his family. It retained the deceased's place in society. It was a place where offerings could be brought to the deceased. Make your grave well furnished and prepare thy place in the west. Look, death counts little for us. Look, life is valued highly by us. The house of the dead (the tomb) is for life. [ 15 ] [ 16 ] [ 17 ] \u2014 Excerpt from the Instruction of Hardjedef (son of Khufu) In ancient Egypt, high social status was considered absolutely positive, and the monumental social inequalities were symbolized by gigantic pyramids versus smaller mastabas . The sizes of tombs were regulated officially, with their allowed dimensions written down in royal decrees . In the Old Kingdom only kings and queens could have a pyramid tomb. Architectural layout and funeral equipment were also sanctioned, and were, like access to material and workers, at the discretion of the king. [ 18 ] The Great Pyramid's internal chambers lack inscriptions and decorations, the norm for Egyptian tombs of the fourth to late fifth dynasty, apart from work-gang graffiti that include Khufu's names. [ 19 ] Constructed around 2600 BC, it predates the custom of inscribing pyramids with text by over 200 years. [ 20 ] [ 3 ] The pyramid complex of Khufu included two temples that were lavishly decorated and inscribed. The pyramid temple was dedicated to the Sed festival , celebrating Khufu's 30th jubilee. [ 21 ] Surviving scenes portray Khufu, officials, priests and other characters performing rituals. The valley temple remains largely unexcavated, but blocks reused by Amenemhat I depict, for instance, nautical scenes and personifications of the estates of Khufu (e.g. the estate \"Khufu is beautiful\"). [ 22 ] The mortuary cult of Khufu which operated in these temples for hundreds of years indicates that Khufu was successfully interred in the Great Pyramid. [ 23 ] That the funeral was carried out by Khufu's son and successor Djedefre is evidenced by the presence of his cartouches on the blocks that sealed the boat pits next to the pyramid. [ 24 ] The Great Pyramid was likely looted as early as the First Intermediate Period and may have been reused afterwards. [ 25 ] Arab accounts tell stories of mummies and treasures being found inside the pyramid. For instance, Al-Maqrizi (1364\u20131442) reports the discovery of three shrouded bodies, a sarcophagus filled with gold, and a corpse in golden armour with a sword of inestimable value and a ruby as large as an egg. [ 26 ] Attribution to Khufu Clay seal bearing the name of the Great Pyramid which includes Khufu's cartouche, c. 664 BC \u2013 c. 332 BC, Louvre museum Khufu's cartouche found inscribed on a backing stone of the pyramid Historically the Great Pyramid had been attributed to Khufu based on the words of authors of classical antiquity , first and foremost Herodotus and Diodorus Siculus . During the Middle Ages other people were credited with the construction of the pyramid as well, for example Joseph from the Book of Genesis , Nimrod , or the legendary king Saurid ibn Salhouk . [ 27 ] In 1837 four additional relieving chambers were found above the King's Chamber after tunnelling to them. The chambers, previously inaccessible, were covered in hieroglyphs of red paint. The workers who were building the pyramid had marked the blocks with the names of their gangs, which included the pharaoh's name (e.g.: \"The gang, The white crown of Khnum-Khufu is powerful\"). The names of Khufu were spelled out on the walls over a dozen times. Another of these graffiti was found by Goyon on an exterior block of the 4th layer of the pyramid. [ 28 ] The inscriptions are comparable to those found at other sites of Khufu, such as the alabaster quarry at Hatnub [ 29 ] or the harbour at Wadi al-J"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01LySZvr5Pet9MrhZ86insnH",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Homer"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01LySZvr5Pet9MrhZ86insnH",
+          "content": "Homer Ancient Greek poet Several terms redirect here. For other uses, see Homer (disambiguation) , Homerus (disambiguation) , and Homeric (disambiguation) . Homer Marble terminal bust of Homer. Roman copy of a lost 2nd-century BC Hellenistic original Native name \u1f4d\u03bc\u03b7\u03c1\u03bf\u03c2 Born c. 8th century BC possibly Ionia [ 1 ] Died Ios [ 2 ] Language Homeric Greek (literary) Ionic Greek Genre Epic Subject Epic Cycle Notable works Iliad Odyssey Homer ( / \u02c8 h o\u028a m \u0259r / ; Ancient Greek : \u1f4d\u03bc\u03b7\u03c1\u03bf\u03c2 [ h\u00f3m\u025b\u02d0ros ] , H\u00f3m\u0113ros ; possibly born c. the 8th century BC ) was an ancient Greek poet who is widely credited as the author of the Iliad and the Odyssey , two epic poems that are foundational works of ancient Greek literature . Although his life and authorship remain obscure, Homer was highly revered in ancient Greek society and is considered one of the most influential authors in history. [ 1 ] The Iliad centers on a quarrel between King Agamemnon and the warrior Achilles during the last year of the Trojan War . The Odyssey chronicles the ten-year journey of Odysseus , king of Ithaca , back to his home after the fall of Troy. The epics depict man's struggle, the Odyssey especially so, as Odysseus perseveres through the punishment of the gods. [ 3 ] The poems are in Homeric Greek , also known as Epic Greek, a literary language that shows a mixture of features of the Ionic and Aeolic dialects from different centuries; the predominant influence is Eastern Ionic. [ 4 ] [ 5 ] Most researchers believe that the poems were originally transmitted orally . [ 6 ] Despite being predominantly known for their tragic and serious themes, the Homeric poems also contain instances of comedy and laughter . [ 7 ] The Homeric poems shaped aspects of ancient Greek culture and education, fostering ideals of heroism, glory, and honor. [ 8 ] To Plato , Homer was in simple words the one who \"has educated Greece\" ( \u03c4\u1f74\u03bd \u1f19\u03bb\u03bb\u03ac\u03b4\u03b1 \u03c0\u03b5\u03c0\u03b1\u03af\u03b4\u03b5\u03c5\u03ba\u03b5\u03bd , t\u0113n Hell\u00e1da pepa\u00eddeuken ). [ 9 ] [ 10 ] In Dante Alighieri 's Divine Comedy , Virgil refers to Homer as \"Poet sovereign\", king of all poets; [ 11 ] in the preface to his translation of the Iliad , Alexander Pope acknowledges that Homer has always been considered the \"greatest of poets\". [ 12 ] From antiquity to the present day, Homeric epics have inspired many famous works of literature, music, art, and film. [ 13 ] The question of by whom, when, where, and under what circumstances the Iliad and Odyssey were composed continues to be debated. Scholars generally regard the two poems as the works of separate authors. It is thought that the poems were composed at some point around the late eighth or early seventh century BC. [ 14 ] Many accounts of Homer's life circulated in classical antiquity , the most widespread that he was a blind bard from Ionia , a region including the central part of the western coast of Anatolia in present-day Turkey, and the Greek islands of Chios and Samos . [ 15 ] Modern scholars consider these accounts legendary . [ 16 ] Biography, identity, and biographical traditions Main article: Ancient accounts of Homer The identity of \"Homer\" is a mystery, and scholars generally regard the ancient conception of a single author behind the Iliad and the Odyssey as a fictional narrative. [ 17 ] During antiquity, biographical details about Homer's life became increasingly mythologized due to his anonymity and it was believed during that period that he lived after the Trojan War . [ 18 ] Contemporary scholars study the life of Homer alongside the Homeric Question , the ongoing academic debate concerning Homer's authorship and the origins, composition, and transmission of the epic poems attributed to him. [ 19 ] The two best-known ancient biographies of Homer are the Life of Homer by the Pseudo-Herodotus and the Contest of Homer and Hesiod . [ 2 ] [ 20 ] The first early implicit references to Homer in the 7th century BC are in works by Archilochus , Alcman , Tyrtaeus , and Callinus . [ 1 ] In most ancient biographies, Homer is depicted as being blind; other biographies, such as that in the Byzantine encyclopedia Suda , described Homer to be descended from one of the Muses , Apollo , Orpheus , Thamyris , Telemachus , or Musaeus . [ 21 ] Another tradition from the time of the Roman emperor Hadrian says Epicaste (daughter of Nestor ) and Telemachus (son of Odysseus ) were the parents of Homer. [ 22 ] [ 23 ] The poet Pindar is credited with saying that Homer originated from Chios and Smyrna , both of which are also mentioned by other fifth-century writers. [ 24 ] Other biographical traditions imagined Homer to have been a rhapsode or singer who performed at religious festivals, [ 24 ] was a wandering bard or a composer of other works (the \"Homerica\"), or that he failed to solve a riddle set by fishermen. [ 25 ] According to the Greek historian Ephorus , Homer studied poetry with the bard Phemius and was born in Cyme . [ 26 ] Philochorus thought Homer's birthplace to be in Argos ; later writers believed Pylos and Athens to have been Homer's birthplace. No one account of Homer's origin became mainstream, but most accounts of his death place its location on Ios . [ 27 ] Works attributed to Homer Homer and His Guide (1874) by William-Adolphe Bouguereau Today, only the Iliad and the Odyssey are associated with the name \"Homer\". In antiquity, a large number of other works were sometimes attributed to him, including the Homeric Hymns , the Contest of Homer and Hesiod , several epigrams , the Little Iliad , the Nostoi , the Thebaid , the Cypria , the Epigoni , the comic mini-epic Batrachomyomachia (\"The Frog\u2013Mouse War\"), the Margites , the Capture of Oechalia , and the Phocais . These claims are not considered authentic today and were not universally accepted in the ancient world. As with the multitude of legends surrounding Homer's life, they indicate little more than the centrality of Homer to ancient Greek culture. [ 28 ] [ 29 ] [ 30 ] History of Homeric scholarship Main articles: Homeric scholarship and Homeric Question Ancient Part of an eleventh-century manuscript, \"the Townley Homer\". The writings on the top and right side are scholia . The study of Homer is one of the oldest topics in scholarship, dating back to antiquity. [ 31 ] [ 32 ] [ 33 ] Nonetheless, the aims of Homeric studies have changed throughout the millennia. [ 31 ] The earliest preserved comments on Homer concern his treatment of the gods, which hostile critics such as the poet Xenophanes of Colophon denounced as immoral. [ 33 ] The allegorist Theagenes of Rhegium is said to have defended Homer by arguing that the Homeric poems are allegories . [ 33 ] The Iliad and the Odyssey were widely used as school texts in ancient Greek and Hellenistic cultures. [ 31 ] [ 33 ] [ 34 ] They were the first literary works taught to all students. [ 34 ] The Iliad , particularly its first few books, was far more intently studied than the Odyssey during the Hellenistic and Roman periods. [ 34 ] As a result of the poems' prominence in classical Greek education, extensive commentaries on them developed to explain parts that were culturally or linguistically difficult. [ 31 ] [ 33 ] During the Hellenistic and Roman periods, many interpreters, especially the Stoics , who believed that Homeric poems conveyed Stoic doctrines, regarded them as allegories, containing hidden wisdom. [ 33 ] Perhaps partially because of the Homeric poems' extensive use in education, many authors believed that Homer's original purpose had been to educate. [ 33 ] Homer's wisdom became so widely praised that he began to acquire the image of almost a prototypical philosopher. [ 33 ] Byzantine scholars such as Eustathius of Thessalonica and John Tzetzes produced commentaries, extensions and scholia to Homer, especially in the twelfth century. [ 35 ] [ 33 ] Eustathius's commentary on the Iliad alone is massive, sprawling over nearly 4,000 oversized pages in a 21st-century printed version and his commentary on the Odyssey an additional nearly 2,000."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the Wikipedia information retrieved:\n\nThe Great Pyramid of Giza was completed **before** Homer composed the Iliad. The Great Pyramid was built around 2600 BC, while Homer composed the Iliad around the late eighth or early seventh century BC\u2014roughly 1,000 years later.\n\nSource: Great Pyramid of Giza, Homer"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Great Pyramid of Giza",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "Iliad Homer",
+      "api_response": {
+        "pages": [
+          {
+            "id": 8384405,
+            "key": "English_translations_of_Homer",
+            "title": "English translations of Homer",
+            "excerpt": "Translators and scholars have translated the main works attributed to <span class=\"searchmatch\">Homer</span>, the <span class=\"searchmatch\">Iliad</span> and Odyssey, from the Homeric Greek into English, since the 16th and",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 90,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Frontispiece_to_George_Chapman%27s_translation_of_the_Odyssey.jpg/60px-Frontispiece_to_George_Chapman%27s_translation_of_the_Odyssey.jpg"
+            }
+          },
+          {
+            "id": 19381951,
+            "key": "Iliad",
+            "title": "Iliad",
+            "excerpt": "The <span class=\"searchmatch\">Iliad</span> (/<span class=\"searchmatch\">\u02c8\u026ali\u0259d</span>/ ; Ancient Greek: \u1f38\u03bb\u03b9\u03ac\u03c2, romanized:\u00a0Ili\u00e1s, [i\u02d0li&#039;as]; lit.\u2009&#039;[a poem] about Ilion (Troy)&#039;) is one of two major ancient Greek epic poems",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Epic poem attributed to Homer",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 37,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Detail._Wooden_board_inscribed_in_ink_with_lines_468-473%2C_Book_I_of_Homer%27s_Iliad._Roman_Egypt._On_display_at_the_British_Museum.jpg/60px-Detail._Wooden_board_inscribed_in_ink_with_lines_468-473%2C_Book_I_of_Homer%27s_Iliad._Roman_Egypt._On_display_at_the_British_Museum.jpg"
+            }
+          },
+          {
+            "id": 13633,
+            "key": "Homer",
+            "title": "Homer",
+            "excerpt": "<span class=\"searchmatch\">Iliad</span> and the Odyssey, two epic poems that are foundational works of ancient Greek literature. Although his life and authorship remain obscure, <span class=\"searchmatch\">Homer</span>",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Ancient Greek poet",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Homer_British_Museum.jpg/60px-Homer_British_Museum.jpg"
+            }
+          },
+          {
+            "id": 2020,
+            "key": "Achaeans_(Homer)",
+            "title": "Achaeans (Homer)",
+            "excerpt": "*Akaywa-. In <span class=\"searchmatch\">Homer</span>, the term Achaeans is one of the primary terms used to refer to the Greeks as a whole. It is used 598 times in the <span class=\"searchmatch\">Iliad</span>, often accompanied",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Collective name of the Greeks in Homer's poems",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 59,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg/60px-Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg"
+            }
+          },
+          {
+            "id": 3428255,
+            "key": "Homeric_Question",
+            "title": "Homeric Question",
+            "excerpt": "debate over the identity of <span class=\"searchmatch\">Homer</span>, the authorship of the <span class=\"searchmatch\">Iliad</span> and Odyssey, and their historicity (especially concerning the <span class=\"searchmatch\">Iliad</span>). The subject has its roots",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Debate about the identity of Homer and the authorship of the ''Iliad'' and ''Odyssey''",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 79,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Rembrandt_Harmensz._van_Rijn_061.jpg/60px-Rembrandt_Harmensz._van_Rijn_061.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "English translations of Homer Frontispiece to George Chapman 's translation of the Odyssey , the first translation in English Translators and scholars have translated the main works attributed to Homer , the Iliad and Odyssey , from the Homeric Greek into English, since the 16th and 17th centuries. Translations are ordered chronologically by date of first publication, with first lines provided to illustrate the style of the translation. Not all translators translated both the Iliad and Odyssey ; in addition to the complete translations listed here, numerous partial translations, ranging from several lines to complete books, have appeared in a variety of publications. The \"original\" text cited below is that of \"the Oxford Homer\". [ 1 ] Iliad Reference text Poet Provenance Proemic verse R Homer c. 8th century BC Greek rhapsode Aeolis Ancient Greek : \u03bc\u1fc6\u03bd\u03b9\u03bd \u1f04\u03b5\u03b9\u03b4\u03b5 \u03b8\u03b5\u1f70 \u03a0\u03b7\u03bb\u03b7\u03ca\u03ac\u03b4\u03b5\u03c9 \u1f08\u03c7\u03b9\u03bb\u1fc6\u03bf\u03c2 \u03bf\u1f50\u03bb\u03bf\u03bc\u03ad\u03bd\u03b7\u03bd, \u1f23 \u03bc\u03c5\u03c1\u03af\u1fbd \u1f08\u03c7\u03b1\u03b9\u03bf\u1fd6\u03c2 \u1f04\u03bb\u03b3\u03b5\u1fbd \u1f14\u03b8\u03b7\u03ba\u03b5, \u03c0\u03bf\u03bb\u03bb\u1f70\u03c2 \u03b4\u1fbd \u1f30\u03c6\u03b8\u03af\u03bc\u03bf\u03c5\u03c2 \u03c8\u03c5\u03c7\u1f70\u03c2 \u1f0c\u03ca\u03b4\u03b9 \u03c0\u03c1\u03bf\u0390\u03b1\u03c8\u03b5\u03bd \u1f21\u03c1\u03ce\u03c9\u03bd, \u03b1\u1f50\u03c4\u03bf\u1f7a\u03c2 \u03b4\u1f72 \u1f11\u03bb\u03ce\u03c1\u03b9\u03b1 \u03c4\u03b5\u1fe6\u03c7\u03b5 \u03ba\u03cd\u03bd\u03b5\u03c3\u03c3\u03b9\u03bd \u03bf\u1f30\u03c9\u03bd\u03bf\u1fd6\u03c3\u03af \u03c4\u03b5 \u03c0\u1fb6\u03c3\u03b9, \u0394\u03b9\u1f78\u03c2 \u03b4\u1fbd \u1f10\u03c4\u03b5\u03bb\u03b5\u03af\u03b5\u03c4\u03bf \u03b2\u03bf\u03c5\u03bb\u03ae, \u1f10\u03be \u03bf\u1f57 \u03b4\u1f74 \u03c4\u1f70 \u03c0\u03c1\u1ff6\u03c4\u03b1 \u03b4\u03b9\u03b1\u03c3\u03c4\u03ae\u03c4\u03b7\u03bd \u1f10\u03c1\u03af\u03c3\u03b1\u03bd\u03c4\u03b5 \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b7\u03c2 \u03c4\u03b5 \u1f04\u03bd\u03b1\u03be \u1f00\u03bd\u03b4\u03c1\u1ff6\u03bd \u03ba\u03b1\u1f76 \u03b4\u1fd6\u03bf\u03c2 \u1f08\u03c7\u03b9\u03bb\u03bb\u03b5\u03cd\u03c2. \u2014 \u03c4\u03af\u03c2 \u03c4\u1fbd \u1f04\u03c1 \u03c3\u03c6\u03c9\u03b5 \u03b8\u03b5\u1ff6\u03bd \u1f14\u03c1\u03b9\u03b4\u03b9 \u03be\u03c5\u03bd\u03ad\u03b7\u03ba\u03b5 \u03bc\u03ac\u03c7\u03b5\u03c3\u03b8\u03b1\u03b9; \u039b\u03b7\u03c4\u03bf\u1fe6\u03c2 \u03ba\u03b1\u1f76 \u0394\u03b9\u1f78\u03c2 \u03c5\u1f31\u03cc\u03c2: \u1f43 \u03b3\u1f70\u03c1 \u03b2\u03b1\u03c3\u03b9\u03bb\u1fc6\u03ca \u03c7\u03bf\u03bb\u03c9\u03b8\u03b5\u1f76\u03c2 \u03bd\u03bf\u1fe6\u03c3\u03bf\u03bd \u1f00\u03bd\u1f70 \u03c3\u03c4\u03c1\u03b1\u03c4\u1f78\u03bd \u1f44\u03c1\u03c3\u03b5 \u03ba\u03b1\u03ba\u03ae\u03bd, \u1f40\u03bb\u03ad\u03ba\u03bf\u03bd\u03c4\u03bf \u03b4\u1f72 \u03bb\u03b1\u03bf\u03af, \u03bf\u1f55\u03bd\u03b5\u03ba\u03b1 \u03c4\u1f78\u03bd \u03a7\u03c1\u03cd\u03c3\u03b7\u03bd \u1f20\u03c4\u03af\u03bc\u03b1\u03c3\u03b5\u03bd \u1f00\u03c1\u03b7\u03c4\u1fc6\u03c1\u03b1 \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b7\u03c2: \u1f43 \u03b3\u1f70\u03c1 \u1f26\u03bb\u03b8\u03b5 \u03b8\u03bf\u1f70\u03c2 \u1f10\u03c0\u1f76 \u03bd\u1fc6\u03b1\u03c2 \u1f08\u03c7\u03b1\u03b9\u1ff6\u03bd \u03bb\u03c5\u03c3\u03cc\u03bc\u03b5\u03bd\u03cc\u03c2 \u03c4\u03b5 \u03b8\u03cd\u03b3\u03b1\u03c4\u03c1\u03b1 \u03c6\u03ad\u03c1\u03c9\u03bd \u03c4\u1fbd \u1f00\u03c0\u03b5\u03c1\u03b5\u03af\u03c3\u03b9\u1fbd \u1f04\u03c0\u03bf\u03b9\u03bd\u03b1, \u03c3\u03c4\u03ad\u03bc\u03bc\u03b1\u03c4\u1fbd \u1f14\u03c7\u03c9\u03bd \u1f10\u03bd \u03c7\u03b5\u03c1\u03c3\u1f76\u03bd \u1f11\u03ba\u03b7\u03b2\u03cc\u03bb\u03bf\u03c5 \u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03bd\u03bf\u03c2 \u03c7\u03c1\u03c5\u03c3\u03ad\u1ff3 \u1f00\u03bd\u1f70 \u03c3\u03ba\u03ae\u03c0\u03c4\u03c1\u1ff3, \u03ba\u03b1\u1f76 \u03bb\u03af\u03c3\u03c3\u03b5\u03c4\u03bf \u03c0\u03ac\u03bd\u03c4\u03b1\u03c2 \u1f08\u03c7\u03b1\u03b9\u03bf\u03cd\u03c2, \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b1 \u03b4\u1f72 \u03bc\u03ac\u03bb\u03b9\u03c3\u03c4\u03b1 \u03b4\u03cd\u03c9, \u03ba\u03bf\u03c3\u03bc\u03ae\u03c4\u03bf\u03c1\u03b5 \u03bb\u03b1\u1ff6\u03bd: \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b1\u03b9 \u03c4\u03b5 \u03ba\u03b1\u1f76 \u1f04\u03bb\u03bb\u03bf\u03b9 \u1f10\u03cb\u03ba\u03bd\u03ae\u03bc\u03b9\u03b4\u03b5\u03c2 \u1f08\u03c7\u03b1\u03b9\u03bf\u03af, \u1f51\u03bc\u1fd6\u03bd \u03bc\u1f72\u03bd \u03b8\u03b5\u03bf\u1f76 \u03b4\u03bf\u1fd6\u03b5\u03bd \u1f48\u03bb\u03cd\u03bc\u03c0\u03b9\u03b1 \u03b4\u03ce\u03bc\u03b1\u03c4\u1fbd \u1f14\u03c7\u03bf\u03bd\u03c4\u03b5\u03c2 \u1f10\u03ba\u03c0\u03ad\u03c1\u03c3\u03b1\u03b9 \u03a0\u03c1\u03b9\u03ac\u03bc\u03bf\u03b9\u03bf \u03c0\u03cc\u03bb\u03b9\u03bd, \u03b5\u1f56 \u03b4\u1fbd \u03bf\u1f34\u03ba\u03b1\u03b4\u1fbd \u1f31\u03ba\u03ad\u03c3\u03b8\u03b1\u03b9: \u03c0\u03b1\u1fd6\u03b4\u03b1 \u03b4\u1fbd \u1f10\u03bc\u03bf\u1f76 \u03bb\u03cd\u03c3\u03b1\u03b9\u03c4\u03b5 \u03c6\u03af\u03bb\u03b7\u03bd, \u03c4\u1f70 \u03b4\u1fbd \u1f04\u03c0\u03bf\u03b9\u03bd\u03b1 \u03b4\u03ad\u03c7\u03b5\u03c3\u03b8\u03b1\u03b9, \u1f01\u03b6\u03cc\u03bc\u03b5\u03bd\u03bf\u03b9 \u0394\u03b9\u1f78\u03c2 \u03c5\u1f31\u1f78\u03bd \u1f11\u03ba\u03b7\u03b2\u03cc\u03bb\u03bf\u03bd \u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03bd\u03b1. Romanization : m\u0113nin aeide thea P\u0113l\u0113iade\u014d Achil\u0113os oulomen\u0113n, h\u0113 myri' Achaiois alge' eth\u0113ke, pollas d' iphthimous psychas Aidi proiapsen h\u0113r\u014d\u014dn, autous de hel\u014dria teuche kynessin oi\u014dnoisi te pasi, Dios d' eteleieto boul\u0113, ex hou d\u0113 ta pr\u014dta diast\u0113t\u0113n erisante Atreid\u0113s te anax andr\u014dn kai dios Achilleus. \u2014 tis t' ar sph\u014de the\u014dn eridi xyne\u0113ke machesthai? L\u0113tous kai Dios huios: ho gar basil\u0113i chol\u014dtheis nouson ana straton orse kak\u0113n, olekonto de laoi, houneka ton Chrys\u0113n \u0113timasen ar\u0113t\u0113ra Atreid\u0113s: ho gar \u0113lthe thoas epi n\u0113as Achai\u014dn lysomenos te thygatra pher\u014dn t' apereisi' apoina, stemmat' ech\u014dn en chersin hek\u0113bolou Apoll\u014dnos chryse\u014d ana sk\u0113ptr\u014d, kai lisseto pantas Achaious, Atreida de malista dy\u014d, kosm\u0113tore la\u014dn: Atreidai te kai alloi eukn\u0113mides Achaioi, hymin men theoi doien Olympia d\u014dmat' echontes ekpersai Priamoio polin, eu d' oikad' hikesthai: paida d' emoi lysaite phil\u0113n, ta d' apoina dechesthai, hazomenoi Dios huion hek\u0113bolon Apoll\u014dna. [ 2 ] 16th and 17th centuries (1581\u20131700) Translator Publication Proemic verse R Hall, Arthur of Grantham 1539 \u2013 1605, M. P. , courtier, translator 1581 London, for Ralph Newberie I Thee beseech, O Goddesse milde, the hatefull hate to plaine, Whereby Achilles was so wroong, and grewe in suche disdaine, [ 3 ] Rawlyns, Roger 1587 London, Orwin [ 4 ] Colse, Peter 1596 London, H. Jackson [ 5 ] Chapman, George 1559\u20131634, dramatist, poet, classicist 1611 \u2013 15 London, Rich. Field for Nathaniell Butter [ 6 ] Achilles' banefull wrath resound, O Goddesse, that imposd Infinite sorrowes on the Greekes, and many brave soules losd [ 7 ] Grantham, Thomas c. 1610 \u2013 1664 1659 London, T. Lock Achilles son of Peleus Goddes sing, His baneful wrath which to the Greeks did bring Unnumbred greifs, brave souls to hel did send [ 8 ] Ogilby, John 1600 \u2013 1676, cartographer, publisher, translator 1660 London, Roycroft Achilles Peleus Son's destructive Rage, Great Goddess, sing, which did the Greeks engage [ 9 ] Hobbes, Thomas 1588 \u2013 1679, acclaimed philosopher, etc. 1676 London, W. Crook O Goddess sing what woe the discontent Of Thetis' son brought to the Greeks; what souls Of heroes down to Erebus it sent, [ 10 ] Dryden, John 1631 \u2013 1700, dramatist, Poet Laureate 1700 London, J. Tonson The Wrath of Peleus Son, O Muse, resound; Whose dire Effects the Grecian Army found: [ 11 ] Early 18th century (1701\u20131750) Translator Publication Proemic verse R Ozell, John d. 1743, translator, accountant 1712 London, Bernard Lintott Broome, William 1689 \u2013 1745, poet, translator Oldisworth, William 1680 \u2013 1734 [ 12 ] Pope, Alexander 1688 \u2013 1744, poet 1715 London, Bernard Lintot Achilles' wrath, to Greece the direful spring Of woes unnumber'd, heavenly goddess, sing! [ 13 ] Tickell, Thomas 1685 \u2013 1740, poet 1715 London, Tickell Achilles' fatal wrath, whence discord rose, That brought the sons of Greece unnumber'd woes, [ 14 ] Fenton, Elijah 1683 \u2013 1730, poet, biographer, translator 1717 London, printed for Bernard Lintot Cooke, T. 1729 Fitz-Cotton, H. 1749 Dublin, George Faulkner Ashwick, Samuel 1750 London, printed for Brindley, Sheepey and Keith Late 18th century (1751\u20131800) Translator Publication Proemic verse R Scott, J. N. 1755 London, Osborne and Shipton Langley, Samuel , 1720 \u2013 1791 Rector of Checkley [ 15 ] 1767 London, Dodsley Macpherson, James 1736 \u2013 1796, poet, compiler of Scots Gaelic poems, politician 1773 London, T. Becket The wrath of the son of Peleus,\u2014O goddess of song, unfold! The deadly wrath of Achilles : To Greece the source of many woes! [ 16 ] Cowper, William 1731 \u2013 1800, poet and hymnodist 1791 London, J. Johnson Achilles sing, O Goddess! Peleus' son; His wrath pernicious, who ten thousand woes [ 17 ] Tremenheere, William 1757 \u2013 1838 Chaplain to the Royal Navy [ 18 ] 1792 London, Faulder? Geddes, Alexander 1737 \u2013 1802, Scots Roman Catholic theologian; scholar, poet 1792 London: printed for J. Debrett Bak, Joshua (T. Bridges?) 1797 London Early 19th century (1801\u20131850) Translator Publication Proemic verse R Williams, Peter ? Bulmer, William [ improper synthesis? ] 1757 \u2013 1830, printer 1807 The stern resentment of Achilles, son Of Peleus, Muse record,\u2014dire source of woe; [ 19 ] Cowper, William (3rd edition) 1731 \u2013 1800, poet and hymnodist 1809 Sing Muse the deadly wrath of Peleus' son Achilles, source of many thousand woes [ 20 ] Morrice, Rev. James 1809 Sing , Muse, the fatal wrath of Peleus' son, Which to the Greeks unnumb'red evils brought, [ 21 ] Cary, Henry 1772 \u2013 1844, author, translator 1821 London, Munday and Slatter Sing, Goddess, the destructive wrath of Achilles, son of Peleus, which brought many disasters upon the Greeks, [ 22 ] Sotheby, William 1757 \u2013 1833, poet, translator 1831 London, John Murray Anonymous A Graduate Of The University of Oxford 1847 Dublin, Cumming and Ferguson Sing, Goddess, the fatal resentment of Achilles, the son of Peleus, which caused innumerable woes to the Achaeans, and prematurely despatched many brave souls of heroes to Orcus, and made themselves (i.e. their bodies) a prey to dogs and all birds, (for the counsel of Jove was being accomplished,) from the time that Atrides, king of men, and the noble Achilles, first contending, were disunited. [ 23 ] Munford, William 1775 \u2013 1825, American lawyer [ 24 ] 1846 Boston, Little Brown Brandreth, Thomas Shaw 1788 \u2013 1873, mathematician, inventor, classicist 1846 London, W. Pickering Achillies wrath accurst, O Goddess, sing, Which caused ten thousand sorrows to the Greeks, [ 25 ] Late middle 19th century (1851\u20131875) Translator Publication Proemic verse R Buckley, Theodore Alois 1825 \u2013 1856, translator 1851 London, H. G. Bohn Sing, O goddess, the destructive wrath of Achilles, son of Peleus, which brought countless woes upon the Greeks, [ 26 ] Hamilton, Sidney G. 1855 \u2013 58 Philadelphia Clark, Thomas Newman, Francis William 1807 \u2013 1893, classics professor [ 27 ] 1856 London, Walton & Maberly Of Peleus' son, Achilles, sing, oh goddess, the resentment Accursed, which with countless pangs Achaia's army wounded, [ 28 ] Wright, Ichabod Charles 1795 \u2013 1871, translator, poet, accountant 1858 \u2013 65 Cambridge, Macmillan Giles, Rev. Dr. J. A. [John Allen] 1808 \u2013 1884, headmaster, scholar, prolific author, clergyman [ 29 ] 1861 \u2013 82 Sing, O goddess, th",
+      "content_source": "page/English_translations_of_Homer/with_html (stripped)"
+    },
+    {
+      "call_index": 2,
+      "query": "Great Pyramid Giza construction date",
+      "api_response": {
+        "pages": [
+          {
+            "id": 12224,
+            "key": "Great_Pyramid_of_Giza",
+            "title": "Great Pyramid of Giza",
+            "excerpt": "The <span class=\"searchmatch\">Great</span> <span class=\"searchmatch\">Pyramid</span> of <span class=\"searchmatch\">Giza</span> is the largest of the Egyptian <span class=\"searchmatch\">pyramids</span> and the most famous landmark of the <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramid</span> complex in <span class=\"searchmatch\">Giza</span>, Egypt. It is the oldest",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Largest pyramid in the Giza Necropolis, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 34,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/60px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
+            }
+          },
+          {
+            "id": 1979299,
+            "key": "Giza_pyramid_complex",
+            "title": "Giza pyramid complex",
+            "excerpt": "The <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramid</span> complex (also called the <span class=\"searchmatch\">Giza</span> necropolis) in Egypt is home to the <span class=\"searchmatch\">Great</span> <span class=\"searchmatch\">Pyramid</span>, the <span class=\"searchmatch\">pyramid</span> of Khafre, and the <span class=\"searchmatch\">pyramid</span> of Menkaure, along",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Archaeological site near Cairo, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 25,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/60px-Pyramids_of_the_Giza_Necropolis.jpg"
+            }
+          },
+          {
+            "id": 3245297,
+            "key": "Construction_of_the_Egyptian_pyramids",
+            "title": "Construction of the Egyptian pyramids",
+            "excerpt": "the event, believed that the <span class=\"searchmatch\">pyramids</span> were built by slave labour. Archaeologists now believe that the <span class=\"searchmatch\">Great</span> <span class=\"searchmatch\">Pyramid</span> of <span class=\"searchmatch\">Giza</span> (at least) was built by tens",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 25,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/60px-Pyramids_of_the_Giza_Necropolis.jpg"
+            }
+          },
+          {
+            "id": 245173,
+            "key": "Great_Sphinx_of_Giza",
+            "title": "Great Sphinx of Giza",
+            "excerpt": "The <span class=\"searchmatch\">Great</span> Sphinx of <span class=\"searchmatch\">Giza</span> is a limestone statue of a reclining sphinx, a mythical creature with the head of a human and the body of a lion. The monument",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Limestone statue of a reclining sphinx",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 37,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Sphinx_with_the_third_pyramid.jpg/60px-Sphinx_with_the_third_pyramid.jpg"
+            }
+          },
+          {
+            "id": 1970544,
+            "key": "Pyramid_of_Menkaure",
+            "title": "Pyramid of Menkaure",
+            "excerpt": "The <span class=\"searchmatch\">pyramid</span> of Menkaure is the smallest of the three main <span class=\"searchmatch\">pyramids</span> of the <span class=\"searchmatch\">Giza</span> <span class=\"searchmatch\">pyramid</span> complex, located on the <span class=\"searchmatch\">Giza</span> Plateau in the southwestern outskirts",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Smallest main pyramid of Giza in Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cairo%2C_Gizeh%2C_Pyramid_of_Menkaure%2C_Egypt%2C_Oct_2005.jpg/60px-Cairo%2C_Gizeh%2C_Pyramid_of_Menkaure%2C_Egypt%2C_Oct_2005.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Great Pyramid of Giza Largest pyramid in the Giza Necropolis, Egypt \"Great Pyramid\" redirects here. For other Egyptian pyramids, see Egyptian pyramids . Great Pyramid of Giza The Great Pyramid, seen in 2023 Great Pyramid Location within Egypt Show map of Egypt Great Pyramid Location within Africa Show map of Africa Location Giza , Egypt Coordinates 29\u00b058\u203245\u2033N 31\u00b008\u203203\u2033E \ufeff / \ufeff 29.97917\u00b0N 31.13417\u00b0E \ufeff / 29.97917; 31.13417 Ancient name Akhet Khufu Khufu's Horizon [ 1 ] Architect Hemiunu (presumed) Constructed c. 2600 BC ( Old Kingdom ) 4626 years ago Type True pyramid Material Limestone, mortar, granite Height Original: 146.6 m (481 ft) or 280 cubits Current: 138.5 m (454 ft) Base 230.33 m (756 ft) or 440 cubits Volume 2.6 million m 3 (92 million ft 3 ) Slope 51\u00b050'40\" or seked of \u2060 5 + 1 / 2 \u2060 palms [ 2 ] UNESCO World Heritage Site Part of Memphis and its Necropolis \u2013 the Pyramid Fields from Giza to Dahshur Criteria Cultural: i, iii, vi Reference 86-002 Inscription 1979 (3rd Session ) Area Egypt Building details Record height Tallest in the world from c. 2600 BC to the mid-13th century AD [I] Preceded by Red Pyramid (Egypt) Surpassed by Old St Paul's Cathedral (England) [ dubious \u2013 discuss ] The Great Pyramid of Giza [ a ] is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyramid complex in Giza , Egypt. It is the oldest of the Seven Wonders of the Ancient World , and the only wonder that has remained largely intact. The Great Pyramid served as the tomb of Egyptian Pharaoh Khufu (\"Cheops\"), who ruled during the Fourth Dynasty of the Old Kingdom . It was built c. 2600 BC [ 3 ] over a period of about 26 years. [ 4 ] Initially standing at 146.6 metres (481 feet) , the Great Pyramid was the world's tallest human-made structure for more than 3,700 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the current 138.5 metres (454.4 ft) ; what is seen today is the underlying core structure. Each side of the base was measured to be about 230.3 metres (755.6 ft) in length, giving a volume of roughly 2.6 million cubic metres (92 million cubic feet) , which includes an internal hillock. [ 5 ] The dimensions of the pyramid were 280 royal cubits (146.7 m; 481.4 ft) high, a base length of 440 cubits (230.6 m; 756.4 ft) , with a seked of \u2060 5 + 1 / 2 \u2060 palms (a slope of 51\u00b050'40\"). The Great Pyramid was built by quarrying an estimated 2.3 million large blocks, weighing 6 million tonnes in total. The majority of the stones are not uniform in size or shape, and are only roughly dressed. [ 6 ] The outside layers were bound together by mortar , primarily local limestone from the Giza Plateau was used for its construction. Other blocks were imported by boat on the Nile : white limestone from Tura for the casing, and blocks of granite from Aswan , weighing up to 80 tonnes, for the \"King's Chamber\" structure. [ 7 ] There are three known chambers inside of the Great Pyramid. The lowest was cut into the bedrock , upon which the pyramid was built, but remained unfinished. The so-called [ 8 ] Queen's Chamber and King's Chamber, which contain a granite sarcophagus, are above ground within the pyramid structure. Hemiunu , Khufu's vizier , is believed by some to be the architect of the Great Pyramid. [ 9 ] Many varying scientific and alternative hypotheses attempt to explain the exact construction techniques , but, as is the case for other such structures, there is no definite consensus. The funerary complex around the pyramid consisted of two mortuary temples connected by a causeway (one close to the pyramid and one near the Nile); tombs for the immediate family and court of Khufu, including three smaller pyramids for Khufu's wives; an even smaller \"satellite pyramid\"; and five buried solar barques . It is part of the UNESCO World Heritage Site \" Memphis and its Necropolis \". [ 10 ] Purpose Statue of pharaoh Khufu /Cheops, Cairo Museum . The Great Pyramid of Giza was the tomb of pharaoh Khufu, [ 11 ] and still contains his granite sarcophagus. [ 12 ] It had, like other tombs of Egyptian elites, four main purposes: [ 13 ] It housed the body of the deceased and kept it safe. [ 14 ] It demonstrated the status of the deceased and his family. It retained the deceased's place in society. It was a place where offerings could be brought to the deceased. Make your grave well furnished and prepare thy place in the west. Look, death counts little for us. Look, life is valued highly by us. The house of the dead (the tomb) is for life. [ 15 ] [ 16 ] [ 17 ] \u2014 Excerpt from the Instruction of Hardjedef (son of Khufu) In ancient Egypt, high social status was considered absolutely positive, and the monumental social inequalities were symbolized by gigantic pyramids versus smaller mastabas . The sizes of tombs were regulated officially, with their allowed dimensions written down in royal decrees . In the Old Kingdom only kings and queens could have a pyramid tomb. Architectural layout and funeral equipment were also sanctioned, and were, like access to material and workers, at the discretion of the king. [ 18 ] The Great Pyramid's internal chambers lack inscriptions and decorations, the norm for Egyptian tombs of the fourth to late fifth dynasty, apart from work-gang graffiti that include Khufu's names. [ 19 ] Constructed around 2600 BC, it predates the custom of inscribing pyramids with text by over 200 years. [ 20 ] [ 3 ] The pyramid complex of Khufu included two temples that were lavishly decorated and inscribed. The pyramid temple was dedicated to the Sed festival , celebrating Khufu's 30th jubilee. [ 21 ] Surviving scenes portray Khufu, officials, priests and other characters performing rituals. The valley temple remains largely unexcavated, but blocks reused by Amenemhat I depict, for instance, nautical scenes and personifications of the estates of Khufu (e.g. the estate \"Khufu is beautiful\"). [ 22 ] The mortuary cult of Khufu which operated in these temples for hundreds of years indicates that Khufu was successfully interred in the Great Pyramid. [ 23 ] That the funeral was carried out by Khufu's son and successor Djedefre is evidenced by the presence of his cartouches on the blocks that sealed the boat pits next to the pyramid. [ 24 ] The Great Pyramid was likely looted as early as the First Intermediate Period and may have been reused afterwards. [ 25 ] Arab accounts tell stories of mummies and treasures being found inside the pyramid. For instance, Al-Maqrizi (1364\u20131442) reports the discovery of three shrouded bodies, a sarcophagus filled with gold, and a corpse in golden armour with a sword of inestimable value and a ruby as large as an egg. [ 26 ] Attribution to Khufu Clay seal bearing the name of the Great Pyramid which includes Khufu's cartouche, c. 664 BC \u2013 c. 332 BC, Louvre museum Khufu's cartouche found inscribed on a backing stone of the pyramid Historically the Great Pyramid had been attributed to Khufu based on the words of authors of classical antiquity , first and foremost Herodotus and Diodorus Siculus . During the Middle Ages other people were credited with the construction of the pyramid as well, for example Joseph from the Book of Genesis , Nimrod , or the legendary king Saurid ibn Salhouk . [ 27 ] In 1837 four additional relieving chambers were found above the King's Chamber after tunnelling to them. The chambers, previously inaccessible, were covered in hieroglyphs of red paint. The workers who were building the pyramid had marked the blocks with the names of their gangs, which included the pharaoh's name (e.g.: \"The gang, The white crown of Khnum-Khufu is powerful\"). The names of Khufu were spelled out on the walls over a dozen times. Another of these graffiti was found by Goyon on an exterior block of the 4th layer of the pyramid. [ 28 ] The inscriptions are comparable to those found at other sites of Khufu, such as the alabaster quarry at Hatnub [ 29 ] or the harbour at Wadi al-J",
+      "content_source": "page/Great_Pyramid_of_Giza/with_html (stripped)"
+    },
+    {
+      "call_index": 3,
+      "query": "Homer",
+      "api_response": {
+        "pages": [
+          {
+            "id": 13633,
+            "key": "Homer",
+            "title": "Homer",
+            "excerpt": "legends surrounding <span class=\"searchmatch\">Homer&#039;s</span> life, they indicate little more than the centrality of <span class=\"searchmatch\">Homer</span> to ancient Greek culture. The study of <span class=\"searchmatch\">Homer</span> is one of the oldest",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Ancient Greek poet",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Homer_British_Museum.jpg/60px-Homer_British_Museum.jpg"
+            }
+          },
+          {
+            "id": 64072,
+            "key": "Homer_Simpson",
+            "title": "Homer Simpson",
+            "excerpt": "<span class=\"searchmatch\">Homer</span> Jay Simpson is a fictional character and the main protagonist of the American animated sitcom The Simpsons. Part of the titular family, <span class=\"searchmatch\">Homer</span> made",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Fictional character from The Simpsons franchise",
+            "thumbnail": null
+          },
+          {
+            "id": 870393,
+            "key": "Homer_Hickam",
+            "title": "Homer Hickam",
+            "excerpt": "His books have been translated into many languages. <span class=\"searchmatch\">Homer</span> Hadley Hickam Jr. is the second son of <span class=\"searchmatch\">Homer</span> Sr. and Elsie Gardener Hickam (n\u00e9e Lavender). He was",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American author and engineer (born 1943)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 107,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Homer_H._Hickam_Jr.jpg/60px-Homer_H._Hickam_Jr.jpg"
+            }
+          },
+          {
+            "id": 19381951,
+            "key": "Iliad",
+            "title": "Iliad",
+            "excerpt": "The Iliad of <span class=\"searchmatch\">Homer</span>, by George Chapman, at Project Gutenberg The Iliad of <span class=\"searchmatch\">Homer</span>, by Alexander Pope, at Project Gutenberg The Iliad of <span class=\"searchmatch\">Homer</span>, by William",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Epic poem attributed to Homer",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 37,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Detail._Wooden_board_inscribed_in_ink_with_lines_468-473%2C_Book_I_of_Homer%27s_Iliad._Roman_Egypt._On_display_at_the_British_Museum.jpg/60px-Detail._Wooden_board_inscribed_in_ink_with_lines_468-473%2C_Book_I_of_Homer%27s_Iliad._Roman_Egypt._On_display_at_the_British_Museum.jpg"
+            }
+          },
+          {
+            "id": 22349,
+            "key": "Odyssey",
+            "title": "Odyssey",
+            "excerpt": "about whether <span class=\"searchmatch\">Homer</span> lived and, if he did, when; and whether the poems reflect any geographical, historical or cultural reality. While <span class=\"searchmatch\">Homer</span> is today attributed",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Epic poem attributed to Homer",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 92,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Fragment_Odyssee_2245_2.jpg/60px-Fragment_Odyssee_2245_2.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Homer Ancient Greek poet Several terms redirect here. For other uses, see Homer (disambiguation) , Homerus (disambiguation) , and Homeric (disambiguation) . Homer Marble terminal bust of Homer. Roman copy of a lost 2nd-century BC Hellenistic original Native name \u1f4d\u03bc\u03b7\u03c1\u03bf\u03c2 Born c. 8th century BC possibly Ionia [ 1 ] Died Ios [ 2 ] Language Homeric Greek (literary) Ionic Greek Genre Epic Subject Epic Cycle Notable works Iliad Odyssey Homer ( / \u02c8 h o\u028a m \u0259r / ; Ancient Greek : \u1f4d\u03bc\u03b7\u03c1\u03bf\u03c2 [ h\u00f3m\u025b\u02d0ros ] , H\u00f3m\u0113ros ; possibly born c. the 8th century BC ) was an ancient Greek poet who is widely credited as the author of the Iliad and the Odyssey , two epic poems that are foundational works of ancient Greek literature . Although his life and authorship remain obscure, Homer was highly revered in ancient Greek society and is considered one of the most influential authors in history. [ 1 ] The Iliad centers on a quarrel between King Agamemnon and the warrior Achilles during the last year of the Trojan War . The Odyssey chronicles the ten-year journey of Odysseus , king of Ithaca , back to his home after the fall of Troy. The epics depict man's struggle, the Odyssey especially so, as Odysseus perseveres through the punishment of the gods. [ 3 ] The poems are in Homeric Greek , also known as Epic Greek, a literary language that shows a mixture of features of the Ionic and Aeolic dialects from different centuries; the predominant influence is Eastern Ionic. [ 4 ] [ 5 ] Most researchers believe that the poems were originally transmitted orally . [ 6 ] Despite being predominantly known for their tragic and serious themes, the Homeric poems also contain instances of comedy and laughter . [ 7 ] The Homeric poems shaped aspects of ancient Greek culture and education, fostering ideals of heroism, glory, and honor. [ 8 ] To Plato , Homer was in simple words the one who \"has educated Greece\" ( \u03c4\u1f74\u03bd \u1f19\u03bb\u03bb\u03ac\u03b4\u03b1 \u03c0\u03b5\u03c0\u03b1\u03af\u03b4\u03b5\u03c5\u03ba\u03b5\u03bd , t\u0113n Hell\u00e1da pepa\u00eddeuken ). [ 9 ] [ 10 ] In Dante Alighieri 's Divine Comedy , Virgil refers to Homer as \"Poet sovereign\", king of all poets; [ 11 ] in the preface to his translation of the Iliad , Alexander Pope acknowledges that Homer has always been considered the \"greatest of poets\". [ 12 ] From antiquity to the present day, Homeric epics have inspired many famous works of literature, music, art, and film. [ 13 ] The question of by whom, when, where, and under what circumstances the Iliad and Odyssey were composed continues to be debated. Scholars generally regard the two poems as the works of separate authors. It is thought that the poems were composed at some point around the late eighth or early seventh century BC. [ 14 ] Many accounts of Homer's life circulated in classical antiquity , the most widespread that he was a blind bard from Ionia , a region including the central part of the western coast of Anatolia in present-day Turkey, and the Greek islands of Chios and Samos . [ 15 ] Modern scholars consider these accounts legendary . [ 16 ] Biography, identity, and biographical traditions Main article: Ancient accounts of Homer The identity of \"Homer\" is a mystery, and scholars generally regard the ancient conception of a single author behind the Iliad and the Odyssey as a fictional narrative. [ 17 ] During antiquity, biographical details about Homer's life became increasingly mythologized due to his anonymity and it was believed during that period that he lived after the Trojan War . [ 18 ] Contemporary scholars study the life of Homer alongside the Homeric Question , the ongoing academic debate concerning Homer's authorship and the origins, composition, and transmission of the epic poems attributed to him. [ 19 ] The two best-known ancient biographies of Homer are the Life of Homer by the Pseudo-Herodotus and the Contest of Homer and Hesiod . [ 2 ] [ 20 ] The first early implicit references to Homer in the 7th century BC are in works by Archilochus , Alcman , Tyrtaeus , and Callinus . [ 1 ] In most ancient biographies, Homer is depicted as being blind; other biographies, such as that in the Byzantine encyclopedia Suda , described Homer to be descended from one of the Muses , Apollo , Orpheus , Thamyris , Telemachus , or Musaeus . [ 21 ] Another tradition from the time of the Roman emperor Hadrian says Epicaste (daughter of Nestor ) and Telemachus (son of Odysseus ) were the parents of Homer. [ 22 ] [ 23 ] The poet Pindar is credited with saying that Homer originated from Chios and Smyrna , both of which are also mentioned by other fifth-century writers. [ 24 ] Other biographical traditions imagined Homer to have been a rhapsode or singer who performed at religious festivals, [ 24 ] was a wandering bard or a composer of other works (the \"Homerica\"), or that he failed to solve a riddle set by fishermen. [ 25 ] According to the Greek historian Ephorus , Homer studied poetry with the bard Phemius and was born in Cyme . [ 26 ] Philochorus thought Homer's birthplace to be in Argos ; later writers believed Pylos and Athens to have been Homer's birthplace. No one account of Homer's origin became mainstream, but most accounts of his death place its location on Ios . [ 27 ] Works attributed to Homer Homer and His Guide (1874) by William-Adolphe Bouguereau Today, only the Iliad and the Odyssey are associated with the name \"Homer\". In antiquity, a large number of other works were sometimes attributed to him, including the Homeric Hymns , the Contest of Homer and Hesiod , several epigrams , the Little Iliad , the Nostoi , the Thebaid , the Cypria , the Epigoni , the comic mini-epic Batrachomyomachia (\"The Frog\u2013Mouse War\"), the Margites , the Capture of Oechalia , and the Phocais . These claims are not considered authentic today and were not universally accepted in the ancient world. As with the multitude of legends surrounding Homer's life, they indicate little more than the centrality of Homer to ancient Greek culture. [ 28 ] [ 29 ] [ 30 ] History of Homeric scholarship Main articles: Homeric scholarship and Homeric Question Ancient Part of an eleventh-century manuscript, \"the Townley Homer\". The writings on the top and right side are scholia . The study of Homer is one of the oldest topics in scholarship, dating back to antiquity. [ 31 ] [ 32 ] [ 33 ] Nonetheless, the aims of Homeric studies have changed throughout the millennia. [ 31 ] The earliest preserved comments on Homer concern his treatment of the gods, which hostile critics such as the poet Xenophanes of Colophon denounced as immoral. [ 33 ] The allegorist Theagenes of Rhegium is said to have defended Homer by arguing that the Homeric poems are allegories . [ 33 ] The Iliad and the Odyssey were widely used as school texts in ancient Greek and Hellenistic cultures. [ 31 ] [ 33 ] [ 34 ] They were the first literary works taught to all students. [ 34 ] The Iliad , particularly its first few books, was far more intently studied than the Odyssey during the Hellenistic and Roman periods. [ 34 ] As a result of the poems' prominence in classical Greek education, extensive commentaries on them developed to explain parts that were culturally or linguistically difficult. [ 31 ] [ 33 ] During the Hellenistic and Roman periods, many interpreters, especially the Stoics , who believed that Homeric poems conveyed Stoic doctrines, regarded them as allegories, containing hidden wisdom. [ 33 ] Perhaps partially because of the Homeric poems' extensive use in education, many authors believed that Homer's original purpose had been to educate. [ 33 ] Homer's wisdom became so widely praised that he began to acquire the image of almost a prototypical philosopher. [ 33 ] Byzantine scholars such as Eustathius of Thessalonica and John Tzetzes produced commentaries, extensions and scholia to Homer, especially in the twelfth century. [ 35 ] [ 33 ] Eustathius's commentary on the Iliad alone is massive, sprawling over nearly 4,000 oversized pages in a 21st-century printed version and his commentary on the Odyssey an additional nearly 2,000.",
+      "content_source": "page/Homer/with_html (stripped)"
+    }
+  ],
+  "output": "Based on the Wikipedia information retrieved:\n\nThe Great Pyramid of Giza was completed **before** Homer composed the Iliad. The Great Pyramid was built around 2600 BC, while Homer composed the Iliad around the late eighth or early seventh century BC\u2014roughly 1,000 years later.\n\nSource: Great Pyramid of Giza, Homer",
+  "total_tool_calls": 4,
+  "latency_ms": 34164,
+  "error": null
+}

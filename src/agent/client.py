@@ -20,6 +20,7 @@ class ClaudeClient:
         system: str,
         messages: list[dict],
         tools: list[dict] | None = None,
+        max_tokens: int = 1024,
     ) -> dict:
         """
         Call the Claude API and return a normalised dict:
@@ -29,7 +30,7 @@ class ClaudeClient:
         """
         kwargs: dict = {
             "model": self.model,
-            "max_tokens": 1024,
+            "max_tokens": max_tokens,
             "system": system,
             "messages": messages,
         }

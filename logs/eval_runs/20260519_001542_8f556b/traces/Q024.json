@@ -1,0 +1,227 @@
+{
+  "eval_id": "Q024",
+  "run_id": "20260519_001542_8f556b",
+  "prompt_version": "v3",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What records did Michael break?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What records did Michael break?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01PUqbvA8TKQHAc3HqMzejbq",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Michael Jordan"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01CiPxmBk4yumLJcmw8FibRi",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Michael Phelps"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01PUqbvA8TKQHAc3HqMzejbq",
+          "content": "Michael Jordan American basketball player and businessman (born 1963) For other uses, see Michael Jordan (disambiguation) . Michael Jordan Jordan in 2014 Charlotte Hornets Title Minority owner League NBA Personal information Born ( 1963-02-17 ) February 17, 1963 (age 63) New York City , New York, U.S. Listed height 6 ft 6 in (1.98 m) Listed weight 216 lb (98 kg) [ a ] Career information High school Emsley A. Laney ( Wilmington, North Carolina ) College North Carolina (1981\u20131984) NBA draft 1984 : 1st round, 3rd overall pick Drafted by Chicago Bulls Playing career 1984\u20131993, 1995\u20131998, 2001\u20132003 Position Shooting guard / small forward Number 23, 12, [ b ] 45 Career history 1984 \u2013 1993 , 1995 \u2013 1998 Chicago Bulls 2001 \u2013 2003 Washington Wizards Career highlights 6\u00d7 NBA champion ( 1991 \u2013 1993 , 1996 \u2013 1998 ) 6\u00d7 NBA Finals MVP ( 1991 \u2013 1993 , 1996 \u2013 1998 ) 5\u00d7 NBA Most Valuable Player ( 1988 , 1991 , 1992 , 1996 , 1998 ) 14\u00d7 NBA All-Star ( 1985 \u2013 1993 , 1996 \u2013 1998 , 2002 , 2003 ) 3\u00d7 NBA All-Star Game MVP ( 1988 , 1996 , 1998 ) 10\u00d7 All-NBA First Team ( 1987 \u2013 1993 , 1996 \u2013 1998 ) All-NBA Second Team ( 1985 ) NBA Defensive Player of the Year ( 1988 ) 9\u00d7 NBA All-Defensive First Team ( 1988 \u2013 1993 , 1996 \u2013 1998 ) NBA Rookie of the Year ( 1985 ) NBA All-Rookie First Team ( 1985 ) 10\u00d7 NBA scoring champion ( 1987 \u2013 1993 , 1996 \u2013 1998 ) 3\u00d7 NBA steals leader ( 1988 , 1990 , 1993 ) 2\u00d7 NBA Slam Dunk Contest champion ( 1987 , 1988 ) No. 23 retired by Chicago Bulls No. 23 retired by Miami Heat 3\u00d7 AP Athlete of the Year ( 1991 \u2013 1993 ) Sports Illustrated Sportsperson of the Year (1991) NBA anniversary team ( 50th , 75th ) NCAA champion ( 1982 ) Consensus national college player of the year ( 1984 ) 2\u00d7 Sporting News National Player of the Year (1983, 1984) 2\u00d7 Consensus first-team All-American ( 1983 , 1984 ) ACC Player of the Year (1984) ACC Athlete of the Year (1984) 2\u00d7 First-team All-ACC (1983, 1984) ACC Rookie of the Year (1982) No. 23 retired by North Carolina Tar Heels 3\u00d7 USA Basketball Male Athlete of the Year (1983, 1984, 1992 [ c ] ) McDonald's All-American ( 1981 ) First-team Parade All-American (1981) Presidential Medal of Freedom (2016) Career NBA statistics Points 32,292 (30.1 ppg) Rebounds 6,672 (6.2 rpg) Assists 5,633 (5.3 apg) Stats at NBA.com Stats at Basketball Reference Basketball Hall of Fame FIBA Hall of Fame Medals Men's basketball Representing the United States Olympic Games 1984 Los Angeles Men's basketball 1992 Barcelona Men's basketball Tournament of the Americas 1992 Portland Men's basketball Pan American Games 1983 Caracas Men's basketball Michael Jeffrey Jordan (born February 17, 1963), also known by his initials MJ , [ 8 ] is an American businessman and retired professional basketball player who is a minority owner of the Charlotte Hornets of the National Basketball Association (NBA). He played 15 seasons in the NBA between 1984 and 2003, winning six NBA championships with the Chicago Bulls . Widely considered to be one of the greatest basketball players of all time, [ 9 ] [ 10 ] [ 11 ] he was integral in popularizing basketball and the NBA around the world in the 1980s and 1990s. [ 12 ] He is the wealthiest athlete of all time, [ 13 ] [ d ] and one of the world's richest celebrities , with a $4.3 billion net worth as of 2026 [ update ] . [ 15 ] Jordan played college basketball with the North Carolina Tar Heels . As a freshman, he was a member of the Tar Heels' national championship team in 1982 . [ 5 ] As a junior in 1984, he was named the national college player of the year and was selected by the Bulls with the third overall pick of the 1984 NBA draft . [ 5 ] [ 16 ] With the Bulls, he emerged as a league star known for prolific scoring, defensive prowess and vehement competitiveness. [ 17 ] [ 18 ] His leaping ability, demonstrated by performing slam dunks from the free-throw line in Slam Dunk Contests , earned him the nicknames \" Air Jordan \" and \" His Airness \". [ 5 ] Jordan won his first NBA title with the Bulls in 1991 and followed that with titles in 1992 and 1993 , securing a three-peat . Citing physical and mental exhaustion from basketball and superstardom, Jordan abruptly retired before the 1993\u201394 NBA season to play Minor League Baseball in the Chicago White Sox organization. He returned to the Bulls in 1995 and led them to three more championships in 1996 , 1997 , and 1998 , as well as a then-record 72 regular season wins in the 1995\u201396 NBA season . [ 5 ] Jordan retired for the second time in 1999, then returned for two NBA seasons from 2001 to 2003 as a member of the Washington Wizards . [ 5 ] [ 16 ] He was selected to play for the United States national team during his college and NBA careers, winning four gold medals \u2014at the 1983 Pan American Games , 1984 Summer Olympics , 1992 Tournament of the Americas and 1992 Summer Olympics \u2014while also being undefeated. [ 19 ] Jordan's individual accolades include six NBA Finals Most Valuable Player (MVP) awards, 10 NBA scoring titles (both all-time records), five NBA MVP awards, 10 All-NBA First Team designations, nine All-Defensive First Team honors, 14 NBA All-Star Game selections, and three NBA All-Star Game MVP awards. [ 16 ] He holds the NBA records for career regular season scoring average (30.1 points per game) and career playoff scoring average (33.4 points per game). [ 20 ] He is one of only eight players to achieve the basketball Triple Crown . In 1999, Jordan was named the 20th century's greatest North American athlete by ESPN and was second to Babe Ruth on the Associated Press ' list of athletes of the century. [ 5 ] Jordan was twice inducted into the Naismith Memorial Basketball Hall of Fame , once in 2009 for his individual career, [ 21 ] and in 2010 as part of the 1992 United States men's Olympic basketball team (\"The Dream Team\"). [ 22 ] The trophy for the NBA Most Valuable Player Award is named in his honor. One of the most effectively marketed athletes ever, Jordan made many product endorsements. [ 12 ] [ 23 ] He fueled the success of Nike 's Air Jordan sneakers, which were introduced in 1984 and remain popular. [ 24 ] Jordan starred as himself in the live-action/animation hybrid film Space Jam (1996) and was the focus of the Emmy -winning documentary series The Last Dance (2020). He became part-owner and head of basketball operations for the Charlotte Hornets (then named the Bobcats) in 2006 and bought a controlling interest in 2010, before selling his majority stake in 2023. Jordan is a co-owner of 23XI Racing in the NASCAR Cup Series . In 2014, he became the first billionaire player in NBA history. [ 25 ] In 2016, President Barack Obama awarded Jordan the Presidential Medal of Freedom . [ 26 ] Early life Michael Jeffrey Jordan was born on February 17, 1963, at Cumberland Hospital in the Fort Greene neighborhood of Brooklyn, New York City , [ 27 ] [ 28 ] to bank employee Deloris (n\u00e9e Peoples) and equipment supervisor James R. Jordan Sr. [ 28 ] [ 29 ] He has two older brothers, James Jr. and Larry , as well as an older sister named Deloris and a younger sister named Roslyn. [ 30 ] [ 31 ] Jordan and his siblings were raised Methodist . [ 32 ] In 1968, the family moved to Wilmington, North Carolina . [ 33 ] Jordan attended Emsley A. Laney High School , where he played basketball, baseball, and football. He tried out for the basketball varsity team during his sophomore year, but at a height of 5 feet 11 inches (1.80 m) , he was deemed too short. [ 34 ] [ 35 ] Motivated to prove his worth, Jordan became the star of Laney's junior varsity team and tallied some 40-point games. [ 34 ] The following summer, he grew four inches (10 cm) and trained rigorously. [ 35 ] Upon earning a spot on the varsity roster, Jordan averaged more than 25 points per game (ppg) over his final two seasons of high school play. [ 36 ] He also adopted his signature jersey number, 23. [ 37 ] As a senior, he was selected for the 1981 McDonald's All-American Game and scored 30 points , [ 38 ] [ 39 ] af"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01CiPxmBk4yumLJcmw8FibRi",
+          "content": "Michael Phelps American swimmer (born 1985) This article is about the American swimmer. For other people named Michael Phelps, see Michael Phelps (disambiguation) . Michael Phelps OLY Phelps at the 2016 Summer Olympics Personal information Full name Michael Fred Phelps II Nickname(s) The Baltimore Bullet [ 1 ] Flying Fish [ 2 ] Born ( 1985-06-30 ) June 30, 1985 (age 40) Baltimore , Maryland, U.S. Height 6 ft 4 in (1.93 m) [ 3 ] Weight 194 lb (88 kg) [ 4 ] Spouse Nicole Johnson \u200b ( m. 2016 ) \u200b Children 4 Michael Phelps's voice Michael Phelps on how he came to be an Olympic Athlete Recorded February 28, 2017 Sport Country United States Sport Swimming Strokes Butterfly , individual medley , freestyle , backstroke Club North Baltimore Aquatic Club Coach Bob Bowman Medal record Men's swimming Representing the United States Event 1 st 2 nd 3 rd Olympic Games 23 3 2 World Championships (LC) 26 6 1 World Championships (SC) 1 0 0 Pan Pacific Championships 16 5 0 Total 66 14 3 By race Event 1 st 2 nd 3 rd 100 m butterfly 8 3 0 200 m butterfly 10 2 0 200 m medley 9 2 0 400 m medley 6 0 0 200 m freestyle 4 2 1 200 m backstroke 0 1 0 4\u00d7100 m freestyle 7 2 2 4\u00d7200 m freestyle 11 2 0 4\u00d7100 m medley 11 0 0 Total 66 14 3 Olympic Games 2004 Athens 100 m butterfly 2004 Athens 200 m butterfly 2004 Athens 200 m medley 2004 Athens 400 m medley 2004 Athens 4\u00d7200 m freestyle 2004 Athens 4\u00d7100 m medley 2008 Beijing 200 m freestyle 2008 Beijing 100 m butterfly 2008 Beijing 200 m butterfly 2008 Beijing 200 m medley 2008 Beijing 400 m medley 2008 Beijing 4\u00d7100 m freestyle 2008 Beijing 4\u00d7200 m freestyle 2008 Beijing 4\u00d7100 m medley 2012 London 100 m butterfly 2012 London 200 m medley 2012 London 4\u00d7200 m freestyle 2012 London 4\u00d7100 m medley 2016 Rio de Janeiro 200 m butterfly 2016 Rio de Janeiro 200 m medley 2016 Rio de Janeiro 4\u00d7100 m freestyle 2016 Rio de Janeiro 4\u00d7200 m freestyle 2016 Rio de Janeiro 4\u00d7100 m medley 2012 London 200 m butterfly 2012 London 4\u00d7100 m freestyle 2016 Rio de Janeiro 100 m butterfly 2004 Athens 200 m freestyle 2004 Athens 4\u00d7100 m freestyle World Championships (LC) 2001 Fukuoka 200 m butterfly 2003 Barcelona 200 m butterfly 2003 Barcelona 200 m medley 2003 Barcelona 400 m medley 2003 Barcelona 4\u00d7100 m medley 2005 Montreal 200 m freestyle 2005 Montreal 200 m medley 2005 Montreal 4\u00d7100 m freestyle 2005 Montreal 4\u00d7200 m freestyle 2005 Montreal 4\u00d7100 m medley 2007 Melbourne 200 m freestyle 2007 Melbourne 100 m butterfly 2007 Melbourne 200 m butterfly 2007 Melbourne 200 m medley 2007 Melbourne 400 m medley 2007 Melbourne 4\u00d7100 m freestyle 2007 Melbourne 4\u00d7200 m freestyle 2009 Rome 100 m butterfly 2009 Rome 200 m butterfly 2009 Rome 4\u00d7100 m freestyle 2009 Rome 4\u00d7200 m freestyle 2009 Rome 4\u00d7100 m medley 2011 Shanghai 100 m butterfly 2011 Shanghai 200 m butterfly 2011 Shanghai 4\u00d7200 m freestyle 2011 Shanghai 4\u00d7100 m medley 2003 Barcelona 100 m butterfly 2003 Barcelona 4\u00d7200 m freestyle 2005 Montreal 100 m butterfly 2009 Rome 200 m freestyle 2011 Shanghai 200 m freestyle 2011 Shanghai 200 m medley 2011 Shanghai 4\u00d7100 m freestyle World Championships (SC) 2004 Indianapolis 200 m freestyle Pan Pacific Championships 2002 Yokohama 200 m medley 2002 Yokohama 400 m medley 2002 Yokohama 4\u00d7100 m medley 2006 Victoria 200 m butterfly 2006 Victoria 200 m medley 2006 Victoria 400 m medley 2006 Victoria 4\u00d7100 m freestyle 2006 Victoria 4\u00d7200 m freestyle 2010 Irvine 100 m butterfly 2010 Irvine 200 m butterfly 2010 Irvine 4\u00d7100 m freestyle 2010 Irvine 4\u00d7200 m freestyle 2010 Irvine 4\u00d7100 m medley 2014 Gold Coast 100 m butterfly 2014 Gold Coast 4\u00d7200 m freestyle 2014 Gold Coast 4\u00d7100 m medley 2002 Yokohama 200 m butterfly 2002 Yokohama 4\u00d7200 m freestyle 2006 Victoria 200 m backstroke 2014 Gold Coast 200 m medley 2014 Gold Coast 4\u00d7100 m freestyle Michael Fred Phelps II [ 5 ] (born June 30, 1985) [ 6 ] is an American former competitive swimmer . He won more Olympic medals than any other athlete , a total of 28 medals across four Olympic Games. Phelps also holds the all-time records for Olympic gold medals (23), [ 7 ] Olympic gold medals in individual events (13), and Olympic medals in individual events (16). [ 8 ] At the 2004 Summer Olympics in Athens, Phelps tied the record of eight medals of any color at a single Games, held by gymnast Alexander Dityatin , by winning six gold and two bronze medals. Four years later, when he won eight gold medals at the 2008 Beijing Games , he broke fellow American swimmer Mark Spitz 's 1972 record of seven first-place finishes at any single Olympic Games . At the 2012 Summer Olympics in London, Phelps won four gold and two silver medals, and at the 2016 Summer Olympics in Rio de Janeiro, he won five gold medals and one silver. This made him the most successful athlete of the Games for the fourth Olympics in a row. [ 9 ] [ 10 ] Phelps is a former long course world record holder in the 200-meter freestyle , 100-meter butterfly , 200-meter butterfly , 200-meter individual medley , and 400-meter individual medley . He has won 82 medals in major international long course competitions, of which 65 were gold, 14 silver, and three bronze, spanning the Olympics, the World Championships , and the Pan Pacific Championships . Phelps's international titles and record-breaking performances have earned him the World Swimmer of the Year Award eight times and American Swimmer of the Year Award eleven times, as well as the FINA Swimmer of the Year Award in 2012 and 2016. Phelps earned Sports Illustrated magazine's Sportsman of the Year award due to his unprecedented Olympic success in the 2008 Games. After the 2008 Summer Olympics, Phelps started the Michael Phelps Foundation , which focuses on growing the sport of swimming and promoting healthier lifestyles. Phelps retired following the 2012 Olympics, but he made a comeback in April 2014. [ 11 ] At the 2016 Summer Olympics in Rio de Janeiro, [ 12 ] his fifth Olympics, he was selected by his team to be the flag bearer of the United States at the 2016 Summer Olympics Parade of Nations . He announced his second retirement on August 12, 2016, [ 13 ] having won more medals than 161 countries. He won the Laureus World Comeback of the Year Award in 2017. [ 14 ] He is widely regarded as the greatest swimmer of all time and is often considered to be one of the greatest athletes of all time. [ 15 ] [ 16 ] Early life and education Phelps was born in Baltimore , Maryland, [ 6 ] and raised in the Rodgers Forge neighborhood of nearby Towson . [ 17 ] Phelps is the youngest of three children. His mother, Deborah Sue \"Debbie\" Phelps ( n\u00e9e Davisson), is a middle school principal. [ 18 ] His father, Michael Fred Phelps, was a retired Maryland State Trooper who played football in high school and college and tried out for the Washington Redskins in the 1970s. [ 18 ] [ 19 ] His parents divorced in 1994 when he was nine years old, and his father remarried in 2000. [ 19 ] Phelps later revealed that the divorce had a severe negative impact on him and his siblings, and his relationship with his father was distant for a few years after the divorce. [ 20 ] He attended Rodgers Forge Elementary, Dumbarton Middle School , and graduated from Towson High School in 2003. [ 21 ] [ 22 ] During his school years, he was a target of school bullying due to his ADHD and protruding ears. It reached a point where he retaliated during a situation and received a suspension. The frustration from this experience fueled his drive into swimming. [ 23 ] Phelps began swimming at the age of seven, partly because of the influence of his sisters and partly to provide him with an outlet for his energy. [ 24 ] After retirement in 2016, he stated \"The only reason I ever got in the water was my mom wanted me to just learn how to swim. My sisters and myself fell in love with the sport, and we decided to swim.\" [ 25 ] When Phelps was in the sixth grade, he was diagnosed with attention deficit hyperactivity disorder (ADHD). [ 26 ] [ 27 ] By the age of 10, he held a national"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Since \"Michael\" is ambiguous, I found information about two prominent athletes with that name. Here are the records they broke:\n\n**Michael Jordan** (basketball):\n- 10 NBA scoring titles (all-time record)\n- Holds the NBA record for career regular season scoring average (30.1 points per game)\n- Holds the NBA record for career playoff scoring average (33.4 points per game)\n\n**Michael Phelps** (swimming):\n- Won more Olympic medals than any other athlete (28 total medals)\n- Holds the all-time record for Olympic gold medals (23)\n- Holds the record for Olympic gold medals in individual events (13)\n- Holds the record for Olympic medals in individual events (16)\n- Broke Mark Spitz's 1972 record of seven gold medals at a single Olympic Games by winning eight gold medals at the 2008 Beijing Games\n- Former world record holder in the 200-meter freestyle, 100-meter butterfly, 200-meter butterfly, 200-meter individual medley, and 400-meter individual medley\n\nSource: Michael Jordan, Michael Phelps"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Michael Jordan",
+      "api_response": {
+        "pages": [
+          {
+            "id": 20455,
+            "key": "Michael_Jordan",
+            "title": "Michael Jordan",
+            "excerpt": "<span class=\"searchmatch\">Michael</span> Jeffrey <span class=\"searchmatch\">Jordan</span> (born February 17, 1963), also known by his initials MJ, is an American businessman and retired professional basketball player who",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American basketball player and businessman (born 1963)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 86,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/60px-Michael_Jordan_in_2014.jpg"
+            }
+          },
+          {
+            "id": 2310146,
+            "key": "Michael_B._Jordan",
+            "title": "Michael B. Jordan",
+            "excerpt": "<span class=\"searchmatch\">Michael</span> Bakari <span class=\"searchmatch\">Jordan</span> (/b\u0251\u02d0\u02c8k\u0251\u02d0ri/ bah-KAR-ee; born February 9, 1987) is an American actor, producer, and director. His accolades include an Academy Award",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American actor (born 1987)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Michael_B_Jordan_-_Sinners_%28cropped%29.jpg/60px-Michael_B_Jordan_-_Sinners_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 1394509,
+            "key": "Air_Jordan",
+            "title": "Air Jordan",
+            "excerpt": "marketed under Jordan Brand. The first Air <span class=\"searchmatch\">Jordan</span> shoe was produced for basketball player <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Jordan</span> during his time with the Chicago Bulls on November",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American basketball and sportswear brand by Nike",
+            "thumbnail": null
+          },
+          {
+            "id": 31594643,
+            "key": "Jeremy_Jordan_(actor,_born_1984)",
+            "title": "Jeremy Jordan (actor, born 1984)",
+            "excerpt": "Jeremy <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Jordan</span> (born November 20, 1984) is an American actor and singer. He has performed on Broadway, in television and film, in concert, as well",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American actor and singer",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 88,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Jeremy_Jordan_2013.jpg/60px-Jeremy_Jordan_2013.jpg"
+            }
+          },
+          {
+            "id": 6722408,
+            "key": "List_of_career_achievements_by_Michael_Jordan",
+            "title": "List of career achievements by Michael Jordan",
+            "excerpt": "and other achievements pertaining to <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Jordan</span>. The three-point line did not exist during <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Jordan&#039;s</span> freshman and junior seasons in North Carolina",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 75,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Jordan_by_Lipofsky_16577_%28high_quality%29.jpg/60px-Jordan_by_Lipofsky_16577_%28high_quality%29.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Michael Jordan American basketball player and businessman (born 1963) For other uses, see Michael Jordan (disambiguation) . Michael Jordan Jordan in 2014 Charlotte Hornets Title Minority owner League NBA Personal information Born ( 1963-02-17 ) February 17, 1963 (age 63) New York City , New York, U.S. Listed height 6 ft 6 in (1.98 m) Listed weight 216 lb (98 kg) [ a ] Career information High school Emsley A. Laney ( Wilmington, North Carolina ) College North Carolina (1981\u20131984) NBA draft 1984 : 1st round, 3rd overall pick Drafted by Chicago Bulls Playing career 1984\u20131993, 1995\u20131998, 2001\u20132003 Position Shooting guard / small forward Number 23, 12, [ b ] 45 Career history 1984 \u2013 1993 , 1995 \u2013 1998 Chicago Bulls 2001 \u2013 2003 Washington Wizards Career highlights 6\u00d7 NBA champion ( 1991 \u2013 1993 , 1996 \u2013 1998 ) 6\u00d7 NBA Finals MVP ( 1991 \u2013 1993 , 1996 \u2013 1998 ) 5\u00d7 NBA Most Valuable Player ( 1988 , 1991 , 1992 , 1996 , 1998 ) 14\u00d7 NBA All-Star ( 1985 \u2013 1993 , 1996 \u2013 1998 , 2002 , 2003 ) 3\u00d7 NBA All-Star Game MVP ( 1988 , 1996 , 1998 ) 10\u00d7 All-NBA First Team ( 1987 \u2013 1993 , 1996 \u2013 1998 ) All-NBA Second Team ( 1985 ) NBA Defensive Player of the Year ( 1988 ) 9\u00d7 NBA All-Defensive First Team ( 1988 \u2013 1993 , 1996 \u2013 1998 ) NBA Rookie of the Year ( 1985 ) NBA All-Rookie First Team ( 1985 ) 10\u00d7 NBA scoring champion ( 1987 \u2013 1993 , 1996 \u2013 1998 ) 3\u00d7 NBA steals leader ( 1988 , 1990 , 1993 ) 2\u00d7 NBA Slam Dunk Contest champion ( 1987 , 1988 ) No. 23 retired by Chicago Bulls No. 23 retired by Miami Heat 3\u00d7 AP Athlete of the Year ( 1991 \u2013 1993 ) Sports Illustrated Sportsperson of the Year (1991) NBA anniversary team ( 50th , 75th ) NCAA champion ( 1982 ) Consensus national college player of the year ( 1984 ) 2\u00d7 Sporting News National Player of the Year (1983, 1984) 2\u00d7 Consensus first-team All-American ( 1983 , 1984 ) ACC Player of the Year (1984) ACC Athlete of the Year (1984) 2\u00d7 First-team All-ACC (1983, 1984) ACC Rookie of the Year (1982) No. 23 retired by North Carolina Tar Heels 3\u00d7 USA Basketball Male Athlete of the Year (1983, 1984, 1992 [ c ] ) McDonald's All-American ( 1981 ) First-team Parade All-American (1981) Presidential Medal of Freedom (2016) Career NBA statistics Points 32,292 (30.1 ppg) Rebounds 6,672 (6.2 rpg) Assists 5,633 (5.3 apg) Stats at NBA.com Stats at Basketball Reference Basketball Hall of Fame FIBA Hall of Fame Medals Men's basketball Representing the United States Olympic Games 1984 Los Angeles Men's basketball 1992 Barcelona Men's basketball Tournament of the Americas 1992 Portland Men's basketball Pan American Games 1983 Caracas Men's basketball Michael Jeffrey Jordan (born February 17, 1963), also known by his initials MJ , [ 8 ] is an American businessman and retired professional basketball player who is a minority owner of the Charlotte Hornets of the National Basketball Association (NBA). He played 15 seasons in the NBA between 1984 and 2003, winning six NBA championships with the Chicago Bulls . Widely considered to be one of the greatest basketball players of all time, [ 9 ] [ 10 ] [ 11 ] he was integral in popularizing basketball and the NBA around the world in the 1980s and 1990s. [ 12 ] He is the wealthiest athlete of all time, [ 13 ] [ d ] and one of the world's richest celebrities , with a $4.3 billion net worth as of 2026 [ update ] . [ 15 ] Jordan played college basketball with the North Carolina Tar Heels . As a freshman, he was a member of the Tar Heels' national championship team in 1982 . [ 5 ] As a junior in 1984, he was named the national college player of the year and was selected by the Bulls with the third overall pick of the 1984 NBA draft . [ 5 ] [ 16 ] With the Bulls, he emerged as a league star known for prolific scoring, defensive prowess and vehement competitiveness. [ 17 ] [ 18 ] His leaping ability, demonstrated by performing slam dunks from the free-throw line in Slam Dunk Contests , earned him the nicknames \" Air Jordan \" and \" His Airness \". [ 5 ] Jordan won his first NBA title with the Bulls in 1991 and followed that with titles in 1992 and 1993 , securing a three-peat . Citing physical and mental exhaustion from basketball and superstardom, Jordan abruptly retired before the 1993\u201394 NBA season to play Minor League Baseball in the Chicago White Sox organization. He returned to the Bulls in 1995 and led them to three more championships in 1996 , 1997 , and 1998 , as well as a then-record 72 regular season wins in the 1995\u201396 NBA season . [ 5 ] Jordan retired for the second time in 1999, then returned for two NBA seasons from 2001 to 2003 as a member of the Washington Wizards . [ 5 ] [ 16 ] He was selected to play for the United States national team during his college and NBA careers, winning four gold medals \u2014at the 1983 Pan American Games , 1984 Summer Olympics , 1992 Tournament of the Americas and 1992 Summer Olympics \u2014while also being undefeated. [ 19 ] Jordan's individual accolades include six NBA Finals Most Valuable Player (MVP) awards, 10 NBA scoring titles (both all-time records), five NBA MVP awards, 10 All-NBA First Team designations, nine All-Defensive First Team honors, 14 NBA All-Star Game selections, and three NBA All-Star Game MVP awards. [ 16 ] He holds the NBA records for career regular season scoring average (30.1 points per game) and career playoff scoring average (33.4 points per game). [ 20 ] He is one of only eight players to achieve the basketball Triple Crown . In 1999, Jordan was named the 20th century's greatest North American athlete by ESPN and was second to Babe Ruth on the Associated Press ' list of athletes of the century. [ 5 ] Jordan was twice inducted into the Naismith Memorial Basketball Hall of Fame , once in 2009 for his individual career, [ 21 ] and in 2010 as part of the 1992 United States men's Olympic basketball team (\"The Dream Team\"). [ 22 ] The trophy for the NBA Most Valuable Player Award is named in his honor. One of the most effectively marketed athletes ever, Jordan made many product endorsements. [ 12 ] [ 23 ] He fueled the success of Nike 's Air Jordan sneakers, which were introduced in 1984 and remain popular. [ 24 ] Jordan starred as himself in the live-action/animation hybrid film Space Jam (1996) and was the focus of the Emmy -winning documentary series The Last Dance (2020). He became part-owner and head of basketball operations for the Charlotte Hornets (then named the Bobcats) in 2006 and bought a controlling interest in 2010, before selling his majority stake in 2023. Jordan is a co-owner of 23XI Racing in the NASCAR Cup Series . In 2014, he became the first billionaire player in NBA history. [ 25 ] In 2016, President Barack Obama awarded Jordan the Presidential Medal of Freedom . [ 26 ] Early life Michael Jeffrey Jordan was born on February 17, 1963, at Cumberland Hospital in the Fort Greene neighborhood of Brooklyn, New York City , [ 27 ] [ 28 ] to bank employee Deloris (n\u00e9e Peoples) and equipment supervisor James R. Jordan Sr. [ 28 ] [ 29 ] He has two older brothers, James Jr. and Larry , as well as an older sister named Deloris and a younger sister named Roslyn. [ 30 ] [ 31 ] Jordan and his siblings were raised Methodist . [ 32 ] In 1968, the family moved to Wilmington, North Carolina . [ 33 ] Jordan attended Emsley A. Laney High School , where he played basketball, baseball, and football. He tried out for the basketball varsity team during his sophomore year, but at a height of 5 feet 11 inches (1.80 m) , he was deemed too short. [ 34 ] [ 35 ] Motivated to prove his worth, Jordan became the star of Laney's junior varsity team and tallied some 40-point games. [ 34 ] The following summer, he grew four inches (10 cm) and trained rigorously. [ 35 ] Upon earning a spot on the varsity roster, Jordan averaged more than 25 points per game (ppg) over his final two seasons of high school play. [ 36 ] He also adopted his signature jersey number, 23. [ 37 ] As a senior, he was selected for the 1981 McDonald's All-American Game and scored 30 points , [ 38 ] [ 39 ] af",
+      "content_source": "page/Michael_Jordan/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Michael Phelps",
+      "api_response": {
+        "pages": [
+          {
+            "id": 19084502,
+            "key": "Michael_Phelps",
+            "title": "Michael Phelps",
+            "excerpt": "Olympics, <span class=\"searchmatch\">Phelps</span> started the <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Phelps</span> Foundation, which focuses on growing the sport of swimming and promoting healthier lifestyles. <span class=\"searchmatch\">Phelps</span> retired",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American swimmer (born 1985)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 79,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/60px-Michael_Phelps_Rio_Olympics_2016.jpg"
+            }
+          },
+          {
+            "id": 816458,
+            "key": "Michael_Phelps_(disambiguation)",
+            "title": "Michael Phelps (disambiguation)",
+            "excerpt": "<span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Phelps</span> (born 1985) is an American retired Olympic swimmer. <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Phelps</span> may also refer to: <span class=\"searchmatch\">Michael</span> E. <span class=\"searchmatch\">Phelps</span> (born 1939), American co-developer",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Topics referred to by the same term",
+            "thumbnail": null
+          },
+          {
+            "id": 4057953,
+            "key": "Ryan_Lochte",
+            "title": "Ryan Lochte",
+            "excerpt": "only <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Phelps</span> and Katie Ledecky. Lochte&#039;s seven individual Olympic medals rank second in history in men&#039;s swimming (again to <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Phelps</span>), tied",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American swimmer (born 1984)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 86,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ryan_Lochte_before_race_%2842052324064%29_%28cropped%29_%28cropped%29.jpg/60px-Ryan_Lochte_before_race_%2842052324064%29_%28cropped%29_%28cropped%29.jpg"
+            }
+          },
+          {
+            "id": 27367107,
+            "key": "Nicole_Johnson_(Miss_California_USA)",
+            "title": "Nicole Johnson (Miss California USA)",
+            "excerpt": " On February 21, 2015, Johnson became engaged to swimmer <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Phelps</span>. Johnson and <span class=\"searchmatch\">Phelps</span> had first met at the 2007 ESPY Awards. They started dating",
+            "matched_title": null,
+            "anchor": null,
+            "description": "American beauty queen (born 1985)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 90,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Miss_California_2010.jpg/60px-Miss_California_2010.jpg"
+            }
+          },
+          {
+            "id": 68863714,
+            "key": "Whoop_(company)",
+            "title": "Whoop (company)",
+            "excerpt": "Ronaldo, Virat Kohli, Rory McIlroy, Aryna Sabalenka, LeBron James and <span class=\"searchmatch\">Michael</span> <span class=\"searchmatch\">Phelps</span>. Whoop 1.0 was released in 2015, followed by versions in 2016 and 2019",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Wearable technology company",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Whoop_%2854924676654%29.jpg/60px-Whoop_%2854924676654%29.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Michael Phelps American swimmer (born 1985) This article is about the American swimmer. For other people named Michael Phelps, see Michael Phelps (disambiguation) . Michael Phelps OLY Phelps at the 2016 Summer Olympics Personal information Full name Michael Fred Phelps II Nickname(s) The Baltimore Bullet [ 1 ] Flying Fish [ 2 ] Born ( 1985-06-30 ) June 30, 1985 (age 40) Baltimore , Maryland, U.S. Height 6 ft 4 in (1.93 m) [ 3 ] Weight 194 lb (88 kg) [ 4 ] Spouse Nicole Johnson \u200b ( m. 2016 ) \u200b Children 4 Michael Phelps's voice Michael Phelps on how he came to be an Olympic Athlete Recorded February 28, 2017 Sport Country United States Sport Swimming Strokes Butterfly , individual medley , freestyle , backstroke Club North Baltimore Aquatic Club Coach Bob Bowman Medal record Men's swimming Representing the United States Event 1 st 2 nd 3 rd Olympic Games 23 3 2 World Championships (LC) 26 6 1 World Championships (SC) 1 0 0 Pan Pacific Championships 16 5 0 Total 66 14 3 By race Event 1 st 2 nd 3 rd 100 m butterfly 8 3 0 200 m butterfly 10 2 0 200 m medley 9 2 0 400 m medley 6 0 0 200 m freestyle 4 2 1 200 m backstroke 0 1 0 4\u00d7100 m freestyle 7 2 2 4\u00d7200 m freestyle 11 2 0 4\u00d7100 m medley 11 0 0 Total 66 14 3 Olympic Games 2004 Athens 100 m butterfly 2004 Athens 200 m butterfly 2004 Athens 200 m medley 2004 Athens 400 m medley 2004 Athens 4\u00d7200 m freestyle 2004 Athens 4\u00d7100 m medley 2008 Beijing 200 m freestyle 2008 Beijing 100 m butterfly 2008 Beijing 200 m butterfly 2008 Beijing 200 m medley 2008 Beijing 400 m medley 2008 Beijing 4\u00d7100 m freestyle 2008 Beijing 4\u00d7200 m freestyle 2008 Beijing 4\u00d7100 m medley 2012 London 100 m butterfly 2012 London 200 m medley 2012 London 4\u00d7200 m freestyle 2012 London 4\u00d7100 m medley 2016 Rio de Janeiro 200 m butterfly 2016 Rio de Janeiro 200 m medley 2016 Rio de Janeiro 4\u00d7100 m freestyle 2016 Rio de Janeiro 4\u00d7200 m freestyle 2016 Rio de Janeiro 4\u00d7100 m medley 2012 London 200 m butterfly 2012 London 4\u00d7100 m freestyle 2016 Rio de Janeiro 100 m butterfly 2004 Athens 200 m freestyle 2004 Athens 4\u00d7100 m freestyle World Championships (LC) 2001 Fukuoka 200 m butterfly 2003 Barcelona 200 m butterfly 2003 Barcelona 200 m medley 2003 Barcelona 400 m medley 2003 Barcelona 4\u00d7100 m medley 2005 Montreal 200 m freestyle 2005 Montreal 200 m medley 2005 Montreal 4\u00d7100 m freestyle 2005 Montreal 4\u00d7200 m freestyle 2005 Montreal 4\u00d7100 m medley 2007 Melbourne 200 m freestyle 2007 Melbourne 100 m butterfly 2007 Melbourne 200 m butterfly 2007 Melbourne 200 m medley 2007 Melbourne 400 m medley 2007 Melbourne 4\u00d7100 m freestyle 2007 Melbourne 4\u00d7200 m freestyle 2009 Rome 100 m butterfly 2009 Rome 200 m butterfly 2009 Rome 4\u00d7100 m freestyle 2009 Rome 4\u00d7200 m freestyle 2009 Rome 4\u00d7100 m medley 2011 Shanghai 100 m butterfly 2011 Shanghai 200 m butterfly 2011 Shanghai 4\u00d7200 m freestyle 2011 Shanghai 4\u00d7100 m medley 2003 Barcelona 100 m butterfly 2003 Barcelona 4\u00d7200 m freestyle 2005 Montreal 100 m butterfly 2009 Rome 200 m freestyle 2011 Shanghai 200 m freestyle 2011 Shanghai 200 m medley 2011 Shanghai 4\u00d7100 m freestyle World Championships (SC) 2004 Indianapolis 200 m freestyle Pan Pacific Championships 2002 Yokohama 200 m medley 2002 Yokohama 400 m medley 2002 Yokohama 4\u00d7100 m medley 2006 Victoria 200 m butterfly 2006 Victoria 200 m medley 2006 Victoria 400 m medley 2006 Victoria 4\u00d7100 m freestyle 2006 Victoria 4\u00d7200 m freestyle 2010 Irvine 100 m butterfly 2010 Irvine 200 m butterfly 2010 Irvine 4\u00d7100 m freestyle 2010 Irvine 4\u00d7200 m freestyle 2010 Irvine 4\u00d7100 m medley 2014 Gold Coast 100 m butterfly 2014 Gold Coast 4\u00d7200 m freestyle 2014 Gold Coast 4\u00d7100 m medley 2002 Yokohama 200 m butterfly 2002 Yokohama 4\u00d7200 m freestyle 2006 Victoria 200 m backstroke 2014 Gold Coast 200 m medley 2014 Gold Coast 4\u00d7100 m freestyle Michael Fred Phelps II [ 5 ] (born June 30, 1985) [ 6 ] is an American former competitive swimmer . He won more Olympic medals than any other athlete , a total of 28 medals across four Olympic Games. Phelps also holds the all-time records for Olympic gold medals (23), [ 7 ] Olympic gold medals in individual events (13), and Olympic medals in individual events (16). [ 8 ] At the 2004 Summer Olympics in Athens, Phelps tied the record of eight medals of any color at a single Games, held by gymnast Alexander Dityatin , by winning six gold and two bronze medals. Four years later, when he won eight gold medals at the 2008 Beijing Games , he broke fellow American swimmer Mark Spitz 's 1972 record of seven first-place finishes at any single Olympic Games . At the 2012 Summer Olympics in London, Phelps won four gold and two silver medals, and at the 2016 Summer Olympics in Rio de Janeiro, he won five gold medals and one silver. This made him the most successful athlete of the Games for the fourth Olympics in a row. [ 9 ] [ 10 ] Phelps is a former long course world record holder in the 200-meter freestyle , 100-meter butterfly , 200-meter butterfly , 200-meter individual medley , and 400-meter individual medley . He has won 82 medals in major international long course competitions, of which 65 were gold, 14 silver, and three bronze, spanning the Olympics, the World Championships , and the Pan Pacific Championships . Phelps's international titles and record-breaking performances have earned him the World Swimmer of the Year Award eight times and American Swimmer of the Year Award eleven times, as well as the FINA Swimmer of the Year Award in 2012 and 2016. Phelps earned Sports Illustrated magazine's Sportsman of the Year award due to his unprecedented Olympic success in the 2008 Games. After the 2008 Summer Olympics, Phelps started the Michael Phelps Foundation , which focuses on growing the sport of swimming and promoting healthier lifestyles. Phelps retired following the 2012 Olympics, but he made a comeback in April 2014. [ 11 ] At the 2016 Summer Olympics in Rio de Janeiro, [ 12 ] his fifth Olympics, he was selected by his team to be the flag bearer of the United States at the 2016 Summer Olympics Parade of Nations . He announced his second retirement on August 12, 2016, [ 13 ] having won more medals than 161 countries. He won the Laureus World Comeback of the Year Award in 2017. [ 14 ] He is widely regarded as the greatest swimmer of all time and is often considered to be one of the greatest athletes of all time. [ 15 ] [ 16 ] Early life and education Phelps was born in Baltimore , Maryland, [ 6 ] and raised in the Rodgers Forge neighborhood of nearby Towson . [ 17 ] Phelps is the youngest of three children. His mother, Deborah Sue \"Debbie\" Phelps ( n\u00e9e Davisson), is a middle school principal. [ 18 ] His father, Michael Fred Phelps, was a retired Maryland State Trooper who played football in high school and college and tried out for the Washington Redskins in the 1970s. [ 18 ] [ 19 ] His parents divorced in 1994 when he was nine years old, and his father remarried in 2000. [ 19 ] Phelps later revealed that the divorce had a severe negative impact on him and his siblings, and his relationship with his father was distant for a few years after the divorce. [ 20 ] He attended Rodgers Forge Elementary, Dumbarton Middle School , and graduated from Towson High School in 2003. [ 21 ] [ 22 ] During his school years, he was a target of school bullying due to his ADHD and protruding ears. It reached a point where he retaliated during a situation and received a suspension. The frustration from this experience fueled his drive into swimming. [ 23 ] Phelps began swimming at the age of seven, partly because of the influence of his sisters and partly to provide him with an outlet for his energy. [ 24 ] After retirement in 2016, he stated \"The only reason I ever got in the water was my mom wanted me to just learn how to swim. My sisters and myself fell in love with the sport, and we decided to swim.\" [ 25 ] When Phelps was in the sixth grade, he was diagnosed with attention deficit hyperactivity disorder (ADHD). [ 26 ] [ 27 ] By the age of 10, he held a national",
+      "content_source": "page/Michael_Phelps/with_html (stripped)"
+    }
+  ],
+  "output": "Since \"Michael\" is ambiguous, I found information about two prominent athletes with that name. Here are the records they broke:\n\n**Michael Jordan** (basketball):\n- 10 NBA scoring titles (all-time record)\n- Holds the NBA record for career regular season scoring average (30.1 points per game)\n- Holds the NBA record for career playoff scoring average (33.4 points per game)\n\n**Michael Phelps** (swimming):\n- Won more Olympic medals than any other athlete (28 total medals)\n- Holds the all-time record for Olympic gold medals (23)\n- Holds the record for Olympic gold medals in individual events (13)\n- Holds the record for Olympic medals in individual events (16)\n- Broke Mark Spitz's 1972 record of seven gold medals at a single Olympic Games by winning eight gold medals at the 2008 Beijing Games\n- Former world record holder in the 200-meter freestyle, 100-meter butterfly, 200-meter butterfly, 200-meter individual medley, and 400-meter individual medley\n\nSource: Michael Jordan, Michael Phelps",
+  "total_tool_calls": 2,
+  "latency_ms": 19538,
+  "error": null
+}

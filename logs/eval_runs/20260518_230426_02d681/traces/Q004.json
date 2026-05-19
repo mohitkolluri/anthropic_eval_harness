@@ -1,0 +1,115 @@
+{
+  "eval_id": "Q004",
+  "run_id": "20260518_230426_02d681",
+  "prompt_version": "v2",
+  "model": "claude-sonnet-4-6",
+  "input": "What were the first two countries to grant women the right to vote, and in what years did they do so?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What were the first two countries to grant women the right to vote, and in what years did they do so?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01RBucfR5pgvGAyhkg3F9y4m",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "women's suffrage"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01RBucfR5pgvGAyhkg3F9y4m",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01Miym4RdxBwGQEdMejCjHYh",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "women's suffrage by country"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Miym4RdxBwGQEdMejCjHYh",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01LUsKfoysnGVqUK2Go7JE4M",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Women's suffrage in New Zealand"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01LUsKfoysnGVqUK2Go7JE4M",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "women's suffrage",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "women's suffrage by country",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 2,
+      "query": "Women's suffrage in New Zealand",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "",
+  "total_tool_calls": 3,
+  "latency_ms": 17934,
+  "error": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': \"This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: a52bfb75-667d-4688-8dc4-96c4761aa93b, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing.\"}, 'request_id': 'req_011CbAsV2QiL8L2Uh1FiqaGy'}"
+}

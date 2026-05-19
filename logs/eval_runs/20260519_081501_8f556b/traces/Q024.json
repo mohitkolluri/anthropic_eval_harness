@@ -1,0 +1,22 @@
+{
+  "eval_id": "Q024",
+  "run_id": "20260519_081501_8f556b",
+  "prompt_version": "v7",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What records did Michael break?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What records did Michael break?"
+    },
+    {
+      "role": "assistant",
+      "content": "I need more context to answer your question. \"Michael\" could refer to many different people. Could you please specify which Michael you're asking about? For example:\n\n- Michael Jordan (basketball player)\n- Michael Phelps (swimmer)\n- Michael Jackson (singer)\n- Michael Schumacher (race car driver)\n- Another Michael you have in mind\n\nOnce you clarify, I'll be able to search for the records that person broke."
+    }
+  ],
+  "tool_calls": [],
+  "output": "I need more context to answer your question. \"Michael\" could refer to many different people. Could you please specify which Michael you're asking about? For example:\n\n- Michael Jordan (basketball player)\n- Michael Phelps (swimmer)\n- Michael Jackson (singer)\n- Michael Schumacher (race car driver)\n- Another Michael you have in mind\n\nOnce you clarify, I'll be able to search for the records that person broke.",
+  "total_tool_calls": 0,
+  "latency_ms": 1390,
+  "error": null
+}

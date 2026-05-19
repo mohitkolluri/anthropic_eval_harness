@@ -1,0 +1,336 @@
+{
+  "eval_id": "Q010",
+  "run_id": "20260518_230939_8f556b",
+  "prompt_version": "v2",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "Was Shakespeare's life more contemporary with Queen Elizabeth I or Queen Elizabeth II?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Was Shakespeare's life more contemporary with Queen Elizabeth I or Queen Elizabeth II?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01Q4ktPEoTRJa49xhd71PyWC",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "William Shakespeare"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01YWN5RiLJYzk7F7mH6umPZz",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Elizabeth I"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01GZbiGkDovwed2mqDRgXL35",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Elizabeth II"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Q4ktPEoTRJa49xhd71PyWC",
+          "content": "William Shakespeare English playwright and poet (1564\u20131616) \"Shakespeare\" redirects here. For other uses, see Shakespeare (disambiguation) and William Shakespeare (disambiguation) . For the British explorer, see William Shakespear (explorer) . William Shakespeare The Chandos portrait , likely depicting Shakespeare, c. 1611 Born c. 23 April 1564 Stratford-upon-Avon , Warwickshire, England Died 23 April 1616 (aged 52) Stratford-upon-Avon, Warwickshire, England Resting place Church of the Holy Trinity, Stratford-upon-Avon Occupations Playwright poet actor Years active c. 1585\u20131613 Era Elizabethan Jacobean Organisations Lord Chamberlain's Men King's Men Works Shakespeare bibliography Movement English Renaissance Spouse Anne Hathaway \u200b ( m. 1582 ) \u200b Children Susanna Hall Hamnet Shakespeare Judith Quiney Parents John Shakespeare Mary Arden Writing career Language Early Modern English Genres Play ( comedy history tragedy ) Poetry ( sonnet narrative poem epitaph ) Signature William Shakespeare [ a ] ( c. 23 April 1564 [ b ] \u2013 23 April 1616) [ c ] was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the \" Bard of Avon \" or simply \"the Bard\". His extant works, including collaborations , consist of some 39 plays , 154 sonnets , three long narrative poems and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare remains arguably the most influential writer in the English language, and his works continue to be studied and reinterpreted. Shakespeare was born and raised in Stratford-upon-Avon , Warwickshire. At the age of 18, he married Anne Hathaway , with whom he had three children: Susanna , and twins Hamnet and Judith . Sometime between 1585 and 1592 he began a successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the Lord Chamberlain's Men , later known as the King's Men after the ascension of King James VI of Scotland to the English throne. At age 49 (around 1613) he appears to have retired to Stratford, where he died three years later. Few records of Shakespeare's private life survive; this has stimulated considerable speculation about such matters as his physical appearance , his sexuality , his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others . Shakespeare produced most of his known works between 1589 and 1613. His early plays were primarily comedies and histories and are regarded as some of the best works produced in these genres. He then wrote mainly tragedies until 1608, among them Hamlet , Othello , King Lear and Macbeth , which are considered to be among the finest works in English. In the last phase of his career, he wrote tragicomedies (also known as romances ), such as The Winter's Tale and The Tempest , and collaborated with other playwrights. Many of Shakespeare's plays were published in editions of varying quality and accuracy during his lifetime. However, in 1623 John Heminges and Henry Condell , two fellow actors and friends of Shakespeare's, published a more definitive text known as the First Folio , a posthumous collected edition of Shakespeare's dramatic works that includes 36 of his plays. Its preface includes a prescient poem by Ben Jonson , a former rival of Shakespeare, who hailed Shakespeare with the now-famous epithet: \"not of an age, but for all time\". Life Main article: Life of William Shakespeare Early life John Shakespeare 's house, believed to be Shakespeare's birthplace , in Stratford-upon-Avon William Shakespeare was the son of John Shakespeare , an alderman and a successful glover (glove-maker) originally from Snitterfield in Warwickshire , and Mary Arden , the daughter of an affluent landowning family that was influential in the Recusant Catholic community. [ 3 ] [ 4 ] [ 5 ] He was born in Stratford-upon-Avon , where he was baptised on 26 April 1564. His date of birth is unknown but is traditionally observed on 23 April, Saint George's Day . [ 1 ] This date, which can be traced to William Oldys and George Steevens , has proved appealing to biographers because Shakespeare died on the same date in 1616. [ 6 ] [ 7 ] He was the third of eight children, and the eldest surviving son. [ 8 ] Although no attendance records for the period survive, most biographers agree that Shakespeare was probably educated at the King's New School in Stratford, [ 9 ] [ 10 ] [ 11 ] a free school chartered in 1553, [ 12 ] based about a quarter-mile (400 m) from his home in Stratford's guildhall . [ 13 ] Grammar schools varied in quality during the Elizabethan era , but grammar school curricula were largely similar: the basic Latin text was standardised by royal decree, [ 14 ] [ 15 ] and the school would have provided an intensive education in grammar based upon Latin classical authors. [ 16 ] At the age of 18, Shakespeare married 26-year-old Anne Hathaway . The consistory court of the Diocese of Worcester issued a marriage licence on 27 November 1582. The next day, two of Hathaway's neighbours posted bonds guaranteeing that no lawful claims impeded the marriage. [ 17 ] The ceremony may have been arranged in some haste; the Worcester chancellor allowed the marriage banns to be read once instead of the usual three times. [ 18 ] [ 19 ] Six months after the marriage, Anne gave birth to a daughter, Susanna , baptised 26 May 1583. [ 20 ] Twins, son Hamnet and daughter Judith , followed almost two years later and were baptised 2 February 1585. [ 21 ] Hamnet died of unknown causes at the age of 11 and was buried 11 August 1596. [ 22 ] Shakespeare's coat of arms , from the 1602 book The book of coates and creasts. Promptuarium armorum. It features spears as a pun on the family name. [ d ] After the birth of the twins, Shakespeare left few historical traces until he is mentioned as part of the London theatre scene in 1592. The exception is the appearance of his name in the \"complaints bill\" of a law case before the Queen's Bench court at Westminster dated Michaelmas Term 1588 and 9 October 1589. [ 23 ] Scholars refer to the years between 1585 and 1592 as Shakespeare's \"lost years\". [ 24 ] Biographers attempting to account for this period have reported many apocryphal stories. Nicholas Rowe , Shakespeare's first biographer, recounted a Stratford legend that Shakespeare fled the town for London to escape prosecution for deer poaching in the estate of local squire Thomas Lucy . Shakespeare is also supposed to have taken his revenge on Lucy by writing a scurrilous ballad about him. [ 25 ] [ 26 ] Another 18th-century story has Shakespeare starting his theatrical career minding the horses of theatre patrons in London. [ 27 ] John Aubrey reported that Shakespeare had been a country schoolmaster. [ 28 ] Some 20th-century scholars suggested that Shakespeare may have been employed as a schoolmaster by Alexander Hoghton of Lancashire , a Catholic landowner who named a certain \"William Shakeshafte\" in his will. [ 29 ] [ 30 ] Little evidence substantiates such stories other than hearsay collected after his death, and Shakeshafte was a common name in the Lancashire area. [ 31 ] [ 32 ] London and theatrical career It is not known definitively when Shakespeare began writing, but contemporary allusions and records of performances show that several of his plays were on the London stage by 1592. [ 33 ] By then, he was sufficiently known in London to be attacked in print by the playwright Robert Greene in his Groats-Worth of Wit from that year: ... there is an upstart Crow, beautified with our feathers, that with his Tiger's heart wrapped in a Player's hide , supposes he is as well able to bombast out a blank verse as the best of you: and being an absolute Johannes factotum , is in his own"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01YWN5RiLJYzk7F7mH6umPZz",
+          "content": "Elizabeth I Queen of England and Ireland from 1558 to 1603 \"Elizabeth of England\" and \"Elizabeth Tudor\" redirect here. For other uses, see Elizabeth I (disambiguation) , Elizabeth of England (disambiguation) , and Elizabeth Tudor (disambiguation) . Elizabeth I The Darnley Portrait , c. 1575 Queen of England and Ireland ( more... ) Reign 17 November 1558 \u2013 24 March 1603 Coronation 15 January 1559 Predecessor Mary I and Philip Successor James I Born 7 September 1533 Palace of Placentia , Greenwich, England Died 24 March 1603 (aged 69) Richmond Palace , Surrey, England Burial 28 April 1603 Westminster Abbey House Tudor Father Henry VIII of England Mother Anne Boleyn Religion Anglicanism Signature Elizabeth I (7 September 1533 \u2013 24 March 1603) [ a ] was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest reigning monarch of the House of Tudor . Her eventful reign, and its effect on history and culture, gave name to the Elizabethan era . Elizabeth was the only surviving child of Henry VIII and his second wife, Anne Boleyn . When Elizabeth was two years old, her parents' marriage was annulled, her mother was executed, and Elizabeth was declared illegitimate . Henry restored her to the line of succession when she was 10. After Henry's death in 1547, Elizabeth's younger half-brother Edward VI ruled until his own death in 1553, bequeathing the crown to a Protestant cousin, Lady Jane Grey , and ignoring the claims of his two half-sisters, Mary and Elizabeth, despite statutes to the contrary. Edward's will was quickly set aside and the Catholic Mary became queen, deposing Jane. During Mary's reign, Elizabeth was imprisoned for nearly a year on suspicion of supporting Protestant rebels. Upon Mary's death in 1558, Elizabeth succeeded to the throne and set out to rule by good counsel. [ b ] She depended heavily on a group of trusted advisers led by William Cecil , whom she created Baron Burghley . One of her first actions as queen was the establishment of an English church, of which she became the supreme governor . This arrangement, later named the Elizabethan Religious Settlement , would evolve into the Church of England . It was expected that Elizabeth would marry and produce an heir; however, despite numerous courtships, she never did. Because of this she is sometimes referred to as the \"Virgin Queen\". [ 2 ] She was succeeded by her first cousin twice removed, James VI of Scotland . In government, Elizabeth was more moderate than her father and siblings had been. [ 3 ] One of her mottoes was video et taceo ( ' I see and keep silent ' ). [ 4 ] In religion, she was relatively tolerant and avoided systematic persecution. After the pope declared her illegitimate in 1570, which in theory released English Catholics from allegiance to her, several conspiracies threatened her life, all of which were defeated with the help of her ministers' secret service, run by Francis Walsingham . Elizabeth was cautious in foreign affairs, manoeuvring between the major powers of France and Spain . She half-heartedly supported a number of ineffective, poorly resourced military campaigns in the Netherlands , France, and Ireland. By the mid-1580s, England could no longer avoid war with Spain . As she grew older, Elizabeth became celebrated for her virginity . A cult of personality grew around her which was celebrated in the portraits, pageants, and literature of the day. The Elizabethan era is famous for the flourishing of English drama , led by playwrights such as William Shakespeare and Christopher Marlowe , the prowess of English maritime adventurers, such as Francis Drake and Walter Raleigh , and for the defeat of the Spanish Armada . Some historians depict Elizabeth as a short-tempered, sometimes indecisive ruler [ 5 ] who enjoyed more than her fair share of luck. Towards the end of her reign, a series of economic and military problems weakened her popularity. Elizabeth is acknowledged as a charismatic performer and a dogged survivor in an era when government was ramshackle and limited, and when monarchs in neighbouring countries faced internal problems and religious civil wars that jeopardised their thrones. After the short, disastrous reigns of her half-siblings, her 44 years on the throne provided welcome stability for the kingdom and helped to forge a sense of national identity. [ 3 ] Early life Infancy Elizabeth's parents, Henry VIII and Anne Boleyn . Anne was executed within three years of Elizabeth's birth. Elizabeth was born on 7 September 1533 at Greenwich Palace and was named after her grandmothers, Elizabeth of York and Lady Elizabeth Howard . [ 6 ] She was the second child of Henry VIII of England born in wedlock to survive infancy. Her mother was Henry VIII's second wife, Anne Boleyn . At birth, Elizabeth was the heir presumptive to the English throne. Her elder half-sister Mary had lost her position as a legitimate heir when Henry annulled his marriage to Mary's mother, Catherine of Aragon , to marry Anne, with the intent to sire a male heir and ensure the Tudor succession. [ 7 ] [ 8 ] She was baptised on 10 September, and her godparents were Thomas Cranmer , Archbishop of Canterbury ; Henry Courtenay, Marquess of Exeter ; Elizabeth Stafford, Duchess of Norfolk ; and Margaret Wotton, Dowager Marchioness of Dorset . A canopy was carried at the ceremony over the infant by her uncle George Boleyn, Viscount Rochford ; John Hussey, Baron Hussey of Sleaford ; Lord Thomas Howard ; and William Howard, Baron Howard of Effingham . [ 9 ] Elizabeth was two years and eight months old when her mother was beheaded on 19 May 1536, [ 10 ] four months after Catherine of Aragon's death from natural causes. Elizabeth was declared illegitimate and deprived of her place in the royal succession. [ c ] Eleven days after Anne Boleyn's execution, Henry married Jane Seymour . Queen Jane died the next year shortly after the birth of their son, Edward , who was the undisputed heir apparent to the throne. Elizabeth was placed in her half-brother's household and carried the chrisom , or baptismal cloth, at his christening. [ 12 ] Education A rare portrait of a teenage Elizabeth prior to her accession, attributed to William Scrots . It was painted for her father in c. 1546 . Elizabeth's first governess , Margaret Bryan , wrote that she was \"as toward a child and as gentle of conditions as ever I knew any in my life\". [ 13 ] [ 14 ] Catherine Champernowne , better known by her later, married name of Catherine \"Kat\" Ashley, was appointed as Elizabeth's governess in 1537, and she remained Elizabeth's friend until her death in 1565. Champernowne taught Elizabeth four languages: French, Dutch , Italian, and Spanish. [ 15 ] By the time William Grindal became her tutor in 1544, Elizabeth could write English, Latin , and Italian. Under Grindal, a talented and skilful tutor, she also progressed in French and Greek. [ 16 ] By the age of 12, she was able to translate her stepmother Catherine Parr 's religious work Prayers or Meditations from English into Italian, Latin, and French, which she presented to her father as a New Year's gift . [ 17 ] From her teenage years and throughout her life, she translated works in Latin and Greek by numerous classical authors, including the Pro Marcello of Cicero , the De consolatione philosophiae of Boethius , a treatise by Plutarch , and the Annals of Tacitus . [ 18 ] [ 17 ] A translation of Tacitus from Lambeth Palace Library, one of only four surviving English translations from the early modern era, was confirmed as Elizabeth's own in 2019, after a detailed analysis of the handwriting and paper was undertaken. [ 19 ] After Grindal died in 1548, Elizabeth received her education under her brother Edward's tutor, Roger Ascham , a sympathetic teacher who believed that learning should be engaging. [ 20 ] Current knowledge of Elizabeth's schooling and precocity comes largely from Ascham's memoirs. [ 16 ] By the time her for"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01GZbiGkDovwed2mqDRgXL35",
+          "content": "Elizabeth II Queen of the United Kingdom from 1952 to 2022 For other uses, see Elizabeth II (disambiguation) . Elizabeth II Head of the Commonwealth Formal portrait, 1959 Queen of the United Kingdom and other Commonwealth realms ( full list ) Reign 6 February 1952 \u2013 8 September 2022 Coronation 2 June 1953 Predecessor George VI Successor Charles III Born Princess Elizabeth of York ( 1926-04-21 ) 21 April 1926 17 Bruton Street, Mayfair , London, England Died 8 September 2022 (2022-09-08) (aged 96) Balmoral Castle , Aberdeenshire, Scotland Burial 19 September 2022 King George VI Memorial Chapel , St George's Chapel, Windsor Castle Spouse Prince Philip, Duke of Edinburgh \u200b \u200b ( m. 1947 ; died 2021 ) \u200b Issue Charles III Anne, Princess Royal Andrew Mountbatten-Windsor Prince Edward, Duke of Edinburgh Names Elizabeth Alexandra Mary House Windsor Father George VI Mother Elizabeth Bowes-Lyon Religion Protestant [ a ] Signature Elizabeth II's voice Coronation Day speech Recorded 2 June 1953 Elizabeth II (Elizabeth Alexandra Mary; 21 April 1926 \u2013 8 September 2022) was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022. She was queen regnant of 32 sovereign states during her lifetime and was the monarch of 15 realms at her death. Her reign of 70 years, 214 days, is the longest of any British monarch , the second-longest of any sovereign state , and the longest of any queen regnant in history . Elizabeth was born in Mayfair , London, during the reign of her paternal grandfather, King George V . She was the first child of the Duke and Duchess of York (later King George VI and Queen Elizabeth the Queen Mother ). Her father acceded to the throne in 1936 upon the abdication of his brother Edward VIII , making the ten-year-old Princess Elizabeth the heir presumptive . She was educated privately at home and began to undertake public duties during the Second World War , serving in the Auxiliary Territorial Service . In November 1947, she married Philip Mountbatten , a former prince of Greece and Denmark . They had four children: Charles , Anne , Andrew , and Edward . When her father died in February 1952, Elizabeth, then 25 years old, became queen of seven independent Commonwealth countries and head of the Commonwealth . Elizabeth reigned as a constitutional monarch through times of significant political change such as the Troubles in Northern Ireland, devolution in the United Kingdom , the decolonisation of Africa , and the United Kingdom's accession to the European Communities as well as its subsequent withdrawal . The number of her realms varied over time as territories gained independence and as most realms became republics . As queen, Elizabeth was advised by more than 170 prime ministers across her realms. Her many historic visits and meetings included state visits to China in 1986, to Russia in 1994, and to the Republic of Ireland in 2011; she met five popes and fourteen US presidents. Significant events of Elizabeth's reign included her coronation in 1953 and the celebrations of her Silver , Golden , Diamond , and Platinum jubilees . Although there was occasional republican sentiment and media criticism of her family \u2013 particularly after the breakdowns of her children's marriages, her annus horribilis in 1992, and the death of her former daughter-in-law Diana in 1997 \u2013 support for the monarchy and her popularity in the United Kingdom remained consistently high. Elizabeth died aged 96 at Balmoral Castle in Scotland, and was succeeded by her eldest son as Charles III. Early life Elizabeth was born at 2:40 am on 21 April 1926 by Caesarean section at her maternal grandfather's London home, 17 Bruton Street in Mayfair , [ 1 ] [ 2 ] the first child of Prince Albert, Duke of York (later King George VI), and his wife, Elizabeth, Duchess of York (later Queen Elizabeth the Queen Mother). Her father was the second son of King George V and Queen Mary , and her mother was the youngest daughter of Scottish aristocrat Claude Bowes-Lyon, 14th Earl of Strathmore and Kinghorne and his wife Cecilia ( n\u00e9e Cavendish-Bentinck ). She was baptised by the Archbishop of York , Cosmo Gordon Lang in the private chapel at Buckingham Palace on 29 May, [ 3 ] [ b ] and she was named Elizabeth after her mother; Alexandra after her paternal great-grandmother , who had died five months earlier ; and Mary after her paternal grandmother. [ 5 ] She was affectionately called \"Lilibet\" by her close family, [ 6 ] based on what she called herself at first. [ 7 ] She was cherished by her grandfather George V, whom she affectionately called \"Grandpa England\", [ 8 ] and her regular visits during his serious illness in 1929 were credited in the popular press and by later biographers with raising his spirits and aiding his recovery. [ 9 ] On the cover of Time , April 1929 Portrait by Philip de L\u00e1szl\u00f3 , 1933 Elizabeth's sole sibling, Princess Margaret , was born in 1930. The two princesses were cared for by their nanny, Clara Knight , and educated at home under the supervision of their mother and their governess , Marion Crawford . [ 10 ] Lessons concentrated on history, language, literature, and music. [ 11 ] Crawford published a biography of Elizabeth and Margaret's childhood years titled The Little Princesses in 1950, much to the dismay of the royal family . [ 12 ] The book describes Elizabeth's love of horses and dogs, her orderliness, and her attitude of responsibility. [ 13 ] Others echoed such observations: Winston Churchill described Elizabeth when she was two as \"a character. She has an air of authority and reflectiveness astonishing in an infant.\" [ 14 ] Her cousin Margaret Rhodes described her as \"a jolly little girl, but fundamentally sensible and well-behaved\". [ 15 ] Elizabeth's early life was spent primarily at the Yorks' residences at 145 Piccadilly (their town house in London) and Royal Lodge in Windsor. [ 16 ] Heir presumptive During her grandfather's reign, Elizabeth was third in the line of succession to the British throne , behind her uncle Edward, Prince of Wales , and her father. Although her birth generated public interest, she was not expected to become queen, as Edward was still young and expected to marry and have children of his own, who would precede Elizabeth in the line of succession. [ 17 ] When her grandfather died in 1936 and her uncle succeeded as Edward VIII, she became second in line to the throne, after her father. Later that year, Edward abdicated , after his proposed marriage to divorced American socialite Wallis Simpson provoked a constitutional crisis . [ 18 ] Consequently, Elizabeth's father became king, taking the regnal name George VI. Since Elizabeth had no brothers, she became heir presumptive . If her parents had subsequently had a son, he would have been heir apparent and before her in the line of succession, which was determined by the male-preference primogeniture in effect at the time. [ 19 ] Elizabeth received private tuition in constitutional history from Henry Marten , Vice-Provost of Eton College , [ 20 ] and learned French from a succession of native-speaking governesses. [ 21 ] A Girl Guides company, the 1st Buckingham Palace Company , was formed specifically so she could socialise with girls her age. [ 22 ] Later, she was enrolled as a Sea Ranger . [ 21 ] In 1939, Elizabeth's parents toured Canada and the United States. As in 1927, when they had toured Australia and New Zealand , Elizabeth remained in Britain since her father thought she was too young to undertake public tours. [ 23 ] She \"looked tearful\" as her parents departed. [ 24 ] They corresponded regularly, [ 24 ] and she and her parents made the first royal transatlantic telephone call on 18 May. [ 23 ] Second World War In Auxiliary Territorial Service uniform, April 1945 In September 1939, Britain entered the Second World War . Lord Hailsham suggested that Princesses Elizabeth and Margaret should be evacuated to Canada to avoid the frequen"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: Shakespeare's life was far more contemporary with Queen Elizabeth I. Shakespeare lived from 1564 to 1616 and worked extensively during Elizabeth I's reign from 1558 to 1603, with the Wikipedia article on Elizabeth I explicitly noting that \"the Elizabethan era\" saw \"the flourishing of English drama, led by playwrights such as William Shakespeare.\" Elizabeth II, by contrast, reigned from 1952 to 2022, more than 300 years after Shakespeare's death.\n\nSource: William Shakespeare, Elizabeth I, Elizabeth II"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "William Shakespeare",
+      "api_response": {
+        "pages": [
+          {
+            "id": 32897,
+            "key": "William_Shakespeare",
+            "title": "William Shakespeare",
+            "excerpt": "<span class=\"searchmatch\">William</span> <span class=\"searchmatch\">Shakespeare</span> (c. 23 April 1564 \u2013 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the",
+            "matched_title": null,
+            "anchor": null,
+            "description": "English playwright and poet (1564\u20131616)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/60px-William_Shakespeare_by_John_Taylor%2C_edited.jpg"
+            }
+          },
+          {
+            "id": 11408627,
+            "key": "List_of_works_by_William_Shakespeare",
+            "title": "List of works by William Shakespeare",
+            "excerpt": "<span class=\"searchmatch\">William</span> <span class=\"searchmatch\">Shakespeare</span> (1564\u20131616) was an English poet and playwright. He wrote or co-wrote approximately 39 plays and 154 sonnets, as well as a variety",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Works by the English playwright",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 92,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/First_Folio%2C_Shakespeare_-_0017.jpg/60px-First_Folio%2C_Shakespeare_-_0017.jpg"
+            }
+          },
+          {
+            "id": 2963660,
+            "key": "Shakespeare's_plays",
+            "title": "Shakespeare's plays",
+            "excerpt": "<span class=\"searchmatch\">Shakespeare&#039;s</span> plays are a canon of approximately 39 dramatic works written by the English playwright and poet <span class=\"searchmatch\">William</span> <span class=\"searchmatch\">Shakespeare</span>. The exact number of",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Plays of the English playwright",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 47,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gilbert_WShakespeares_Plays.jpg/60px-Gilbert_WShakespeares_Plays.jpg"
+            }
+          },
+          {
+            "id": 2970018,
+            "key": "Sexuality_of_William_Shakespeare",
+            "title": "Sexuality of William Shakespeare",
+            "excerpt": "The sexuality of English playwright <span class=\"searchmatch\">William</span> <span class=\"searchmatch\">Shakespeare</span> has been the subject of debate. It is known from public records that he married Anne Hathaway",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/60px-William_Shakespeare_by_John_Taylor%2C_edited.jpg"
+            }
+          },
+          {
+            "id": 79242617,
+            "key": "List_of_idioms_attributed_to_Shakespeare",
+            "title": "List of idioms attributed to Shakespeare",
+            "excerpt": "The influence of <span class=\"searchmatch\">William</span> <span class=\"searchmatch\">Shakespeare</span> on the English language is pervasive. <span class=\"searchmatch\">Shakespeare</span> introduced or invented countless words in his plays, with estimates",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": null
+          }
+        ]
+      },
+      "fetched_content": "William Shakespeare English playwright and poet (1564\u20131616) \"Shakespeare\" redirects here. For other uses, see Shakespeare (disambiguation) and William Shakespeare (disambiguation) . For the British explorer, see William Shakespear (explorer) . William Shakespeare The Chandos portrait , likely depicting Shakespeare, c. 1611 Born c. 23 April 1564 Stratford-upon-Avon , Warwickshire, England Died 23 April 1616 (aged 52) Stratford-upon-Avon, Warwickshire, England Resting place Church of the Holy Trinity, Stratford-upon-Avon Occupations Playwright poet actor Years active c. 1585\u20131613 Era Elizabethan Jacobean Organisations Lord Chamberlain's Men King's Men Works Shakespeare bibliography Movement English Renaissance Spouse Anne Hathaway \u200b ( m. 1582 ) \u200b Children Susanna Hall Hamnet Shakespeare Judith Quiney Parents John Shakespeare Mary Arden Writing career Language Early Modern English Genres Play ( comedy history tragedy ) Poetry ( sonnet narrative poem epitaph ) Signature William Shakespeare [ a ] ( c. 23 April 1564 [ b ] \u2013 23 April 1616) [ c ] was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the \" Bard of Avon \" or simply \"the Bard\". His extant works, including collaborations , consist of some 39 plays , 154 sonnets , three long narrative poems and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare remains arguably the most influential writer in the English language, and his works continue to be studied and reinterpreted. Shakespeare was born and raised in Stratford-upon-Avon , Warwickshire. At the age of 18, he married Anne Hathaway , with whom he had three children: Susanna , and twins Hamnet and Judith . Sometime between 1585 and 1592 he began a successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the Lord Chamberlain's Men , later known as the King's Men after the ascension of King James VI of Scotland to the English throne. At age 49 (around 1613) he appears to have retired to Stratford, where he died three years later. Few records of Shakespeare's private life survive; this has stimulated considerable speculation about such matters as his physical appearance , his sexuality , his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others . Shakespeare produced most of his known works between 1589 and 1613. His early plays were primarily comedies and histories and are regarded as some of the best works produced in these genres. He then wrote mainly tragedies until 1608, among them Hamlet , Othello , King Lear and Macbeth , which are considered to be among the finest works in English. In the last phase of his career, he wrote tragicomedies (also known as romances ), such as The Winter's Tale and The Tempest , and collaborated with other playwrights. Many of Shakespeare's plays were published in editions of varying quality and accuracy during his lifetime. However, in 1623 John Heminges and Henry Condell , two fellow actors and friends of Shakespeare's, published a more definitive text known as the First Folio , a posthumous collected edition of Shakespeare's dramatic works that includes 36 of his plays. Its preface includes a prescient poem by Ben Jonson , a former rival of Shakespeare, who hailed Shakespeare with the now-famous epithet: \"not of an age, but for all time\". Life Main article: Life of William Shakespeare Early life John Shakespeare 's house, believed to be Shakespeare's birthplace , in Stratford-upon-Avon William Shakespeare was the son of John Shakespeare , an alderman and a successful glover (glove-maker) originally from Snitterfield in Warwickshire , and Mary Arden , the daughter of an affluent landowning family that was influential in the Recusant Catholic community. [ 3 ] [ 4 ] [ 5 ] He was born in Stratford-upon-Avon , where he was baptised on 26 April 1564. His date of birth is unknown but is traditionally observed on 23 April, Saint George's Day . [ 1 ] This date, which can be traced to William Oldys and George Steevens , has proved appealing to biographers because Shakespeare died on the same date in 1616. [ 6 ] [ 7 ] He was the third of eight children, and the eldest surviving son. [ 8 ] Although no attendance records for the period survive, most biographers agree that Shakespeare was probably educated at the King's New School in Stratford, [ 9 ] [ 10 ] [ 11 ] a free school chartered in 1553, [ 12 ] based about a quarter-mile (400 m) from his home in Stratford's guildhall . [ 13 ] Grammar schools varied in quality during the Elizabethan era , but grammar school curricula were largely similar: the basic Latin text was standardised by royal decree, [ 14 ] [ 15 ] and the school would have provided an intensive education in grammar based upon Latin classical authors. [ 16 ] At the age of 18, Shakespeare married 26-year-old Anne Hathaway . The consistory court of the Diocese of Worcester issued a marriage licence on 27 November 1582. The next day, two of Hathaway's neighbours posted bonds guaranteeing that no lawful claims impeded the marriage. [ 17 ] The ceremony may have been arranged in some haste; the Worcester chancellor allowed the marriage banns to be read once instead of the usual three times. [ 18 ] [ 19 ] Six months after the marriage, Anne gave birth to a daughter, Susanna , baptised 26 May 1583. [ 20 ] Twins, son Hamnet and daughter Judith , followed almost two years later and were baptised 2 February 1585. [ 21 ] Hamnet died of unknown causes at the age of 11 and was buried 11 August 1596. [ 22 ] Shakespeare's coat of arms , from the 1602 book The book of coates and creasts. Promptuarium armorum. It features spears as a pun on the family name. [ d ] After the birth of the twins, Shakespeare left few historical traces until he is mentioned as part of the London theatre scene in 1592. The exception is the appearance of his name in the \"complaints bill\" of a law case before the Queen's Bench court at Westminster dated Michaelmas Term 1588 and 9 October 1589. [ 23 ] Scholars refer to the years between 1585 and 1592 as Shakespeare's \"lost years\". [ 24 ] Biographers attempting to account for this period have reported many apocryphal stories. Nicholas Rowe , Shakespeare's first biographer, recounted a Stratford legend that Shakespeare fled the town for London to escape prosecution for deer poaching in the estate of local squire Thomas Lucy . Shakespeare is also supposed to have taken his revenge on Lucy by writing a scurrilous ballad about him. [ 25 ] [ 26 ] Another 18th-century story has Shakespeare starting his theatrical career minding the horses of theatre patrons in London. [ 27 ] John Aubrey reported that Shakespeare had been a country schoolmaster. [ 28 ] Some 20th-century scholars suggested that Shakespeare may have been employed as a schoolmaster by Alexander Hoghton of Lancashire , a Catholic landowner who named a certain \"William Shakeshafte\" in his will. [ 29 ] [ 30 ] Little evidence substantiates such stories other than hearsay collected after his death, and Shakeshafte was a common name in the Lancashire area. [ 31 ] [ 32 ] London and theatrical career It is not known definitively when Shakespeare began writing, but contemporary allusions and records of performances show that several of his plays were on the London stage by 1592. [ 33 ] By then, he was sufficiently known in London to be attacked in print by the playwright Robert Greene in his Groats-Worth of Wit from that year: ... there is an upstart Crow, beautified with our feathers, that with his Tiger's heart wrapped in a Player's hide , supposes he is as well able to bombast out a blank verse as the best of you: and being an absolute Johannes factotum , is in his own",
+      "content_source": "page/William_Shakespeare/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Elizabeth I",
+      "api_response": {
+        "pages": [
+          {
+            "id": 10128,
+            "key": "Elizabeth_I",
+            "title": "Elizabeth I",
+            "excerpt": "<span class=\"searchmatch\">Elizabeth</span> <span class=\"searchmatch\">I</span> (7 September 1533\u00a0\u2013 24 March 1603) was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Queen of England and Ireland from 1558 to 1603",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 88,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/60px-Darnley_stage_3.jpg"
+            }
+          },
+          {
+            "id": 44319,
+            "key": "Elizabeth_of_Russia",
+            "title": "Elizabeth of Russia",
+            "excerpt": "her mother Catherine <span class=\"searchmatch\">I</span> of Russia (r.\u20091725\u20131727), then to her nephew Peter II, who died in 1730 and was succeeded by <span class=\"searchmatch\">Elizabeth&#039;s</span> first cousin Anna (r.\u20091730\u20131740)",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Empress of Russia from 1741 to 1762",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 75,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Elizabeth_of_Russia_by_V.Eriksen.jpg/60px-Elizabeth_of_Russia_by_V.Eriksen.jpg"
+            }
+          },
+          {
+            "id": 19834537,
+            "key": "Portraiture_of_Elizabeth_I",
+            "title": "Portraiture of Elizabeth I",
+            "excerpt": "The portraiture of Queen <span class=\"searchmatch\">Elizabeth</span> <span class=\"searchmatch\">I</span> (1533\u20131603) spans the evolution of English royal portraits in the early modern period (1400/1500\u20131800), from the",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Portraits of Elizabeth I of England and Ireland",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 81,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Elizabeth_I_in_coronation_robes.jpg/60px-Elizabeth_I_in_coronation_robes.jpg"
+            }
+          },
+          {
+            "id": 31278,
+            "key": "House_of_Tudor",
+            "title": "House of Tudor",
+            "excerpt": "years with five monarchs: Henry VII, Henry VIII, Edward VI, Mary <span class=\"searchmatch\">I</span> and <span class=\"searchmatch\">Elizabeth</span> <span class=\"searchmatch\">I</span>. The Tudors succeeded the House of Plantagenet as rulers of the Kingdom",
+            "matched_title": null,
+            "anchor": null,
+            "description": "English royal house of Welsh origin (r. 1485\u20131603)",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tudor_Rose.svg/60px-Tudor_Rose.svg.png"
+            }
+          },
+          {
+            "id": 40911591,
+            "key": "Succession_to_Elizabeth_I",
+            "title": "Succession to Elizabeth I",
+            "excerpt": "The succession to <span class=\"searchmatch\">Elizabeth</span> <span class=\"searchmatch\">I</span>, the childless queen of England and Ireland, was an open question from her accession in 1558 to her death in 1603, when",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Political controversy in England (1558\u20131603)",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 73,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/de/DelarocheQueenElizabeth.jpg/60px-DelarocheQueenElizabeth.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Elizabeth I Queen of England and Ireland from 1558 to 1603 \"Elizabeth of England\" and \"Elizabeth Tudor\" redirect here. For other uses, see Elizabeth I (disambiguation) , Elizabeth of England (disambiguation) , and Elizabeth Tudor (disambiguation) . Elizabeth I The Darnley Portrait , c. 1575 Queen of England and Ireland ( more... ) Reign 17 November 1558 \u2013 24 March 1603 Coronation 15 January 1559 Predecessor Mary I and Philip Successor James I Born 7 September 1533 Palace of Placentia , Greenwich, England Died 24 March 1603 (aged 69) Richmond Palace , Surrey, England Burial 28 April 1603 Westminster Abbey House Tudor Father Henry VIII of England Mother Anne Boleyn Religion Anglicanism Signature Elizabeth I (7 September 1533 \u2013 24 March 1603) [ a ] was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest reigning monarch of the House of Tudor . Her eventful reign, and its effect on history and culture, gave name to the Elizabethan era . Elizabeth was the only surviving child of Henry VIII and his second wife, Anne Boleyn . When Elizabeth was two years old, her parents' marriage was annulled, her mother was executed, and Elizabeth was declared illegitimate . Henry restored her to the line of succession when she was 10. After Henry's death in 1547, Elizabeth's younger half-brother Edward VI ruled until his own death in 1553, bequeathing the crown to a Protestant cousin, Lady Jane Grey , and ignoring the claims of his two half-sisters, Mary and Elizabeth, despite statutes to the contrary. Edward's will was quickly set aside and the Catholic Mary became queen, deposing Jane. During Mary's reign, Elizabeth was imprisoned for nearly a year on suspicion of supporting Protestant rebels. Upon Mary's death in 1558, Elizabeth succeeded to the throne and set out to rule by good counsel. [ b ] She depended heavily on a group of trusted advisers led by William Cecil , whom she created Baron Burghley . One of her first actions as queen was the establishment of an English church, of which she became the supreme governor . This arrangement, later named the Elizabethan Religious Settlement , would evolve into the Church of England . It was expected that Elizabeth would marry and produce an heir; however, despite numerous courtships, she never did. Because of this she is sometimes referred to as the \"Virgin Queen\". [ 2 ] She was succeeded by her first cousin twice removed, James VI of Scotland . In government, Elizabeth was more moderate than her father and siblings had been. [ 3 ] One of her mottoes was video et taceo ( ' I see and keep silent ' ). [ 4 ] In religion, she was relatively tolerant and avoided systematic persecution. After the pope declared her illegitimate in 1570, which in theory released English Catholics from allegiance to her, several conspiracies threatened her life, all of which were defeated with the help of her ministers' secret service, run by Francis Walsingham . Elizabeth was cautious in foreign affairs, manoeuvring between the major powers of France and Spain . She half-heartedly supported a number of ineffective, poorly resourced military campaigns in the Netherlands , France, and Ireland. By the mid-1580s, England could no longer avoid war with Spain . As she grew older, Elizabeth became celebrated for her virginity . A cult of personality grew around her which was celebrated in the portraits, pageants, and literature of the day. The Elizabethan era is famous for the flourishing of English drama , led by playwrights such as William Shakespeare and Christopher Marlowe , the prowess of English maritime adventurers, such as Francis Drake and Walter Raleigh , and for the defeat of the Spanish Armada . Some historians depict Elizabeth as a short-tempered, sometimes indecisive ruler [ 5 ] who enjoyed more than her fair share of luck. Towards the end of her reign, a series of economic and military problems weakened her popularity. Elizabeth is acknowledged as a charismatic performer and a dogged survivor in an era when government was ramshackle and limited, and when monarchs in neighbouring countries faced internal problems and religious civil wars that jeopardised their thrones. After the short, disastrous reigns of her half-siblings, her 44 years on the throne provided welcome stability for the kingdom and helped to forge a sense of national identity. [ 3 ] Early life Infancy Elizabeth's parents, Henry VIII and Anne Boleyn . Anne was executed within three years of Elizabeth's birth. Elizabeth was born on 7 September 1533 at Greenwich Palace and was named after her grandmothers, Elizabeth of York and Lady Elizabeth Howard . [ 6 ] She was the second child of Henry VIII of England born in wedlock to survive infancy. Her mother was Henry VIII's second wife, Anne Boleyn . At birth, Elizabeth was the heir presumptive to the English throne. Her elder half-sister Mary had lost her position as a legitimate heir when Henry annulled his marriage to Mary's mother, Catherine of Aragon , to marry Anne, with the intent to sire a male heir and ensure the Tudor succession. [ 7 ] [ 8 ] She was baptised on 10 September, and her godparents were Thomas Cranmer , Archbishop of Canterbury ; Henry Courtenay, Marquess of Exeter ; Elizabeth Stafford, Duchess of Norfolk ; and Margaret Wotton, Dowager Marchioness of Dorset . A canopy was carried at the ceremony over the infant by her uncle George Boleyn, Viscount Rochford ; John Hussey, Baron Hussey of Sleaford ; Lord Thomas Howard ; and William Howard, Baron Howard of Effingham . [ 9 ] Elizabeth was two years and eight months old when her mother was beheaded on 19 May 1536, [ 10 ] four months after Catherine of Aragon's death from natural causes. Elizabeth was declared illegitimate and deprived of her place in the royal succession. [ c ] Eleven days after Anne Boleyn's execution, Henry married Jane Seymour . Queen Jane died the next year shortly after the birth of their son, Edward , who was the undisputed heir apparent to the throne. Elizabeth was placed in her half-brother's household and carried the chrisom , or baptismal cloth, at his christening. [ 12 ] Education A rare portrait of a teenage Elizabeth prior to her accession, attributed to William Scrots . It was painted for her father in c. 1546 . Elizabeth's first governess , Margaret Bryan , wrote that she was \"as toward a child and as gentle of conditions as ever I knew any in my life\". [ 13 ] [ 14 ] Catherine Champernowne , better known by her later, married name of Catherine \"Kat\" Ashley, was appointed as Elizabeth's governess in 1537, and she remained Elizabeth's friend until her death in 1565. Champernowne taught Elizabeth four languages: French, Dutch , Italian, and Spanish. [ 15 ] By the time William Grindal became her tutor in 1544, Elizabeth could write English, Latin , and Italian. Under Grindal, a talented and skilful tutor, she also progressed in French and Greek. [ 16 ] By the age of 12, she was able to translate her stepmother Catherine Parr 's religious work Prayers or Meditations from English into Italian, Latin, and French, which she presented to her father as a New Year's gift . [ 17 ] From her teenage years and throughout her life, she translated works in Latin and Greek by numerous classical authors, including the Pro Marcello of Cicero , the De consolatione philosophiae of Boethius , a treatise by Plutarch , and the Annals of Tacitus . [ 18 ] [ 17 ] A translation of Tacitus from Lambeth Palace Library, one of only four surviving English translations from the early modern era, was confirmed as Elizabeth's own in 2019, after a detailed analysis of the handwriting and paper was undertaken. [ 19 ] After Grindal died in 1548, Elizabeth received her education under her brother Edward's tutor, Roger Ascham , a sympathetic teacher who believed that learning should be engaging. [ 20 ] Current knowledge of Elizabeth's schooling and precocity comes largely from Ascham's memoirs. [ 16 ] By the time her for",
+      "content_source": "page/Elizabeth_I/with_html (stripped)"
+    },
+    {
+      "call_index": 2,
+      "query": "Elizabeth II",
+      "api_response": {
+        "pages": [
+          {
+            "id": 12153654,
+            "key": "Elizabeth_II",
+            "title": "Elizabeth II",
+            "excerpt": "<span class=\"searchmatch\">Elizabeth</span>\u00a0<span class=\"searchmatch\">II</span> (<span class=\"searchmatch\">Elizabeth</span> Alexandra Mary; 21\u00a0April 1926\u00a0\u2013 8\u00a0September 2022) was Queen of the United Kingdom and other Commonwealth realms from 6 February",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Queen of the United Kingdom from 1952 to 2022",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg/60px-Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg"
+            }
+          },
+          {
+            "id": 71708476,
+            "key": "Death_and_state_funeral_of_Elizabeth_II",
+            "title": "Death and state funeral of Elizabeth II",
+            "excerpt": "<span class=\"searchmatch\">Elizabeth</span> <span class=\"searchmatch\">II</span>, Queen of the United Kingdom and the other Commonwealth realms, died on 8 September 2022 at Balmoral Castle in Scotland, at the age of 96",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Queen_Elizabeth_II_Funeral_Procession_%281%29.jpg/60px-Queen_Elizabeth_II_Funeral_Procession_%281%29.jpg"
+            }
+          },
+          {
+            "id": 49200,
+            "key": "Queen_Elizabeth_2",
+            "title": "Queen Elizabeth 2",
+            "excerpt": "<span class=\"searchmatch\">Elizabeth</span> 2 (not Queen <span class=\"searchmatch\">Elizabeth</span> <span class=\"searchmatch\">II</span>) indicating she is the second Cunard liner named Queen <span class=\"searchmatch\">Elizabeth</span>. ... Christened by: Her Majesty Queen <span class=\"searchmatch\">Elizabeth</span> II",
+            "matched_title": null,
+            "anchor": null,
+            "description": "British ocean liner",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/VAE-dubai-QE_II_cropped.jpg/60px-VAE-dubai-QE_II_cropped.jpg"
+            }
+          },
+          {
+            "id": 23957213,
+            "key": "Coronation_of_Elizabeth_II",
+            "title": "Coronation of Elizabeth II",
+            "excerpt": "of <span class=\"searchmatch\">Elizabeth</span> <span class=\"searchmatch\">II</span> as queen of the United Kingdom and the other Commonwealth realms took place on 2 June 1953 at Westminster Abbey in London. <span class=\"searchmatch\">Elizabeth</span> acceded",
+            "matched_title": null,
+            "anchor": null,
+            "description": "1953 coronation in the United Kingdom",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 75,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Queen_Elizabeth_II_on_her_Coronation_Day.jpg/60px-Queen_Elizabeth_II_on_her_Coronation_Day.jpg"
+            }
+          },
+          {
+            "id": 19671379,
+            "key": "Jewels_of_Elizabeth_II",
+            "title": "Jewels of Elizabeth II",
+            "excerpt": "<span class=\"searchmatch\">Elizabeth</span> <span class=\"searchmatch\">II</span> owned a historic collection of jewels\u00a0\u2013 some as monarch and others as a private individual. They are separate from the gems and jewels of",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Historic collection of British royal jewellery",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 75,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/HM_Queen_Elizabeth_II.jpg/60px-HM_Queen_Elizabeth_II.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Elizabeth II Queen of the United Kingdom from 1952 to 2022 For other uses, see Elizabeth II (disambiguation) . Elizabeth II Head of the Commonwealth Formal portrait, 1959 Queen of the United Kingdom and other Commonwealth realms ( full list ) Reign 6 February 1952 \u2013 8 September 2022 Coronation 2 June 1953 Predecessor George VI Successor Charles III Born Princess Elizabeth of York ( 1926-04-21 ) 21 April 1926 17 Bruton Street, Mayfair , London, England Died 8 September 2022 (2022-09-08) (aged 96) Balmoral Castle , Aberdeenshire, Scotland Burial 19 September 2022 King George VI Memorial Chapel , St George's Chapel, Windsor Castle Spouse Prince Philip, Duke of Edinburgh \u200b \u200b ( m. 1947 ; died 2021 ) \u200b Issue Charles III Anne, Princess Royal Andrew Mountbatten-Windsor Prince Edward, Duke of Edinburgh Names Elizabeth Alexandra Mary House Windsor Father George VI Mother Elizabeth Bowes-Lyon Religion Protestant [ a ] Signature Elizabeth II's voice Coronation Day speech Recorded 2 June 1953 Elizabeth II (Elizabeth Alexandra Mary; 21 April 1926 \u2013 8 September 2022) was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022. She was queen regnant of 32 sovereign states during her lifetime and was the monarch of 15 realms at her death. Her reign of 70 years, 214 days, is the longest of any British monarch , the second-longest of any sovereign state , and the longest of any queen regnant in history . Elizabeth was born in Mayfair , London, during the reign of her paternal grandfather, King George V . She was the first child of the Duke and Duchess of York (later King George VI and Queen Elizabeth the Queen Mother ). Her father acceded to the throne in 1936 upon the abdication of his brother Edward VIII , making the ten-year-old Princess Elizabeth the heir presumptive . She was educated privately at home and began to undertake public duties during the Second World War , serving in the Auxiliary Territorial Service . In November 1947, she married Philip Mountbatten , a former prince of Greece and Denmark . They had four children: Charles , Anne , Andrew , and Edward . When her father died in February 1952, Elizabeth, then 25 years old, became queen of seven independent Commonwealth countries and head of the Commonwealth . Elizabeth reigned as a constitutional monarch through times of significant political change such as the Troubles in Northern Ireland, devolution in the United Kingdom , the decolonisation of Africa , and the United Kingdom's accession to the European Communities as well as its subsequent withdrawal . The number of her realms varied over time as territories gained independence and as most realms became republics . As queen, Elizabeth was advised by more than 170 prime ministers across her realms. Her many historic visits and meetings included state visits to China in 1986, to Russia in 1994, and to the Republic of Ireland in 2011; she met five popes and fourteen US presidents. Significant events of Elizabeth's reign included her coronation in 1953 and the celebrations of her Silver , Golden , Diamond , and Platinum jubilees . Although there was occasional republican sentiment and media criticism of her family \u2013 particularly after the breakdowns of her children's marriages, her annus horribilis in 1992, and the death of her former daughter-in-law Diana in 1997 \u2013 support for the monarchy and her popularity in the United Kingdom remained consistently high. Elizabeth died aged 96 at Balmoral Castle in Scotland, and was succeeded by her eldest son as Charles III. Early life Elizabeth was born at 2:40 am on 21 April 1926 by Caesarean section at her maternal grandfather's London home, 17 Bruton Street in Mayfair , [ 1 ] [ 2 ] the first child of Prince Albert, Duke of York (later King George VI), and his wife, Elizabeth, Duchess of York (later Queen Elizabeth the Queen Mother). Her father was the second son of King George V and Queen Mary , and her mother was the youngest daughter of Scottish aristocrat Claude Bowes-Lyon, 14th Earl of Strathmore and Kinghorne and his wife Cecilia ( n\u00e9e Cavendish-Bentinck ). She was baptised by the Archbishop of York , Cosmo Gordon Lang in the private chapel at Buckingham Palace on 29 May, [ 3 ] [ b ] and she was named Elizabeth after her mother; Alexandra after her paternal great-grandmother , who had died five months earlier ; and Mary after her paternal grandmother. [ 5 ] She was affectionately called \"Lilibet\" by her close family, [ 6 ] based on what she called herself at first. [ 7 ] She was cherished by her grandfather George V, whom she affectionately called \"Grandpa England\", [ 8 ] and her regular visits during his serious illness in 1929 were credited in the popular press and by later biographers with raising his spirits and aiding his recovery. [ 9 ] On the cover of Time , April 1929 Portrait by Philip de L\u00e1szl\u00f3 , 1933 Elizabeth's sole sibling, Princess Margaret , was born in 1930. The two princesses were cared for by their nanny, Clara Knight , and educated at home under the supervision of their mother and their governess , Marion Crawford . [ 10 ] Lessons concentrated on history, language, literature, and music. [ 11 ] Crawford published a biography of Elizabeth and Margaret's childhood years titled The Little Princesses in 1950, much to the dismay of the royal family . [ 12 ] The book describes Elizabeth's love of horses and dogs, her orderliness, and her attitude of responsibility. [ 13 ] Others echoed such observations: Winston Churchill described Elizabeth when she was two as \"a character. She has an air of authority and reflectiveness astonishing in an infant.\" [ 14 ] Her cousin Margaret Rhodes described her as \"a jolly little girl, but fundamentally sensible and well-behaved\". [ 15 ] Elizabeth's early life was spent primarily at the Yorks' residences at 145 Piccadilly (their town house in London) and Royal Lodge in Windsor. [ 16 ] Heir presumptive During her grandfather's reign, Elizabeth was third in the line of succession to the British throne , behind her uncle Edward, Prince of Wales , and her father. Although her birth generated public interest, she was not expected to become queen, as Edward was still young and expected to marry and have children of his own, who would precede Elizabeth in the line of succession. [ 17 ] When her grandfather died in 1936 and her uncle succeeded as Edward VIII, she became second in line to the throne, after her father. Later that year, Edward abdicated , after his proposed marriage to divorced American socialite Wallis Simpson provoked a constitutional crisis . [ 18 ] Consequently, Elizabeth's father became king, taking the regnal name George VI. Since Elizabeth had no brothers, she became heir presumptive . If her parents had subsequently had a son, he would have been heir apparent and before her in the line of succession, which was determined by the male-preference primogeniture in effect at the time. [ 19 ] Elizabeth received private tuition in constitutional history from Henry Marten , Vice-Provost of Eton College , [ 20 ] and learned French from a succession of native-speaking governesses. [ 21 ] A Girl Guides company, the 1st Buckingham Palace Company , was formed specifically so she could socialise with girls her age. [ 22 ] Later, she was enrolled as a Sea Ranger . [ 21 ] In 1939, Elizabeth's parents toured Canada and the United States. As in 1927, when they had toured Australia and New Zealand , Elizabeth remained in Britain since her father thought she was too young to undertake public tours. [ 23 ] She \"looked tearful\" as her parents departed. [ 24 ] They corresponded regularly, [ 24 ] and she and her parents made the first royal transatlantic telephone call on 18 May. [ 23 ] Second World War In Auxiliary Territorial Service uniform, April 1945 In September 1939, Britain entered the Second World War . Lord Hailsham suggested that Princesses Elizabeth and Margaret should be evacuated to Canada to avoid the frequen",
+      "content_source": "page/Elizabeth_II/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: Shakespeare's life was far more contemporary with Queen Elizabeth I. Shakespeare lived from 1564 to 1616 and worked extensively during Elizabeth I's reign from 1558 to 1603, with the Wikipedia article on Elizabeth I explicitly noting that \"the Elizabethan era\" saw \"the flourishing of English drama, led by playwrights such as William Shakespeare.\" Elizabeth II, by contrast, reigned from 1952 to 2022, more than 300 years after Shakespeare's death.\n\nSource: William Shakespeare, Elizabeth I, Elizabeth II",
+  "total_tool_calls": 3,
+  "latency_ms": 8961,
+  "error": null
+}

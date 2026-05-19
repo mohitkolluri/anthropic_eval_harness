@@ -1,0 +1,322 @@
+{
+  "eval_id": "Q022",
+  "run_id": "20260518_235010_8f556b",
+  "prompt_version": "v3",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What can you tell me about Ajax?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What can you tell me about Ajax?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01MEGEbVS86ZhEijUvXkBfUY",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ajax"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01MEGEbVS86ZhEijUvXkBfUY",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_016safdKPhTYTZHBnvJHUJ3w",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Ajax Greek mythology"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01E4SmgmVwYSMWRhdmSNXb7S",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "AJAX web development"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_016safdKPhTYTZHBnvJHUJ3w",
+          "content": "Ajax the Lesser Ancient Greek mythological hero For the Marvel Comics character Ajax the Lesser, see List of Eternals . Ajax the Lesser and Cassandra on an Attic-red figure cup, Louvre . Scene from the Trojan War: Cassandra clings to the Palladium , the wooden cult image of Athene, while Ajax the Lesser is about to drag her away in front of her father Priam (standing on the left). Fresco from the atrium of the Casa del Menandro (I 10, 4) in Pompeii. Ajax , 1820 painting by Henri Serrur Ajax ( Ancient Greek : \u0391\u1f34\u03b1\u03c2 , romanized : A\u00ed\u0101s ) was a Greek mythological hero , son of Oileus , the king of Locris . He was called the \"Ajax the Less\", the \"lesser\" or \"Locrian\" Ajax, [ 1 ] to distinguish him from Ajax the Great , son of Telamon . He was the leader of the Locrian contingent during the Trojan War . He is a significant figure in Homer 's Iliad and is also mentioned in the Odyssey , [ 2 ] in Virgil 's Aeneid and in Euripides ' The Trojan Women . In Etruscan legend , he was known as Aivas Vilates . Description In the account of Dares the Phrygian , Ajax was described as \"stocky, powerfully built, swarthy, a pleasant person, and brave.\" [ 3 ] Mythology Life Ajax's mother's name was Eriopis . [ 4 ] According to Strabo , he was born in Naryx in Locris , [ 5 ] where Ovid calls him Narycius heros . [ 6 ] According to the Iliad , [ 7 ] he led his Locrians in forty ships against Troy . [ 8 ] He is described as one of the great heroes among the Greeks. In battle, he wore a linen cuirass ( \u03bb\u03b9\u03bd\u03bf\u03b8\u03ce\u03c1\u03b1\u03be , linothorax ), was brave and intrepid, especially skilled in throwing the spear and, next to Achilles , the swiftest of all the Greeks. [ 9 ] [ 10 ] The chronicler Malalas portrayed him as \"tall, strong, tawny, squinting, good nose, curly hair, black hair, thick beard, long face, daring warrior, magnanimous, a womanizer.\" [ 11 ] In the funeral games at the pyre of Patroclus , Ajax contended with Odysseus and Antilochus for the prize in the footrace; but Athena , who was hostile towards him and favored Odysseus, made him stumble and fall, so that he won only the second prize. [ 12 ] In later traditions, this Ajax is called a son of Oileus and the nymph Rhene, and is also mentioned among the suitors of Helen. [ 13 ] After the taking of Troy, he rushed into the temple of Athena, where Cassandra had taken refuge, and was embracing the statue of the goddess in supplication . Ajax violently dragged her away to the other captives. [ 14 ] According to some writers, he raped Cassandra inside the temple. [ 15 ] Odysseus called for Ajax's death by stoning for this crime, but Ajax saved himself by claiming innocence with an oath to Athena, clutching her statue in supplication. [ 16 ] Death Since Ajax dragged the supplicant from her temple, Athena had cause to be indignant. According to the Bibliotheca , no one was aware that Ajax had raped Cassandra until Calchas , the Greek seer, warned the Greeks that Athena was furious at the treatment of her priestess and she would destroy the Greek ships if they did not kill him immediately. Despite this, Ajax managed to hide at the altar of a deity where the Greeks, fearing divine retribution should they kill him and destroy the altar, allowed him to live. When the Greeks left without killing Ajax, despite their sacrifices, Athena became so angry that she persuaded Zeus to send a storm that sank many of their ships. Poseidon killing Ajax the Lesser, drawing by Bonaventura Genelli As Ajax was returning from Troy , Athena hit his ship with a thunderbolt and the vessel was wrecked on the Whirling Rocks ( \u0393\u03c5\u03c1\u03b1\u1f76 \u03c0\u03ad\u03c4\u03c1\u03b1\u03b9 ). But he escaped with some of his men, managing to cling onto a rock through the assistance of Poseidon . He would have been saved in spite of Athena, but he then audaciously declared that he would escape the dangers of the sea in defiance of the immortals. Offended by this presumption, Poseidon split the rock with his trident and Ajax was swallowed up by the sea. [ 17 ] [ 10 ] Thetis buried him when the corpse washed up on Mykonos . [ 18 ] Other versions depict a different death for Ajax, showing him dying when on his voyage home. In these versions, when Ajax came to the Capharean Rocks on the coast of Euboea , his ship was wrecked in a fierce storm, he himself was lifted up in a whirlwind and impaled with a flash of rapid fire from Athena in his chest, and his body thrust upon sharp rocks, which afterwards were called the rocks of Ajax. [ 19 ] After Ajax's death, his spirit dwelt in the island of Leuce . [ 20 ] The Opuntian Locrians worshipped Ajax as their national hero, and so great was their faith in him that when they drew up their army in battle, they always left one place open for him, believing that, although invisible to them, he was fighting for and among them. [ 21 ] The story of Ajax was frequently made use of by ancient poets and artists, and the hero who appears on some Locrian coins with the helmet, shield, and sword is probably this Ajax. [ 22 ] Other accounts of Ajax's death are offered by Philostratus , Euripides , and the scholiast on Lycophron . [ 23 ] Art Ajax and Cassandra by Solomon Joseph Solomon (1886) [ 24 ] The abduction of Cassandra by Ajax was frequently represented in Greek works of art, such as the chest of Cypselus described by Pausanias and in extant works. [ 25 ] [ 10 ] Notes \u2191 Homer , Iliad 2.527 \u2191 Schmitz, Leonhard (1867), \"Ajax (2)\" , in Smith, William (ed.), Dictionary of Greek and Roman Biography and Mythology , vol. 1, Boston: Little, Brown and Company , pp. 87\u2013 88, archived from the original on 2013-10-20 , retrieved 2008-06-09 \u2191 Dares Phrygius , History of the Fall of Troy 13 \u2191 Tzetzes , John (2015). Allegories of the Iliad . Translated by Goldwyn, Adam; Kokkini, Dimitra. Harvard University Press, Cambridge, Massachusetts, London, England: Dumbarton Oaks Medieval Library. pp. 41, Prologue 43\u201344. ISBN 978-0-674-96785-4 . \u2191 Strabo , 9. p. 425 \u2191 Ovid , Metamorphoses 14.468 \u2191 Homer, Iliad 2.527 \u2191 Hyginus , Fabulae 97 gives the number of ships as twenty \u2191 Homer, Iliad 14.520 & 23.789 1 2 3 Chisholm 1911 . \u2191 Malalas , Chronography 5.104 \u2191 Homer, Iliad 23.754 \u2191 Apollodorus , 3.10.8; Hyginus, Fabulae 81 & 97 \u2191 Euripides , Tro. 70; Virgil , Aeneid 2.403; Hyginus, Fabulae 116; Dictys Cretensis , 5.12 \u2191 Tryphiodorus , 635; Quintus Smyrnaeus , 13.422; Lycophron , 360 with the Scholion \u2191 Pausanias , 10.26.1 & 10.31.1 \u2191 Homer, Odyssey 4.499 \u2191 Apollodore, R. Scott Smith, Stephen Trzaskoma, and Hygin. Apollodorus' Library and Hyginus' Fabulae: Two Handbooks of Greek Mythology , Indianapolis: Hackett Pub., 2007. 84\u201385. \"5.24\u20136.6.\" \u2191 Virgil, Aeneid 1.40 & 11.260; Hyginus, Fabulae 116 \u2191 Pausanias, 3.19.13 \u2191 Conon , Narrations 18; Pausanias, 3.19.13 \u2191 Th\u00e9odore Edme Mionnet, No. 570, &c. \u2191 Philostratus , Her. 31.6\u20139; Euripides , Tro. 90; Scholiast on Lycophron \u2191 \"Solomon Joseph Solomon RA PRBA (1860\u20131927)\" . 2007-05-17. Archived from the original on 2016-03-04 . Retrieved 2015-10-28 . \u2191 Pausanias, 5.17 References Apollodorus , The Library with an English Translation by Sir James George Frazer, F.B.A., F.R.S. in 2 Volumes, Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1921. ISBN 0-674-99135-4 . Online version at the Perseus Digital Library. Greek text available from the same website . Conon , Fifty Narrations, surviving as one-paragraph summaries in the Bibliotheca (Library) of Photius, Patriarch of Constantinople translated from the Greek by Brady Kiesling. Online version at the Topos Text Project. Dictys Cretensis , from The Trojan War. The Chronicles of Dictys of Crete and Dares the Phrygian translated by Richard McIlwaine Frazer Jr. Indiana University Press. 1966. Online version at the Topos Text Project. Gaius Julius Hyginus , Fabulae from The Myths of Hyginus translated and edited by Mary Grant. University of Kansas Publications in Humanistic Studies. Online version at the Topos Text Project. Graves, Robert , The Greek Myths , Harmondsworth, London, England, Penguin Books, 19"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01E4SmgmVwYSMWRhdmSNXb7S",
+          "content": "Ajax (programming) Group of interrelated Web development techniques \"AJAX\" redirects here. For other uses, see Ajax (disambiguation) . Asynchronous JavaScript and XML First appeared March 1999 Filename extensions .js File formats JavaScript Influenced by JavaScript + XML The Asynchronous JavaScript and XML [ 1 ] [ 2 ] , usually referred to as Ajax (or AJAX , / \u02c8 e\u026a d\u0292 \u00e6 k s / ) is a set of web development techniques that uses various web technologies on the client-side to create asynchronous web applications . With Ajax, web applications can send and retrieve data from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page. By decoupling the data interchange layer from the presentation layer, Ajax allows web pages and, by extension, web applications, to change content dynamically without the need to reload the entire page. [ 3 ] In practice, modern implementations commonly utilize JSON instead of XML. Ajax is not a technology, but rather a programming pattern. HTML and CSS can be used in combination to mark up and style information. The webpage can be modified by JavaScript to dynamically display (and allow the user to interact with) the new information. The built-in XMLHttpRequest object is used to execute Ajax on webpages, allowing websites to load content onto the screen without refreshing the page. History In the early-to-mid 1990s, most Websites were based on complete HTML pages. Each user action required a complete new page to be loaded from the server. This process was inefficient, as reflected by the user experience: all page content disappeared, then the new page appeared. Each time the browser reloaded a page because of a partial change, all the content had to be re-sent, even though only some of the information had changed. This placed additional load on the server and made bandwidth a limiting factor in performance. The foundations of AJAX originate back in 1996 with the introduction of JavaScript 1. Developers quickly discovered that any HTML element which accepted a \"src\" attribute could be used to fetch remote data. By changing the src of a hidden frame , a developer could fetch remote data, process or display it without a page refresh. The remote data could be a string, JavaScript code, XML or a partial HTML page generated on the server. The same could be done with < img > and < embed > tags, but many developers were alarmed at the concept of an executable GIF and preferred to use the hidden < iframe > . This technique was used for both Netscape Navigator and Internet Explorer , the two main browsers at the time, until developers discovered the XMLHTTP server object (MSXML 1.0) was included in Internet Explorer 4. Browser detection was then used to either implement the hidden < iframe > in Netscape or use the XMLHTTP (MSXML 1.0) object in IE 4. [ This paragraph needs citation(s) ] In 1996, the iframe tag was introduced by Internet Explorer ; like the object element, [ citation needed ] it can load a part of the web page asynchronously. In 1998, the Microsoft Outlook Web Access team developed the concept behind the XMLHttpRequest scripting object. [ 4 ] It appeared as XMLHTTP in the second version of the MSXML library, [ 4 ] [ 5 ] which shipped with Internet Explorer 5.0 in March 1999. [ 6 ] The functionality of the Windows XMLHTTP ActiveX control in IE 5 was later implemented by Mozilla Firefox , Safari , Opera , Google Chrome , and other browsers as the XMLHttpRequest JavaScript object. [ 7 ] Microsoft adopted the native XMLHttpRequest model as of Internet Explorer 7 . Support for the ActiveX version remained in Internet Explorer and on \"Internet Explorer mode\" in Microsoft Edge . The utility of these background HTTP requests and asynchronous Web technologies remained fairly obscure until it started appearing in large scale online applications such as Outlook Web Access (2000) [ 8 ] and Oddpost (2002). [ 9 ] Google made a wide deployment of standards-compliant, cross browser Ajax with Gmail (2004) and Google Maps (2005). [ 10 ] In October 2004 Kayak.com 's public beta release was among the first large-scale e-commerce uses of what their developers at that time called \"the xml http thing\". [ 11 ] This increased interest in Ajax among web program developers. The term AJAX was publicly used on 18 February 2005 by Jesse James Garrett in an article titled Ajax: A New Approach to Web Applications , based on techniques used on Google pages. [ 1 ] On 5 April 2006, the World Wide Web Consortium (W3C) released the first draft specification for the XMLHttpRequest object in an attempt to create an official Web standard . [ 12 ] The latest draft of the XMLHttpRequest object was published on 6 October 2016, [ 13 ] and the XMLHttpRequest specification is now a living standard . [ 14 ] Technologies The conventional model for a Web Application versus an application using Ajax The term Ajax has come to represent a broad group of Web technologies that can be used to implement a Web application that communicates with a server in the background, without interfering with the current state of the page. In the article that coined the term Ajax, [ 1 ] [ 3 ] Jesse James Garrett explained that the following technologies are incorporated: HTML (or XHTML ) and CSS for presentation The Document Object Model (DOM) for dynamic display of and interaction with data JSON or XML for the interchange of data, and XSLT for XML manipulation The XMLHttpRequest object for asynchronous communication JavaScript to bring these technologies together Since then, however, there have been a number of developments in the technologies used in an Ajax application, and in the definition of the term Ajax itself. XML is no longer required for data interchange and, therefore, XSLT is no longer required for the manipulation of data. JavaScript Object Notation (JSON) is often used as an alternative format for data interchange, [ 15 ] although other formats such as preformatted HTML or plain text can also be used. [ 16 ] A variety of popular JavaScript libraries, including jQuery , include abstractions to assist in executing Ajax requests. Examples JavaScript example An example of a simple Ajax request using the GET method, written in JavaScript . get-ajax-data.js: // This is the client-side script. // Initialize the HTTP request. let xhr = new XMLHttpRequest (); // define the request xhr . open ( 'GET' , 'send-ajax-data.php' ); // Track the state changes of the request. xhr . onreadystatechange = function () { const DONE = 4 ; // readyState 4 means the request is done. const OK = 200 ; // status 200 is a successful return. if ( xhr . readyState === DONE ) { if ( xhr . status === OK ) { console . log ( xhr . responseText ); // 'This is the output.' } else { console . log ( 'Error: ' + xhr . status ); // An error occurred during the request. } } }; // Send the request to send-ajax-data.php xhr . send ( null ); send-ajax-data.php: <?php // This is the server-side script. // Set the content type. header ( 'Content-Type: text/plain' ); // Send the data back. echo \"This is the output.\" ; ?> Fetch example Fetch is a native JavaScript API. [ 17 ] According to Google Developers Documentation, \"Fetch makes it easier to make web requests and handle responses than with the older XMLHttpRequest.\" [ 18 ] fetch ( 'send-ajax-data.php' ) . then ( data => console . log ( data )) . catch ( error => console . log ( 'Error:' + error )); ES7 async/await example async function doAjax1 () { try { const res = await fetch ( 'send-ajax-data.php' ); const data = await res . text (); console . log ( data ); } catch ( error ) { console . log ( 'Error:' + error ); } } doAjax1 (); Fetch relies on JavaScript promises . The fetch specification differs from Ajax in the following significant ways: The Promise returned from fetch() won't reject on HTTP error status even if the response is an HTTP 404 or 500. Instead, as soon as the server responds with headers, the"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Ajax is a term with multiple meanings. The most prominent are:\n\n1. **Ajax the Lesser** \u2013 A figure from ancient Greek mythology, the son of Oileus and king of Locris. He was a significant hero during the Trojan War, known for being one of the swiftest Greeks and a skilled spear-thrower. He is featured prominently in Homer's *Iliad* and is also mentioned in the *Odyssey*, Virgil's *Aeneid*, and Euripides' *The Trojan Women*. He was known for the controversial act of dragging the suppliant Cassandra from Athena's temple, which led to his death when Poseidon split the rock he was clinging to as he fled Troy.\n\n2. **Ajax (programming)** \u2013 A set of web development techniques that enables asynchronous web applications. Standing for Asynchronous JavaScript and XML, Ajax allows web pages to send and retrieve data from a server in the background without reloading the entire page, creating a more dynamic user experience. The term was publicly coined in February 2005 by Jesse James Garrett, though the underlying technologies had been evolving since 1996.\n\nSource: Ajax the Lesser, Ajax (programming)"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Ajax",
+      "api_response": {
+        "pages": [
+          {
+            "id": 2273,
+            "key": "AFC_Ajax",
+            "title": "AFC Ajax",
+            "excerpt": "Amsterdamsche Football Club <span class=\"searchmatch\">Ajax</span> (Dutch: [\u02c8a\u02d0j\u0251ks]), also known as AFC <span class=\"searchmatch\">Ajax</span>, <span class=\"searchmatch\">Ajax</span> Amsterdam, or simply <span class=\"searchmatch\">Ajax</span>, is a Dutch professional football club based",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Association football club in Netherlands",
+            "thumbnail": {
+              "mimetype": "image/png",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Logo_AFC_Ajax_%281928-1991%2C_2025-%29.png/60px-Logo_AFC_Ajax_%281928-1991%2C_2025-%29.png"
+            }
+          },
+          {
+            "id": 1569,
+            "key": "Ajax",
+            "title": "Ajax",
+            "excerpt": "Look up <span class=\"searchmatch\">Ajax</span>\u00a0or <span class=\"searchmatch\">AJAX</span> in Wiktionary, the free dictionary. <span class=\"searchmatch\">Ajax</span> may refer to: <span class=\"searchmatch\">Ajax</span> the Great, son of King Telamon and Periboea <span class=\"searchmatch\">Ajax</span> the Lesser, son of Oileus",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Topics referred to by the same term",
+            "thumbnail": null
+          },
+          {
+            "id": 1610950,
+            "key": "Ajax_(programming)",
+            "title": "Ajax (programming)",
+            "excerpt": "The Asynchronous JavaScript and XML, usually referred to as <span class=\"searchmatch\">Ajax</span> (or <span class=\"searchmatch\">AJAX</span>, /\u02c8e\u026ad\u0292\u00e6ks/) is a set of web development techniques that uses various web technologies",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Group of interrelated Web development techniques",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 29,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/60px-AJAX_logo_by_gengns.svg.png"
+            }
+          },
+          {
+            "id": 1568,
+            "key": "Ajax_the_Great",
+            "title": "Ajax the Great",
+            "excerpt": "<span class=\"searchmatch\">Ajax</span> (/\u02c8e\u026ad\u0292\u00e6ks/) or Aias (/\u02c8a\u026a.\u0259s/; Ancient Greek: \u0391\u1f34\u03b1\u03c2, romanized:\u00a0A\u00ed\u0101s [a\u00ed\u032f.a\u02d0s], gen. \u0391\u1f34\u03b1\u03bd\u03c4\u03bf\u03c2 A\u00edantos) is a Greek mythological hero, the son of King",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Character in Greek Mythology",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg/60px-Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg"
+            }
+          },
+          {
+            "id": 43742427,
+            "key": "General_Dynamics_Ajax",
+            "title": "General Dynamics Ajax",
+            "excerpt": "The <span class=\"searchmatch\">Ajax</span>, formerly known as the Scout SV (Specialist Vehicle), is a group of armoured fighting vehicles developed by General Dynamics UK for the British",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Family of British armoured fighting vehicles",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AJAX%2C_the_Future_Armoured_Fighting_Vehicle_for_the_British_Army_MOD_45159441.jpg/60px-AJAX%2C_the_Future_Armoured_Fighting_Vehicle_for_the_British_Army_MOD_45159441.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "",
+      "content_source": "page/AFC_Ajax/with_html (stripped)"
+    },
+    {
+      "call_index": 1,
+      "query": "Ajax Greek mythology",
+      "api_response": {
+        "pages": [
+          {
+            "id": 1567,
+            "key": "Ajax_the_Lesser",
+            "title": "Ajax the Lesser",
+            "excerpt": "<span class=\"searchmatch\">Ajax</span> (Ancient <span class=\"searchmatch\">Greek</span>: \u0391\u1f34\u03b1\u03c2, romanized:\u00a0A\u00ed\u0101s) was a <span class=\"searchmatch\">Greek</span> mythological hero, son of Oileus, the king of Locris. He was called the &quot;<span class=\"searchmatch\">Ajax</span> the Less&quot;, the &quot;lesser&quot;",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Ancient Greek mythological hero",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Attic_red-figure_cup_with_Ajax_and_Cassandra_Louvre_G_458.jpg/60px-Attic_red-figure_cup_with_Ajax_and_Cassandra_Louvre_G_458.jpg"
+            }
+          },
+          {
+            "id": 1568,
+            "key": "Ajax_the_Great",
+            "title": "Ajax the Great",
+            "excerpt": "<span class=\"searchmatch\">Ajax</span> (/\u02c8e\u026ad\u0292\u00e6ks/) or Aias (/\u02c8a\u026a.\u0259s/; Ancient <span class=\"searchmatch\">Greek</span>: \u0391\u1f34\u03b1\u03c2, romanized:\u00a0A\u00ed\u0101s [a\u00ed\u032f.a\u02d0s], gen. \u0391\u1f34\u03b1\u03bd\u03c4\u03bf\u03c2 A\u00edantos) is a <span class=\"searchmatch\">Greek</span> mythological hero, the son of King",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Character in Greek Mythology",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg/60px-Antimenes_Painter_-_Black-figure_Amphora_with_Ajax_Carrying_the_Dead_Achilles_-_Walters_4817_-_Side_A.jpg"
+            }
+          },
+          {
+            "id": 23416994,
+            "key": "Greek_mythology",
+            "title": "Greek mythology",
+            "excerpt": "<span class=\"searchmatch\">Greek</span> <span class=\"searchmatch\">mythology</span> is the body of myths originally told by the ancient <span class=\"searchmatch\">Greeks</span>, and a genre of ancient <span class=\"searchmatch\">Greek</span> folklore, today absorbed alongside Roman mythology",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Body of myths originating in ancient Greece",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 60,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kylix_Theseus_Aison_MNA_Inv11365_n1.jpg/60px-Kylix_Theseus_Aison_MNA_Inv11365_n1.jpg"
+            }
+          },
+          {
+            "id": 77511915,
+            "key": "Ajax_and_Cassandra",
+            "title": "Ajax and Cassandra",
+            "excerpt": "era, Solomon&#039;s painting depicts a scene from <span class=\"searchmatch\">Greek</span> legend, the abduction and rape of Cassandra by <span class=\"searchmatch\">Ajax</span> the Lesser during the Sack of Troy. Cassandra",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Painting by Solomon Joseph Solomon",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 121,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Solomon_Ajax_and_Cassandra.jpg/60px-Solomon_Ajax_and_Cassandra.jpg"
+            }
+          },
+          {
+            "id": 1544,
+            "key": "Agamemnon",
+            "title": "Agamemnon",
+            "excerpt": "In <span class=\"searchmatch\">Greek</span> <span class=\"searchmatch\">mythology</span>, Agamemnon (/\u00e6\u0261\u0259\u02c8m\u025bmn\u0252n/ ; Ancient <span class=\"searchmatch\">Greek</span>: \u1f08\u03b3\u03b1\u03bc\u03ad\u03bc\u03bd\u03c9\u03bd Agam\u00e9mn\u014dn) was a king of Mycenae who commanded the Achaeans during the Trojan War",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Figure from Greek mythology",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 80,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Lekanis_Agamemnon_MNA_Taranto.jpg/60px-Lekanis_Agamemnon_MNA_Taranto.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "Ajax the Lesser Ancient Greek mythological hero For the Marvel Comics character Ajax the Lesser, see List of Eternals . Ajax the Lesser and Cassandra on an Attic-red figure cup, Louvre . Scene from the Trojan War: Cassandra clings to the Palladium , the wooden cult image of Athene, while Ajax the Lesser is about to drag her away in front of her father Priam (standing on the left). Fresco from the atrium of the Casa del Menandro (I 10, 4) in Pompeii. Ajax , 1820 painting by Henri Serrur Ajax ( Ancient Greek : \u0391\u1f34\u03b1\u03c2 , romanized : A\u00ed\u0101s ) was a Greek mythological hero , son of Oileus , the king of Locris . He was called the \"Ajax the Less\", the \"lesser\" or \"Locrian\" Ajax, [ 1 ] to distinguish him from Ajax the Great , son of Telamon . He was the leader of the Locrian contingent during the Trojan War . He is a significant figure in Homer 's Iliad and is also mentioned in the Odyssey , [ 2 ] in Virgil 's Aeneid and in Euripides ' The Trojan Women . In Etruscan legend , he was known as Aivas Vilates . Description In the account of Dares the Phrygian , Ajax was described as \"stocky, powerfully built, swarthy, a pleasant person, and brave.\" [ 3 ] Mythology Life Ajax's mother's name was Eriopis . [ 4 ] According to Strabo , he was born in Naryx in Locris , [ 5 ] where Ovid calls him Narycius heros . [ 6 ] According to the Iliad , [ 7 ] he led his Locrians in forty ships against Troy . [ 8 ] He is described as one of the great heroes among the Greeks. In battle, he wore a linen cuirass ( \u03bb\u03b9\u03bd\u03bf\u03b8\u03ce\u03c1\u03b1\u03be , linothorax ), was brave and intrepid, especially skilled in throwing the spear and, next to Achilles , the swiftest of all the Greeks. [ 9 ] [ 10 ] The chronicler Malalas portrayed him as \"tall, strong, tawny, squinting, good nose, curly hair, black hair, thick beard, long face, daring warrior, magnanimous, a womanizer.\" [ 11 ] In the funeral games at the pyre of Patroclus , Ajax contended with Odysseus and Antilochus for the prize in the footrace; but Athena , who was hostile towards him and favored Odysseus, made him stumble and fall, so that he won only the second prize. [ 12 ] In later traditions, this Ajax is called a son of Oileus and the nymph Rhene, and is also mentioned among the suitors of Helen. [ 13 ] After the taking of Troy, he rushed into the temple of Athena, where Cassandra had taken refuge, and was embracing the statue of the goddess in supplication . Ajax violently dragged her away to the other captives. [ 14 ] According to some writers, he raped Cassandra inside the temple. [ 15 ] Odysseus called for Ajax's death by stoning for this crime, but Ajax saved himself by claiming innocence with an oath to Athena, clutching her statue in supplication. [ 16 ] Death Since Ajax dragged the supplicant from her temple, Athena had cause to be indignant. According to the Bibliotheca , no one was aware that Ajax had raped Cassandra until Calchas , the Greek seer, warned the Greeks that Athena was furious at the treatment of her priestess and she would destroy the Greek ships if they did not kill him immediately. Despite this, Ajax managed to hide at the altar of a deity where the Greeks, fearing divine retribution should they kill him and destroy the altar, allowed him to live. When the Greeks left without killing Ajax, despite their sacrifices, Athena became so angry that she persuaded Zeus to send a storm that sank many of their ships. Poseidon killing Ajax the Lesser, drawing by Bonaventura Genelli As Ajax was returning from Troy , Athena hit his ship with a thunderbolt and the vessel was wrecked on the Whirling Rocks ( \u0393\u03c5\u03c1\u03b1\u1f76 \u03c0\u03ad\u03c4\u03c1\u03b1\u03b9 ). But he escaped with some of his men, managing to cling onto a rock through the assistance of Poseidon . He would have been saved in spite of Athena, but he then audaciously declared that he would escape the dangers of the sea in defiance of the immortals. Offended by this presumption, Poseidon split the rock with his trident and Ajax was swallowed up by the sea. [ 17 ] [ 10 ] Thetis buried him when the corpse washed up on Mykonos . [ 18 ] Other versions depict a different death for Ajax, showing him dying when on his voyage home. In these versions, when Ajax came to the Capharean Rocks on the coast of Euboea , his ship was wrecked in a fierce storm, he himself was lifted up in a whirlwind and impaled with a flash of rapid fire from Athena in his chest, and his body thrust upon sharp rocks, which afterwards were called the rocks of Ajax. [ 19 ] After Ajax's death, his spirit dwelt in the island of Leuce . [ 20 ] The Opuntian Locrians worshipped Ajax as their national hero, and so great was their faith in him that when they drew up their army in battle, they always left one place open for him, believing that, although invisible to them, he was fighting for and among them. [ 21 ] The story of Ajax was frequently made use of by ancient poets and artists, and the hero who appears on some Locrian coins with the helmet, shield, and sword is probably this Ajax. [ 22 ] Other accounts of Ajax's death are offered by Philostratus , Euripides , and the scholiast on Lycophron . [ 23 ] Art Ajax and Cassandra by Solomon Joseph Solomon (1886) [ 24 ] The abduction of Cassandra by Ajax was frequently represented in Greek works of art, such as the chest of Cypselus described by Pausanias and in extant works. [ 25 ] [ 10 ] Notes \u2191 Homer , Iliad 2.527 \u2191 Schmitz, Leonhard (1867), \"Ajax (2)\" , in Smith, William (ed.), Dictionary of Greek and Roman Biography and Mythology , vol. 1, Boston: Little, Brown and Company , pp. 87\u2013 88, archived from the original on 2013-10-20 , retrieved 2008-06-09 \u2191 Dares Phrygius , History of the Fall of Troy 13 \u2191 Tzetzes , John (2015). Allegories of the Iliad . Translated by Goldwyn, Adam; Kokkini, Dimitra. Harvard University Press, Cambridge, Massachusetts, London, England: Dumbarton Oaks Medieval Library. pp. 41, Prologue 43\u201344. ISBN 978-0-674-96785-4 . \u2191 Strabo , 9. p. 425 \u2191 Ovid , Metamorphoses 14.468 \u2191 Homer, Iliad 2.527 \u2191 Hyginus , Fabulae 97 gives the number of ships as twenty \u2191 Homer, Iliad 14.520 & 23.789 1 2 3 Chisholm 1911 . \u2191 Malalas , Chronography 5.104 \u2191 Homer, Iliad 23.754 \u2191 Apollodorus , 3.10.8; Hyginus, Fabulae 81 & 97 \u2191 Euripides , Tro. 70; Virgil , Aeneid 2.403; Hyginus, Fabulae 116; Dictys Cretensis , 5.12 \u2191 Tryphiodorus , 635; Quintus Smyrnaeus , 13.422; Lycophron , 360 with the Scholion \u2191 Pausanias , 10.26.1 & 10.31.1 \u2191 Homer, Odyssey 4.499 \u2191 Apollodore, R. Scott Smith, Stephen Trzaskoma, and Hygin. Apollodorus' Library and Hyginus' Fabulae: Two Handbooks of Greek Mythology , Indianapolis: Hackett Pub., 2007. 84\u201385. \"5.24\u20136.6.\" \u2191 Virgil, Aeneid 1.40 & 11.260; Hyginus, Fabulae 116 \u2191 Pausanias, 3.19.13 \u2191 Conon , Narrations 18; Pausanias, 3.19.13 \u2191 Th\u00e9odore Edme Mionnet, No. 570, &c. \u2191 Philostratus , Her. 31.6\u20139; Euripides , Tro. 90; Scholiast on Lycophron \u2191 \"Solomon Joseph Solomon RA PRBA (1860\u20131927)\" . 2007-05-17. Archived from the original on 2016-03-04 . Retrieved 2015-10-28 . \u2191 Pausanias, 5.17 References Apollodorus , The Library with an English Translation by Sir James George Frazer, F.B.A., F.R.S. in 2 Volumes, Cambridge, MA, Harvard University Press; London, William Heinemann Ltd. 1921. ISBN 0-674-99135-4 . Online version at the Perseus Digital Library. Greek text available from the same website . Conon , Fifty Narrations, surviving as one-paragraph summaries in the Bibliotheca (Library) of Photius, Patriarch of Constantinople translated from the Greek by Brady Kiesling. Online version at the Topos Text Project. Dictys Cretensis , from The Trojan War. The Chronicles of Dictys of Crete and Dares the Phrygian translated by Richard McIlwaine Frazer Jr. Indiana University Press. 1966. Online version at the Topos Text Project. Gaius Julius Hyginus , Fabulae from The Myths of Hyginus translated and edited by Mary Grant. University of Kansas Publications in Humanistic Studies. Online version at the Topos Text Project. Graves, Robert , The Greek Myths , Harmondsworth, London, England, Penguin Books, 19",
+      "content_source": "page/Ajax_the_Lesser/with_html (stripped)"
+    },
+    {
+      "call_index": 2,
+      "query": "AJAX web development",
+      "api_response": {
+        "pages": [
+          {
+            "id": 1610950,
+            "key": "Ajax_(programming)",
+            "title": "Ajax (programming)",
+            "excerpt": "as <span class=\"searchmatch\">Ajax</span> (or <span class=\"searchmatch\">AJAX</span>, /\u02c8e\u026ad\u0292\u00e6ks/) is a set of <span class=\"searchmatch\">web</span> <span class=\"searchmatch\">development</span> techniques that uses various <span class=\"searchmatch\">web</span> technologies on the client-side to create asynchronous <span class=\"searchmatch\">web</span> applications",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Group of interrelated Web development techniques",
+            "thumbnail": {
+              "mimetype": "image/svg+xml",
+              "width": 60,
+              "height": 29,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/60px-AJAX_logo_by_gengns.svg.png"
+            }
+          },
+          {
+            "id": 2342095,
+            "key": "Web_framework",
+            "title": "Web framework",
+            "excerpt": "<span class=\"searchmatch\">web</span> framework (WF), <span class=\"searchmatch\">web</span> application framework (WAF), or <span class=\"searchmatch\">web</span> <span class=\"searchmatch\">development</span> framework is a software framework that is designed to support the <span class=\"searchmatch\">development</span>",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Software framework to support the development of websites",
+            "thumbnail": null
+          },
+          {
+            "id": 4533952,
+            "key": "Comet_(programming)",
+            "title": "Comet (programming)",
+            "excerpt": "techniques. Comet is known by several other names, including <span class=\"searchmatch\">Ajax</span> Push, Reverse <span class=\"searchmatch\">Ajax</span>, Two-way-<span class=\"searchmatch\">web</span>, HTTP Streaming, and HTTP server push among others. The term",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Web application model",
+            "thumbnail": null
+          },
+          {
+            "id": 24220883,
+            "key": "Wt_(web_toolkit)",
+            "title": "Wt (web toolkit)",
+            "excerpt": "(&quot;Wt::Dbo&quot;) Uses the <span class=\"searchmatch\">Web</span>Socket networking protocol, if available, for Client\u2013server model of communication, with fallbacks to <span class=\"searchmatch\">Ajax</span> or plain <span class=\"searchmatch\">web</span> page rendering",
+            "matched_title": null,
+            "anchor": null,
+            "description": "C++ web application framework",
+            "thumbnail": null
+          },
+          {
+            "id": 42626773,
+            "key": "Front-end_web_development",
+            "title": "Front-end web development",
+            "excerpt": "Front-end <span class=\"searchmatch\">web</span> <span class=\"searchmatch\">development</span> is the <span class=\"searchmatch\">development</span> of the graphical user interface of a website through the use of HTML, CSS, and JavaScript so users can view",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Graphical user interface development",
+            "thumbnail": null
+          }
+        ]
+      },
+      "fetched_content": "Ajax (programming) Group of interrelated Web development techniques \"AJAX\" redirects here. For other uses, see Ajax (disambiguation) . Asynchronous JavaScript and XML First appeared March 1999 Filename extensions .js File formats JavaScript Influenced by JavaScript + XML The Asynchronous JavaScript and XML [ 1 ] [ 2 ] , usually referred to as Ajax (or AJAX , / \u02c8 e\u026a d\u0292 \u00e6 k s / ) is a set of web development techniques that uses various web technologies on the client-side to create asynchronous web applications . With Ajax, web applications can send and retrieve data from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page. By decoupling the data interchange layer from the presentation layer, Ajax allows web pages and, by extension, web applications, to change content dynamically without the need to reload the entire page. [ 3 ] In practice, modern implementations commonly utilize JSON instead of XML. Ajax is not a technology, but rather a programming pattern. HTML and CSS can be used in combination to mark up and style information. The webpage can be modified by JavaScript to dynamically display (and allow the user to interact with) the new information. The built-in XMLHttpRequest object is used to execute Ajax on webpages, allowing websites to load content onto the screen without refreshing the page. History In the early-to-mid 1990s, most Websites were based on complete HTML pages. Each user action required a complete new page to be loaded from the server. This process was inefficient, as reflected by the user experience: all page content disappeared, then the new page appeared. Each time the browser reloaded a page because of a partial change, all the content had to be re-sent, even though only some of the information had changed. This placed additional load on the server and made bandwidth a limiting factor in performance. The foundations of AJAX originate back in 1996 with the introduction of JavaScript 1. Developers quickly discovered that any HTML element which accepted a \"src\" attribute could be used to fetch remote data. By changing the src of a hidden frame , a developer could fetch remote data, process or display it without a page refresh. The remote data could be a string, JavaScript code, XML or a partial HTML page generated on the server. The same could be done with < img > and < embed > tags, but many developers were alarmed at the concept of an executable GIF and preferred to use the hidden < iframe > . This technique was used for both Netscape Navigator and Internet Explorer , the two main browsers at the time, until developers discovered the XMLHTTP server object (MSXML 1.0) was included in Internet Explorer 4. Browser detection was then used to either implement the hidden < iframe > in Netscape or use the XMLHTTP (MSXML 1.0) object in IE 4. [ This paragraph needs citation(s) ] In 1996, the iframe tag was introduced by Internet Explorer ; like the object element, [ citation needed ] it can load a part of the web page asynchronously. In 1998, the Microsoft Outlook Web Access team developed the concept behind the XMLHttpRequest scripting object. [ 4 ] It appeared as XMLHTTP in the second version of the MSXML library, [ 4 ] [ 5 ] which shipped with Internet Explorer 5.0 in March 1999. [ 6 ] The functionality of the Windows XMLHTTP ActiveX control in IE 5 was later implemented by Mozilla Firefox , Safari , Opera , Google Chrome , and other browsers as the XMLHttpRequest JavaScript object. [ 7 ] Microsoft adopted the native XMLHttpRequest model as of Internet Explorer 7 . Support for the ActiveX version remained in Internet Explorer and on \"Internet Explorer mode\" in Microsoft Edge . The utility of these background HTTP requests and asynchronous Web technologies remained fairly obscure until it started appearing in large scale online applications such as Outlook Web Access (2000) [ 8 ] and Oddpost (2002). [ 9 ] Google made a wide deployment of standards-compliant, cross browser Ajax with Gmail (2004) and Google Maps (2005). [ 10 ] In October 2004 Kayak.com 's public beta release was among the first large-scale e-commerce uses of what their developers at that time called \"the xml http thing\". [ 11 ] This increased interest in Ajax among web program developers. The term AJAX was publicly used on 18 February 2005 by Jesse James Garrett in an article titled Ajax: A New Approach to Web Applications , based on techniques used on Google pages. [ 1 ] On 5 April 2006, the World Wide Web Consortium (W3C) released the first draft specification for the XMLHttpRequest object in an attempt to create an official Web standard . [ 12 ] The latest draft of the XMLHttpRequest object was published on 6 October 2016, [ 13 ] and the XMLHttpRequest specification is now a living standard . [ 14 ] Technologies The conventional model for a Web Application versus an application using Ajax The term Ajax has come to represent a broad group of Web technologies that can be used to implement a Web application that communicates with a server in the background, without interfering with the current state of the page. In the article that coined the term Ajax, [ 1 ] [ 3 ] Jesse James Garrett explained that the following technologies are incorporated: HTML (or XHTML ) and CSS for presentation The Document Object Model (DOM) for dynamic display of and interaction with data JSON or XML for the interchange of data, and XSLT for XML manipulation The XMLHttpRequest object for asynchronous communication JavaScript to bring these technologies together Since then, however, there have been a number of developments in the technologies used in an Ajax application, and in the definition of the term Ajax itself. XML is no longer required for data interchange and, therefore, XSLT is no longer required for the manipulation of data. JavaScript Object Notation (JSON) is often used as an alternative format for data interchange, [ 15 ] although other formats such as preformatted HTML or plain text can also be used. [ 16 ] A variety of popular JavaScript libraries, including jQuery , include abstractions to assist in executing Ajax requests. Examples JavaScript example An example of a simple Ajax request using the GET method, written in JavaScript . get-ajax-data.js: // This is the client-side script. // Initialize the HTTP request. let xhr = new XMLHttpRequest (); // define the request xhr . open ( 'GET' , 'send-ajax-data.php' ); // Track the state changes of the request. xhr . onreadystatechange = function () { const DONE = 4 ; // readyState 4 means the request is done. const OK = 200 ; // status 200 is a successful return. if ( xhr . readyState === DONE ) { if ( xhr . status === OK ) { console . log ( xhr . responseText ); // 'This is the output.' } else { console . log ( 'Error: ' + xhr . status ); // An error occurred during the request. } } }; // Send the request to send-ajax-data.php xhr . send ( null ); send-ajax-data.php: <?php // This is the server-side script. // Set the content type. header ( 'Content-Type: text/plain' ); // Send the data back. echo \"This is the output.\" ; ?> Fetch example Fetch is a native JavaScript API. [ 17 ] According to Google Developers Documentation, \"Fetch makes it easier to make web requests and handle responses than with the older XMLHttpRequest.\" [ 18 ] fetch ( 'send-ajax-data.php' ) . then ( data => console . log ( data )) . catch ( error => console . log ( 'Error:' + error )); ES7 async/await example async function doAjax1 () { try { const res = await fetch ( 'send-ajax-data.php' ); const data = await res . text (); console . log ( data ); } catch ( error ) { console . log ( 'Error:' + error ); } } doAjax1 (); Fetch relies on JavaScript promises . The fetch specification differs from Ajax in the following significant ways: The Promise returned from fetch() won't reject on HTTP error status even if the response is an HTTP 404 or 500. Instead, as soon as the server responds with headers, the",
+      "content_source": "page/Ajax_(programming)/with_html (stripped)"
+    }
+  ],
+  "output": "Ajax is a term with multiple meanings. The most prominent are:\n\n1. **Ajax the Lesser** \u2013 A figure from ancient Greek mythology, the son of Oileus and king of Locris. He was a significant hero during the Trojan War, known for being one of the swiftest Greeks and a skilled spear-thrower. He is featured prominently in Homer's *Iliad* and is also mentioned in the *Odyssey*, Virgil's *Aeneid*, and Euripides' *The Trojan Women*. He was known for the controversial act of dragging the suppliant Cassandra from Athena's temple, which led to his death when Poseidon split the rock he was clinging to as he fled Troy.\n\n2. **Ajax (programming)** \u2013 A set of web development techniques that enables asynchronous web applications. Standing for Asynchronous JavaScript and XML, Ajax allows web pages to send and retrieve data from a server in the background without reloading the entire page, creating a more dynamic user experience. The term was publicly coined in February 2005 by Jesse James Garrett, though the underlying technologies had been evolving since 1996.\n\nSource: Ajax the Lesser, Ajax (programming)",
+  "total_tool_calls": 3,
+  "latency_ms": 9731,
+  "error": null
+}

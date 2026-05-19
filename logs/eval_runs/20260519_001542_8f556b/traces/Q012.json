@@ -1,0 +1,222 @@
+{
+  "eval_id": "Q012",
+  "run_id": "20260519_001542_8f556b",
+  "prompt_version": "v3",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Was the Great Pyramid of Giza completed before or after Homer composed the Iliad?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01CbqXMh4QBWxBGXN1j3afC6",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Great Pyramid of Giza"
+          }
+        },
+        {
+          "type": "tool_use",
+          "id": "toolu_01GwZxS72Uja5JZRMRyfkN4A",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Iliad Homer"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01CbqXMh4QBWxBGXN1j3afC6",
+          "content": "No relevant Wikipedia content found."
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01GwZxS72Uja5JZRMRyfkN4A",
+          "content": "English translations of Homer Frontispiece to George Chapman 's translation of the Odyssey , the first translation in English Translators and scholars have translated the main works attributed to Homer , the Iliad and Odyssey , from the Homeric Greek into English, since the 16th and 17th centuries. Translations are ordered chronologically by date of first publication, with first lines provided to illustrate the style of the translation. Not all translators translated both the Iliad and Odyssey ; in addition to the complete translations listed here, numerous partial translations, ranging from several lines to complete books, have appeared in a variety of publications. The \"original\" text cited below is that of \"the Oxford Homer\". [ 1 ] Iliad Reference text Poet Provenance Proemic verse R Homer c. 8th century BC Greek rhapsode Aeolis Ancient Greek : \u03bc\u1fc6\u03bd\u03b9\u03bd \u1f04\u03b5\u03b9\u03b4\u03b5 \u03b8\u03b5\u1f70 \u03a0\u03b7\u03bb\u03b7\u03ca\u03ac\u03b4\u03b5\u03c9 \u1f08\u03c7\u03b9\u03bb\u1fc6\u03bf\u03c2 \u03bf\u1f50\u03bb\u03bf\u03bc\u03ad\u03bd\u03b7\u03bd, \u1f23 \u03bc\u03c5\u03c1\u03af\u1fbd \u1f08\u03c7\u03b1\u03b9\u03bf\u1fd6\u03c2 \u1f04\u03bb\u03b3\u03b5\u1fbd \u1f14\u03b8\u03b7\u03ba\u03b5, \u03c0\u03bf\u03bb\u03bb\u1f70\u03c2 \u03b4\u1fbd \u1f30\u03c6\u03b8\u03af\u03bc\u03bf\u03c5\u03c2 \u03c8\u03c5\u03c7\u1f70\u03c2 \u1f0c\u03ca\u03b4\u03b9 \u03c0\u03c1\u03bf\u0390\u03b1\u03c8\u03b5\u03bd \u1f21\u03c1\u03ce\u03c9\u03bd, \u03b1\u1f50\u03c4\u03bf\u1f7a\u03c2 \u03b4\u1f72 \u1f11\u03bb\u03ce\u03c1\u03b9\u03b1 \u03c4\u03b5\u1fe6\u03c7\u03b5 \u03ba\u03cd\u03bd\u03b5\u03c3\u03c3\u03b9\u03bd \u03bf\u1f30\u03c9\u03bd\u03bf\u1fd6\u03c3\u03af \u03c4\u03b5 \u03c0\u1fb6\u03c3\u03b9, \u0394\u03b9\u1f78\u03c2 \u03b4\u1fbd \u1f10\u03c4\u03b5\u03bb\u03b5\u03af\u03b5\u03c4\u03bf \u03b2\u03bf\u03c5\u03bb\u03ae, \u1f10\u03be \u03bf\u1f57 \u03b4\u1f74 \u03c4\u1f70 \u03c0\u03c1\u1ff6\u03c4\u03b1 \u03b4\u03b9\u03b1\u03c3\u03c4\u03ae\u03c4\u03b7\u03bd \u1f10\u03c1\u03af\u03c3\u03b1\u03bd\u03c4\u03b5 \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b7\u03c2 \u03c4\u03b5 \u1f04\u03bd\u03b1\u03be \u1f00\u03bd\u03b4\u03c1\u1ff6\u03bd \u03ba\u03b1\u1f76 \u03b4\u1fd6\u03bf\u03c2 \u1f08\u03c7\u03b9\u03bb\u03bb\u03b5\u03cd\u03c2. \u2014 \u03c4\u03af\u03c2 \u03c4\u1fbd \u1f04\u03c1 \u03c3\u03c6\u03c9\u03b5 \u03b8\u03b5\u1ff6\u03bd \u1f14\u03c1\u03b9\u03b4\u03b9 \u03be\u03c5\u03bd\u03ad\u03b7\u03ba\u03b5 \u03bc\u03ac\u03c7\u03b5\u03c3\u03b8\u03b1\u03b9; \u039b\u03b7\u03c4\u03bf\u1fe6\u03c2 \u03ba\u03b1\u1f76 \u0394\u03b9\u1f78\u03c2 \u03c5\u1f31\u03cc\u03c2: \u1f43 \u03b3\u1f70\u03c1 \u03b2\u03b1\u03c3\u03b9\u03bb\u1fc6\u03ca \u03c7\u03bf\u03bb\u03c9\u03b8\u03b5\u1f76\u03c2 \u03bd\u03bf\u1fe6\u03c3\u03bf\u03bd \u1f00\u03bd\u1f70 \u03c3\u03c4\u03c1\u03b1\u03c4\u1f78\u03bd \u1f44\u03c1\u03c3\u03b5 \u03ba\u03b1\u03ba\u03ae\u03bd, \u1f40\u03bb\u03ad\u03ba\u03bf\u03bd\u03c4\u03bf \u03b4\u1f72 \u03bb\u03b1\u03bf\u03af, \u03bf\u1f55\u03bd\u03b5\u03ba\u03b1 \u03c4\u1f78\u03bd \u03a7\u03c1\u03cd\u03c3\u03b7\u03bd \u1f20\u03c4\u03af\u03bc\u03b1\u03c3\u03b5\u03bd \u1f00\u03c1\u03b7\u03c4\u1fc6\u03c1\u03b1 \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b7\u03c2: \u1f43 \u03b3\u1f70\u03c1 \u1f26\u03bb\u03b8\u03b5 \u03b8\u03bf\u1f70\u03c2 \u1f10\u03c0\u1f76 \u03bd\u1fc6\u03b1\u03c2 \u1f08\u03c7\u03b1\u03b9\u1ff6\u03bd \u03bb\u03c5\u03c3\u03cc\u03bc\u03b5\u03bd\u03cc\u03c2 \u03c4\u03b5 \u03b8\u03cd\u03b3\u03b1\u03c4\u03c1\u03b1 \u03c6\u03ad\u03c1\u03c9\u03bd \u03c4\u1fbd \u1f00\u03c0\u03b5\u03c1\u03b5\u03af\u03c3\u03b9\u1fbd \u1f04\u03c0\u03bf\u03b9\u03bd\u03b1, \u03c3\u03c4\u03ad\u03bc\u03bc\u03b1\u03c4\u1fbd \u1f14\u03c7\u03c9\u03bd \u1f10\u03bd \u03c7\u03b5\u03c1\u03c3\u1f76\u03bd \u1f11\u03ba\u03b7\u03b2\u03cc\u03bb\u03bf\u03c5 \u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03bd\u03bf\u03c2 \u03c7\u03c1\u03c5\u03c3\u03ad\u1ff3 \u1f00\u03bd\u1f70 \u03c3\u03ba\u03ae\u03c0\u03c4\u03c1\u1ff3, \u03ba\u03b1\u1f76 \u03bb\u03af\u03c3\u03c3\u03b5\u03c4\u03bf \u03c0\u03ac\u03bd\u03c4\u03b1\u03c2 \u1f08\u03c7\u03b1\u03b9\u03bf\u03cd\u03c2, \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b1 \u03b4\u1f72 \u03bc\u03ac\u03bb\u03b9\u03c3\u03c4\u03b1 \u03b4\u03cd\u03c9, \u03ba\u03bf\u03c3\u03bc\u03ae\u03c4\u03bf\u03c1\u03b5 \u03bb\u03b1\u1ff6\u03bd: \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b1\u03b9 \u03c4\u03b5 \u03ba\u03b1\u1f76 \u1f04\u03bb\u03bb\u03bf\u03b9 \u1f10\u03cb\u03ba\u03bd\u03ae\u03bc\u03b9\u03b4\u03b5\u03c2 \u1f08\u03c7\u03b1\u03b9\u03bf\u03af, \u1f51\u03bc\u1fd6\u03bd \u03bc\u1f72\u03bd \u03b8\u03b5\u03bf\u1f76 \u03b4\u03bf\u1fd6\u03b5\u03bd \u1f48\u03bb\u03cd\u03bc\u03c0\u03b9\u03b1 \u03b4\u03ce\u03bc\u03b1\u03c4\u1fbd \u1f14\u03c7\u03bf\u03bd\u03c4\u03b5\u03c2 \u1f10\u03ba\u03c0\u03ad\u03c1\u03c3\u03b1\u03b9 \u03a0\u03c1\u03b9\u03ac\u03bc\u03bf\u03b9\u03bf \u03c0\u03cc\u03bb\u03b9\u03bd, \u03b5\u1f56 \u03b4\u1fbd \u03bf\u1f34\u03ba\u03b1\u03b4\u1fbd \u1f31\u03ba\u03ad\u03c3\u03b8\u03b1\u03b9: \u03c0\u03b1\u1fd6\u03b4\u03b1 \u03b4\u1fbd \u1f10\u03bc\u03bf\u1f76 \u03bb\u03cd\u03c3\u03b1\u03b9\u03c4\u03b5 \u03c6\u03af\u03bb\u03b7\u03bd, \u03c4\u1f70 \u03b4\u1fbd \u1f04\u03c0\u03bf\u03b9\u03bd\u03b1 \u03b4\u03ad\u03c7\u03b5\u03c3\u03b8\u03b1\u03b9, \u1f01\u03b6\u03cc\u03bc\u03b5\u03bd\u03bf\u03b9 \u0394\u03b9\u1f78\u03c2 \u03c5\u1f31\u1f78\u03bd \u1f11\u03ba\u03b7\u03b2\u03cc\u03bb\u03bf\u03bd \u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03bd\u03b1. Romanization : m\u0113nin aeide thea P\u0113l\u0113iade\u014d Achil\u0113os oulomen\u0113n, h\u0113 myri' Achaiois alge' eth\u0113ke, pollas d' iphthimous psychas Aidi proiapsen h\u0113r\u014d\u014dn, autous de hel\u014dria teuche kynessin oi\u014dnoisi te pasi, Dios d' eteleieto boul\u0113, ex hou d\u0113 ta pr\u014dta diast\u0113t\u0113n erisante Atreid\u0113s te anax andr\u014dn kai dios Achilleus. \u2014 tis t' ar sph\u014de the\u014dn eridi xyne\u0113ke machesthai? L\u0113tous kai Dios huios: ho gar basil\u0113i chol\u014dtheis nouson ana straton orse kak\u0113n, olekonto de laoi, houneka ton Chrys\u0113n \u0113timasen ar\u0113t\u0113ra Atreid\u0113s: ho gar \u0113lthe thoas epi n\u0113as Achai\u014dn lysomenos te thygatra pher\u014dn t' apereisi' apoina, stemmat' ech\u014dn en chersin hek\u0113bolou Apoll\u014dnos chryse\u014d ana sk\u0113ptr\u014d, kai lisseto pantas Achaious, Atreida de malista dy\u014d, kosm\u0113tore la\u014dn: Atreidai te kai alloi eukn\u0113mides Achaioi, hymin men theoi doien Olympia d\u014dmat' echontes ekpersai Priamoio polin, eu d' oikad' hikesthai: paida d' emoi lysaite phil\u0113n, ta d' apoina dechesthai, hazomenoi Dios huion hek\u0113bolon Apoll\u014dna. [ 2 ] 16th and 17th centuries (1581\u20131700) Translator Publication Proemic verse R Hall, Arthur of Grantham 1539 \u2013 1605, M. P. , courtier, translator 1581 London, for Ralph Newberie I Thee beseech, O Goddesse milde, the hatefull hate to plaine, Whereby Achilles was so wroong, and grewe in suche disdaine, [ 3 ] Rawlyns, Roger 1587 London, Orwin [ 4 ] Colse, Peter 1596 London, H. Jackson [ 5 ] Chapman, George 1559\u20131634, dramatist, poet, classicist 1611 \u2013 15 London, Rich. Field for Nathaniell Butter [ 6 ] Achilles' banefull wrath resound, O Goddesse, that imposd Infinite sorrowes on the Greekes, and many brave soules losd [ 7 ] Grantham, Thomas c. 1610 \u2013 1664 1659 London, T. Lock Achilles son of Peleus Goddes sing, His baneful wrath which to the Greeks did bring Unnumbred greifs, brave souls to hel did send [ 8 ] Ogilby, John 1600 \u2013 1676, cartographer, publisher, translator 1660 London, Roycroft Achilles Peleus Son's destructive Rage, Great Goddess, sing, which did the Greeks engage [ 9 ] Hobbes, Thomas 1588 \u2013 1679, acclaimed philosopher, etc. 1676 London, W. Crook O Goddess sing what woe the discontent Of Thetis' son brought to the Greeks; what souls Of heroes down to Erebus it sent, [ 10 ] Dryden, John 1631 \u2013 1700, dramatist, Poet Laureate 1700 London, J. Tonson The Wrath of Peleus Son, O Muse, resound; Whose dire Effects the Grecian Army found: [ 11 ] Early 18th century (1701\u20131750) Translator Publication Proemic verse R Ozell, John d. 1743, translator, accountant 1712 London, Bernard Lintott Broome, William 1689 \u2013 1745, poet, translator Oldisworth, William 1680 \u2013 1734 [ 12 ] Pope, Alexander 1688 \u2013 1744, poet 1715 London, Bernard Lintot Achilles' wrath, to Greece the direful spring Of woes unnumber'd, heavenly goddess, sing! [ 13 ] Tickell, Thomas 1685 \u2013 1740, poet 1715 London, Tickell Achilles' fatal wrath, whence discord rose, That brought the sons of Greece unnumber'd woes, [ 14 ] Fenton, Elijah 1683 \u2013 1730, poet, biographer, translator 1717 London, printed for Bernard Lintot Cooke, T. 1729 Fitz-Cotton, H. 1749 Dublin, George Faulkner Ashwick, Samuel 1750 London, printed for Brindley, Sheepey and Keith Late 18th century (1751\u20131800) Translator Publication Proemic verse R Scott, J. N. 1755 London, Osborne and Shipton Langley, Samuel , 1720 \u2013 1791 Rector of Checkley [ 15 ] 1767 London, Dodsley Macpherson, James 1736 \u2013 1796, poet, compiler of Scots Gaelic poems, politician 1773 London, T. Becket The wrath of the son of Peleus,\u2014O goddess of song, unfold! The deadly wrath of Achilles : To Greece the source of many woes! [ 16 ] Cowper, William 1731 \u2013 1800, poet and hymnodist 1791 London, J. Johnson Achilles sing, O Goddess! Peleus' son; His wrath pernicious, who ten thousand woes [ 17 ] Tremenheere, William 1757 \u2013 1838 Chaplain to the Royal Navy [ 18 ] 1792 London, Faulder? Geddes, Alexander 1737 \u2013 1802, Scots Roman Catholic theologian; scholar, poet 1792 London: printed for J. Debrett Bak, Joshua (T. Bridges?) 1797 London Early 19th century (1801\u20131850) Translator Publication Proemic verse R Williams, Peter ? Bulmer, William [ improper synthesis? ] 1757 \u2013 1830, printer 1807 The stern resentment of Achilles, son Of Peleus, Muse record,\u2014dire source of woe; [ 19 ] Cowper, William (3rd edition) 1731 \u2013 1800, poet and hymnodist 1809 Sing Muse the deadly wrath of Peleus' son Achilles, source of many thousand woes [ 20 ] Morrice, Rev. James 1809 Sing , Muse, the fatal wrath of Peleus' son, Which to the Greeks unnumb'red evils brought, [ 21 ] Cary, Henry 1772 \u2013 1844, author, translator 1821 London, Munday and Slatter Sing, Goddess, the destructive wrath of Achilles, son of Peleus, which brought many disasters upon the Greeks, [ 22 ] Sotheby, William 1757 \u2013 1833, poet, translator 1831 London, John Murray Anonymous A Graduate Of The University of Oxford 1847 Dublin, Cumming and Ferguson Sing, Goddess, the fatal resentment of Achilles, the son of Peleus, which caused innumerable woes to the Achaeans, and prematurely despatched many brave souls of heroes to Orcus, and made themselves (i.e. their bodies) a prey to dogs and all birds, (for the counsel of Jove was being accomplished,) from the time that Atrides, king of men, and the noble Achilles, first contending, were disunited. [ 23 ] Munford, William 1775 \u2013 1825, American lawyer [ 24 ] 1846 Boston, Little Brown Brandreth, Thomas Shaw 1788 \u2013 1873, mathematician, inventor, classicist 1846 London, W. Pickering Achillies wrath accurst, O Goddess, sing, Which caused ten thousand sorrows to the Greeks, [ 25 ] Late middle 19th century (1851\u20131875) Translator Publication Proemic verse R Buckley, Theodore Alois 1825 \u2013 1856, translator 1851 London, H. G. Bohn Sing, O goddess, the destructive wrath of Achilles, son of Peleus, which brought countless woes upon the Greeks, [ 26 ] Hamilton, Sidney G. 1855 \u2013 58 Philadelphia Clark, Thomas Newman, Francis William 1807 \u2013 1893, classics professor [ 27 ] 1856 London, Walton & Maberly Of Peleus' son, Achilles, sing, oh goddess, the resentment Accursed, which with countless pangs Achaia's army wounded, [ 28 ] Wright, Ichabod Charles 1795 \u2013 1871, translator, poet, accountant 1858 \u2013 65 Cambridge, Macmillan Giles, Rev. Dr. J. A. [John Allen] 1808 \u2013 1884, headmaster, scholar, prolific author, clergyman [ 29 ] 1861 \u2013 82 Sing, O goddess, th"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_015gXTEk1bgJ88WUNde3WGuh",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Great Pyramid"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_015gXTEk1bgJ88WUNde3WGuh",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01MQ7ttcv8hKvA1XDCgFdrzt",
+          "name": "search_wikipedia",
+          "input": {
+            "query": "Homer composition Iliad Odyssey dates"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01MQ7ttcv8hKvA1XDCgFdrzt",
+          "content": "No relevant Wikipedia content found."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find relevant information on Wikipedia for this question.\n\nSource: N/A"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Great Pyramid of Giza",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 1,
+      "query": "Iliad Homer",
+      "api_response": {
+        "pages": [
+          {
+            "id": 8384405,
+            "key": "English_translations_of_Homer",
+            "title": "English translations of Homer",
+            "excerpt": "Translators and scholars have translated the main works attributed to <span class=\"searchmatch\">Homer</span>, the <span class=\"searchmatch\">Iliad</span> and Odyssey, from the Homeric Greek into English, since the 16th and",
+            "matched_title": null,
+            "anchor": null,
+            "description": "",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 90,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Frontispiece_to_George_Chapman%27s_translation_of_the_Odyssey.jpg/60px-Frontispiece_to_George_Chapman%27s_translation_of_the_Odyssey.jpg"
+            }
+          },
+          {
+            "id": 13633,
+            "key": "Homer",
+            "title": "Homer",
+            "excerpt": "<span class=\"searchmatch\">Iliad</span> and the Odyssey, two epic poems that are foundational works of ancient Greek literature. Although his life and authorship remain obscure, <span class=\"searchmatch\">Homer</span>",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Ancient Greek poet",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 76,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Homer_British_Museum.jpg/60px-Homer_British_Museum.jpg"
+            }
+          },
+          {
+            "id": 19381951,
+            "key": "Iliad",
+            "title": "Iliad",
+            "excerpt": "The <span class=\"searchmatch\">Iliad</span> (/<span class=\"searchmatch\">\u02c8\u026ali\u0259d</span>/ ; Ancient Greek: \u1f38\u03bb\u03b9\u03ac\u03c2, romanized:\u00a0Ili\u00e1s, [i\u02d0li&#039;as]; lit.\u2009&#039;[a poem] about Ilion (Troy)&#039;) is one of two major ancient Greek epic poems",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Epic poem attributed to Homer",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 37,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Detail._Wooden_board_inscribed_in_ink_with_lines_468-473%2C_Book_I_of_Homer%27s_Iliad._Roman_Egypt._On_display_at_the_British_Museum.jpg/60px-Detail._Wooden_board_inscribed_in_ink_with_lines_468-473%2C_Book_I_of_Homer%27s_Iliad._Roman_Egypt._On_display_at_the_British_Museum.jpg"
+            }
+          },
+          {
+            "id": 2020,
+            "key": "Achaeans_(Homer)",
+            "title": "Achaeans (Homer)",
+            "excerpt": "*Akaywa-. In <span class=\"searchmatch\">Homer</span>, the term Achaeans is one of the primary terms used to refer to the Greeks as a whole. It is used 598 times in the <span class=\"searchmatch\">Iliad</span>, often accompanied",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Collective name of the Greeks in Homer's poems",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 59,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg/60px-Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg"
+            }
+          },
+          {
+            "id": 3428255,
+            "key": "Homeric_Question",
+            "title": "Homeric Question",
+            "excerpt": "debate over the identity of <span class=\"searchmatch\">Homer</span>, the authorship of the <span class=\"searchmatch\">Iliad</span> and Odyssey, and their historicity (especially concerning the <span class=\"searchmatch\">Iliad</span>). The subject has its roots",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Debate about the identity of Homer and the authorship of the ''Iliad'' and ''Odyssey''",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 79,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Rembrandt_Harmensz._van_Rijn_061.jpg/60px-Rembrandt_Harmensz._van_Rijn_061.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "English translations of Homer Frontispiece to George Chapman 's translation of the Odyssey , the first translation in English Translators and scholars have translated the main works attributed to Homer , the Iliad and Odyssey , from the Homeric Greek into English, since the 16th and 17th centuries. Translations are ordered chronologically by date of first publication, with first lines provided to illustrate the style of the translation. Not all translators translated both the Iliad and Odyssey ; in addition to the complete translations listed here, numerous partial translations, ranging from several lines to complete books, have appeared in a variety of publications. The \"original\" text cited below is that of \"the Oxford Homer\". [ 1 ] Iliad Reference text Poet Provenance Proemic verse R Homer c. 8th century BC Greek rhapsode Aeolis Ancient Greek : \u03bc\u1fc6\u03bd\u03b9\u03bd \u1f04\u03b5\u03b9\u03b4\u03b5 \u03b8\u03b5\u1f70 \u03a0\u03b7\u03bb\u03b7\u03ca\u03ac\u03b4\u03b5\u03c9 \u1f08\u03c7\u03b9\u03bb\u1fc6\u03bf\u03c2 \u03bf\u1f50\u03bb\u03bf\u03bc\u03ad\u03bd\u03b7\u03bd, \u1f23 \u03bc\u03c5\u03c1\u03af\u1fbd \u1f08\u03c7\u03b1\u03b9\u03bf\u1fd6\u03c2 \u1f04\u03bb\u03b3\u03b5\u1fbd \u1f14\u03b8\u03b7\u03ba\u03b5, \u03c0\u03bf\u03bb\u03bb\u1f70\u03c2 \u03b4\u1fbd \u1f30\u03c6\u03b8\u03af\u03bc\u03bf\u03c5\u03c2 \u03c8\u03c5\u03c7\u1f70\u03c2 \u1f0c\u03ca\u03b4\u03b9 \u03c0\u03c1\u03bf\u0390\u03b1\u03c8\u03b5\u03bd \u1f21\u03c1\u03ce\u03c9\u03bd, \u03b1\u1f50\u03c4\u03bf\u1f7a\u03c2 \u03b4\u1f72 \u1f11\u03bb\u03ce\u03c1\u03b9\u03b1 \u03c4\u03b5\u1fe6\u03c7\u03b5 \u03ba\u03cd\u03bd\u03b5\u03c3\u03c3\u03b9\u03bd \u03bf\u1f30\u03c9\u03bd\u03bf\u1fd6\u03c3\u03af \u03c4\u03b5 \u03c0\u1fb6\u03c3\u03b9, \u0394\u03b9\u1f78\u03c2 \u03b4\u1fbd \u1f10\u03c4\u03b5\u03bb\u03b5\u03af\u03b5\u03c4\u03bf \u03b2\u03bf\u03c5\u03bb\u03ae, \u1f10\u03be \u03bf\u1f57 \u03b4\u1f74 \u03c4\u1f70 \u03c0\u03c1\u1ff6\u03c4\u03b1 \u03b4\u03b9\u03b1\u03c3\u03c4\u03ae\u03c4\u03b7\u03bd \u1f10\u03c1\u03af\u03c3\u03b1\u03bd\u03c4\u03b5 \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b7\u03c2 \u03c4\u03b5 \u1f04\u03bd\u03b1\u03be \u1f00\u03bd\u03b4\u03c1\u1ff6\u03bd \u03ba\u03b1\u1f76 \u03b4\u1fd6\u03bf\u03c2 \u1f08\u03c7\u03b9\u03bb\u03bb\u03b5\u03cd\u03c2. \u2014 \u03c4\u03af\u03c2 \u03c4\u1fbd \u1f04\u03c1 \u03c3\u03c6\u03c9\u03b5 \u03b8\u03b5\u1ff6\u03bd \u1f14\u03c1\u03b9\u03b4\u03b9 \u03be\u03c5\u03bd\u03ad\u03b7\u03ba\u03b5 \u03bc\u03ac\u03c7\u03b5\u03c3\u03b8\u03b1\u03b9; \u039b\u03b7\u03c4\u03bf\u1fe6\u03c2 \u03ba\u03b1\u1f76 \u0394\u03b9\u1f78\u03c2 \u03c5\u1f31\u03cc\u03c2: \u1f43 \u03b3\u1f70\u03c1 \u03b2\u03b1\u03c3\u03b9\u03bb\u1fc6\u03ca \u03c7\u03bf\u03bb\u03c9\u03b8\u03b5\u1f76\u03c2 \u03bd\u03bf\u1fe6\u03c3\u03bf\u03bd \u1f00\u03bd\u1f70 \u03c3\u03c4\u03c1\u03b1\u03c4\u1f78\u03bd \u1f44\u03c1\u03c3\u03b5 \u03ba\u03b1\u03ba\u03ae\u03bd, \u1f40\u03bb\u03ad\u03ba\u03bf\u03bd\u03c4\u03bf \u03b4\u1f72 \u03bb\u03b1\u03bf\u03af, \u03bf\u1f55\u03bd\u03b5\u03ba\u03b1 \u03c4\u1f78\u03bd \u03a7\u03c1\u03cd\u03c3\u03b7\u03bd \u1f20\u03c4\u03af\u03bc\u03b1\u03c3\u03b5\u03bd \u1f00\u03c1\u03b7\u03c4\u1fc6\u03c1\u03b1 \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b7\u03c2: \u1f43 \u03b3\u1f70\u03c1 \u1f26\u03bb\u03b8\u03b5 \u03b8\u03bf\u1f70\u03c2 \u1f10\u03c0\u1f76 \u03bd\u1fc6\u03b1\u03c2 \u1f08\u03c7\u03b1\u03b9\u1ff6\u03bd \u03bb\u03c5\u03c3\u03cc\u03bc\u03b5\u03bd\u03cc\u03c2 \u03c4\u03b5 \u03b8\u03cd\u03b3\u03b1\u03c4\u03c1\u03b1 \u03c6\u03ad\u03c1\u03c9\u03bd \u03c4\u1fbd \u1f00\u03c0\u03b5\u03c1\u03b5\u03af\u03c3\u03b9\u1fbd \u1f04\u03c0\u03bf\u03b9\u03bd\u03b1, \u03c3\u03c4\u03ad\u03bc\u03bc\u03b1\u03c4\u1fbd \u1f14\u03c7\u03c9\u03bd \u1f10\u03bd \u03c7\u03b5\u03c1\u03c3\u1f76\u03bd \u1f11\u03ba\u03b7\u03b2\u03cc\u03bb\u03bf\u03c5 \u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03bd\u03bf\u03c2 \u03c7\u03c1\u03c5\u03c3\u03ad\u1ff3 \u1f00\u03bd\u1f70 \u03c3\u03ba\u03ae\u03c0\u03c4\u03c1\u1ff3, \u03ba\u03b1\u1f76 \u03bb\u03af\u03c3\u03c3\u03b5\u03c4\u03bf \u03c0\u03ac\u03bd\u03c4\u03b1\u03c2 \u1f08\u03c7\u03b1\u03b9\u03bf\u03cd\u03c2, \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b1 \u03b4\u1f72 \u03bc\u03ac\u03bb\u03b9\u03c3\u03c4\u03b1 \u03b4\u03cd\u03c9, \u03ba\u03bf\u03c3\u03bc\u03ae\u03c4\u03bf\u03c1\u03b5 \u03bb\u03b1\u1ff6\u03bd: \u1f08\u03c4\u03c1\u03b5\u0390\u03b4\u03b1\u03b9 \u03c4\u03b5 \u03ba\u03b1\u1f76 \u1f04\u03bb\u03bb\u03bf\u03b9 \u1f10\u03cb\u03ba\u03bd\u03ae\u03bc\u03b9\u03b4\u03b5\u03c2 \u1f08\u03c7\u03b1\u03b9\u03bf\u03af, \u1f51\u03bc\u1fd6\u03bd \u03bc\u1f72\u03bd \u03b8\u03b5\u03bf\u1f76 \u03b4\u03bf\u1fd6\u03b5\u03bd \u1f48\u03bb\u03cd\u03bc\u03c0\u03b9\u03b1 \u03b4\u03ce\u03bc\u03b1\u03c4\u1fbd \u1f14\u03c7\u03bf\u03bd\u03c4\u03b5\u03c2 \u1f10\u03ba\u03c0\u03ad\u03c1\u03c3\u03b1\u03b9 \u03a0\u03c1\u03b9\u03ac\u03bc\u03bf\u03b9\u03bf \u03c0\u03cc\u03bb\u03b9\u03bd, \u03b5\u1f56 \u03b4\u1fbd \u03bf\u1f34\u03ba\u03b1\u03b4\u1fbd \u1f31\u03ba\u03ad\u03c3\u03b8\u03b1\u03b9: \u03c0\u03b1\u1fd6\u03b4\u03b1 \u03b4\u1fbd \u1f10\u03bc\u03bf\u1f76 \u03bb\u03cd\u03c3\u03b1\u03b9\u03c4\u03b5 \u03c6\u03af\u03bb\u03b7\u03bd, \u03c4\u1f70 \u03b4\u1fbd \u1f04\u03c0\u03bf\u03b9\u03bd\u03b1 \u03b4\u03ad\u03c7\u03b5\u03c3\u03b8\u03b1\u03b9, \u1f01\u03b6\u03cc\u03bc\u03b5\u03bd\u03bf\u03b9 \u0394\u03b9\u1f78\u03c2 \u03c5\u1f31\u1f78\u03bd \u1f11\u03ba\u03b7\u03b2\u03cc\u03bb\u03bf\u03bd \u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03bd\u03b1. Romanization : m\u0113nin aeide thea P\u0113l\u0113iade\u014d Achil\u0113os oulomen\u0113n, h\u0113 myri' Achaiois alge' eth\u0113ke, pollas d' iphthimous psychas Aidi proiapsen h\u0113r\u014d\u014dn, autous de hel\u014dria teuche kynessin oi\u014dnoisi te pasi, Dios d' eteleieto boul\u0113, ex hou d\u0113 ta pr\u014dta diast\u0113t\u0113n erisante Atreid\u0113s te anax andr\u014dn kai dios Achilleus. \u2014 tis t' ar sph\u014de the\u014dn eridi xyne\u0113ke machesthai? L\u0113tous kai Dios huios: ho gar basil\u0113i chol\u014dtheis nouson ana straton orse kak\u0113n, olekonto de laoi, houneka ton Chrys\u0113n \u0113timasen ar\u0113t\u0113ra Atreid\u0113s: ho gar \u0113lthe thoas epi n\u0113as Achai\u014dn lysomenos te thygatra pher\u014dn t' apereisi' apoina, stemmat' ech\u014dn en chersin hek\u0113bolou Apoll\u014dnos chryse\u014d ana sk\u0113ptr\u014d, kai lisseto pantas Achaious, Atreida de malista dy\u014d, kosm\u0113tore la\u014dn: Atreidai te kai alloi eukn\u0113mides Achaioi, hymin men theoi doien Olympia d\u014dmat' echontes ekpersai Priamoio polin, eu d' oikad' hikesthai: paida d' emoi lysaite phil\u0113n, ta d' apoina dechesthai, hazomenoi Dios huion hek\u0113bolon Apoll\u014dna. [ 2 ] 16th and 17th centuries (1581\u20131700) Translator Publication Proemic verse R Hall, Arthur of Grantham 1539 \u2013 1605, M. P. , courtier, translator 1581 London, for Ralph Newberie I Thee beseech, O Goddesse milde, the hatefull hate to plaine, Whereby Achilles was so wroong, and grewe in suche disdaine, [ 3 ] Rawlyns, Roger 1587 London, Orwin [ 4 ] Colse, Peter 1596 London, H. Jackson [ 5 ] Chapman, George 1559\u20131634, dramatist, poet, classicist 1611 \u2013 15 London, Rich. Field for Nathaniell Butter [ 6 ] Achilles' banefull wrath resound, O Goddesse, that imposd Infinite sorrowes on the Greekes, and many brave soules losd [ 7 ] Grantham, Thomas c. 1610 \u2013 1664 1659 London, T. Lock Achilles son of Peleus Goddes sing, His baneful wrath which to the Greeks did bring Unnumbred greifs, brave souls to hel did send [ 8 ] Ogilby, John 1600 \u2013 1676, cartographer, publisher, translator 1660 London, Roycroft Achilles Peleus Son's destructive Rage, Great Goddess, sing, which did the Greeks engage [ 9 ] Hobbes, Thomas 1588 \u2013 1679, acclaimed philosopher, etc. 1676 London, W. Crook O Goddess sing what woe the discontent Of Thetis' son brought to the Greeks; what souls Of heroes down to Erebus it sent, [ 10 ] Dryden, John 1631 \u2013 1700, dramatist, Poet Laureate 1700 London, J. Tonson The Wrath of Peleus Son, O Muse, resound; Whose dire Effects the Grecian Army found: [ 11 ] Early 18th century (1701\u20131750) Translator Publication Proemic verse R Ozell, John d. 1743, translator, accountant 1712 London, Bernard Lintott Broome, William 1689 \u2013 1745, poet, translator Oldisworth, William 1680 \u2013 1734 [ 12 ] Pope, Alexander 1688 \u2013 1744, poet 1715 London, Bernard Lintot Achilles' wrath, to Greece the direful spring Of woes unnumber'd, heavenly goddess, sing! [ 13 ] Tickell, Thomas 1685 \u2013 1740, poet 1715 London, Tickell Achilles' fatal wrath, whence discord rose, That brought the sons of Greece unnumber'd woes, [ 14 ] Fenton, Elijah 1683 \u2013 1730, poet, biographer, translator 1717 London, printed for Bernard Lintot Cooke, T. 1729 Fitz-Cotton, H. 1749 Dublin, George Faulkner Ashwick, Samuel 1750 London, printed for Brindley, Sheepey and Keith Late 18th century (1751\u20131800) Translator Publication Proemic verse R Scott, J. N. 1755 London, Osborne and Shipton Langley, Samuel , 1720 \u2013 1791 Rector of Checkley [ 15 ] 1767 London, Dodsley Macpherson, James 1736 \u2013 1796, poet, compiler of Scots Gaelic poems, politician 1773 London, T. Becket The wrath of the son of Peleus,\u2014O goddess of song, unfold! The deadly wrath of Achilles : To Greece the source of many woes! [ 16 ] Cowper, William 1731 \u2013 1800, poet and hymnodist 1791 London, J. Johnson Achilles sing, O Goddess! Peleus' son; His wrath pernicious, who ten thousand woes [ 17 ] Tremenheere, William 1757 \u2013 1838 Chaplain to the Royal Navy [ 18 ] 1792 London, Faulder? Geddes, Alexander 1737 \u2013 1802, Scots Roman Catholic theologian; scholar, poet 1792 London: printed for J. Debrett Bak, Joshua (T. Bridges?) 1797 London Early 19th century (1801\u20131850) Translator Publication Proemic verse R Williams, Peter ? Bulmer, William [ improper synthesis? ] 1757 \u2013 1830, printer 1807 The stern resentment of Achilles, son Of Peleus, Muse record,\u2014dire source of woe; [ 19 ] Cowper, William (3rd edition) 1731 \u2013 1800, poet and hymnodist 1809 Sing Muse the deadly wrath of Peleus' son Achilles, source of many thousand woes [ 20 ] Morrice, Rev. James 1809 Sing , Muse, the fatal wrath of Peleus' son, Which to the Greeks unnumb'red evils brought, [ 21 ] Cary, Henry 1772 \u2013 1844, author, translator 1821 London, Munday and Slatter Sing, Goddess, the destructive wrath of Achilles, son of Peleus, which brought many disasters upon the Greeks, [ 22 ] Sotheby, William 1757 \u2013 1833, poet, translator 1831 London, John Murray Anonymous A Graduate Of The University of Oxford 1847 Dublin, Cumming and Ferguson Sing, Goddess, the fatal resentment of Achilles, the son of Peleus, which caused innumerable woes to the Achaeans, and prematurely despatched many brave souls of heroes to Orcus, and made themselves (i.e. their bodies) a prey to dogs and all birds, (for the counsel of Jove was being accomplished,) from the time that Atrides, king of men, and the noble Achilles, first contending, were disunited. [ 23 ] Munford, William 1775 \u2013 1825, American lawyer [ 24 ] 1846 Boston, Little Brown Brandreth, Thomas Shaw 1788 \u2013 1873, mathematician, inventor, classicist 1846 London, W. Pickering Achillies wrath accurst, O Goddess, sing, Which caused ten thousand sorrows to the Greeks, [ 25 ] Late middle 19th century (1851\u20131875) Translator Publication Proemic verse R Buckley, Theodore Alois 1825 \u2013 1856, translator 1851 London, H. G. Bohn Sing, O goddess, the destructive wrath of Achilles, son of Peleus, which brought countless woes upon the Greeks, [ 26 ] Hamilton, Sidney G. 1855 \u2013 58 Philadelphia Clark, Thomas Newman, Francis William 1807 \u2013 1893, classics professor [ 27 ] 1856 London, Walton & Maberly Of Peleus' son, Achilles, sing, oh goddess, the resentment Accursed, which with countless pangs Achaia's army wounded, [ 28 ] Wright, Ichabod Charles 1795 \u2013 1871, translator, poet, accountant 1858 \u2013 65 Cambridge, Macmillan Giles, Rev. Dr. J. A. [John Allen] 1808 \u2013 1884, headmaster, scholar, prolific author, clergyman [ 29 ] 1861 \u2013 82 Sing, O goddess, th",
+      "content_source": "page/English_translations_of_Homer/with_html (stripped)"
+    },
+    {
+      "call_index": 2,
+      "query": "Great Pyramid",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    },
+    {
+      "call_index": 3,
+      "query": "Homer composition Iliad Odyssey dates",
+      "api_response": {
+        "pages": []
+      },
+      "fetched_content": "",
+      "content_source": "none"
+    }
+  ],
+  "output": "I could not find relevant information on Wikipedia for this question.\n\nSource: N/A",
+  "total_tool_calls": 4,
+  "latency_ms": 27367,
+  "error": null
+}
