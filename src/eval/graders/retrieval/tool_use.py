@@ -11,14 +11,20 @@ class ToolUseAppropriatenessGrader(Grader):
         requires_search: bool = case.metadata.get("requires_search", False)
         max_calls: int | None = case.expected.get("max_search_calls")
 
-        # Count only fetch_wikipedia calls against the limit — these are actual retrievals.
-        # search_wikipedia calls (candidate discovery) are not counted since the agent
-        # must always search before it can fetch.
-        fetch_calls = [tc for tc in trace.tool_calls if tc.content_source.startswith("page/")]
-        actual_calls: int = len(fetch_calls)
+        fetch_calls  = [tc for tc in trace.tool_calls if tc.content_source.startswith("page/")]
+        search_calls = [tc for tc in trace.tool_calls if tc.content_source == "search_candidates"
+                        and tc.api_response.get("pages")]   # searches that returned results
 
-        # Presence check uses total tool calls to detect any search activity
+        # Effective retrievals: fetches if any were made; otherwise searches that returned
+        # candidates. This allows the agent to answer from search result descriptions
+        # without fetching the full page and still be counted as having retrieved.
+        effective_calls: int = len(fetch_calls) if fetch_calls else len(search_calls)
+
+        # Presence check: any tool activity at all (search or fetch)
         any_tool_calls: int = trace.total_tool_calls
+
+        # actual_calls drives the count check
+        actual_calls: int = effective_calls
 
         # Guard: max_search_calls is required when requires_search=True
         if requires_search and max_calls is None:

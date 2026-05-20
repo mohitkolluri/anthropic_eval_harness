@@ -48,24 +48,42 @@ class GroundednessGrader(Grader):
         LLM-as-judge: given the retrieved content and the answer, are all factual
         claims supported? Returns 0.0–1.0.
         """
-        # Only fetch_wikipedia calls contain actual page content to ground against
-        fetch_calls = [tc for tc in trace.tool_calls if tc.content_source.startswith("page/")]
+        search_calls = [tc for tc in trace.tool_calls if tc.content_source == "search_candidates"]
+        fetch_calls  = [tc for tc in trace.tool_calls if tc.content_source.startswith("page/")]
 
-        if not fetch_calls:
-            return self._skip("no fetch_wikipedia calls — nothing was retrieved to ground against")
+        if not search_calls and not fetch_calls:
+            return self._skip("no tool calls made — nothing was retrieved to ground against")
 
         if not trace.output:
             return self._error("trace.output is empty")
 
-        retrieved_parts = [tc.fetched_content for tc in fetch_calls if tc.fetched_content]
+        retrieved_parts: list[str] = []
 
-        # Truncate each article to an equal share of the budget so every
-        # retrieved source is represented — avoids silently dropping later
-        # articles when a single article fills the entire character budget.
-        n = len(retrieved_parts)
-        per_article = _MAX_RETRIEVED_CHARS // n if n else _MAX_RETRIEVED_CHARS
-        truncated = [part[:per_article] for part in retrieved_parts]
-        combined_retrieved = "\n\n---\n\n".join(truncated)
+        # Search results — the agent can answer from description/excerpt fields
+        # without fetching the full page, so include them as retrieved content.
+        for tc in search_calls:
+            pages = tc.api_response.get("pages", [])
+            if pages:
+                lines = [f"Search results for '{tc.query}':"]
+                for p in pages:
+                    title   = p.get("title", "")
+                    desc    = p.get("description") or ""
+                    excerpt = re.sub(r"<[^>]+>", "", p.get("excerpt") or "")[:200]
+                    lines.append(f"  [{title}] {desc} — {excerpt}")
+                retrieved_parts.append("\n".join(lines))
+
+        # Fetched page content — full article text (proportionally truncated)
+        fetch_texts = [tc.fetched_content for tc in fetch_calls if tc.fetched_content]
+        if fetch_texts:
+            fetch_budget = _MAX_RETRIEVED_CHARS - sum(len(p) for p in retrieved_parts)
+            per_article  = max(500, fetch_budget // len(fetch_texts))
+            for text in fetch_texts:
+                retrieved_parts.append(text[:per_article])
+
+        if not retrieved_parts:
+            return self._skip("all tool calls returned empty content — nothing to ground against")
+
+        combined_retrieved = "\n\n---\n\n".join(retrieved_parts)
 
         user_prompt = _USER_PROMPT_TEMPLATE.format(
             retrieved_content=combined_retrieved,

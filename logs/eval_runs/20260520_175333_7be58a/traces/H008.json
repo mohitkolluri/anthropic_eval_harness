@@ -1,0 +1,162 @@
+{
+  "eval_id": "H008",
+  "run_id": "20260520_175333_7be58a",
+  "prompt_version": "v7",
+  "model": "claude-haiku-4-5-20251001",
+  "input": "What caused the destruction of the Library of Alexandria?",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What caused the destruction of the Library of Alexandria?"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_0166myHTRt7t9XBqGDM2od6m",
+          "name": "search_wikipedia",
+          "input": {
+            "action": "search",
+            "query": "Library of Alexandria"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_0166myHTRt7t9XBqGDM2od6m",
+          "content": "Candidates for 'Library of Alexandria':\n  key='Library_of_Alexandria'  title='Library of Alexandria'\n    description: Library in ancient Alexandria, Egypt\n    excerpt: The Library of Alexandria in Alexandria, Egypt, was one of the largest and most significant libraries of the ancient wor\n  key='Alexandria_Library'  title='Alexandria Library'\n    description: Topics referred to by the same term\n    excerpt: Alexandria Library may refer to: Library of Alexandria, one of the largest libraries in ancient history Bibliotheca Alex\n  key='Alexandria'  title='Alexandria'\n    description: City in Egypt\n    excerpt: Alexandria is a major city in Egypt. Lying at the western edge of the Nile River Delta, it extends about 40\u00a0km (25\u00a0mi) a\n  key='Serapeum_of_Alexandria'  title='Serapeum of Alexandria'\n    description: Temple in Alexandria\n    excerpt: protector of Alexandria, Egypt. The site has been heavily plundered by Christians in the late 4th century. It housed the\n  key='Bibliotheca_Alexandrina'  title='Bibliotheca Alexandrina'\n    description: Major library and cultural center in Alexandria, Egypt\n    excerpt: The Bibliotheca Alexandrina (Latin, &#039;Library of Alexandria&#039;; Egyptian Arabic: \u0645\u0643\u062a\u0628\u0629 \u0627\u0644\u0625\u0633\u0643\u0646\u062f\u0631\u064a\u0647, romanized:\u00a0Mak"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_01SZTXU6tYwcHw1edBZckWme",
+          "name": "search_wikipedia",
+          "input": {
+            "action": "fetch",
+            "query": "Library_of_Alexandria"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01SZTXU6tYwcHw1edBZckWme",
+          "content": "Library of Alexandria Library in ancient Alexandria, Egypt This article is about the ancient library. For its present-day counterpart, see Bibliotheca Alexandrina . For other uses, see Alexandria Library . \"Great Library\" redirects here. For the library of Quebec in Montreal, see Grande Biblioth\u00e8que . Library of Alexandria Nineteenth-century artistic rendering of the Library of Alexandria by the German artist O. Von Corven, based partially on the archaeological evidence available at that time [ 1 ] Location Alexandria , Egypt, Ptolemaic Kingdom Type National library Established Possibly during the reign of Ptolemy II Philadelphus (285\u2013246 BC) [ 2 ] [ 3 ] Collection Items collected Any written works [ 4 ] [ 5 ] Size Estimates vary; somewhere between 40,000 and 400,000 scrolls , [ 6 ] perhaps equivalent to roughly 100,000 books [ 7 ] Other information Employees Estimated to have employed over 100 scholars at its height [ 8 ] [ 9 ] The Library of Alexandria in Alexandria , Egypt, was one of the largest and most significant libraries of the ancient world . The library was part of a larger research institution called the Mouseion , which was dedicated to the Muses , the nine goddesses of the arts. [ 10 ] The idea of a universal library in Alexandria may have been proposed by Demetrius of Phalerum , an exiled Athenian statesman living in Alexandria, to Ptolemy I Soter , who may have established plans for the library, but the library itself was probably not built until the reign of his son Ptolemy II Philadelphus . The library quickly acquired many papyrus scrolls , owing largely to the Ptolemaic kings' aggressive and well-funded policies for procuring texts. [ 3 ] It is unknown precisely how many scrolls were housed at any given time, but estimates range from 40,000 to 400,000 at its height. Alexandria came to be regarded as the capital of knowledge and learning, in part because of the Great Library. [ 10 ] Many important and influential scholars worked at the Library during the third and second centuries BCE, including: Zenodotus of Ephesus , who worked towards standardizing the works of Homer ; Callimachus , who wrote the Pinakes , sometimes considered the world's first library catalog ; [ 3 ] Apollonius of Rhodes , who composed the epic poem the Argonautica ; Eratosthenes of Cyrene , who calculated the circumference of the earth within a few hundred kilometers of accuracy; Hero of Alexandria , who invented the first recorded steam engine ; Aristophanes of Byzantium , who invented the system of Greek diacritics and was the first to divide poetic texts into lines; and Aristarchus of Samothrace , who produced the definitive texts of the Homeric poems as well as extensive commentaries on them. During the reign of Ptolemy III Euergetes , a daughter library was established in the Serapeum , a temple to the Greco-Egyptian god Serapis . The influence of the Library declined gradually over the course of several centuries. This decline began with the purging of intellectuals from Alexandria in 145 BCE during the reign of Ptolemy VIII Physcon , which resulted in Aristarchus of Samothrace, the head librarian, resigning and exiling himself to Cyprus . Many other scholars, including Dionysius Thrax and Apollodorus of Athens , fled to other cities, where they continued teaching and conducting scholarship. The Library, or part of its collection, was accidentally burned by Julius Caesar during his civil war in 48 BCE, but it is unclear how much was actually destroyed, and it seems to have either survived or been rebuilt shortly thereafter. The geographer Strabo mentions having visited the Mouseion in around 20 BCE, and the prodigious scholarly output of Didymus Chalcenterus in Alexandria from this period indicates that he had access to at least some of the Library's resources. The Library dwindled during the Roman period , from a lack of funding and support. Its membership appears to have ceased by the 260s CE. Between 270 and 275 CE, Alexandria saw a Palmyrene invasion and an imperial counterattack that probably destroyed whatever remained of the Library, if it still existed. The daughter library in the Serapeum may have survived after the main Library's destruction. The Serapeum, mainly used as a gathering place for Neoplatonist philosophers following the teachings of Iamblichus , was vandalized and demolished in 391 CE under a decree issued by bishop Theophilus of Alexandria . Historical background A Hellenistic bust depicting Ptolemy I Soter , 3rd century BC, the Louvre , Paris A Roman copy of an original 3rd century BC Greek bust depicting Alexander the Great , Ny Carlsberg Glyptotek , Copenhagen The Library of Alexandria was not the first library of its kind. [ 3 ] [ 11 ] A long tradition of libraries existed in both Greece and in the ancient Near East . [ 12 ] [ 3 ] The earliest recorded archive of written materials comes from the ancient Sumerian city-state of Uruk in around 3400 BC, when writing had only just begun to develop. [ 13 ] Scholarly curation of literary texts began in around 2500 BC. [ 13 ] The later kingdoms and empires of the ancient Near East had long traditions of book collecting. [ 14 ] [ 3 ] The ancient Hittites and Assyrians had massive archives containing records written in many different languages. [ 14 ] The most famous library of the ancient Near East was the Library of Ashurbanipal in Nineveh , founded in the seventh century BC by the Assyrian king Ashurbanipal (ruled 668\u2013 c. 627 BC). [ 13 ] [ 3 ] A large library also existed in Babylon during the reign of Nebuchadnezzar II ( c. 605\u2013 c. 562 BC). [ 14 ] In Greece, the Athenian tyrant Pisistratus was said to have founded the first major public library in the sixth century BC. [ 15 ] It was out of this mixed heritage of both Greek and Near Eastern book collections that the idea for the Library of Alexandria may have been born through Alexander. [ 16 ] [ 3 ] Following the death of Alexander the Great in 323 BC, there was a power grab for his empire among his top-ranking officers. The empire was divided into three: the Antigonid dynasty controlled Greece; the Seleucid dynasty , who had their capitals at Antioch and Seleucia , controlled large areas of Asia Minor, Syria, and Mesopotamia; and the Ptolemaic dynasty controlled Egypt with Alexandria as its capital. [ 17 ] The Macedonian kings who succeeded Alexander the Great as rulers of the Near East wanted to promote Hellenistic culture and learning throughout the known world. [ 18 ] These rulers, therefore, had a vested interest in collecting and compiling information from both the Greeks and the far more ancient kingdoms of the Near East. [ 18 ] Libraries enhanced a city's prestige, attracted scholars, and provided practical assistance in ruling and governing the kingdom. [ 4 ] [ 19 ] Eventually, for these reasons, every major Hellenistic urban center would have a royal library. [ 4 ] [ 20 ] The Library of Alexandria, however, was unprecedented because of the scope and scale of the Ptolemies' ambitions; [ 4 ] [ 21 ] unlike their predecessors and contemporaries, the Ptolemies wanted to produce a repository of all knowledge. [ 4 ] [ 5 ] To support this endeavor, they were well positioned as Egypt was the ideal habitat for the papyrus plant , which provided an abundant supply of materials needed to amass their knowledge repository. [ 22 ] Under Ptolemaic patronage Founding Bust excavated at the Villa of the Papyri depicting Ptolemy II Philadelphus , who is believed to have been the one to establish the Library as an actual institution, [ 3 ] although plans for it may have been developed by his father Ptolemy I Soter [ 2 ] The Library was one of the largest and most significant libraries of the ancient world , but details about it are a mixture of history and legend. [ 16 ] The earliest known surviving source of information on the founding of the Library of Alexandria is the pseudepigraphic Letter of Aristeas , which was composed between c. 180 "
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Answer: The Library of Alexandria was destroyed through multiple events over time. It was accidentally burned by Julius Caesar during his civil war in 48 BCE, though the extent of destruction is unclear and the library apparently survived or was rebuilt shortly after. The library gradually declined during the Roman period due to lack of funding and support, with its membership appearing to cease by the 260s CE. Between 270 and 275 CE, Alexandria was invaded by the Palmyrenes and counterattacked by imperial forces, which probably destroyed whatever remained of the main library. Additionally, the daughter library housed in the Serapeum temple was vandalized and demolished in 391 CE under a decree issued by bishop Theophilus of Alexandria.\n\nSource: Library of Alexandria"
+    }
+  ],
+  "tool_calls": [
+    {
+      "call_index": 0,
+      "query": "Library of Alexandria",
+      "api_response": {
+        "pages": [
+          {
+            "id": 17726,
+            "key": "Library_of_Alexandria",
+            "title": "Library of Alexandria",
+            "excerpt": "The <span class=\"searchmatch\">Library</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Alexandria</span> in <span class=\"searchmatch\">Alexandria</span>, Egypt, was one <span class=\"searchmatch\">of</span> the largest and most significant <span class=\"searchmatch\">libraries</span> <span class=\"searchmatch\">of</span> the ancient world. The <span class=\"searchmatch\">library</span> was part <span class=\"searchmatch\">of</span> a larger",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Library in ancient Alexandria, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 61,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/60px-Ancientlibraryalex.jpg"
+            }
+          },
+          {
+            "id": 1358505,
+            "key": "Alexandria_Library",
+            "title": "Alexandria Library",
+            "excerpt": "<span class=\"searchmatch\">Alexandria</span> <span class=\"searchmatch\">Library</span> may refer to: <span class=\"searchmatch\">Library</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Alexandria</span>, one <span class=\"searchmatch\">of</span> the largest <span class=\"searchmatch\">libraries</span> in ancient history Bibliotheca Alexandrina, a modern <span class=\"searchmatch\">library</span> in Alexandria",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Topics referred to by the same term",
+            "thumbnail": null
+          },
+          {
+            "id": 3080,
+            "key": "Alexandria",
+            "title": "Alexandria",
+            "excerpt": "<span class=\"searchmatch\">Alexandria</span> is a major city in Egypt. Lying at the western edge <span class=\"searchmatch\">of</span> the Nile River Delta, it extends about 40\u00a0km (25\u00a0mi) along the country&#039;s northern coast",
+            "matched_title": null,
+            "anchor": null,
+            "description": "City in Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 28,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/San_Stefano_Grand_Plaza.JPG/60px-San_Stefano_Grand_Plaza.JPG"
+            }
+          },
+          {
+            "id": 53327099,
+            "key": "Serapeum_of_Alexandria",
+            "title": "Serapeum of Alexandria",
+            "excerpt": "protector <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Alexandria</span>, Egypt. The site has been heavily plundered by Christians in the late 4th century. It housed the daughter <span class=\"searchmatch\">library</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Alexandria</span>. Located",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Temple in Alexandria",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 45,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Alexandria_-_Pompey%27s_Pillar_-_view_of_ruins.JPG/60px-Alexandria_-_Pompey%27s_Pillar_-_view_of_ruins.JPG"
+            }
+          },
+          {
+            "id": 333522,
+            "key": "Bibliotheca_Alexandrina",
+            "title": "Bibliotheca Alexandrina",
+            "excerpt": "The Bibliotheca Alexandrina (Latin, &#039;<span class=\"searchmatch\">Library</span> <span class=\"searchmatch\">of</span> <span class=\"searchmatch\">Alexandria</span>&#039;; Egyptian Arabic: \u0645\u0643\u062a\u0628\u0629 \u0627\u0644\u0625\u0633\u0643\u0646\u062f\u0631\u064a\u0647, romanized:\u00a0Maktabat al-\u2019Iskandariyya, Egyptian Arabic",
+            "matched_title": null,
+            "anchor": null,
+            "description": "Major library and cultural center in Alexandria, Egypt",
+            "thumbnail": {
+              "mimetype": "image/jpeg",
+              "width": 60,
+              "height": 40,
+              "duration": null,
+              "url": "//upload.wikimedia.org/wikipedia/en/thumb/5/5e/Alexandria%27s_Bibliotheca.jpg/60px-Alexandria%27s_Bibliotheca.jpg"
+            }
+          }
+        ]
+      },
+      "fetched_content": "",
+      "content_source": "search_candidates"
+    },
+    {
+      "call_index": 1,
+      "query": "Library_of_Alexandria",
+      "api_response": {},
+      "fetched_content": "Library of Alexandria Library in ancient Alexandria, Egypt This article is about the ancient library. For its present-day counterpart, see Bibliotheca Alexandrina . For other uses, see Alexandria Library . \"Great Library\" redirects here. For the library of Quebec in Montreal, see Grande Biblioth\u00e8que . Library of Alexandria Nineteenth-century artistic rendering of the Library of Alexandria by the German artist O. Von Corven, based partially on the archaeological evidence available at that time [ 1 ] Location Alexandria , Egypt, Ptolemaic Kingdom Type National library Established Possibly during the reign of Ptolemy II Philadelphus (285\u2013246 BC) [ 2 ] [ 3 ] Collection Items collected Any written works [ 4 ] [ 5 ] Size Estimates vary; somewhere between 40,000 and 400,000 scrolls , [ 6 ] perhaps equivalent to roughly 100,000 books [ 7 ] Other information Employees Estimated to have employed over 100 scholars at its height [ 8 ] [ 9 ] The Library of Alexandria in Alexandria , Egypt, was one of the largest and most significant libraries of the ancient world . The library was part of a larger research institution called the Mouseion , which was dedicated to the Muses , the nine goddesses of the arts. [ 10 ] The idea of a universal library in Alexandria may have been proposed by Demetrius of Phalerum , an exiled Athenian statesman living in Alexandria, to Ptolemy I Soter , who may have established plans for the library, but the library itself was probably not built until the reign of his son Ptolemy II Philadelphus . The library quickly acquired many papyrus scrolls , owing largely to the Ptolemaic kings' aggressive and well-funded policies for procuring texts. [ 3 ] It is unknown precisely how many scrolls were housed at any given time, but estimates range from 40,000 to 400,000 at its height. Alexandria came to be regarded as the capital of knowledge and learning, in part because of the Great Library. [ 10 ] Many important and influential scholars worked at the Library during the third and second centuries BCE, including: Zenodotus of Ephesus , who worked towards standardizing the works of Homer ; Callimachus , who wrote the Pinakes , sometimes considered the world's first library catalog ; [ 3 ] Apollonius of Rhodes , who composed the epic poem the Argonautica ; Eratosthenes of Cyrene , who calculated the circumference of the earth within a few hundred kilometers of accuracy; Hero of Alexandria , who invented the first recorded steam engine ; Aristophanes of Byzantium , who invented the system of Greek diacritics and was the first to divide poetic texts into lines; and Aristarchus of Samothrace , who produced the definitive texts of the Homeric poems as well as extensive commentaries on them. During the reign of Ptolemy III Euergetes , a daughter library was established in the Serapeum , a temple to the Greco-Egyptian god Serapis . The influence of the Library declined gradually over the course of several centuries. This decline began with the purging of intellectuals from Alexandria in 145 BCE during the reign of Ptolemy VIII Physcon , which resulted in Aristarchus of Samothrace, the head librarian, resigning and exiling himself to Cyprus . Many other scholars, including Dionysius Thrax and Apollodorus of Athens , fled to other cities, where they continued teaching and conducting scholarship. The Library, or part of its collection, was accidentally burned by Julius Caesar during his civil war in 48 BCE, but it is unclear how much was actually destroyed, and it seems to have either survived or been rebuilt shortly thereafter. The geographer Strabo mentions having visited the Mouseion in around 20 BCE, and the prodigious scholarly output of Didymus Chalcenterus in Alexandria from this period indicates that he had access to at least some of the Library's resources. The Library dwindled during the Roman period , from a lack of funding and support. Its membership appears to have ceased by the 260s CE. Between 270 and 275 CE, Alexandria saw a Palmyrene invasion and an imperial counterattack that probably destroyed whatever remained of the Library, if it still existed. The daughter library in the Serapeum may have survived after the main Library's destruction. The Serapeum, mainly used as a gathering place for Neoplatonist philosophers following the teachings of Iamblichus , was vandalized and demolished in 391 CE under a decree issued by bishop Theophilus of Alexandria . Historical background A Hellenistic bust depicting Ptolemy I Soter , 3rd century BC, the Louvre , Paris A Roman copy of an original 3rd century BC Greek bust depicting Alexander the Great , Ny Carlsberg Glyptotek , Copenhagen The Library of Alexandria was not the first library of its kind. [ 3 ] [ 11 ] A long tradition of libraries existed in both Greece and in the ancient Near East . [ 12 ] [ 3 ] The earliest recorded archive of written materials comes from the ancient Sumerian city-state of Uruk in around 3400 BC, when writing had only just begun to develop. [ 13 ] Scholarly curation of literary texts began in around 2500 BC. [ 13 ] The later kingdoms and empires of the ancient Near East had long traditions of book collecting. [ 14 ] [ 3 ] The ancient Hittites and Assyrians had massive archives containing records written in many different languages. [ 14 ] The most famous library of the ancient Near East was the Library of Ashurbanipal in Nineveh , founded in the seventh century BC by the Assyrian king Ashurbanipal (ruled 668\u2013 c. 627 BC). [ 13 ] [ 3 ] A large library also existed in Babylon during the reign of Nebuchadnezzar II ( c. 605\u2013 c. 562 BC). [ 14 ] In Greece, the Athenian tyrant Pisistratus was said to have founded the first major public library in the sixth century BC. [ 15 ] It was out of this mixed heritage of both Greek and Near Eastern book collections that the idea for the Library of Alexandria may have been born through Alexander. [ 16 ] [ 3 ] Following the death of Alexander the Great in 323 BC, there was a power grab for his empire among his top-ranking officers. The empire was divided into three: the Antigonid dynasty controlled Greece; the Seleucid dynasty , who had their capitals at Antioch and Seleucia , controlled large areas of Asia Minor, Syria, and Mesopotamia; and the Ptolemaic dynasty controlled Egypt with Alexandria as its capital. [ 17 ] The Macedonian kings who succeeded Alexander the Great as rulers of the Near East wanted to promote Hellenistic culture and learning throughout the known world. [ 18 ] These rulers, therefore, had a vested interest in collecting and compiling information from both the Greeks and the far more ancient kingdoms of the Near East. [ 18 ] Libraries enhanced a city's prestige, attracted scholars, and provided practical assistance in ruling and governing the kingdom. [ 4 ] [ 19 ] Eventually, for these reasons, every major Hellenistic urban center would have a royal library. [ 4 ] [ 20 ] The Library of Alexandria, however, was unprecedented because of the scope and scale of the Ptolemies' ambitions; [ 4 ] [ 21 ] unlike their predecessors and contemporaries, the Ptolemies wanted to produce a repository of all knowledge. [ 4 ] [ 5 ] To support this endeavor, they were well positioned as Egypt was the ideal habitat for the papyrus plant , which provided an abundant supply of materials needed to amass their knowledge repository. [ 22 ] Under Ptolemaic patronage Founding Bust excavated at the Villa of the Papyri depicting Ptolemy II Philadelphus , who is believed to have been the one to establish the Library as an actual institution, [ 3 ] although plans for it may have been developed by his father Ptolemy I Soter [ 2 ] The Library was one of the largest and most significant libraries of the ancient world , but details about it are a mixture of history and legend. [ 16 ] The earliest known surviving source of information on the founding of the Library of Alexandria is the pseudepigraphic Letter of Aristeas , which was composed between c. 180 ",
+      "content_source": "page/Library_of_Alexandria/with_html (stripped)"
+    }
+  ],
+  "output": "Answer: The Library of Alexandria was destroyed through multiple events over time. It was accidentally burned by Julius Caesar during his civil war in 48 BCE, though the extent of destruction is unclear and the library apparently survived or was rebuilt shortly after. The library gradually declined during the Roman period due to lack of funding and support, with its membership appearing to cease by the 260s CE. Between 270 and 275 CE, Alexandria was invaded by the Palmyrenes and counterattacked by imperial forces, which probably destroyed whatever remained of the main library. Additionally, the daughter library housed in the Serapeum temple was vandalized and demolished in 391 CE under a decree issued by bishop Theophilus of Alexandria.\n\nSource: Library of Alexandria",
+  "total_tool_calls": 2,
+  "latency_ms": 10728,
+  "error": null
+}
